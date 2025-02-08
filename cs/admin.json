@@ -21,11 +21,11 @@
         "goal": "Kolik lidí podle vašeho očekávání provede akci prostřednictvím vašich webových stránek?"
     },
     "onboarding": {
-        "login": "Chcete-li začít, musíte se zaregistrovat nebo přihlásit, pokud jste se již zaregistrovali.",
+        "login": "Zaregistrujte se jako uživatel nebo se přihlaste pomocí přihlašovacích údajů ze sociálních sítí nebo e-mailu.Jedná se o váš osobní účet, po registraci budete moci nastavit svou organizaci.",
         "done": "Potvrzení obdržíte e-mailem. Na své webové stránky již můžete vložit testovací verzi <1>widgetu</1>",
         "intro": "Abychom zvýšili náš dopad, potřebujeme širokou koalici a snažili jsme se, abyste se k ní mohli co nejjednodušeji připojit.",
         "thanks": "Děkujeme, že jste se připojili k této kampani",
-        "title": "Jste organizace nebo sociální hnutí a chcete tuto kampaň přidat na své stránky?",
+        "title": "Jste organizace nebo sociální hnutí, které chce tuto kampaň přidat na své stránky?",
         "verify": "Váš e-mail ještě není ověřen. Zkontrolujte prosím svůj e-mail a pokračujte kliknutím na potvrzovací odkaz.",
         "embargoHelper": "Beru na vědomí, že na materiály kampaně je až do odvolání uvaleno přísné embargo. Souhlasím s tím, že tyto materiály nebudu SDÍLET nikomu mimo svou organizaci.",
         "welcome": "Vítejte v partnerské oblasti této kampaně, kterou koordinuje {{coordinator}}",
@@ -44,12 +44,14 @@
         },
         "user": {
             "emailAddress": "Vaše e-mailová adresa",
-            "sectionTitle": "Kontaktní osoba pro tuto kampaň",
+            "sectionTitle": "Vaše kontaktní údaje",
             "country": "Vaše země",
             "name": "Vaše jméno",
             "jobTitle": "Název pracovní pozice",
-            "socialAccount": "Váš Twitter/Facebook/Instagram handler nebo URL",
-            "phoneNumber": "Vaše telefonní číslo (včetně předvolby země)"
+            "socialAccount": "Vaše sociální média",
+            "phoneNumber": "Vaše telefonní číslo",
+            "phoneNumberHelper": "Včetně kódu země",
+            "socialAccountHelper": "Na X / Instagramu / Linkedinu"
         },
         "maillingHelper": "Odesláním tohoto formuláře souhlasím s tím, že budu přidán/a do seznamu adresátů {{campaign}}. Z odběru se mohu kdykoli odhlásit.",
         "warning": {
@@ -62,9 +64,23 @@
         "configure_org": "Vaše organizace",
         "login": "Váš účet",
         "done": "Převezměte si svůj widget",
-        "join_campaign": "Požádejte o připojení"
+        "join_campaign": "Připojte se ke kampani"
     },
     "action": {
-        "register": "Registrace"
-    }
+        "register": "Registrace",
+        "mail2target": "E-mail pro cílovou skupinu",
+        "share": "Sdílet na sociálních sítích",
+        "twitter_click": "Tweet na cílovou skupinu"
+    },
+    "My organisation isn't on Twitter": "Moje organizace není na X",
+    "You can register an new organisation to join the coalition": "Můžete zaregistrovat novou organizaci a připojit se ke koalici",
+    "unusedOnly": "pouze nepoužité widgety",
+    "externalPartner": "pouze externí partneři",
+    "Customise": "Přizpůsobit",
+    "Required": "Vyžadováno",
+    "mineOnly": "pouze z mé organizace",
+    "Show": "Zobrazit",
+    "Used to pre-fill name, description and logo of your organisation": "Slouží k předvyplnění názvu, popisu a loga vaší organizace",
+    "View your widget for {{org}}": "Zobrazit widget pro {{org}}",
+    "Fields": "Pole"
 }
