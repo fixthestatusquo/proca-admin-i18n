@@ -29,7 +29,11 @@
     "manual": "Switch to fill the details manually"
   },
   "invite": {
-    "message": "Hey, we need **you** for this campaign, could you join?"
+    "default": "You're invited to join the {{org}} account on the Fix the Status Quo dashboard.\n\nThis invitation will be valid for the next 24 hours. Please accept it as soon as possible.\n\nWe're excited to have you on board!\n\n– FTSQ team",
+    "subject": "Invitation to join {{org}} on the Fix the Status Quo dashboard",
+    "translator": "You're invited to join the {{org}} team on the Fix the Status Quo dashboard as a **translator**.\n\nThis invitation is valid for the next 24 hours. Please accept it soon!\n\nWelcome aboard!\n\n– FTSQ team"
+
+
   },
   "join": {
     "goal": "How many people do you expect will take action via your website?",
