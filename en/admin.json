@@ -1,4 +1,11 @@
 {
+    "send": "Send",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+
   "action": {
      "mail2target": "Mail to target",
      "register": "Register",
@@ -29,11 +36,38 @@
     "manual": "Switch to fill the details manually"
   },
   "invite": {
-    "default": "You're invited to join the {{org}} account on the Fix the Status Quo dashboard.\n\nThis invitation will be valid for the next 24 hours. Please accept it as soon as possible.\n\nWe're excited to have you on board!\n\nFTSQ team",
+    "title": "Invite to join {{org}}",
+    "translatorTitle": "Invite to join  {{org}} as a translator",
+    "default": "You're invited to join the {{org}} account on the Fix the Status Quo dashboard.\n\nThis invitation will be valid for the next 24 hours. Please accept it as soon as possible.\n\nWe're excited to have you on board!",
     "subject": "Invitation to join {{org}} on the Fix the Status Quo dashboard",
-    "translator": "You're invited to join the {{org}} account on the Fix the Status Quo dashboard as a **translator**.\n\nThis invitation is valid for the next 24 hours. Please accept it soon!\n\nWelcome aboard!\n\nFTSQ team"
-
-
+    "translator": "Hi,\n\nWe’re reaching out to invite you to collaborate on translating and refining a campaign letter for your country. Your understanding of the local political context would be valuable — not just in translation, but in ensuring the message resonates effectively with supporters.\n\nThe letter is structured in multiple sections, each with several variants. Supporters will receive randomly assembled versions to maximize engagement and avoid being dismissed by recipients.\n\nAs soon as you have accepted the invitation, you will be able to access the letter [here]({{location}}). **Don’t forget to save after you’ve made your changes!**\n\nOnce your contributions are complete, please notify us and the coordinator so we can deploy the updates.\n\nWe appreciate your time and expertise — this is a shared effort to strengthen the campaign’s impact.\n\n**For security, your invitation access link will expire in 24 hours.**",
+    "emailHelper": "We'll send an invitation email with a link to join right away.",
+    "required": "Email address is required",
+    "roleLabel": "Select auth level",
+    "sent": "Invitation sent to {{email}}",
+    "messageLabel": "Personal message for the invitee",
+    "sentInstructions": "You can also share the link below directly:",
+    "copy": "Copy invitation URL",
+    "copied": "Copied!",
+    "another": "Invite another team member",
+    "roles": {
+      "owner": {
+        "label": "Owner",
+        "description": "Full access"
+      },
+      "campaigner": {
+        "label": "Campaigner",
+        "description": "Manage users, settings, campaigns, and action pages."
+      },
+      "translator": {
+        "label": "Translator",
+        "description": "Edit campaign text"
+      },
+      "coordinator": {
+        "label": "Coordinator",
+        "description": "Manage campaign settings only"
+      }
+   }
   },
   "join": {
     "goal": "How many people do you expect will take action via your website?",
