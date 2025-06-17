@@ -5,6 +5,9 @@
     "save": "Save",
     "edit": "Edit",
     "delete": "Delete",
+    "csv": "CSV",
+    "json": "JSON",
+    "format": "Format",
 
   "action": {
      "mail2target": "Mail to target",
@@ -34,6 +37,36 @@
   "createOrg": {
     "intro": "The fastest is to start with the twitter account of your organisation (if you have several, pick one)",
     "manual": "Switch to fill the details manually"
+  },
+  "export": {
+    "title": "Export member data",
+    "campaignLabel": "Campaign to export",
+    "campaignDefault": "All member data",
+    "gdprLabel": "GDPR",
+    "gdpr": {
+      "opt_in": "Opt in",
+      "opt_in_help": "Supporters who chose opt-on on a widget ('Yes, I want to receive emails' radio button)",
+      "double_opt_in": "Double opt-in",
+      "double_opt_in_help": "Supporters who confirmed their participation via email confirmation URL",
+      "opt_out": "Opt out",
+      "opt_out_help": "Supporters who doesn't want to receive newsletter ('No, I do not want to receive emails' radio button on the widget or opt-out URL in the email.",
+      "opt_out_warning": "I am aware that it is illegal to contact users that didn't explicitly give consent unless very limited exceptions.",
+      "opt_out_required": "*Please indicate that you are aware of consequences"
+    },
+    "exportLabel": "Export",
+    "exportType": {
+      "contacts": "Contacts",
+      "contacts_help": "Exports contact information only.",
+      "activities": "Activities",
+      "activities_help": "Exports actions taken by users, such as signing, sharing, etc."
+    },
+    "csv_help": "CSV is the standard format. Use this unless you specifically need JSON.",
+    "json_help": "JSON format for advanced integrations.",
+    "keyLabel": "Load decryption keys",
+    "key_help": "If your data is encrypted, load the encryption key before export.",
+    "exporting": "Exporting",
+    "exportingWithCount": "Exporting {{count}}...",
+    "exportingWithErrors": "(no key for {{count}} actions)"
   },
   "invite": {
     "title": "Invite to join {{org}}",
