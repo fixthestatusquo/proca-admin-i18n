@@ -41,7 +41,7 @@
     "Required": "Ag teastáil",
     "action": {
         "mail2target": "Ríomhphost chuig an sprioc",
-        "share": "Roinn ar na meáin shóisialta",
+        "share": "Comhroinn ar na meáin shóisialta",
         "register": "Clár",
         "twitter_click": "Tweet chun an sprioc"
     },
@@ -81,6 +81,44 @@
     "You are registered for {{campaign}}": "Tá tú cláraithe le haghaidh {{campaign}}",
     "You can update your organisation's details": "Féadfaidh tú sonraí d’eagraíochta a nuashonrú",
     "invite": {
-        "message": "Hey, tá **tú** uait don fheachtas seo, an bhféadfá bheith páirteach?"
-    }
+        "message": "Hey, tá **tú** uait don fheachtas seo, an bhféadfá bheith páirteach?",
+        "title": "Cuireadh chun páirt a ghlacadh i {{org}}",
+        "translatorTitle": "Cuireadh chun páirt a ghlacadh i {{org}} mar aistritheoir",
+        "emailHelper": "Seolfaimid ríomhphost cuireadh chugat láithreach le nasc chun páirt a ghlacadh.",
+        "sentInstructions": "Is féidir leat an nasc thíos a roinnt go díreach freisin:",
+        "roles": {
+            "translator": {
+                "label": "Aistritheoir",
+                "description": "Cuir téacs an fheachtais in eagar"
+            },
+            "coordinator": {
+                "label": "Comhordaitheoir",
+                "description": "Bainistigh socruithe feachtais amháin"
+            },
+            "owner": {
+                "label": "Úinéir",
+                "description": "Rochtain iomlán"
+            },
+            "campaigner": {
+                "label": "Feachtasóir",
+                "description": "Bainistigh úsáideoirí, socruithe, feachtais agus leathanaigh ghníomhaíochta."
+            }
+        },
+        "roleLabel": "Roghnaigh leibhéal údaraithe",
+        "copy": "Cóipeáil URL an chuireadh",
+        "required": "Tá seoladh ríomhphoist ag teastáil",
+        "default": "Tá cuireadh tugtha duit páirt a ghlacadh sa chuntas {{org}} ar phainéal Deisigh an Status Quo.\n\nBeidh an cuireadh seo bailí ar feadh 24 uair an chloig. Glac leis a luaithe is féidir, le do thoil.\n\nTá áthas orainn go bhfuil tú linn!",
+        "translator": "Haigh,\n\nTáimid ag iarraidh ort comhoibriú ar litir feachtasaíochta a aistriú agus a fheabhsú le do thír féin. Bheadh do thuiscint ar an gcomhthéacs polaitiúil áitiúil luachmhar - ní hamháin san aistriúchán, ach chun a chinntiú go dtéann an teachtaireacht i bhfeidhm go héifeachtach ar lucht tacaíochta.\n\nTá an litir struchtúrtha i roinnt rannóga, agus roinnt athruithe i ngach ceann acu. Gheobhaidh lucht tacaíochta leaganacha randamacha chun an rannpháirtíocht a uasmhéadú agus chun a chinntiú nach ndéanfaidh faighteoirí iad a dhíbhe.\n\nA luaithe a ghlacfaidh tú leis an gcuireadh, beidh tú in ann rochtain a fháil ar an litir [anseo]({{location}}). **Ná déan dearmad é a shábháil tar éis duit do chuid athruithe a dhéanamh!**\n\nNuair a bheidh do chuid ranníocaíochtaí críochnaithe, cuir in iúl dúinn agus don chomhordaitheoir le do thoil ionas gur féidir linn na nuashonruithe a imscaradh.\n\nTugann muid buíochas duit as do chuid ama agus saineolais - is iarracht chomhroinnte í seo chun tionchar an fheachtais a neartú.\n\n**Ar mhaithe le slándáil, rachaidh do nasc rochtana cuireadh in éag i gceann 24 uair an chloig.**",
+        "sent": "Cuireadh seolta chuig {{email}}",
+        "subject": "Cuireadh chun páirt a ghlacadh i {{org}} ar an deais Deisigh an Status Quo",
+        "messageLabel": "Teachtaireacht phearsanta don duine a thug cuireadh dó",
+        "another": "Tabhair cuireadh do bhall foirne eile",
+        "copied": "Cóipeáilte!"
+    },
+    "send": "Seol",
+    "cancel": "Cealaigh",
+    "close": "Dún",
+    "save": "Sábháil",
+    "edit": "Cuir in Eagar",
+    "delete": "Scrios"
 }
