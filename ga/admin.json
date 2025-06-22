@@ -41,7 +41,7 @@
     "Required": "Ag teastáil",
     "action": {
         "mail2target": "Ríomhphost chuig an sprioc",
-        "share": "Comhroinn ar na meáin shóisialta",
+        "share": "Roinn ar na meáin shóisialta",
         "register": "Clár",
         "twitter_click": "Tweet chun an sprioc"
     },
@@ -120,5 +120,38 @@
     "close": "Dún",
     "save": "Sábháil",
     "edit": "Cuir in Eagar",
-    "delete": "Scrios"
+    "delete": "Scrios",
+    "csv": "CSV",
+    "json": "JSON",
+    "format": "Formáid",
+    "export": {
+        "title": "Easpórtáil sonraí ball",
+        "campaignLabel": "Feachtas chun onnmhairiú",
+        "campaignDefault": "Gach sonraí ball",
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "opt_in": "Roghnaigh isteach",
+            "opt_in_help": "Tacadóirí a roghnaigh rogha an ghléas ar ghiuirléid (an cnaipe raidió 'Sea, ba mhaith liom ríomhphoist a fháil')",
+            "double_opt_in": "Rogha isteach dúbailte",
+            "double_opt_in_help": "Tacaíochtóirí a dheimhnigh a rannpháirtíocht trí URL deimhnithe ríomhphoist",
+            "opt_out": "Rogha amach",
+            "opt_out_help": "Tacaíochtóirí nach mian leo nuachtlitir a fháil (an cnaipe raidió 'Níl, ní mian liom ríomhphoist a fháil' ar an ngiuirléid nó URL rogha an diúltaithe sa ríomhphost.",
+            "opt_out_required": "*Léirigh le do thoil go bhfuil tú ar an eolas faoi na hiarmhairtí",
+            "opt_out_warning": "Tá a fhios agam go bhfuil sé mídhleathach teagmháil a dhéanamh le húsáideoirí nár thug toiliú sainráite ach amháin i gcásanna an-teoranta."
+        },
+        "exportLabel": "Easpórtáil",
+        "exportType": {
+            "contacts": "Teagmhálacha",
+            "contacts_help": "Ní dhéanann sé ach faisnéis teagmhála a onnmhairiú.",
+            "activities": "Gníomhaíochtaí",
+            "activities_help": "Easpórtálann sé gníomhartha arna ndéanamh ag úsáideoirí, amhail síniú, comhroinnt, srl."
+        },
+        "csv_help": "Is é CSV an fhormáid chaighdeánach. Bain úsáid as seo mura bhfuil JSON de dhíth ort go sonrach.",
+        "json_help": "Formáid JSON le haghaidh comhtháthú ardleibhéil.",
+        "keyLabel": "Luchtaigh eochracha díchriptithe",
+        "exporting": "Ag easpórtáil",
+        "exportingWithCount": "Ag easpórtáil {{count}}...",
+        "exportingWithErrors": "(gan eochair do ghníomhartha {{count}})",
+        "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú."
+    }
 }
