@@ -1,5 +1,26 @@
 {
     "action": {
-        "register": "Registreeri"
-    }
+        "register": "Registreeri",
+        "mail2target": "Sihtotstarbeline postitus",
+        "share": "Jaga sotsiaalmeedias",
+        "twitter_click": "Säuts sihtrühmale"
+    },
+    "send": "Saada",
+    "cancel": "Katkesta",
+    "close": "Sulge",
+    "save": "Salvesta",
+    "edit": "Muuda",
+    "delete": "Kustuta",
+    "csv": "CSV",
+    "json": "JSON",
+    "format": "Vorming",
+    "mineOnly": "ainult minu organisatsioonist",
+    "unusedOnly": "ainult kasutamata vidinad",
+    "externalPartner": "ainult välised partnerid",
+    "Customise": "Kohandada",
+    "Fields": "Väljad",
+    "My organisation isn't on Twitter": "Minu organisatsioon ei ole Twitteris",
+    "My organisation isn't on twitter": "Minu organisatsioon ei ole Twitteris",
+    "Required": "Nõutav",
+    "Show": "Näita"
 }
