@@ -60,6 +60,8 @@
       "activities": "Activities",
       "activities_help": "Exports actions taken by users, such as signing, sharing, etc."
     },
+    "errorIncomplete": "There was an error, CSV data incomplete.",
+    "errorPermission": "You do not have permission to export data for this organisation.",
     "csv_help": "CSV is the standard format. Use this unless you specifically need JSON.",
     "json_help": "JSON format for advanced integrations.",
     "keyLabel": "Load decryption keys",
