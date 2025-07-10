@@ -86,11 +86,13 @@
     "roles": {
       "owner": {
         "label": "Owner",
-        "description": "Full access"
+        "description": "Full administrative access. Can manage everything, including settings, campaigns, exports, and encryption."
+
       },
       "campaigner": {
         "label": "Campaigner",
-        "description": "Manage users, settings, campaigns, and action pages."
+        "description": "Can view and manage actions, supporters, and campaign data. Cannot change organization settings or export data."
+
       },
       "translator": {
         "label": "Translator",
@@ -98,9 +100,10 @@
       },
       "coordinator": {
         "label": "Coordinator",
-        "description": "Manage campaign settings only"
+        "description": "Can view supporter data but cannot create campaigns or manage settings, or export data."
       }
-   }
+   },
+   "tooltip": "Note: Only 'owner' will be able to export the supporters data"
   },
   "join": {
     "goal": "How many people do you expect will take action via your website?",
