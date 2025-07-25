@@ -29,9 +29,6 @@
   "Used to fill the details of your organisation": "Used to fill the details of your organisation",
   "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation",
   "View your widget for {{org}}": "View your widget for {{org}}",
-  "You are also a member of {{org}}": "👋 Hey stop! You are the staffer of {{org}}, who runs this campaign! You cannot also join it as partner!",
-  "You are one of the coordinators of that campaign": "You are one of the coordinators of that campaign",
-  "You are registered for {{campaign}}": "You are registered for {{campaign}}",
   "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
   "You can update your organisation's details": "You can update your organisation's details",
   "createOrg": {
@@ -130,7 +127,9 @@
       "networkHelper": "We welcome all organisations!",
       "organisationHelper": "From which part of the family are you? We welcome all organisations!",
       "remarks": "Any comments about the tool you want to tell us?",
-      "sectionTitle": "Organisation"
+      "sectionTitle": "Organisation",
+      "another": "Select another organisation",
+      "logged_in": "You are logged in under <b>{{orgName}}</b> organisation account"
     },
     "thanks": "Thank you for joining this campaign",
     "title": "Are you an organisation or social movement that wants to add this campaign on your site?",
@@ -147,7 +146,8 @@
     },
     "verify": "Your email  is not yet verified. Please check your email and click on the confirmation link to continue.",
     "warning": {
-      "is_partner": "👋 Hey stop! You are already a partner in this campaign! It does not make sense for you to join again!"
+      "is_member": "You are a member of the organisation **{{org}}** that runs this campaign!",
+      "is_coordinator": "You cannot join a campaign under **{{org}}**'s account, it is the coordinator of the **{{campaign}}**"
     },
     "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}"
   },
