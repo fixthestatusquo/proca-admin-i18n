@@ -28,20 +28,24 @@
             "doubleOptIn": "Ní mór do mo lucht tacaíochta rogha a dhéanamh faoi dhó chun nuachtlitir a fháil",
             "organisationHelper": "Cén chuid den teaghlach as a bhfuil tú? Cuirimid fáilte roimh gach eagraíocht!",
             "remarks": "Aon tuairimí faoin uirlis is mian leat a insint dúinn?",
-            "sectionTitle": "Eagraíocht"
+            "sectionTitle": "Eagraíocht",
+            "another": "Roghnaigh eagraíocht eile",
+            "logged_in": "Tá tú logáilte isteach faoi chuntas eagraíochta <b>{{orgName}}</b>"
         },
         "verify": "Níl do ríomhphost fíoraithe fós. Seiceáil do ríomhphost agus cliceáil ar an nasc deimhnithe chun leanúint ar aghaidh.",
         "thanks": "Go raibh maith agat as páirt a ghlacadh san fheachtas seo",
         "welcome": "Fáilte chuig limistéar na gcomhpháirtithe don fheachtas seo arna chomhordú ag {{coordinator}}",
         "warning": {
-            "is_partner": "👋 Hey stop! Tá tú i do chomhpháirtí cheana féin san fheachtas seo! Ní dhéanann sé ciall duit a bheith páirteach arís!"
+            "is_partner": "👋 Hey stop! Tá tú i do chomhpháirtí cheana féin san fheachtas seo! Ní dhéanann sé ciall duit a bheith páirteach arís!",
+            "is_member": "Is ball thú den eagraíocht **{{org}}** a reáchtálann an feachtas seo!",
+            "is_coordinator": "Ní féidir leat dul isteach i bhfeachtas faoi chuntas **{{org}}**, is é comhordaitheoir an **{{campaign}}** é"
         }
     },
     "My organisation isn't on twitter": "Níl m'eagraíocht ar twitter",
     "Required": "Ag teastáil",
     "action": {
         "mail2target": "Ríomhphost chuig an sprioc",
-        "share": "Roinn ar na meáin shóisialta",
+        "share": "Comhroinn ar na meáin shóisialta",
         "register": "Clár",
         "twitter_click": "Tweet chun an sprioc"
     },
@@ -93,15 +97,15 @@
             },
             "coordinator": {
                 "label": "Comhordaitheoir",
-                "description": "Bainistigh socruithe feachtais amháin"
+                "description": "Is féidir sonraí tacaíochta a fheiceáil ach ní féidir feachtais a chruthú ná socruithe a bhainistiú, ná sonraí a easpórtáil."
             },
             "owner": {
                 "label": "Úinéir",
-                "description": "Rochtain iomlán"
+                "description": "Rochtain riaracháin iomlán. Is féidir gach rud a bhainistiú, lena n-áirítear socruithe, feachtais, onnmhairí agus criptiú."
             },
             "campaigner": {
                 "label": "Feachtasóir",
-                "description": "Bainistigh úsáideoirí, socruithe, feachtais agus leathanaigh ghníomhaíochta."
+                "description": "Is féidir gníomhartha, lucht tacaíochta agus sonraí feachtasaíochta a fheiceáil agus a bhainistiú. Ní féidir socruithe eagraíochta a athrú ná sonraí a easpórtáil."
             }
         },
         "roleLabel": "Roghnaigh leibhéal údaraithe",
@@ -113,7 +117,8 @@
         "subject": "Cuireadh chun páirt a ghlacadh i {{org}} ar an deais Deisigh an Status Quo",
         "messageLabel": "Teachtaireacht phearsanta don duine a thug cuireadh dó",
         "another": "Tabhair cuireadh do bhall foirne eile",
-        "copied": "Cóipeáilte!"
+        "copied": "Cóipeáilte!",
+        "tooltip": "Nóta: Ní bheidh ach 'úinéir' in ann sonraí na dtacaitheoirí a easpórtáil"
     },
     "send": "Seol",
     "cancel": "Cealaigh",
@@ -152,6 +157,8 @@
         "exporting": "Ag easpórtáil",
         "exportingWithCount": "Ag easpórtáil {{count}}...",
         "exportingWithErrors": "(gan eochair do ghníomhartha {{count}})",
-        "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú."
+        "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú.",
+        "errorIncomplete": "Tharla earráid, sonraí CSV neamhiomlán.",
+        "errorPermission": "Níl cead agat sonraí a easpórtáil don eagraíocht seo."
     }
 }
