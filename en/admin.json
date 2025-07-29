@@ -10,7 +10,7 @@
   "createOrg": {
     "intro": "The fastest is to start with the twitter account of your organisation (if you have several, pick one)",
     "manual": "Switch to fill the details manually",
-    "noTwitter": "My organisation isn't on twitter",
+    "noTwitter": "My organisation isn't on twitter"
   },
   "csv": "CSV",
   "Customise": "Customise",
