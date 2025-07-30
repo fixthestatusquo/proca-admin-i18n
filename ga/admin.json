@@ -54,7 +54,8 @@
     "My organisation isn't on Twitter": "Níl m'eagraíocht ar Twitter",
     "createOrg": {
         "manual": "Athraigh chun na sonraí a líonadh de láimh",
-        "intro": "Is é an ceann is tapúla ná tosú le cuntas twitter na heagraíochta (má tá roinnt agat, roghnaigh ceann amháin)"
+        "intro": "Is é an ceann is tapúla ná tosú le cuntas twitter na heagraíochta (má tá roinnt agat, roghnaigh ceann amháin)",
+        "noTwitter": "Níl mo eagraíocht ar Twitter"
     },
     "Used to pre-fill name, description and logo of your organisation": "Úsáidtear é chun ainm, tuairisc agus lógó d'eagraíochta a réamhlíonadh",
     "Show": "Taispeáin",
