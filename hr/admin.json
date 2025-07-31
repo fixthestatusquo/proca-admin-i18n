@@ -1,73 +1,90 @@
 {
-  "My organisation isn't on twitter": "Moja organizacija nije na Twitteru",
-  "Switch to fill the details manually": "Prebaci na ručno ispunjavanje detalja",
-  "Twitter Account": "Twitter račun",
-  "Used to fill the details of your organisation": "Koristi se za popunjavanje podataka tvoje organizacije",
-  "You are also a member of {{org}}": "👋 Hej, stani! Ti si zaposlenik organizacije {{org}}, koji vodi ovu kampanju! Ne može joj se pridružiti i kao partner!",
-  "You are one of the coordinators of that campaign": "Ti si jedan koordinator/jedna kordinatorica te kampanje",
-  "You are registered for {{campaign}}": "Registriran/a si za {{campaign}}",
-  "You can update your organisation's details": "Podatke tvoje organizacije možeš aktualizirati",
-  "createOrg": {
-    "manual": "Prebaci na ručno ispunjavanje detalja",
-    "intro": "Najbrže je započeti s twitter računom tvoje organizacije (ako ih imaš nekoliko, odaberi jedan)",
-    "related": "Iz kojeg si dijela obitelji?",
-    "relatedHelper": "Pozdravljamo sve organizacije!"
-  },
-  "join": {
-    "requestHelper": "kako bi nam pomogao/la planirati ovu kampanju",
-    "goal": "Koliko ljudi očekuješ da će poduzeti radnje putem tvoje web-stranice?",
-    "goalHelper": "Ovo nagađanje vidjet će samo koordinator … a znamo da je teško procijeniti",
-    "request": "Planiraš li slati namjenske poruke svojim pristašama? Planiraš li i aktivnosti na društvenim mrežama, uključujući plaćene oglase",
-    "embargo": "Potvrđujem da su materijali kampanje do daljnjega pod strogim embargom. Slažem se s time da NE DIJELIM ove materijale s bilo kim izvan moje organizacije",
-    "mailingList": "Slanjem ovog obrasca pristajem na dodavanje moje adrese u koordinacijsku mailing listu kampanje {{campaign}}. Mogu se odjaviti u bilo kojem trenutku"
-  },
-  "onboarding": {
-    "login": "Najprije se moraš registrirati ili prijaviti ako si se već registrirao/la.",
-    "done": "Poruku potvrde primit ćeš putem e-maila. Testnu verziju <1>programčića već možeš ugraditi u svoju web-stranicu</1>",
-    "intro": "Da bismo povećali naš utjecaj, potrebna nam je široka koalicija i pokušali smo ti omogućiti najjednostavniji način za pridruživanje.",
-    "thanks": "Hvala ti što si se pridružio/la ovoj kampanji",
-    "title": "Jeste li organizacija ili društveni pokret koji želi dodati ovu kampanju na svoju web-stranicu?",
-    "verify": "Tvoja e-mail adresa još nije potvrđena. Za nastavak provjeri svoju e-poštu i pritisni poveznicu za potvrdu.",
-    "welcome": "Dobro došao, dobro došla u područje partnera za ovu kampanju koju koordinira {{coordinator}}",
-    "warning": {
-      "is_partner": "👋 Hej stani! Već jesi partner u ovoj kampanji! Nema smisla da joj se ponovo pridružiš!"
+    "My organisation isn't on twitter": "Moja organizacija nije na Twitteru",
+    "Switch to fill the details manually": "Prebaci na ručni unos podataka",
+    "Twitter Account": "Twitter račun",
+    "Used to fill the details of your organisation": "Koristi se za unos podataka tvoje organizacije",
+    "You are also a member of {{org}}": "👋 Hej, stani! Ti si zaposlenik organizacije {{org}}, koji vodi ovu kampanju! Ne može joj se pridružiti i kao partner!",
+    "You are one of the coordinators of that campaign": "Ti si jedan koordinator/jedna kordinatorica te kampanje",
+    "You are registered for {{campaign}}": "Registriran/a si za {{campaign}}",
+    "You can update your organisation's details": "Podatke tvoje organizacije možeš aktualizirati",
+    "createOrg": {
+        "manual": "Prebaci na ručni unos podataka",
+        "intro": "Najbrže je započeti s twitter računom tvoje organizacije (ako ih imaš nekoliko, odaberi jedan)",
+        "related": "Iz kojeg si dijela obitelji?",
+        "relatedHelper": "Pozdravljamo sve organizacije!"
     },
-    "embargo": "Embargo",
-    "mailling": "Mailing lista",
-    "maillingHelper": "Slanjem ovog obrasca pristajem na dodavanje moje adrese u mailing listu kampanje {{campaign}}. Mogu se odjaviti u bilo kojem trenutku.",
-    "organisation": {
-      "network": "Moja organizacija je pod pokroviteljstvom organizacije …",
-      "organisationHelper": "Iz kojeg si dijela obitelji? Pozdravljamo sve organizacije!",
-      "collectsEmailHelper": "Nemam bilten. Siguran sam da ne želim potvrdni okvir biltena koji prikuplja e-mail adrese koje nakon toga možemo koristiti.",
-      "remarks": "Želiš li nam javiti bilo koje komentare o alatu?",
-      "crm": "Koji softver za upravljanje odnosa s klijentima (CRM) koristiš?",
-      "doubleOptIn": "Moji pristaše se moraju dvaput prijaviti za primanje biltena",
-      "networkHelper": "Pozdravljamo sve organizacije!",
-      "collectsEmail": "Nemaš bilten i ne želiš prikupljati e-mail adrese? (Ovu ćeš značajku moći sakriti na svojoj web-stranici). Označi ovaj okvir:",
-      "sectionTitle": "Organizacija"
+    "join": {
+        "requestHelper": "kako bi nam pomogao/la planirati ovu kampanju",
+        "goal": "Koliko ljudi očekuješ da će nešto poduzeti putem tvoje web-stranice?",
+        "goalHelper": "Ovo nagađanje vidjet će samo koordinator … a znamo da je teško procijeniti",
+        "request": "Planiraš li slati namjenske poruke svojim pristašama? Planiraš li i aktivnosti na društvenim mrežama, uključujući plaćene oglase",
+        "embargo": "Potvrđujem da su materijali kampanje do daljnjega pod strogim embargom. Slažem se s time da NE DIJELIM ove materijale s bilo kim izvan moje organizacije",
+        "mailingList": "Slanjem ovog obrasca pristajem na dodavanje moje adrese u koordinacijsku mailing listu kampanje {{campaign}}. Mogu se odjaviti u bilo kojem trenutku"
     },
-    "user": {
-      "sectionTitle": "Kontakt osoba za ovu kampanju",
-      "name": "Tvoje ime",
-      "jobTitle": "Naziv radnog mjesta",
-      "emailAddress": "Tvoja e-mail adresa",
-      "socialAccount": "Tvoje Twitter/Facebook/Instagram ili URL adresa",
-      "phoneNumber": "Tvoj telefonski broj (uključujući pozivni broj zemlje)",
-      "country": "Tvoja zemlja"
+    "onboarding": {
+        "login": "Registriraj se kao korisnik ili se prijavi pomoću tvojih podataka za prijavu na društvene mreže ili pomoću tvoje e-mail adrese. To je tvoj osobni račun. Tvoju organizaciju možeš postaviti nakon registracije.",
+        "done": "Poruku potvrde primit ćeš putem e-maila. Testnu verziju <1>programčića već možeš ugraditi u svoju web-stranicu</1>",
+        "intro": "Da bismo povećali naš utjecaj, potrebna nam je široka koalicija i pokušali smo ti omogućiti najjednostavniji način za pridruživanje.",
+        "thanks": "Hvala ti što si se pridružio/la ovoj kampanji",
+        "title": "Jesi li organizacija ili društveni pokret koji ovu kampanju želi dodati na tvoju web-stranicu?",
+        "verify": "Tvoja e-mail adresa još nije potvrđena. Za nastavak provjeri svoju e-poštu i pritisni poveznicu za potvrdu.",
+        "welcome": "Dobro došao, dobro došla u područje partnera za ovu kampanju koju koordinira {{coordinator}}",
+        "warning": {
+            "is_partner": "👋 Hej stani! Već jesi partner u ovoj kampanji! Nema smisla da joj se ponovo pridružiš!"
+        },
+        "embargo": "Embargo",
+        "mailling": "Mailing lista",
+        "maillingHelper": "Slanjem ovog obrasca pristajem na dodavanje moje adrese u mailing listu kampanje {{campaign}}. Mogu se odjaviti u bilo kojem trenutku.",
+        "organisation": {
+            "network": "Moja organizacija je pod pokroviteljstvom organizacije …",
+            "organisationHelper": "Iz kojeg si dijela obitelji? Pozdravljamo sve organizacije!",
+            "collectsEmailHelper": "Nemam bilten. Siguran sam da ne želim potvrdni okvir biltena koji prikuplja e-mail adrese koje nakon toga možemo koristiti.",
+            "remarks": "Želiš li nam javiti bilo koje komentare o alatu?",
+            "crm": "Koji softver za upravljanje odnosa s klijentima (CRM) koristiš?",
+            "doubleOptIn": "Moji pristaše se moraju dvaput prijaviti za primanje biltena",
+            "networkHelper": "Pozdravljamo sve organizacije!",
+            "collectsEmail": "Nemaš bilten i ne želiš prikupljati e-mail adrese? (Ovu ćeš značajku moći sakriti na svojoj web-stranici). Označi ovaj okvir:",
+            "sectionTitle": "Organizacija"
+        },
+        "user": {
+            "sectionTitle": "Tvoji podaci za kontaktiranje",
+            "name": "Tvoje ime",
+            "jobTitle": "Naziv radnog mjesta",
+            "emailAddress": "Tvoja e-mail adresa",
+            "socialAccount": "Tvoji društveni mediji",
+            "phoneNumber": "Tvoj telefonski broj",
+            "country": "Tvoja zemlja",
+            "phoneNumberHelper": "Uključujući pozivni broj zemlje",
+            "socialAccountHelper": "Na Twitteru/Instagramu/Linkedinu"
+        },
+        "embargoHelper": "Potvrđujem da su materijali kampanje pod strogim embargom do daljnjega. Slažem se da NEĆU DIJELITI ove materijale s bilo kim izvan moje organizacije."
     },
-    "embargoHelper": "Potvrđujem da su materijali kampanje pod strogim embargom do daljnjega. Slažem se da NEĆU DIJELITI ove materijale s bilo kim izvan moje organizacije."
-  },
-  "step": {
-    "login": "Tvoj račun",
-    "verify": "Potvrdi svoju e-mail adresu",
-    "configure_org": "Tvoja organizacija",
-    "create_org": "Stvori svoju organizaciju",
-    "done": "Preuzmi svoj programčić",
-    "join_campaign": "Zatraži pridruživanje"
-  },
-  "View your widget for {{org}}": "Pogledaj svoj widget za {{org}}",
-  "You can register an new organisation to join the coalition": "Možeš registrirati novu organizaciju za pridruživanje koaliciji",
-  "invite": {
-    "message": "Hej, za ovu kampanju trebamo **tebe**. Možeš li joj se pridružiti?"
-  }
+    "step": {
+        "login": "Tvoj račun",
+        "verify": "Potvrdi tvoju e-mail adresu",
+        "configure_org": "Tvoja organizacija",
+        "create_org": "Stvori svoju organizaciju",
+        "done": "Preuzmi svoj programčić",
+        "join_campaign": "Pridruži se kampanji"
+    },
+    "View your widget for {{org}}": "Pogledaj svoj widget za {{org}}",
+    "You can register an new organisation to join the coalition": "Možeš registrirati novu organizaciju za pridruživanje koaliciji",
+    "invite": {
+        "message": "Hej, za ovu kampanju trebamo **tebe**. Možeš li joj se pridružiti?"
+    },
+    "unusedOnly": "samo nekorišteni widgeti",
+    "externalPartner": "samo eksterni partneri",
+    "Customise": "Prilagodi",
+    "Fields": "Polja",
+    "My organisation isn't on Twitter": "Moja organizacija nije na Twitteru",
+    "Show": "Pokaži",
+    "Used to pre-fill name, description and logo of your organisation": "Koristi se za automatski unos imena, opisa i logotipa tvoje organizacije",
+    "mineOnly": "samo od moje organizacije",
+    "Required": "Obavezno",
+    "action": {
+        "share": "Dijeli na društvenim mrežama",
+        "register": "Registriraj se",
+        "twitter_click": "Tweet za cilj",
+        "mail2target": "E-mail za cilj"
+    }
 }
