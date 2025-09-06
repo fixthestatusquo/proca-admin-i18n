@@ -11,7 +11,8 @@
         "manual": "Prebaci na ručni unos podataka",
         "intro": "Najbrže je započeti s twitter računom tvoje organizacije (ako ih imaš nekoliko, odaberi jedan)",
         "related": "Iz kojeg si dijela obitelji?",
-        "relatedHelper": "Pozdravljamo sve organizacije!"
+        "relatedHelper": "Pozdravljamo sve organizacije!",
+        "noTwitter": "Moja organizacija nije na Twitteru"
     },
     "join": {
         "requestHelper": "kako bi nam pomogao/la planirati ovu kampanju",
@@ -30,7 +31,9 @@
         "verify": "Tvoja e-mail adresa još nije potvrđena. Za nastavak provjeri svoju e-poštu i pritisni poveznicu za potvrdu.",
         "welcome": "Dobro došao, dobro došla u područje partnera za ovu kampanju koju koordinira {{coordinator}}",
         "warning": {
-            "is_partner": "👋 Hej stani! Već jesi partner u ovoj kampanji! Nema smisla da joj se ponovo pridružiš!"
+            "is_partner": "👋 Hej stani! Već jesi partner u ovoj kampanji! Nema smisla da joj se ponovo pridružiš!",
+            "is_coordinator": "Ne možeš se pridružiti kampanji pod računom organizacije **{{org}}**. To je račun koordinatora kampanje **{{campaign}}**",
+            "is_member": "Član si organizacije **{{org}}** koja vodi ovu kampanju!"
         },
         "embargo": "Embargo",
         "mailling": "Mailing lista",
@@ -41,10 +44,12 @@
             "collectsEmailHelper": "Nemam bilten. Siguran sam da ne želim potvrdni okvir biltena koji prikuplja e-mail adrese koje nakon toga možemo koristiti.",
             "remarks": "Želiš li nam javiti bilo koje komentare o alatu?",
             "crm": "Koji softver za upravljanje odnosa s klijentima (CRM) koristiš?",
-            "doubleOptIn": "Moji pristaše se moraju dvaput prijaviti za primanje biltena",
+            "doubleOptIn": "Moji podržavatelji se moraju dvaput prijaviti za primanje biltena",
             "networkHelper": "Pozdravljamo sve organizacije!",
             "collectsEmail": "Nemaš bilten i ne želiš prikupljati e-mail adrese? (Ovu ćeš značajku moći sakriti na svojoj web-stranici). Označi ovaj okvir:",
-            "sectionTitle": "Organizacija"
+            "sectionTitle": "Organizacija",
+            "another": "Odaberi jednu drugu organizaciju",
+            "logged_in": "Prijavljen/a si pod organizacijskim računom <b>{{orgName}}</b>"
         },
         "user": {
             "sectionTitle": "Tvoji podaci za kontaktiranje",
@@ -70,7 +75,40 @@
     "View your widget for {{org}}": "Pogledaj svoj widget za {{org}}",
     "You can register an new organisation to join the coalition": "Možeš registrirati novu organizaciju za pridruživanje koaliciji",
     "invite": {
-        "message": "Hej, za ovu kampanju trebamo **tebe**. Možeš li joj se pridružiti?"
+        "message": "Hej, za ovu kampanju trebamo **tebe**. Možeš li joj se pridružiti?",
+        "another": "Pozovi jednog drugog člana tima",
+        "copied": "Kopirano!",
+        "copy": "Kopiraj URL pozivnice",
+        "default": "Pozvan/a si da se pridružiš {{org}} računu na nadzornoj ploči Fix the Status Quo.\n\nOva pozivnica vrijedi sljedeća 24 sata. Prihvati je što prije moguće.\n\nRadujemo se tvom pridruživanju!",
+        "emailHelper": "Odmah ćemo ti poslati e-mail s pozivnicom i poveznicom za pridruživanje.",
+        "messageLabel": "Osobna poruka za pozvanu osobu",
+        "required": "E-mail adresa se mora navesti",
+        "roleLabel": "Odaberi razinu autentifikacije",
+        "roles": {
+            "campaigner": {
+                "description": "Može pregledati i upravljati radnjama, podržavateljima i podacima kampanje. Ne može mijenjati postavke organizacije niti izvoziti podatke.",
+                "label": "Aktivist"
+            },
+            "coordinator": {
+                "description": "Može pregledati podatke o podržavateljima, ali ne može stvarati kampanje, upravljati postavkama ili izvoziti podatke.",
+                "label": "Koordinator"
+            },
+            "owner": {
+                "description": "Potpun administratorski pristup. Može upravljati svime, uključujući postavkama, kampanjama, izvozima i šifriranjem.",
+                "label": "Vlasnik"
+            },
+            "translator": {
+                "description": "Uredi tekst kampanje",
+                "label": "Prevoditelj"
+            }
+        },
+        "sent": "Pozivnica je poslana na {{email}}",
+        "sentInstructions": "Također možeš izravno dijeliti donju poveznicu:",
+        "subject": "Pozivnica za pridruživanje organizaciji {{org}} na nadzornoj ploči Fix the Status Quo",
+        "title": "Pozovi za pridruživanje organizaciji {{org}}",
+        "tooltip": "Napomena: Samo će „vlasnik” moći izvesti podatke podržavatelja",
+        "translatorTitle": "Pozovi za pridruživanje organizaciji {{org}} kao prevoditelj",
+        "translator": "Zdravo,\n\nkontaktiramo te kako bismo te pozvali na suradnju u prevođenju i doradi pisma kampanje za tvoju zemlju. Tvoje razumijevanje lokalnog političkog konteksta je izuzetno vrijedno – ne samo za prijevod, već i za to da poruka dosegne podržavatelje na pravi način.\n\nPismo je podijeljeno u više dijelova, a svaki od njih sadrži nekoliko varijanti. Podržavatelji će primati slučajno sastavljene verzije kako bismo povećali angažman i izbjegli da se poruke ignoriraju.\n\nČim prihvatiš poziv, moći ćeš pristupiti pismu [ovdje]({{location}}). **Nemoj zaboraviti spremiti promjene nakon što ih uneseš!**\n\nKada završiš s unosom, obavijesti nas i koordinatora kako bismo mogli primijeniti nove verzije.\n\nZahvaljujemo ti na tvom vremenu i stručnosti – ovo je zajednički napor kako bismo osnažilli utjecaj kampanje.\n\n**Iz sigurnosnih razloga tvoja poveznica za pristup isteče za 24 sata.**"
     },
     "unusedOnly": "samo nekorišteni widgeti",
     "externalPartner": "samo eksterni partneri",
@@ -86,5 +124,46 @@
         "register": "Registriraj se",
         "twitter_click": "Tweet za cilj",
         "mail2target": "E-mail za cilj"
-    }
+    },
+    "cancel": "Odustani",
+    "close": "Zatvori",
+    "csv": "CSV",
+    "delete": "Izbriži",
+    "edit": "Uredi",
+    "export": {
+        "campaignDefault": "Svi podaci članova",
+        "campaignLabel": "Kampanja za izvoz",
+        "csv_help": "CSV je standardni format. Koristi ga ukoliko ne trebaš JSON.",
+        "errorIncomplete": "Dogodila se greška, CSV podaci su nepotpuni.",
+        "errorPermission": "Nemaš dozvole za izvoz podataka za ovu organizaciju.",
+        "exporting": "Izvoz",
+        "exportingWithCount": "Izvozi se {{count}} …",
+        "exportingWithErrors": "(nema ključa za {{count}} radnje)",
+        "exportLabel": "Izvoz",
+        "exportType": {
+            "activities": "Aktivnosti",
+            "activities_help": "Izvozi radnje korisnika, kao što su potpisivanje, dijeljenje itd.",
+            "contacts": "Kontakti",
+            "contacts_help": "Izvozi samo podatke kontakata."
+        },
+        "gdpr": {
+            "opt_out_required": "*Označi da poznaš posljedice",
+            "opt_out_warning": "Znam da je nezakonito kontaktirati korisnike koji nisu dali izričitu suglasnost, osim u vrlo ograničenim iznimkama.",
+            "double_opt_in": "Dvostruka potvrda pristanka",
+            "double_opt_in_help": "Podržavatelji koji su potvrdili svoje sudjelovanje putem URL-a za potvrdu e-mail adrese",
+            "opt_in": "Pristanak",
+            "opt_in_help": "Podržavatelji koji su dali pristanak u widgetu (gumb „Da, želim primati e-mail poruke”)",
+            "opt_out": "Odbijanje",
+            "opt_out_help": "Podržavatelji koji ne žele primati bilten (gumb „Ne, ne želim primati e-mail poruke”) u widgetu ili putem URL-a za odbijanje u e-mail poruci."
+        },
+        "gdprLabel": "GDPR",
+        "json_help": "JSON format za napredne integracije.",
+        "key_help": "Ako su tvoji podaci šifrirani, učitaj ključ za šifriranje prije izvoza.",
+        "keyLabel": "Učitaj ključeve za dešifriranje",
+        "title": "Izvezi podataka članova"
+    },
+    "format": "Format",
+    "json": "JSON",
+    "save": "Spremi",
+    "send": "Pošalji"
 }
