@@ -44,7 +44,7 @@
             "collectsEmailHelper": "Nemam bilten. Siguran sam da ne želim potvrdni okvir biltena koji prikuplja e-mail adrese koje nakon toga možemo koristiti.",
             "remarks": "Želiš li nam javiti bilo koje komentare o alatu?",
             "crm": "Koji softver za upravljanje odnosa s klijentima (CRM) koristiš?",
-            "doubleOptIn": "Moji podržavatelji se moraju dvaput prijaviti za primanje biltena",
+            "doubleOptIn": "Moji podržavatelji moraju dvaput potvrditi za primanje biltena",
             "networkHelper": "Pozdravljamo sve organizacije!",
             "collectsEmail": "Nemaš bilten i ne želiš prikupljati e-mail adrese? (Ovu ćeš značajku moći sakriti na svojoj web-stranici). Označi ovaj okvir:",
             "sectionTitle": "Organizacija",
@@ -149,7 +149,7 @@
         "gdpr": {
             "opt_out_required": "*Označi da poznaš posljedice",
             "opt_out_warning": "Znam da je nezakonito kontaktirati korisnike koji nisu dali izričitu suglasnost, osim u vrlo ograničenim iznimkama.",
-            "double_opt_in": "Dvostruka potvrda pristanka",
+            "double_opt_in": "Dvostruki pristanak",
             "double_opt_in_help": "Podržavatelji koji su potvrdili svoje sudjelovanje putem URL-a za potvrdu e-mail adrese",
             "opt_in": "Pristanak",
             "opt_in_help": "Podržavatelji koji su dali pristanak u widgetu (gumb „Da, želim primati e-mail poruke”)",
