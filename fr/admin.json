@@ -63,5 +63,8 @@
   "Switch to fill the details manually": "Commencez à remplir les détails manuellement",
   "invite": {
     "message": "Hé, nous avons besoin de **vous** pour cette campagne, pourriez-vous nous rejoindre ?"
+  },
+    "widget": {
+    "shareable": "Lien partageable"
   }
 }

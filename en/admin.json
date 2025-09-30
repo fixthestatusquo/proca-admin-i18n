@@ -154,5 +154,8 @@
   "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation",
   "View your widget for {{org}}": "View your widget for {{org}}",
   "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
-  "You can update your organisation's details": "You can update your organisation's details"
+  "You can update your organisation's details": "You can update your organisation's details",
+  "widget": {
+    "shareable": "Shareable link"
+  }
 }
