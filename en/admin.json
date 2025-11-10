@@ -139,6 +139,7 @@
   "save": "Save",
   "send": "Send",
   "Show": "Show",
+  "Stats": "Stats",
   "step": {
     "configure_org": "Your organisation",
     "create_org": "Create your organisation",
@@ -147,6 +148,7 @@
     "login": "Your account",
     "verify": "Verify your email"
   },
+  "supporters": "Supporters",
   "Switch to fill the details manually": "Switch to fill the details manually",
   "Twitter Account": "Twitter Account",
   "unusedOnly": "only unused widgets",
@@ -156,6 +158,9 @@
   "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
   "You can update your organisation's details": "You can update your organisation's details",
   "widget": {
-    "shareable": "Shareable link"
+    "edit_icon": "Settings for {{id}}",
+    "lang": "Language of the widget",
+    "shareable": "Shareable link",
+    "test": "Widget is in the test mode"
   }
 }
