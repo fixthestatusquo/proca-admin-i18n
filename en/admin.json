@@ -159,6 +159,7 @@
   "You can update your organisation's details": "You can update your organisation's details",
   "widget": {
     "edit_icon": "Settings for {{id}}",
+    "stats_icon": "Stats for {{id}}",
     "lang": "Language of the widget",
     "shareable": "Shareable link",
     "test": "Widget is in the test mode"
