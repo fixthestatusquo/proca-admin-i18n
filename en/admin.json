@@ -17,7 +17,7 @@
   "delete": "Delete",
   "edit": "Edit",
   "export": {
-    "campaignDefault": "All member data",
+    "campaignDefault": "All campaigns",
     "campaignLabel": "Campaign to export",
     "csv_help": "CSV is the standard format. Use this unless you specifically need JSON.",
     "errorIncomplete": "There was an error, CSV data incomplete.",
