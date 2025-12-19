@@ -1,1 +1,167 @@
-{}
+{
+    "action": {
+        "mail2target": "Tikslinis paštas",
+        "twitter_click": "Tweet į tikslą",
+        "register": "Registruotis",
+        "share": "Dalytis socialinėje žiniasklaidoje"
+    },
+    "Required": "Reikalinga",
+    "onboarding": {
+        "title": "Ar esate organizacija arba socialinis judėjimas, norintis įtraukti šią kampaniją į savo svetainę?",
+        "user": {
+            "country": "Jūsų šalis",
+            "socialAccountHelper": "Twitter/Instagram/Linkedin",
+            "emailAddress": "Jūsų el. pašto adresas",
+            "name": "Jūsų vardas ir pavardė",
+            "phoneNumber": "Jūsų telefono numeris",
+            "sectionTitle": "Jūsų kontaktiniai duomenys",
+            "socialAccount": "Jūsų socialinė žiniasklaida",
+            "jobTitle": "Darbo pavadinimas",
+            "phoneNumberHelper": "Įskaitant šalies kodą"
+        },
+        "organisation": {
+            "network": "Mano organizacija yra skėtinės organizacijos dalis...",
+            "another": "Pasirinkite kitą organizaciją",
+            "logged_in": "Esate prisijungę prie <b>{{orgName}}</b> organizacijos paskyros.",
+            "crm": "Kokią CRM programinę įrangą naudojate?",
+            "doubleOptIn": "Mano rėmėjai turi du kartus prisijungti, kad gautų naujienlaiškį",
+            "collectsEmail": "Neturite naujienlaiškio ir nenorite rinkti el. pašto adresų? (Šią funkciją galėsite patys paslėpti savo svetainėje) Pažymėkite šį langelį:",
+            "collectsEmailHelper": "Neturiu naujienlaiškio. Esu įsitikinęs, kad nenoriu, jog naujienlaiškio laukelyje būtų renkamas el. pašto adresas, kurį vėliau galėtume panaudoti.",
+            "networkHelper": "Kviečiame visas organizacijas!",
+            "organisationHelper": "Iš kurios šeimos dalies esate? Laukiame visų organizacijų!",
+            "remarks": "Norite mums pasakyti kokių nors pastabų apie įrankį?",
+            "sectionTitle": "Organizacija"
+        },
+        "warning": {
+            "is_coordinator": "Negalite prisijungti prie kampanijos naudodamiesi **{{org}}** paskyra, tai yra **{{campaign}}** koordinatorius.",
+            "is_member": "Esate organizacijos **{{org}}**, kuri vykdo šią kampaniją, narys!"
+        },
+        "welcome": "Sveiki atvykę į šios kampanijos partnerių sritį, kurią koordinuoja {{coordinator}}",
+        "maillingHelper": "Pateikdamas šią formą sutinku būti įtrauktas į {{campaign}} adresatų sąrašą. Bet kuriuo metu galiu atsisakyti prenumeratos.",
+        "thanks": "Dėkojame, kad prisijungėte prie šios kampanijos",
+        "verify": "Jūsų el. paštas dar nepatvirtintas. Patikrinkite savo el. paštą ir spustelėkite patvirtinimo nuorodą, kad galėtumėte tęsti.",
+        "done": "El. paštu gausite patvirtinimo pranešimą. Savo svetainėje jau galite įterpti bandomąją <1>paveiksliuko versiją</1>",
+        "embargo": "Embargas",
+        "embargoHelper": "Pripažįstu, kad kampanijos medžiagai taikomas griežtas embargas iki tolesnio pranešimo. Sutinku nesidalyti šia medžiaga su niekuo už savo organizacijos ribų.",
+        "intro": "Kad padidintume savo poveikį, mums reikia plačios koalicijos, todėl stengėmės padaryti taip, kad jums būtų kuo paprasčiau prie jos prisijungti.",
+        "login": "Užsiregistruokite kaip naudotojas arba prisijunkite naudodamiesi socialinės žiniasklaidos įgaliojimais arba el. paštu. Tai jūsų asmeninė paskyra, užsiregistravę galėsite nustatyti savo organizaciją.",
+        "mailling": "Pašto sąrašas"
+    },
+    "Twitter Account": "\"Twitter\" paskyra",
+    "createOrg": {
+        "manual": "Perjungti, kad duomenis užpildytumėte rankiniu būdu",
+        "intro": "Greičiausia pradėti nuo savo organizacijos \"Twitter\" paskyros (jei turite kelias, pasirinkite vieną).",
+        "noTwitter": "Mano organizacija nėra prisijungusi prie \"Twitter"
+    },
+    "export": {
+        "gdprLabel": "BDAR",
+        "exportType": {
+            "activities": "Veikla",
+            "activities_help": "Eksportuoja naudotojų atliktus veiksmus, pavyzdžiui, pasirašymą, bendrinimą ir pan.",
+            "contacts": "Kontaktai",
+            "contacts_help": "Eksportuojama tik kontaktinė informacija."
+        },
+        "campaignLabel": "Eksporto kampanija",
+        "csv_help": "CSV yra standartinis formatas. Naudokite jį, nebent jums reikia JSON.",
+        "errorIncomplete": "Įvyko klaida, CSV duomenys neišsamūs.",
+        "errorPermission": "Neturite leidimo eksportuoti šios organizacijos duomenis.",
+        "exporting": "Eksportuoti",
+        "exportingWithCount": "Eksportas {{count}}...",
+        "exportingWithErrors": "(nėra {{count}} veiksmų klavišo)",
+        "gdpr": {
+            "double_opt_in": "Dvigubas prisijungimas",
+            "double_opt_in_help": "Rėmėjai, patvirtinę savo dalyvavimą el. pašto patvirtinimo URL adresu",
+            "opt_in": "Pasirinkti",
+            "opt_in_help": "Rėmėjai, kurie pasirinko opt-on valdiklyje (radijo mygtukas \"Taip, noriu gauti el. laiškus\").",
+            "opt_out": "Atsisakyti",
+            "opt_out_help": "Rėmėjai, kurie nenori gauti naujienlaiškių (\"Ne, nenoriu gauti el. laiškų\" radijo mygtukas valdiklyje arba atsisakymo URL el. laiške.",
+            "opt_out_warning": "Žinau, kad neteisėta susisiekti su naudotojais, kurie nedavė aiškaus sutikimo, išskyrus labai ribotas išimtis.",
+            "opt_out_required": "*Prašome nurodyti, kad žinote apie pasekmes"
+        },
+        "json_help": "JSON formatas išplėstinėms integracijoms.",
+        "key_help": "Jei duomenys yra užšifruoti, prieš eksportuodami įkelkite šifravimo raktą.",
+        "keyLabel": "Įkelti dešifravimo raktus",
+        "campaignDefault": "Visos kampanijos",
+        "title": "Eksportuoti narių duomenis",
+        "exportLabel": "Eksportuoti"
+    },
+    "invite": {
+        "subject": "Kvietimas prisijungti prie {{org}} \"Fix the Status Quo\" prietaisų skydelio",
+        "default": "Kviečiame prisijungti prie {{org}} paskyros prietaisų skydelyje \"Fix the Status Quo\".\n\nŠis kvietimas galios artimiausias 24 valandas. Prašome kuo greičiau jį priimti.\n\nDžiaugiamės galėdami jus priimti į savo gretas!",
+        "copied": "Nukopijuota!",
+        "messageLabel": "Asmeninė žinutė kviečiamajam",
+        "another": "Pakvieskite kitą komandos narį",
+        "roles": {
+            "campaigner": {
+                "description": "Galite peržiūrėti ir tvarkyti veiksmus, rėmėjus ir kampanijos duomenis. Negalima keisti organizacijos nustatymų ar eksportuoti duomenų.",
+                "label": "Kampanijos dalyvis"
+            },
+            "owner": {
+                "label": "Savininkas",
+                "description": "Visiška administracinė prieiga. Galite valdyti viską, įskaitant nustatymus, kampanijas, eksportą ir šifravimą."
+            },
+            "translator": {
+                "description": "Redaguoti kampanijos tekstą",
+                "label": "Vertėjas"
+            },
+            "coordinator": {
+                "description": "Galite peržiūrėti rėmėjų duomenis, bet negalite kurti kampanijų, tvarkyti nustatymų ar eksportuoti duomenų.",
+                "label": "Koordinatorius"
+            }
+        },
+        "emailHelper": "Išsiųsime kvietimą el. paštu su nuoroda, kad galėtumėte iš karto prisijungti.",
+        "required": "Būtina nurodyti el. pašto adresą",
+        "copy": "Nukopijuokite kvietimo URL adresą",
+        "sentInstructions": "Taip pat galite tiesiogiai dalytis toliau pateikta nuoroda:",
+        "roleLabel": "Pasirinkite autentifikavimo lygį",
+        "sent": "Kvietimas išsiųstas {{email}}",
+        "title": "Kvietimas prisijungti {{org}}",
+        "tooltip": "Pastaba: tik \"savininkas\" galės eksportuoti rėmėjų duomenis",
+        "translator": "Sveiki,\n\nkreipiamės į jus, norėdami pakviesti bendradarbiauti verčiant ir tobulinant jūsų šaliai skirtą kampanijos laišką. Jūsų vietos politinio konteksto supratimas būtų vertingas ne tik verčiant, bet ir užtikrinant, kad žinutė veiksmingai atsilieptų rėmėjams.\n\nLaišką sudaro kelios dalys, kurių kiekviena turi kelis variantus. Rėmėjai gaus atsitiktine tvarka surinktus variantus, kad kuo labiau įsitrauktų ir gavėjai jų neatmestų.\n\nKai tik priimsite kvietimą, galėsite susipažinti su laišku [čia]({{location}}). **Nepamirškite išsaugoti, kai padarysite pakeitimus!**\n\nAtlikę savo įnašus, praneškite mums ir koordinatoriui, kad galėtume įdiegti atnaujinimus.\n\nVertiname jūsų laiką ir žinias - tai bendros pastangos siekiant sustiprinti kampanijos poveikį.\n\n**Dėl saugumo jūsų kvietimo prieigos nuoroda nustos galioti po 24 valandų**.",
+        "translatorTitle": "Kvietimas prisijungti prie {{org}} kaip vertėjui"
+    },
+    "step": {
+        "configure_org": "Jūsų organizacija",
+        "done": "Paimkite savo valdiklį",
+        "create_org": "Sukurkite savo organizaciją",
+        "join_campaign": "Prisijunkite prie kampanijos",
+        "login": "Jūsų paskyra",
+        "verify": "Patikrinkite savo el. pašto adresą"
+    },
+    "Customise": "Pritaikykite",
+    "mineOnly": "tik iš mano organizacijos",
+    "You can register an new organisation to join the coalition": "Galite užregistruoti naują organizaciją ir prisijungti prie koalicijos",
+    "join": {
+        "goal": "Kiek žmonių, kaip tikitės, imsis veiksmų naudodamiesi jūsų svetaine?",
+        "goalHelper": "Šį spėjimą matys tik koordinatorius... ir mes žinome, kad tai sunku įvertinti.",
+        "requestHelper": "padėti mums planuoti šią kampaniją",
+        "request": "Ar planuojate specialius laiškus savo rėmėjams? Ar taip pat planuojate veiklą socialinėje žiniasklaidoje, įskaitant mokamą reklamą?"
+    },
+    "cancel": "Atšaukti",
+    "close": "Uždaryti",
+    "delete": "Ištrinti",
+    "edit": "Redaguoti",
+    "save": "Išsaugoti",
+    "Show": "Rodyti",
+    "send": "Siųsti",
+    "Used to fill the details of your organisation": "Naudojamas jūsų organizacijos duomenims užpildyti",
+    "You can update your organisation's details": "Galite atnaujinti savo organizacijos duomenis",
+    "Stats": "Statistika",
+    "supporters": "Rėmėjai",
+    "Switch to fill the details manually": "Perjungti, kad duomenis užpildytumėte rankiniu būdu",
+    "unusedOnly": "tik nenaudojami valdikliai",
+    "Used to pre-fill name, description and logo of your organisation": "Naudojama iš anksto užpildyti organizacijos pavadinimą, aprašymą ir logotipą.",
+    "widget": {
+        "edit_icon": "Nustatymai {{id}}",
+        "stats_icon": "Statistika {{id}}",
+        "lang": "Valdiklio kalba",
+        "shareable": "Dalijama nuoroda",
+        "test": "Valdiklis yra bandymo režimu"
+    },
+    "csv": "CSV",
+    "externalPartner": "tik išorės partneriai",
+    "Fields": "Laukai",
+    "format": "Formatas",
+    "json": "JSON",
+    "View your widget for {{org}}": "Peržiūrėkite savo valdiklį {{org}}"
+}
