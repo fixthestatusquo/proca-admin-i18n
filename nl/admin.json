@@ -1,1 +1,167 @@
-{}
+{
+    "action": {
+        "register": "Registreer",
+        "twitter_click": "Tweet naar doel",
+        "mail2target": "Mail naar doel",
+        "share": "Delen op sociale media"
+    },
+    "externalPartner": "alleen externe partners",
+    "unusedOnly": "alleen ongebruikte widgets",
+    "onboarding": {
+        "maillingHelper": "Door dit formulier te verzenden, ga ik ermee akkoord dat ik word toegevoegd aan de {{campaign}} mailinglijst. Ik kan me te allen tijde uitschrijven.",
+        "organisation": {
+            "crm": "Welke CRM-software gebruik je?",
+            "networkHelper": "Alle organisaties zijn welkom!",
+            "collectsEmail": "Heb je geen nieuwsbrief en wil je geen e-mailadressen verzamelen? (Je kunt deze functie zelf verbergen op je website) Vink dit vakje aan:",
+            "sectionTitle": "Organisatie",
+            "another": "Selecteer een andere organisatie",
+            "collectsEmailHelper": "Ik heb geen nieuwsbrief. Ik weet zeker dat ik geen nieuwsbriefvinkje wil dat e-mailadressen verzamelt die we achteraf kunnen gebruiken.",
+            "logged_in": "Je bent ingelogd onder <b>{{orgName}}</b> organisatie account",
+            "network": "Mijn organisatie maakt deel uit van overkoepelende organisatie...",
+            "doubleOptIn": "Mijn supporters moeten zich dubbel aanmelden om de nieuwsbrief te ontvangen",
+            "organisationHelper": "Van welk deel van de familie ben jij? Alle organisaties zijn welkom!",
+            "remarks": "Heb je nog opmerkingen over het hulpmiddel?"
+        },
+        "embargo": "Embargo",
+        "mailling": "Mailinglijst",
+        "user": {
+            "phoneNumber": "Uw telefoonnummer",
+            "sectionTitle": "Uw contactgegevens",
+            "socialAccount": "Uw sociale media",
+            "emailAddress": "Uw e-mailadres",
+            "country": "Uw land",
+            "jobTitle": "Functie",
+            "name": "Uw naam",
+            "phoneNumberHelper": "Inclusief landcode",
+            "socialAccountHelper": "Op Twitter/Instagram/Linkedin"
+        },
+        "embargoHelper": "Ik erken dat het campagnemateriaal tot nader order strikt onder embargo is. Ik ga ermee akkoord dat ik deze materialen NIET DEEL met iemand buiten mijn organisatie.",
+        "thanks": "Bedankt voor je deelname aan deze campagne",
+        "title": "Ben je een organisatie of sociale beweging die deze campagne op je site wil zetten?",
+        "verify": "Uw e-mailadres is nog niet geverifieerd. Controleer uw e-mail en klik op de bevestigingslink om verder te gaan.",
+        "warning": {
+            "is_coordinator": "Je kunt niet deelnemen aan een campagne onder **{{org}}**'s account, het is de coördinator van de **{{campaign}}**.",
+            "is_member": "Je bent lid van de organisatie **{{org}}** die deze campagne voert!"
+        },
+        "welcome": "Welkom bij het partnergebied voor deze campagne, gecoördineerd door {{coordinator}}",
+        "done": "Je ontvangt een bevestigingsbericht per e-mail. Je kunt al een testversie van de <1>widget op je website insluiten</1>.",
+        "intro": "Om onze impact te vergroten, hebben we een brede coalitie nodig en we hebben geprobeerd het zo eenvoudig mogelijk te maken om je erbij aan te sluiten.",
+        "login": "Registreer je als gebruiker of log in met je social media gegevens of je e-mailadres. Het is je persoonlijke account, na je registratie kun je je organisatie instellen."
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "csv_help": "CSV is het standaardformaat. Gebruik dit tenzij je specifiek JSON nodig hebt.",
+        "exporting": "Exporteren",
+        "keyLabel": "Ontcijferingssleutels laden",
+        "campaignLabel": "Campagne voor export",
+        "errorIncomplete": "Er is een fout opgetreden, CSV-gegevens onvolledig.",
+        "errorPermission": "U hebt geen toestemming om gegevens voor deze organisatie te exporteren.",
+        "exportingWithCount": "Exporteren {{count}}...",
+        "exportingWithErrors": "(geen toets voor {{count}} acties)",
+        "exportLabel": "Exporteer",
+        "exportType": {
+            "activities": "Activiteiten",
+            "activities_help": "Exporteert acties van gebruikers, zoals ondertekenen, delen, enz.",
+            "contacts": "Contacten",
+            "contacts_help": "Exporteert alleen contactgegevens."
+        },
+        "gdpr": {
+            "double_opt_in": "Dubbele opt-in",
+            "double_opt_in_help": "Supporters die hun deelname hebben bevestigd via de URL voor bevestiging per e-mail",
+            "opt_in": "Aanmelden",
+            "opt_in_help": "Supporters die opt-on hebben gekozen op een widget ('Ja, ik wil e-mails ontvangen' keuzerondje)",
+            "opt_out": "Opt-out",
+            "opt_out_help": "Supporters die geen nieuwsbrief willen ontvangen ('Nee, ik wil geen e-mails ontvangen' keuzerondje op de widget of opt-out URL in de e-mail.",
+            "opt_out_required": "*Geef aan dat u zich bewust bent van de gevolgen",
+            "opt_out_warning": "Ik ben me ervan bewust dat het illegaal is om contact op te nemen met gebruikers die niet expliciet toestemming hebben gegeven, tenzij er zeer beperkte uitzonderingen zijn."
+        },
+        "json_help": "JSON-indeling voor geavanceerde integraties.",
+        "key_help": "Als uw gegevens gecodeerd zijn, laadt u de coderingssleutel voordat u ze exporteert.",
+        "title": "Gegevens van leden exporteren",
+        "campaignDefault": "Alle campagnes"
+    },
+    "invite": {
+        "messageLabel": "Persoonlijk bericht voor de genodigde",
+        "roles": {
+            "campaigner": {
+                "label": "Actievoerder",
+                "description": "Kan acties, supporters en campagnegegevens bekijken en beheren. Kan geen organisatie-instellingen wijzigen of gegevens exporteren."
+            },
+            "owner": {
+                "label": "Eigenaar",
+                "description": "Volledige administratieve toegang. Kan alles beheren, inclusief instellingen, campagnes, export en codering."
+            },
+            "coordinator": {
+                "description": "Kan supportergegevens bekijken, maar kan geen campagnes aanmaken, instellingen beheren of gegevens exporteren.",
+                "label": "Coördinator"
+            },
+            "translator": {
+                "description": "Campagnetekst bewerken",
+                "label": "Vertaler"
+            }
+        },
+        "default": "Je wordt uitgenodigd om lid te worden van het {{org}} account op het Fix the Status Quo dashboard.\n\nDeze uitnodiging is de komende 24 uur geldig. Accepteer hem zo snel mogelijk.\n\nWe zijn blij dat je meedoet!",
+        "subject": "Uitnodiging voor {{org}} op het Fix the Status Quo dashboard",
+        "emailHelper": "We sturen je een e-mail met een link om je meteen aan te melden.",
+        "required": "E-mailadres is vereist",
+        "roleLabel": "Selecteer auth-niveau",
+        "another": "Nodig een ander teamlid uit",
+        "copied": "Gekopieerd!",
+        "copy": "URL uitnodiging kopiëren",
+        "sent": "Uitnodiging verstuurd naar {{email}}",
+        "sentInstructions": "Je kunt de link hieronder ook direct delen:",
+        "title": "Uitnodigen {{org}}",
+        "tooltip": "Opmerking: alleen 'eigenaar' kan de supportersgegevens exporteren.",
+        "translator": "Hoi,\n\nWe willen je uitnodigen om mee te werken aan het vertalen en verfijnen van een campagnebrief voor jouw land. Jouw kennis van de lokale politieke context zou waardevol zijn - niet alleen bij het vertalen, maar ook om ervoor te zorgen dat de boodschap effectief overkomt bij de achterban.\n\nDe brief bestaat uit meerdere delen, elk met verschillende varianten. Supporters zullen willekeurig samengestelde versies ontvangen om de betrokkenheid te maximaliseren en te voorkomen dat ze door de ontvangers worden afgewezen.\n\nZodra je de uitnodiging hebt geaccepteerd, krijg je toegang tot de brief [hier]({{location}}). **Niet vergeten op te slaan nadat je je wijzigingen hebt aangebracht!**\n\nZodra je bijdragen compleet zijn, laat het ons en de coördinator weten zodat we de updates kunnen implementeren.\n\nWe waarderen je tijd en expertise - dit is een gezamenlijke inspanning om de impact van de campagne te versterken.\n\n**Voor de veiligheid verloopt de toegangslink van uw uitnodiging over 24 uur.**",
+        "translatorTitle": "Uitnodiging voor {{org}} als vertaler"
+    },
+    "Required": "Vereist",
+    "Show": "Toon",
+    "Twitter Account": "Twitter-account",
+    "View your widget for {{org}}": "Bekijk je widget voor {{org}}",
+    "join": {
+        "goal": "Hoeveel mensen verwacht je dat actie zullen ondernemen via je website?",
+        "requestHelper": "om ons te helpen deze campagne te plannen",
+        "goalHelper": "Deze gok wordt alleen gezien door de coördinator... en we weten dat het moeilijk is om in te schatten",
+        "request": "Plan je een speciale mailing naar je achterban? Plan je ook sociale media-activiteiten, inclusief betaalde advertenties?"
+    },
+    "step": {
+        "done": "Neem je widget",
+        "join_campaign": "Doe mee met de campagne",
+        "configure_org": "Uw organisatie",
+        "create_org": "Creëer je organisatie",
+        "login": "Uw account",
+        "verify": "Controleer uw e-mail"
+    },
+    "cancel": "Annuleren",
+    "close": "Sluit",
+    "save": "Sla",
+    "delete": "Verwijder",
+    "Used to fill the details of your organisation": "Gebruikt om de gegevens van uw organisatie in te vullen",
+    "Used to pre-fill name, description and logo of your organisation": "Wordt gebruikt om naam, beschrijving en logo van je organisatie in te vullen",
+    "createOrg": {
+        "intro": "Het snelst is om te beginnen met het twitteraccount van je organisatie (als je er meerdere hebt, kies er dan één).",
+        "manual": "Overschakelen om de gegevens handmatig in te vullen",
+        "noTwitter": "Mijn organisatie zit niet op twitter"
+    },
+    "edit": "Bewerk",
+    "send": "Stuur",
+    "Stats": "Stats",
+    "supporters": "Supporters",
+    "You can register an new organisation to join the coalition": "Je kunt een nieuwe organisatie registreren om lid te worden van de coalitie",
+    "You can update your organisation's details": "U kunt de gegevens van uw organisatie bijwerken",
+    "widget": {
+        "edit_icon": "Instellingen voor {{id}}",
+        "stats_icon": "Statistieken voor {{id}}",
+        "lang": "Taal van de widget",
+        "shareable": "Deelbare link",
+        "test": "Widget staat in de testmodus"
+    },
+    "csv": "CSV",
+    "Customise": "aanpassen",
+    "Fields": "Velden",
+    "format": "Formaat",
+    "json": "JSON",
+    "mineOnly": "alleen van mijn organisatie",
+    "Switch to fill the details manually": "Overschakelen om de gegevens handmatig in te vullen"
+}
