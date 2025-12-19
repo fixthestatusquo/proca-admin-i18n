@@ -69,8 +69,8 @@
     "Used to fill the details of your organisation": "Utilisé pour remplir les détails de votre organisation",
     "Switch to fill the details manually": "Commencez à remplir les détails manuellement",
     "invite": {
-        "message": "Hé, nous avons besoin de **vous** pour cette campagne, pourriez-vous nous rejoindre ?",
-        "default": "Vous êtes invité à rejoindre le compte {{org}} sur le tableau de bord \"Fix the Status Quo\".\n\nCette invitation sera valable pendant les prochaines 24 heures. Veuillez l'accepter dès que possible.\n\nNous sommes ravis de vous compter parmi nous !",
+        "message": "Bonjour, nous avons besoin de **vous** pour cette campagne, pourriez-vous nous rejoindre ?",
+        "default": "Tu es invité.e à rejoindre le compte {{org}} sur le tableau de bord \"Fix the Status Quo\".\n\nCette invitation sera valable pendant les prochaines 24 heures. Merci de l'accepter dès que possible.\n\nNous sommes ravis de te compter parmi nous !",
         "another": "Inviter un autre membre de l'équipe",
         "roles": {
             "owner": {
