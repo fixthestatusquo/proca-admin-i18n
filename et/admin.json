@@ -22,5 +22,148 @@
     "My organisation isn't on Twitter": "Minu organisatsioon ei ole Twitteris",
     "My organisation isn't on twitter": "Minu organisatsioon ei ole Twitteris",
     "Required": "Nõutav",
-    "Show": "Näita"
+    "Show": "Näita",
+    "join": {
+        "goalHelper": "Seda arvamist näeb ainult koordinaator... ja me teame, et seda on raske hinnata",
+        "request": "Kas te plaanite oma toetajatele spetsiaalset postitust? Kas te plaanite ka sotsiaalmeedia tegevusi, sealhulgas tasulist reklaami?",
+        "goal": "Kui palju inimesi eeldate, et teie veebisaidi kaudu tegutsevad?",
+        "requestHelper": "et aidata meil seda kampaaniat planeerida"
+    },
+    "onboarding": {
+        "maillingHelper": "Käesoleva vormi esitamisega nõustun, et mind lisatakse {{campaign}} postiloendisse. Võin igal ajal loobuda tellimusest.",
+        "verify": "Teie e-posti aadressi ei ole veel kontrollitud. Palun kontrollige oma e-kirja ja jätkamiseks klõpsake kinnituse lingil.",
+        "organisation": {
+            "logged_in": "Olete sisse logitud aadressil <b>{{orgName}}</b> organisatsioonikonto",
+            "doubleOptIn": "Minu toetajad peavad uudiskirja saamiseks kaks korda sisse logima.",
+            "network": "Minu organisatsioon on osa katusorganisatsioonist...",
+            "networkHelper": "Ootame kõiki organisatsioone!",
+            "crm": "Millist CRM-tarkvara te kasutate?",
+            "remarks": "Kas soovid meile öelda mingeid kommentaare tööriista kohta?",
+            "another": "Valige teine organisatsioon",
+            "collectsEmail": "Teil ei ole uudiskirja ja te ei soovi koguda e-posti aadresse? (Saate selle funktsiooni ise oma veebisaidil ära peita) Märkige see ruut:",
+            "organisationHelper": "Millisest perekonnaosast te olete? Ootame kõiki organisatsioone!",
+            "sectionTitle": "Organisatsioon",
+            "collectsEmailHelper": "Mul ei ole uudiskirja. Ma olen kindel, et ma ei taha uudiskirja ruudukest, mis kogub meiliaadresse, mida me saame hiljem kasutada."
+        },
+        "title": "Kas olete organisatsioon või ühiskondlik liikumine, kes soovib seda kampaaniat oma veebilehele lisada?",
+        "user": {
+            "socialAccountHelper": "Twitteris/Instagramis/Linkedinis",
+            "emailAddress": "Teie e-posti aadress",
+            "country": "Teie riik",
+            "jobTitle": "Töö nimetus",
+            "name": "Teie nimi",
+            "phoneNumber": "Teie telefoninumber",
+            "phoneNumberHelper": "Kaasa arvatud riigikood",
+            "sectionTitle": "Teie kontaktandmed",
+            "socialAccount": "Teie sotsiaalmeedia"
+        },
+        "warning": {
+            "is_coordinator": "Sa ei saa liituda kampaaniaga **{{org}}** konto all, see on **{{campaign}}** koordinaator.",
+            "is_member": "Te olete selle kampaania korraldava organisatsiooni **{{org}}** liige!"
+        },
+        "mailling": "Postiloend",
+        "done": "Saate e-posti teel kinnituse. Saate juba oma veebisaidil <1>laiendi testversiooni </1> sisse põimida.",
+        "embargoHelper": "Tunnistan, et kampaaniamaterjalid on kuni edasise teatamiseni rangelt keelatud. Nõustun, et ma EI JAGA neid materjale kellelegi väljaspool minu organisatsiooni.",
+        "intro": "Et suurendada meie mõju, vajame laiaulatuslikku koalitsiooni ja me püüdsime teha selle nii lihtsaks kui võimalik, et te saaksite sellega liituda.",
+        "welcome": "Tere tulemast selle kampaania partnerite piirkonda, mida koordineerib {{coordinator}}",
+        "thanks": "Täname teid selle kampaaniaga liitumise eest",
+        "embargo": "Embargo",
+        "login": "Registreerige end kasutajaks või logige sisse oma sotsiaalmeedia kasutajatunnustega või oma e-posti aadressiga. Tegemist on teie isikliku kontoga, pärast registreerimist saate luua oma organisatsiooni."
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "double_opt_in": "Topelt sisselogimine",
+            "double_opt_in_help": "Toetajad, kes kinnitasid oma osalemist e-posti teel kinnituse URLi kaudu",
+            "opt_out": "Loobumine",
+            "opt_out_help": "Toetajad, kes ei soovi uudiskirja saada (\"Ei, ma ei soovi saada e-kirju\" raadionupp vidina või loobumis-URL e-kirjas.",
+            "opt_in": "Valige sisse",
+            "opt_in_help": "Toetajad, kes valisid opt-on vidina (\"Jah, ma tahan saada e-kirju\" raadionupp).",
+            "opt_out_required": "*Palun märkige, et olete teadlik tagajärgedest.",
+            "opt_out_warning": "Olen teadlik, et on ebaseaduslik võtta ühendust kasutajatega, kes ei ole andnud selgesõnaliselt nõusolekut, välja arvatud väga piiratud erandite puhul."
+        },
+        "keyLabel": "Laadige dekrüpteerimisvõtmeid",
+        "csv_help": "CSV on standardne vorming. Kasutage seda, kui te ei vaja konkreetselt JSONi.",
+        "errorIncomplete": "Tekkis viga, CSV andmed on mittetäielikud.",
+        "errorPermission": "Teil ei ole luba selle organisatsiooni andmete eksportimiseks.",
+        "exporting": "Eksportimine",
+        "exportingWithCount": "Eksportimine {{count}}...",
+        "exportingWithErrors": "(puudub võti {{count}} toimingute jaoks)",
+        "exportLabel": "Eksport",
+        "exportType": {
+            "activities": "Tegevused",
+            "activities_help": "Ekspordib kasutajate tehtud toimingud, näiteks allkirjastamine, jagamine jne.",
+            "contacts": "Kontaktid",
+            "contacts_help": "Ekspordib ainult kontaktandmeid."
+        },
+        "json_help": "JSON-vorming täiustatud integratsioonide jaoks.",
+        "key_help": "Kui teie andmed on krüpteeritud, laadige krüpteerimisvõti enne eksportimist.",
+        "title": "Liikmeandmete eksportimine",
+        "campaignDefault": "Kõik kampaaniad",
+        "campaignLabel": "Ekspordikampaania"
+    },
+    "invite": {
+        "title": "Kutsu liituma {{org}}",
+        "subject": "Kutse liituda {{org}} armatuurlaual Fix the Status Quo",
+        "emailHelper": "Saadame teile kohe kutse e-kirja koos lingiga, mille kaudu saate liituda.",
+        "required": "Vajalik on e-posti aadress",
+        "copy": "Kopeeri kutse URL",
+        "sentInstructions": "Võite jagada ka otse allolevat linki:",
+        "roles": {
+            "owner": {
+                "description": "Täielik haldusjuurdepääs. Saab hallata kõike, sealhulgas seadeid, kampaaniaid, eksporti ja krüpteerimist.",
+                "label": "Omanik"
+            },
+            "campaigner": {
+                "description": "Saab vaadata ja hallata tegevusi, toetajaid ja kampaaniaandmeid. Ei saa muuta organisatsiooni seadeid ega eksportida andmeid.",
+                "label": "Kampaania korraldaja"
+            },
+            "translator": {
+                "label": "Tõlkija",
+                "description": "Kampaania teksti muutmine"
+            },
+            "coordinator": {
+                "label": "Koordinaator",
+                "description": "Saab vaadata toetajate andmeid, kuid ei saa luua kampaaniaid, hallata seadeid ega eksportida andmeid."
+            }
+        },
+        "another": "Kutsuge teine meeskonnaliige",
+        "copied": "Kopeeritud!",
+        "default": "Teid kutsutakse liituma {{org}} kontoga Fix the Status Quo armatuurlaual.\n\nSee kutse kehtib järgmised 24 tundi. Palun võtke see võimalikult kiiresti vastu.\n\nMe oleme põnevil, et sa osaled!",
+        "messageLabel": "Isiklik sõnum kutsutule",
+        "roleLabel": "Valige autoriseerimistase",
+        "sent": "Kutse saadetakse aadressil {{email}}",
+        "tooltip": "Märkus: Ainult \"omanik\" saab eksportida toetajate andmeid.",
+        "translator": "Tere,\n\nMe pöördume teie poole, et kutsuda teid üles tegema koostööd teie riigi jaoks mõeldud kampaaniakirja tõlkimisel ja täiustamisel. Teie arusaam kohalikust poliitilisest kontekstist oleks väärtuslik - mitte ainult tõlkimisel, vaid ka selle tagamisel, et sõnum jõuab tõhusalt toetajateni.\n\nKiri koosneb mitmest osast, millest igaühes on mitu varianti. Toetajad saavad juhuslikult kokku pandud versioonid, et maksimeerida kaasamist ja vältida vastuvõtjate poolt kõrvalejätmist.\n\nNiipea, kui olete kutse vastu võtnud, saate juurdepääsu kirjale [siin]({{location}}). **Mitte unustage pärast muudatuste tegemist salvestada!\n\nKui teie panus on valmis, teavitage meid ja koordinaatorit, et me saaksime uuendused kasutusele võtta.\n\nMe hindame teie aega ja teadmisi - see on ühine jõupingutus kampaania mõju tugevdamiseks.\n\n**Turvalisuse huvides lõpeb teie kutse juurdepääsulink 24 tunni pärast.**",
+        "translatorTitle": "Kutsu tõlkijana liituma {{org}}"
+    },
+    "createOrg": {
+        "intro": "Kõige kiirem on alustada oma organisatsiooni twitteri kontoga (kui teil on mitu, valige üks).",
+        "manual": "Vahetage üksikasjade käsitsi täitmine",
+        "noTwitter": "Minu organisatsioon ei ole twitteris"
+    },
+    "step": {
+        "create_org": "Looge oma organisatsioon",
+        "done": "Võtke oma vidin",
+        "login": "Teie konto",
+        "configure_org": "Teie organisatsioon",
+        "join_campaign": "Liitu kampaaniaga",
+        "verify": "Kontrollida oma e-posti aadressi"
+    },
+    "Twitter Account": "Twitteri konto",
+    "Used to fill the details of your organisation": "Kasutatakse teie organisatsiooni andmete täitmiseks",
+    "Used to pre-fill name, description and logo of your organisation": "Kasutatakse teie organisatsiooni nime, kirjelduse ja logo eeltäitmiseks.",
+    "You can register an new organisation to join the coalition": "Saate registreerida uue organisatsiooni, et ühineda koalitsiooniga.",
+    "Stats": "Statistika",
+    "supporters": "Toetajad",
+    "Switch to fill the details manually": "Vahetage üksikasjade käsitsi täitmine",
+    "View your widget for {{org}}": "Vaadake oma vidinat {{org}}",
+    "You can update your organisation's details": "Saate oma organisatsiooni andmeid ajakohastada",
+    "widget": {
+        "edit_icon": "Seadistused {{id}}",
+        "stats_icon": "Statistika {{id}}",
+        "lang": "Vidina keel",
+        "shareable": "Jagatav link",
+        "test": "Vidin on testrežiimis"
+    }
 }
