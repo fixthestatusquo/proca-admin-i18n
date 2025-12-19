@@ -1,1 +1,86 @@
-{}
+{
+    "join": {
+        "request": "¿Planeas enviar correos electrónicos dedicados a tus seguidores? También ¿está planificando actividades en las redes sociales, incluida la publicidad pagada?",
+        "goal": "¿Cuántas personas crees que están interactuando con tu página web?",
+        "goalHelper": "Esta suposición solo la verá el coordinador... y sabemos que es difícil de estimar",
+        "requestHelper": "ayúdenos a planificar esta campaña"
+    },
+    "action": {
+        "share": "Compartir en las redes sociales",
+        "twitter_click": "Tuit a destinatario",
+        "mail2target": "Correo al destinatario",
+        "register": "Registrar"
+    },
+    "Required": "Obligatorio",
+    "Switch to fill the details manually": "Cambiar para rellenar los datos manualmente",
+    "Used to pre-fill name, description and logo of your organisation": "Sirve para rellenar previamente el nombre, la descripción y el logotipo de su organización",
+    "onboarding": {
+        "done": "Recibirás un mensaje de confirmación por correo electrónico. Ya puede incrustar una versión de prueba del <1>widget en su pàgina web</1>",
+        "embargoHelper": "Reconozco que los materiales de la campaña están estrictamente embargados hasta nuevo aviso. Me comprometo a NO COMPARTIR estos materiales con nadie ajeno a mi organización.",
+        "intro": "Para aumentar nuestro impacto, necesitamos una coalición amplia y tratamos de hacerlo lo más simple posible para que usted se una a ella.",
+        "embargo": "Embargo",
+        "maillingHelper": "Al enviar este formulario, acepto ser añadido a la lista de correo de {{campaign}} . Puedo cancelar mi suscripción en cualquier momento.",
+        "organisation": {
+            "remarks": "¿Tiene algún comentario sobre la herramienta que le gustaría compartir con nosotros?",
+            "collectsEmail": "¿No tienes un boletín de noticias y no quieres recoger direcciones de correo electrónico? (Usted será capaz de ocultar esta característica en su sitio web) Marque esta casilla:",
+            "collectsEmailHelper": "No tengo un boletín. Estoy seguro de que no quiero una casilla de verificación del boletín que recoja las direcciones de correo electrónico que podemos usar después.",
+            "network": "Mi organización forma parte de...",
+            "organisationHelper": "¿De qué rama eres? ¡Damos la bienvenida a todas las organizaciones!",
+            "crm": "¿Qué software de CRM está utilizando?",
+            "sectionTitle": "Organización",
+            "doubleOptIn": "Mis seguidores necesitan suscribirse dos veces para recibir el boletín",
+            "networkHelper": "¡Damos la bienvenida a todas las organizaciones!"
+        },
+        "user": {
+            "phoneNumberHelper": "Incluyendo el código postal",
+            "socialAccountHelper": "En X/Instagram/Linkedin",
+            "jobTitle": "Título profesional",
+            "sectionTitle": "Tu información de contacto",
+            "country": "Tu país",
+            "emailAddress": "Tu correo electrónico",
+            "name": "Tu nombre",
+            "phoneNumber": "Tu número de teléfono",
+            "socialAccount": "Tus redes sociales"
+        },
+        "thanks": "Gracias por sumarte a esta campaña",
+        "warning": {
+            "is_partner": "👋 ¡Eh, para! ¡Ya eres socio de esta campaña! ¡No tiene sentido que te unas de nuevo!"
+        },
+        "login": "Regístrate como usuario o inicia sesión utilizando tus datos de acceso a la red social o tu dirección de correo electrónico. Es tu cuenta personal. Puede configurar su organización después del registro.",
+        "mailling": "Lista de correo",
+        "verify": "Tu correo electrónico aún no está verificado. Compruebe su correo electrónico y haga clic en el enlace de confirmación para continuar.",
+        "welcome": "Bienvenido a la zona de socios de esta campaña coordinada por {{coordinator}}",
+        "title": "¿Eres una organización o movimiento social que te gustaría publicar esta campaña en tu página web?"
+    },
+    "mineOnly": "únicamente de mi organización",
+    "My organisation isn't on Twitter": "Mi organización no está en Twitter",
+    "My organisation isn't on twitter": "Mi organización no tiene twitter",
+    "Twitter Account": "Cuenta en Twitter",
+    "You can update your organisation's details": "Puede actualizar los datos de su organización",
+    "externalPartner": "solo socios externos",
+    "Customise": "Personalizar",
+    "Fields": "Campos",
+    "Show": "Mostrar",
+    "Used to fill the details of your organisation": "Se utiliza para rellenar los datos de su organización",
+    "View your widget for {{org}}": "Mostrar su widget para {{org}}",
+    "createOrg": {
+        "manual": "Cambiar a rellenar los datos manualmente",
+        "intro": "Lo más rápido es empezar por la cuenta de twitter de tu organización (si tienes varias, elige una)"
+    },
+    "You are registered for {{campaign}}": "Estás registrado en {{campaign}}",
+    "invite": {
+        "message": "Oye, **te necesitamos** para esta campaña, ¿podrías unirte?"
+    },
+    "unusedOnly": "sólo widgets sin usar",
+    "You are also a member of {{org}}": "👋 ¡Eh, para! ¡Eres el empleado de {{org}}, que dirige esta campaña! ¡No puedes unirte a ella como socio!",
+    "You are one of the coordinators of that campaign": "Eres uno de los coordinadores de esa campaña",
+    "You can register an new organisation to join the coalition": "Puede registrar una nueva organización para que se una a la coalición",
+    "step": {
+        "done": "Toma tu widget",
+        "join_campaign": "Únete a la campaña",
+        "login": "Tu cuenta",
+        "verify": "Verifica tu correo electrónico",
+        "configure_org": "Tu organización",
+        "create_org": "Crea tu organización"
+    }
+}
