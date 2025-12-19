@@ -1,1 +1,167 @@
-{}
+{
+    "onboarding": {
+        "embargo": "Lệnh cấm vận",
+        "mailling": "Danh sách gửi thư",
+        "thanks": "Cảm ơn bạn đã tham gia chiến dịch này.",
+        "intro": "Để tăng cường tác động của chúng ta, chúng ta cần một liên minh rộng lớn và chúng ta đã cố gắng làm cho việc tham gia vào liên minh này trở nên đơn giản nhất có thể.",
+        "organisation": {
+            "remarks": "Bạn có ý kiến gì về công cụ này muốn chia sẻ với chúng tôi không?",
+            "sectionTitle": "Tổ chức",
+            "another": "Chọn một tổ chức khác",
+            "logged_in": "Bạn đã đăng nhập bằng tài khoản tổ chức <b>{{orgName}}</b> .",
+            "crm": "Bạn đang sử dụng phần mềm CRM nào?",
+            "doubleOptIn": "Người ủng hộ của tôi cần phải xác nhận hai lần để nhận bản tin.",
+            "organisationHelper": "Bạn thuộc nhánh nào trong gia đình? Chúng tôi chào đón tất cả các tổ chức!",
+            "collectsEmail": "Bạn không có bản tin và không muốn thu thập địa chỉ email? (Bạn có thể ẩn tính năng này trên trang web của mình) Tích vào ô này:",
+            "collectsEmailHelper": "Tôi không có bản tin. Tôi chắc chắn không muốn có ô tick-box cho bản tin để thu thập địa chỉ email mà chúng ta có thể sử dụng sau này.",
+            "network": "Tổ chức của tôi là một phần của tổ chức mẹ...",
+            "networkHelper": "Chúng tôi chào đón tất cả các tổ chức!"
+        },
+        "user": {
+            "name": "Tên của bạn",
+            "phoneNumber": "Số điện thoại của bạn",
+            "phoneNumberHelper": "Bao gồm mã quốc gia",
+            "socialAccountHelper": "Trên Twitter/Instagram/LinkedIn",
+            "country": "Quốc gia của bạn",
+            "emailAddress": "Địa chỉ email của bạn",
+            "jobTitle": "Chức danh công việc",
+            "sectionTitle": "Thông tin liên hệ của bạn",
+            "socialAccount": "Mạng xã hội của bạn"
+        },
+        "verify": "Email của bạn chưa được xác minh. Vui lòng kiểm tra email của bạn và nhấp vào liên kết xác minh để tiếp tục.",
+        "title": "Bạn là tổ chức hoặc phong trào xã hội muốn thêm chiến dịch này vào trang web của mình?",
+        "warning": {
+            "is_coordinator": "Bạn không thể tham gia chiến dịch dưới tài khoản của **{{org}}**, đây là tài khoản của người điều phối chiến dịch **{{campaign}}**.",
+            "is_member": "Bạn là thành viên của tổ chức **{{org}}** đang tổ chức chiến dịch này!"
+        },
+        "welcome": "Chào mừng đến với khu vực dành cho đối tác của chiến dịch này do [tên tổ chức/đơn vị] điều phối. {{coordinator}}",
+        "done": "Bạn sẽ nhận được một thông báo xác nhận qua email. Bạn có thể nhúng phiên bản thử nghiệm của widget &lt;1&gt; trên trang web của mình&lt;/1&gt;",
+        "embargoHelper": "Tôi xác nhận rằng các tài liệu chiến dịch được bảo mật tuyệt đối cho đến khi có thông báo mới. Tôi đồng ý KHÔNG CHIA SẺ các tài liệu này với bất kỳ ai bên ngoài tổ chức của tôi.",
+        "login": "Đăng ký tài khoản người dùng hoặc đăng nhập bằng thông tin tài khoản mạng xã hội hoặc email của bạn. Đây là tài khoản cá nhân của bạn, bạn có thể thiết lập tổ chức của mình sau khi đăng ký.",
+        "maillingHelper": "Bằng cách gửi biểu mẫu này, tôi đồng ý được thêm vào danh sách gửi thư của {{campaign}}. Tôi có thể hủy đăng ký bất cứ lúc nào."
+    },
+    "Required": "Yêu cầu",
+    "Show": "Hiển thị",
+    "Used to fill the details of your organisation": "Dùng để điền thông tin chi tiết về tổ chức của bạn.",
+    "export": {
+        "errorIncomplete": "Đã xảy ra lỗi, dữ liệu CSV không đầy đủ.",
+        "gdpr": {
+            "double_opt_in": "Xác nhận hai bước",
+            "double_opt_in_help": "Những người ủng hộ đã xác nhận sự tham gia của mình thông qua liên kết xác nhận qua email.",
+            "opt_in": "Đăng ký tham gia",
+            "opt_out": "Từ chối tham gia",
+            "opt_out_help": "Người ủng hộ không muốn nhận bản tin (nút radio \"Không, tôi không muốn nhận email\" trên widget hoặc liên kết hủy đăng ký trong email).",
+            "opt_out_required": "*Vui lòng xác nhận rằng bạn đã hiểu rõ về các hậu quả.",
+            "opt_in_help": "Người ủng hộ đã chọn tùy chọn \"Đồng ý\" trên widget (nút radio \"Có, tôi muốn nhận email\")",
+            "opt_out_warning": "Tôi biết rằng việc liên hệ với người dùng mà không có sự đồng ý rõ ràng của họ là vi phạm pháp luật, trừ khi có những trường hợp ngoại lệ rất hạn chế."
+        },
+        "gdprLabel": "Quy định chung về bảo vệ dữ liệu (GDPR)",
+        "exportLabel": "Xuất khẩu",
+        "exportType": {
+            "activities": "Hoạt động",
+            "activities_help": "Xuất các hành động mà người dùng thực hiện, chẳng hạn như ký tên, chia sẻ, v.v.",
+            "contacts": "Liên hệ",
+            "contacts_help": "Chỉ xuất thông tin liên hệ."
+        },
+        "errorPermission": "Bạn không có quyền xuất dữ liệu cho tổ chức này.",
+        "exporting": "Xuất khẩu",
+        "campaignLabel": "Chiến dịch xuất khẩu",
+        "csv_help": "CSV là định dạng tiêu chuẩn. Sử dụng định dạng này trừ khi bạn cần cụ thể định dạng JSON.",
+        "exportingWithCount": "Xuất khẩu {{count}}...",
+        "exportingWithErrors": "(Không có khóa cho các hành động \" {{count}} \")",
+        "json_help": "Định dạng JSON cho các tích hợp nâng cao.",
+        "key_help": "Nếu dữ liệu của bạn được mã hóa, hãy tải khóa mã hóa trước khi xuất.",
+        "keyLabel": "Tải các khóa giải mã",
+        "title": "Xuất dữ liệu thành viên",
+        "campaignDefault": "Tất cả các chiến dịch"
+    },
+    "createOrg": {
+        "intro": "Cách nhanh nhất là bắt đầu với tài khoản Twitter của tổ chức của bạn (nếu bạn có nhiều tài khoản, hãy chọn một tài khoản).",
+        "noTwitter": "Tổ chức của tôi không có tài khoản Twitter.",
+        "manual": "Chuyển sang điền thông tin thủ công"
+    },
+    "invite": {
+        "roles": {
+            "campaigner": {
+                "description": "Có thể xem và quản lý các hoạt động, người ủng hộ và dữ liệu chiến dịch. Không thể thay đổi cài đặt tổ chức hoặc xuất dữ liệu.",
+                "label": "Người vận động"
+            },
+            "coordinator": {
+                "description": "Có thể xem dữ liệu người ủng hộ nhưng không thể tạo chiến dịch, quản lý cài đặt hoặc xuất dữ liệu.",
+                "label": "Trưởng nhóm"
+            },
+            "owner": {
+                "description": "Quyền truy cập quản trị đầy đủ. Có thể quản lý mọi thứ, bao gồm cài đặt, chiến dịch, xuất dữ liệu và mã hóa.",
+                "label": "Chủ sở hữu"
+            },
+            "translator": {
+                "description": "Chỉnh sửa nội dung chiến dịch",
+                "label": "Người dịch"
+            }
+        },
+        "tooltip": "Lưu ý: Chỉ 'chủ sở hữu' mới có thể xuất dữ liệu người ủng hộ.",
+        "title": "Mời tham gia {{org}}",
+        "subject": "Mời tham gia \" {{org}} \" trên bảng điều khiển \"Fix the Status Quo\"",
+        "emailHelper": "Chúng tôi sẽ gửi email mời kèm theo liên kết để tham gia ngay lập tức.",
+        "default": "Bạn được mời tham gia tài khoản \" {{org}} \" trên bảng điều khiển \"Fix the Status Quo\".\n\nMời này sẽ có hiệu lực trong vòng 24 giờ tới. Vui lòng chấp nhận ngay khi có thể.\n\nChúng tôi rất hân hạnh được chào đón bạn!",
+        "messageLabel": "Thông điệp cá nhân dành cho người được mời",
+        "required": "Địa chỉ email là bắt buộc.",
+        "roleLabel": "Chọn mức độ xác thực",
+        "sent": "Mời tham dự đã được gửi đến {{email}}",
+        "translator": "Chào bạn,  \n\nChúng tôi liên hệ để mời bạn hợp tác trong việc dịch và hoàn thiện một lá thư chiến dịch cho quốc gia của bạn. Hiểu biết của bạn về bối cảnh chính trị địa phương sẽ rất hữu ích — không chỉ trong việc dịch thuật, mà còn để đảm bảo thông điệp được truyền tải hiệu quả đến các nhà tài trợ.  \n\nLá thư được chia thành nhiều phần, mỗi phần có nhiều biến thể. Các nhà tài trợ sẽ nhận được các phiên bản được sắp xếp ngẫu nhiên để tối đa hóa sự tương tác và tránh bị người nhận bỏ qua.\n\nNgay sau khi bạn chấp nhận lời mời, bạn có thể truy cập thư [tại đây]({{location}}). **Đừng quên lưu lại sau khi bạn đã thực hiện các thay đổi!**  \n\nKhi các đóng góp của bạn hoàn tất, vui lòng thông báo cho chúng tôi và người điều phối để chúng tôi có thể triển khai các cập nhật.\n\nChúng tôi đánh giá cao thời gian và chuyên môn của bạn — đây là nỗ lực chung để tăng cường tác động của chiến dịch.\n\n**Vì lý do bảo mật, liên kết truy cập lời mời của bạn sẽ hết hạn sau 24 giờ.**",
+        "translatorTitle": "Mời tham gia {{org}} với tư cách là dịch giả.",
+        "another": "Mời một thành viên khác trong nhóm",
+        "copied": "Đã sao chép!",
+        "copy": "Sao chép URL lời mời",
+        "sentInstructions": "Bạn cũng có thể chia sẻ trực tiếp liên kết bên dưới:"
+    },
+    "step": {
+        "configure_org": "Tổ chức của bạn",
+        "create_org": "Tạo tổ chức của bạn",
+        "join_campaign": "Tham gia chiến dịch",
+        "verify": "Xác minh email của bạn",
+        "done": "Lấy widget của bạn",
+        "login": "Tài khoản của bạn"
+    },
+    "action": {
+        "mail2target": "Gửi email đến đối tượng mục tiêu",
+        "register": "Đăng ký",
+        "share": "Chia sẻ trên mạng xã hội",
+        "twitter_click": "Tweet để nhắm mục tiêu"
+    },
+    "externalPartner": "chỉ các đối tác bên ngoài",
+    "Twitter Account": "Tài khoản Twitter",
+    "You can register an new organisation to join the coalition": "Bạn có thể đăng ký một tổ chức mới để tham gia liên minh.",
+    "You can update your organisation's details": "Bạn có thể cập nhật thông tin của tổ chức.",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "csv": "CSV",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "format": "Định dạng",
+    "join": {
+        "goalHelper": "Dự đoán này chỉ được hiển thị cho người điều phối… và chúng tôi biết rằng việc ước tính là rất khó khăn.",
+        "request": "Bạn có kế hoạch gửi email chuyên biệt cho các nhà tài trợ của mình không? Bạn cũng có kế hoạch thực hiện các hoạt động trên mạng xã hội, bao gồm quảng cáo trả phí không?",
+        "goal": "Bạn dự kiến có bao nhiêu người sẽ thực hiện hành động thông qua trang web của bạn?",
+        "requestHelper": "Để giúp chúng tôi lập kế hoạch cho chiến dịch này."
+    },
+    "json": "JSON",
+    "save": "Lưu",
+    "send": "Gửi",
+    "Stats": "Thống kê",
+    "supporters": "Người ủng hộ",
+    "Switch to fill the details manually": "Chuyển sang điền thông tin thủ công",
+    "unusedOnly": "chỉ các widget chưa được sử dụng",
+    "Used to pre-fill name, description and logo of your organisation": "Dùng để điền sẵn tên, mô tả và logo của tổ chức của bạn.",
+    "widget": {
+        "edit_icon": "Cài đặt cho {{id}}",
+        "stats_icon": "Thống kê cho {{id}}",
+        "lang": "Ngôn ngữ của widget",
+        "shareable": "Liên kết có thể chia sẻ",
+        "test": "Widget đang ở chế độ thử nghiệm"
+    },
+    "Customise": "Tùy chỉnh",
+    "Fields": "Các lĩnh vực",
+    "mineOnly": "Chỉ từ tổ chức của tôi",
+    "View your widget for {{org}}": "Xem widget của bạn cho {{org}}"
+}
