@@ -1,1 +1,167 @@
-{}
+{
+    "onboarding": {
+        "organisation": {
+            "networkHelper": "Vi byder alle organisationer velkommen!",
+            "network": "Min organisation er en del af en paraplyorganisation...",
+            "crm": "Hvilken CRM-software bruger du?",
+            "another": "Vælg en anden organisation",
+            "logged_in": "Du er logget ind under <b>{{orgName}}</b> organisationskonto",
+            "collectsEmail": "Har du ikke et nyhedsbrev og ønsker ikke at indsamle e-mailadresser? (Du kan selv skjule denne funktion på din hjemmeside) Sæt kryds i dette felt:",
+            "collectsEmailHelper": "Jeg har ikke noget nyhedsbrev. Jeg er sikker på, at jeg ikke vil have en afkrydsningsboks til nyhedsbrevet, som indsamler e-mailadresser, som vi kan bruge bagefter.",
+            "doubleOptIn": "Mine tilhængere skal tilmelde sig dobbelt for at modtage nyhedsbrev",
+            "organisationHelper": "Hvilken del af familien kommer du fra? Vi byder alle organisationer velkommen!",
+            "remarks": "Har du nogen kommentarer til værktøjet, som du vil fortælle os?",
+            "sectionTitle": "Organisation"
+        },
+        "user": {
+            "phoneNumberHelper": "Inklusive landekode",
+            "country": "Dit land",
+            "jobTitle": "Jobtitel",
+            "name": "Dit navn",
+            "sectionTitle": "Dine kontaktoplysninger",
+            "emailAddress": "Din e-mailadresse",
+            "phoneNumber": "Dit telefonnummer",
+            "socialAccount": "Dine sociale medier",
+            "socialAccountHelper": "På Twitter/Instagram/Linkedin"
+        },
+        "warning": {
+            "is_coordinator": "Du kan ikke deltage i en kampagne under **{{org}}**'s konto, det er koordinatoren for **{{campaign}}**.",
+            "is_member": "Du er medlem af organisationen **{{org}}**, som kører denne kampagne!"
+        },
+        "verify": "Din e-mail er endnu ikke bekræftet. Tjek venligst din e-mail og klik på bekræftelseslinket for at fortsætte.",
+        "embargo": "Embargo",
+        "embargoHelper": "Jeg anerkender, at kampagnematerialet er under streng embargo indtil videre. Jeg accepterer IKKE at DELE disse materialer med nogen uden for min organisation.",
+        "login": "Registrer dig som bruger, eller log ind med dine oplysninger fra sociale medier eller din e-mail. Det er din personlige konto, og du vil kunne oprette din organisation, når du har registreret dig.",
+        "thanks": "Tak, fordi du deltager i denne kampagne",
+        "intro": "For at øge vores gennemslagskraft har vi brug for en bred koalition, og vi har forsøgt at gøre det så enkelt som muligt for dig at være med.",
+        "mailling": "Mailingliste",
+        "maillingHelper": "Ved at indsende denne formular accepterer jeg at blive tilføjet til mailinglisten {{campaign}}. Jeg kan til enhver tid afmelde mig igen.",
+        "done": "Du vil modtage en bekræftelse via e-mail. Du kan allerede indlejre en testversion af <1>widgeten på din hjemmeside</1>.",
+        "title": "Er du en organisation eller en social bevægelse, der ønsker at tilføje denne kampagne på din hjemmeside?",
+        "welcome": "Velkommen til partnerområdet for denne kampagne, der koordineres af {{coordinator}}"
+    },
+    "export": {
+        "title": "Eksporter medlemsdata",
+        "campaignLabel": "Kampagne for at eksportere",
+        "csv_help": "CSV er standardformatet. Brug det, medmindre du specifikt har brug for JSON.",
+        "errorIncomplete": "Der opstod en fejl, CSV-data var ufuldstændige.",
+        "errorPermission": "Du har ikke tilladelse til at eksportere data for denne organisation.",
+        "exporting": "Eksport",
+        "exportingWithCount": "Eksport af {{count}}...",
+        "exportingWithErrors": "(ingen nøgle til {{count}} handlinger)",
+        "exportLabel": "Eksport",
+        "exportType": {
+            "activities": "Aktiviteter",
+            "activities_help": "Eksporterer handlinger foretaget af brugere, f.eks. underskrift, deling osv.",
+            "contacts": "Kontaktpersoner",
+            "contacts_help": "Eksporterer kun kontaktoplysninger."
+        },
+        "gdpr": {
+            "opt_out": "Meld dig ud",
+            "opt_out_help": "Supportere, der ikke ønsker at modtage nyhedsbreve (\"Nej, jeg ønsker ikke at modtage e-mails\"-radioknappen i widgeten eller opt-out-URL'en i e-mailen.",
+            "opt_out_required": "*Angiv venligst, at du er klar over konsekvenserne",
+            "opt_out_warning": "Jeg er klar over, at det er ulovligt at kontakte brugere, der ikke udtrykkeligt har givet samtykke, medmindre der er tale om meget begrænsede undtagelser.",
+            "double_opt_in": "Dobbelt opt-in",
+            "double_opt_in_help": "Supportere, der bekræftede deres deltagelse via e-mail-bekræftelses-URL",
+            "opt_in": "Vælg ind",
+            "opt_in_help": "Tilhængere, der valgte opt-on på en widget (\"Ja, jeg vil gerne modtage e-mails\"-radioknappen)"
+        },
+        "json_help": "JSON-format til avancerede integrationer.",
+        "key_help": "Hvis dine data er krypterede, skal du indlæse krypteringsnøglen før eksport.",
+        "keyLabel": "Indlæs dekrypteringsnøgler",
+        "campaignDefault": "Alle kampagner",
+        "gdprLabel": "GDPR"
+    },
+    "invite": {
+        "roles": {
+            "coordinator": {
+                "label": "Koordinator",
+                "description": "Kan se supporterdata, men kan ikke oprette kampagner eller administrere indstillinger eller eksportere data."
+            },
+            "campaigner": {
+                "label": "Kampagnemager",
+                "description": "Kan se og administrere handlinger, supportere og kampagnedata. Kan ikke ændre organisationsindstillinger eller eksportere data."
+            },
+            "owner": {
+                "description": "Fuld administrativ adgang. Kan administrere alt, inklusive indstillinger, kampagner, eksport og kryptering.",
+                "label": "Ejer"
+            },
+            "translator": {
+                "description": "Rediger kampagnetekst",
+                "label": "Oversætter"
+            }
+        },
+        "tooltip": "Bemærk: Kun 'ejer' vil kunne eksportere supporterdata.",
+        "default": "Du er inviteret til at tilmelde dig {{org}} -kontoen på Fix the Status Quo-dashboardet.\n\nDenne invitation er gyldig i de næste 24 timer. Accepter den venligst så hurtigt som muligt.\n\nVi er glade for at have dig med om bord!",
+        "subject": "Invitation til at deltage i {{org}} på Fix the Status Quo-dashboardet",
+        "emailHelper": "Vi sender en invitationsmail med et link, så du kan tilmelde dig med det samme.",
+        "roleLabel": "Vælg godkendelsesniveau",
+        "messageLabel": "Personlig besked til den inviterede",
+        "sentInstructions": "Du kan også dele nedenstående link direkte:",
+        "another": "Inviter et andet teammedlem",
+        "copied": "Kopieret!",
+        "copy": "Kopier invitationens URL",
+        "sent": "Invitation sendt til {{email}}",
+        "title": "Inviter til at deltage {{org}}",
+        "translator": "Hej,\n\nVi kontakter dig for at invitere dig til at samarbejde om at oversætte og finpudse et kampagnebrev til dit land. Din forståelse af den lokale politiske kontekst vil være værdifuld - ikke kun i oversættelsen, men også for at sikre, at budskabet vækker genklang hos støtterne.\n\nBrevet er struktureret i flere sektioner, hver med flere varianter. Støtterne vil modtage tilfældigt sammensatte versioner for at maksimere engagementet og undgå at blive afvist af modtagerne.\n\nSå snart du har accepteret invitationen, vil du kunne få adgang til brevet [her]({{location}}). **Glem ikke at gemme, når du har foretaget dine ændringer!**\n\nNår dine bidrag er færdige, bedes du give os og koordinatoren besked, så vi kan implementere opdateringerne.\n\nVi sætter pris på din tid og ekspertise - dette er en fælles indsats for at styrke kampagnens gennemslagskraft.\n\n**For en sikkerheds skyld udløber dit link til invitationen om 24 timer.",
+        "translatorTitle": "Invitation til at deltage i {{org}} som oversætter",
+        "required": "E-mail-adresse er påkrævet"
+    },
+    "Required": "Påkrævet",
+    "Twitter Account": "Twitter-konto",
+    "View your widget for {{org}}": "Se din widget for {{org}}",
+    "createOrg": {
+        "intro": "Det hurtigste er at starte med din organisations twitterkonto (hvis du har flere, så vælg en).",
+        "manual": "Skift til at udfylde detaljerne manuelt",
+        "noTwitter": "Min organisation er ikke på twitter"
+    },
+    "join": {
+        "requestHelper": "for at hjælpe os med at planlægge denne kampagne",
+        "goalHelper": "Dette gæt vil kun blive set af koordinatoren ... og vi ved, at det er svært at estimere",
+        "goal": "Hvor mange mennesker forventer du vil handle via din hjemmeside?",
+        "request": "Planlægger du en dedikeret mailing til dine støtter? Planlægger du også aktiviteter på de sociale medier, herunder betalt annoncering?"
+    },
+    "action": {
+        "mail2target": "Mail til målgruppen",
+        "register": "Registrer dig",
+        "share": "Del på sociale medier",
+        "twitter_click": "Tweet til målgruppen"
+    },
+    "Switch to fill the details manually": "Skift til at udfylde detaljerne manuelt",
+    "You can register an new organisation to join the coalition": "Du kan registrere en ny organisation til at deltage i koalitionen",
+    "cancel": "Annuller",
+    "close": "Luk",
+    "csv": "CSV",
+    "delete": "Sletning",
+    "edit": "Rediger",
+    "format": "Format",
+    "json": "JSON",
+    "save": "Gemme",
+    "send": "Send",
+    "Show": "Vis",
+    "step": {
+        "verify": "Bekræft din e-mail",
+        "configure_org": "Din organisation",
+        "create_org": "Opret din organisation",
+        "done": "Tag din widget",
+        "join_campaign": "Deltag i kampagnen",
+        "login": "Din konto"
+    },
+    "Used to fill the details of your organisation": "Bruges til at udfylde oplysninger om din organisation",
+    "Stats": "Statistik",
+    "supporters": "Tilhængere",
+    "Used to pre-fill name, description and logo of your organisation": "Bruges til at forudfylde navn, beskrivelse og logo for din organisation",
+    "You can update your organisation's details": "Du kan opdatere din organisations oplysninger",
+    "widget": {
+        "edit_icon": "Indstillinger for {{id}}",
+        "stats_icon": "Statistik for {{id}}",
+        "lang": "Widgets sprog",
+        "shareable": "Delbart link",
+        "test": "Widget er i testtilstand"
+    },
+    "Customise": "Tilpasning",
+    "externalPartner": "kun eksterne partnere",
+    "Fields": "Felter",
+    "mineOnly": "kun fra min organisation",
+    "unusedOnly": "kun ubrugte widgets"
+}
