@@ -1,1 +1,167 @@
-{}
+{
+    "onboarding": {
+        "user": {
+            "jobTitle": "Titel på befattning",
+            "country": "Ditt land",
+            "phoneNumberHelper": "Inklusive landskod",
+            "socialAccount": "Dina sociala medier",
+            "socialAccountHelper": "På Twitter/Instagram/Linkedin",
+            "sectionTitle": "Dina kontaktuppgifter",
+            "emailAddress": "Din e-postadress",
+            "name": "Ditt namn",
+            "phoneNumber": "Ditt telefonnummer"
+        },
+        "organisation": {
+            "logged_in": "Du är inloggad på <b>{{orgName}}</b> organisationskonto",
+            "network": "Min organisation är en del av paraplyorganisationen...",
+            "networkHelper": "Vi välkomnar alla organisationer!",
+            "organisationHelper": "Från vilken del av familjen kommer du? Vi välkomnar alla organisationer!",
+            "remarks": "Har du några kommentarer om verktyget som du vill berätta för oss?",
+            "another": "Välj en annan organisation",
+            "crm": "Vilken CRM-programvara använder du?",
+            "doubleOptIn": "Mina supportrar behöver dubbelanmäla sig för att få nyhetsbrev",
+            "collectsEmail": "Du har inget nyhetsbrev och vill inte samla in e-postadresser? (Du kommer själv att kunna dölja denna funktion på din webbplats) Kryssa i denna ruta:",
+            "collectsEmailHelper": "Jag har inget nyhetsbrev. Jag är säker på att jag inte vill ha en kryssruta för nyhetsbrev som samlar in e-postadresser som vi kan använda i efterhand.",
+            "sectionTitle": "Organisation"
+        },
+        "title": "Är du en organisation eller social rörelse som vill lägga till den här kampanjen på din webbplats?",
+        "warning": {
+            "is_member": "Du är medlem i den organisation **{{org}}** som driver denna kampanj!",
+            "is_coordinator": "Du kan inte gå med i en kampanj under **{{org}}**:s konto, det är koordinatorn för **{{campaign}}**."
+        },
+        "welcome": "Välkommen till partnerområdet för denna kampanj som samordnas av {{coordinator}}",
+        "embargo": "Embargo",
+        "login": "Registrera dig som användare eller logga in med dina uppgifter från sociala medier eller din e-post. Det är ditt personliga konto, du kommer att kunna ställa in din organisation efter att du har registrerat dig.",
+        "verify": "Din e-postadress är ännu inte verifierad. Vänligen kontrollera din e-post och klicka på bekräftelselänken för att fortsätta.",
+        "done": "Du kommer att få ett bekräftelsemeddelande via e-post. Du kan redan bädda in en testversion av <1>widgeten på din webbplats</1>.",
+        "embargoHelper": "Jag är medveten om att kampanjmaterialet är belagt med embargo tills vidare. Jag samtycker till att INTE DELA detta material med någon utanför min organisation.",
+        "intro": "För att öka vår påverkan behöver vi en bred koalition och vi har försökt göra det så enkelt som möjligt för dig att gå med i den.",
+        "mailling": "Mailinglista",
+        "maillingHelper": "Genom att skicka in detta formulär samtycker jag till att läggas till i e-postlistan {{campaign}}. Jag kan avregistrera mig när som helst.",
+        "thanks": "Tack för att du deltar i denna kampanj"
+    },
+    "unusedOnly": "endast oanvända widgetar",
+    "Twitter Account": "Twitter-konto",
+    "export": {
+        "gdprLabel": "GDPR",
+        "campaignDefault": "Alla kampanjer",
+        "gdpr": {
+            "double_opt_in": "Dubbel opt-in",
+            "opt_out": "Avstå från att delta",
+            "double_opt_in_help": "Supportrar som bekräftade sitt deltagande via bekräftelse via e-post URL",
+            "opt_in": "Välj in",
+            "opt_in_help": "Supportrar som valde opt-on på en widget (radioknappen \"Ja, jag vill få e-post\")",
+            "opt_out_help": "Supportrar som inte vill ta emot nyhetsbrev (alternativknappen \"Nej, jag vill inte ta emot e-post\" i widgeten eller avregistreringsadressen i e-postmeddelandet).",
+            "opt_out_required": "* Vänligen ange att du är medveten om konsekvenserna",
+            "opt_out_warning": "Jag är medveten om att det är olagligt att kontakta användare som inte uttryckligen har gett sitt samtycke, utom i mycket begränsade undantagsfall."
+        },
+        "exportType": {
+            "activities": "Aktiviteter",
+            "contacts": "Kontaktpersoner",
+            "activities_help": "Exporterar åtgärder som vidtagits av användare, t.ex. signering, delning osv.",
+            "contacts_help": "Exporterar endast kontaktinformation."
+        },
+        "csv_help": "CSV är standardformatet. Använd detta om du inte specifikt behöver JSON.",
+        "exporting": "Export",
+        "exportingWithCount": "Exporterar {{count}}...",
+        "campaignLabel": "Kampanj för export",
+        "errorIncomplete": "Det uppstod ett fel, CSV-data är ofullständiga.",
+        "errorPermission": "Du har inte behörighet att exportera data för den här organisationen.",
+        "exportingWithErrors": "(ingen nyckel för {{count}} åtgärder)",
+        "exportLabel": "Export",
+        "json_help": "JSON-format för avancerade integrationer.",
+        "key_help": "Om dina data är krypterade ska du ladda krypteringsnyckeln före export.",
+        "title": "Exportera medlemsdata",
+        "keyLabel": "Ladda dekrypteringsnycklar"
+    },
+    "invite": {
+        "default": "Du är inbjuden att gå med i {{org}} -kontot på Fix the Status Quo-instrumentpanelen.\n\nDenna inbjudan kommer att vara giltig under de kommande 24 timmarna. Vänligen acceptera den så snart som möjligt.\n\nVi är glada över att ha dig ombord!",
+        "required": "E-postadress krävs",
+        "another": "Bjud in en annan teammedlem",
+        "roles": {
+            "owner": {
+                "description": "Fullständig administrativ åtkomst. Kan hantera allt, inklusive inställningar, kampanjer, export och kryptering.",
+                "label": "Ägare"
+            },
+            "campaigner": {
+                "label": "Kampanjmakare",
+                "description": "Kan visa och hantera åtgärder, supportrar och kampanjdata. Kan inte ändra organisationsinställningar eller exportera data."
+            },
+            "coordinator": {
+                "label": "Samordnare",
+                "description": "Kan se supporterdata men kan inte skapa kampanjer eller hantera inställningar eller exportera data."
+            },
+            "translator": {
+                "description": "Redigera kampanjtext",
+                "label": "Översättare"
+            }
+        },
+        "tooltip": "Obs: Endast \"ägaren\" kommer att kunna exportera supportrarnas data",
+        "subject": "Inbjudan att gå med i {{org}} på Fix the Status Quo dashboard",
+        "title": "Bjud in att gå med {{org}}",
+        "translatorTitle": "Inbjudan att ansluta dig till {{org}} som översättare",
+        "emailHelper": "Vi skickar ett inbjudningsmejl med en länk för att gå med direkt.",
+        "roleLabel": "Välj autentiseringsnivå",
+        "copied": "Kopierat!",
+        "copy": "Kopiera inbjudans URL",
+        "messageLabel": "Personligt meddelande till den inbjudne",
+        "sent": "Inbjudan skickas till {{email}}",
+        "sentInstructions": "Du kan också dela länken nedan direkt:",
+        "translator": "Hej,\n\nVi kontaktar dig för att bjuda in dig att samarbeta med att översätta och förfina ett kampanjbrev för ditt land. Din förståelse för den lokala politiska kontexten skulle vara värdefull - inte bara vid översättningen, utan även för att säkerställa att budskapet når fram till supportrarna på ett effektivt sätt.\n\nBrevet är uppbyggt i flera avsnitt, vart och ett med flera varianter. Supportrarna kommer att få slumpmässigt sammansatta versioner för att maximera engagemanget och undvika att mottagarna avfärdar dem.\n\nSå snart du har accepterat inbjudan kommer du att kunna få tillgång till brevet [här]({{location}}). **Glöm inte att spara efter att du har gjort dina ändringar!**\n\nNär dina bidrag är klara, vänligen meddela oss och samordnaren så att vi kan distribuera uppdateringarna.\n\nVi uppskattar din tid och expertis - det här är en gemensam ansträngning för att stärka kampanjens genomslagskraft.\n\n**Av säkerhetsskäl kommer din länk till inbjudan att upphöra att gälla om 24 timmar."
+    },
+    "step": {
+        "create_org": "Skapa din organisation",
+        "done": "Ta din widget",
+        "configure_org": "Din organisation",
+        "join_campaign": "Gå med i kampanjen",
+        "login": "Ditt konto",
+        "verify": "Verifiera din e-postadress"
+    },
+    "Used to pre-fill name, description and logo of your organisation": "Används för att fylla i namn, beskrivning och logotyp för din organisation",
+    "You can register an new organisation to join the coalition": "Du kan registrera en ny organisation för att gå med i koalitionen",
+    "createOrg": {
+        "intro": "Det snabbaste är att börja med twitterkontot för din organisation (om du har flera, välj ett)",
+        "manual": "Byt till att fylla i uppgifterna manuellt",
+        "noTwitter": "Min organisation finns inte på Twitter"
+    },
+    "cancel": "Avbryt",
+    "close": "Nära",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "save": "Spara",
+    "send": "Skicka",
+    "action": {
+        "share": "Dela på sociala medier",
+        "twitter_click": "Tweet till målgrupp",
+        "mail2target": "Mail till målgruppen",
+        "register": "Registrera"
+    },
+    "Fields": "Fält",
+    "mineOnly": "endast från min organisation",
+    "join": {
+        "requestHelper": "för att hjälpa oss att planera denna kampanj",
+        "goal": "Hur många personer förväntar du dig kommer att vidta åtgärder via din webbplats?",
+        "goalHelper": "Denna gissning kommer bara att ses av samordnaren ... och vi vet att det är svårt att uppskatta",
+        "request": "Planerar du särskilda utskick till dina supportrar? Planerar du också aktiviteter i sociala medier, inklusive betald annonsering"
+    },
+    "View your widget for {{org}}": "Se din widget för {{org}}",
+    "Stats": "Statistik",
+    "supporters": "Stödjare",
+    "Used to fill the details of your organisation": "Används för att fylla i uppgifter om din organisation",
+    "You can update your organisation's details": "Du kan uppdatera uppgifterna om din organisation",
+    "widget": {
+        "edit_icon": "Inställningar för {{id}}",
+        "stats_icon": "Statistik för {{id}}",
+        "lang": "Språk för widgeten",
+        "shareable": "Delningsbar länk",
+        "test": "Widget är i testläge"
+    },
+    "csv": "CSV",
+    "Customise": "Anpassa",
+    "externalPartner": "endast externa partners",
+    "format": "Format",
+    "json": "JSON",
+    "Required": "Krävs",
+    "Show": "Visa",
+    "Switch to fill the details manually": "Byt till att fylla i uppgifterna manuellt"
+}
