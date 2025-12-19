@@ -1,1 +1,167 @@
-{}
+{
+    "export": {
+        "gdpr": {
+            "double_opt_in": "Double opt-in",
+            "double_opt_in_help": "Supporters who confirmed their participation via email confirmation URL",
+            "opt_in": "Opt in",
+            "opt_in_help": "Supporters who chose opt-on on a widget ('Yes, I want to receive emails' radio button)",
+            "opt_out": "Opt out",
+            "opt_out_help": "Supporters who doesn't want to receive newsletter ('No, I do not want to receive emails' radio button on the widget or opt-out URL in the email.",
+            "opt_out_required": "*Please indicate that you are aware of consequences",
+            "opt_out_warning": "I am aware that it is illegal to contact users that didn't explicitly give consent unless very limited exceptions."
+        },
+        "exportingWithCount": "Exporting {{count}}...",
+        "exportingWithErrors": "(no key for {{count}} actions)",
+        "campaignDefault": "All campaigns",
+        "campaignLabel": "Campaign to export",
+        "csv_help": "CSV is the standard format. Use this unless you specifically need JSON.",
+        "errorIncomplete": "There was an error, CSV data incomplete.",
+        "errorPermission": "You do not have permission to export data for this organisation.",
+        "exporting": "Exporting",
+        "exportLabel": "Export",
+        "exportType": {
+            "activities": "Activities",
+            "activities_help": "Exports actions taken by users, such as signing, sharing, etc.",
+            "contacts": "Contacts",
+            "contacts_help": "Exports contact information only."
+        },
+        "json_help": "JSON format for advanced integrations.",
+        "key_help": "If your data is encrypted, load the encryption key before export.",
+        "keyLabel": "Load decryption keys",
+        "title": "Export member data",
+        "gdprLabel": "GDPR"
+    },
+    "invite": {
+        "subject": "Invitation to join {{org}} on the Fix the Status Quo dashboard",
+        "title": "Invite to join {{org}}",
+        "default": "You're invited to join the {{org}} account on the Fix the Status Quo dashboard.\n\nThis invitation will be valid for the next 24 hours. Please accept it as soon as possible.\n\nWe're excited to have you on board!",
+        "translatorTitle": "Invite to join {{org}} as a translator",
+        "emailHelper": "We'll send an invitation email with a link to join right away.",
+        "required": "Email address is required",
+        "roles": {
+            "owner": {
+                "label": "Owner",
+                "description": "Full administrative access. Can manage everything, including settings, campaigns, exports, and encryption."
+            },
+            "coordinator": {
+                "description": "Can view supporter data but cannot create campaigns or manage settings, or export data.",
+                "label": "Coordinator"
+            },
+            "campaigner": {
+                "label": "Campaigner",
+                "description": "Can view and manage actions, supporters, and campaign data. Cannot change organization settings or export data."
+            },
+            "translator": {
+                "description": "Edit campaign text",
+                "label": "Translator"
+            }
+        },
+        "roleLabel": "Select auth level",
+        "tooltip": "Note: Only 'owner' will be able to export the supporters data",
+        "translator": "Hi,\n\nWe’re reaching out to invite you to collaborate on translating and refining a campaign letter for your country. Your understanding of the local political context would be valuable — not just in translation, but in ensuring the message resonates effectively with supporters.\n\nThe letter is structured in multiple sections, each with several variants. Supporters will receive randomly assembled versions to maximize engagement and avoid being dismissed by recipients.\n\nAs soon as you have accepted the invitation, you will be able to access the letter [here]({{location}}). **Don’t forget to save after you’ve made your changes!**\n\nOnce your contributions are complete, please notify us and the coordinator so we can deploy the updates.\n\nWe appreciate your time and expertise — this is a shared effort to strengthen the campaign’s impact.\n\n**For security, your invitation access link will expire in 24 hours.**",
+        "sentInstructions": "You can also share the link below directly:",
+        "copied": "Copied!",
+        "copy": "Copy invitation URL",
+        "messageLabel": "Personal message for the invitee",
+        "sent": "Invitation sent to {{email}}",
+        "another": "Invite another team member"
+    },
+    "onboarding": {
+        "user": {
+            "sectionTitle": "Your contact details",
+            "name": "Your Name",
+            "phoneNumber": "Your phone number",
+            "phoneNumberHelper": "Including country code",
+            "socialAccount": "Your social media",
+            "socialAccountHelper": "On Twitter/Instagram/Linkedin",
+            "country": "Your Country",
+            "emailAddress": "Your email address",
+            "jobTitle": "Job Title"
+        },
+        "verify": "Your email  is not yet verified. Please check your email and click on the confirmation link to continue.",
+        "embargoHelper": "I acknowledge that the campaign materials are strictly embargoed until further notice. I agree to NOT SHARING these materials with anyone outside of my organisation.",
+        "login": "Register as a user or login with your social media credentials or your email. It is your personal account, you will be able to set up your organisation after your register.",
+        "maillingHelper": "By submitting this form, I agree to be added to the {{campaign}} mailing list. I can unsubscribe at any time.",
+        "organisation": {
+            "collectsEmail": "You do not have a newsletter and don't want to collect email addresses? (You will be able to hide this feature yourself on your website) Tick this box:",
+            "another": "Select another organisation",
+            "doubleOptIn": "My supporters need to double opt in to receive newsletter",
+            "logged_in": "You are logged in under <b>{{orgName}}</b> organisation account",
+            "organisationHelper": "From which part of the family are you? We welcome all organisations!",
+            "collectsEmailHelper": "I don't have a newsletter. I am sure I don't want a newsletter tick-box which collects email addresses that we can use afterwards.",
+            "crm": "What CRM software are you using?",
+            "network": "My organisation is part of umbrella organisation...",
+            "networkHelper": "We welcome all organisations!",
+            "remarks": "Any comments about the tool you want to tell us?",
+            "sectionTitle": "Organisation"
+        },
+        "warning": {
+            "is_coordinator": "You cannot join a campaign under **{{org}}**'s account, it is the coordinator of the **{{campaign}}**",
+            "is_member": "You are a member of the organisation **{{org}}** that runs this campaign!"
+        },
+        "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}",
+        "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
+        "embargo": "Embargo",
+        "intro": "To increase our impact, we need a broad coalition and we tried to make it as simple as possible to let you join it.",
+        "mailling": "Mailing list",
+        "thanks": "Thank you for joining this campaign",
+        "title": "Are you an organisation or social movement that wants to add this campaign on your site?"
+    },
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "save": "Save",
+    "send": "Send",
+    "action": {
+        "twitter_click": "Tweet to target",
+        "mail2target": "Mail to target",
+        "register": "Register",
+        "share": "Share on social media"
+    },
+    "delete": "Delete",
+    "mineOnly": "only from my organisation",
+    "unusedOnly": "only unused widgets",
+    "step": {
+        "login": "Your account",
+        "verify": "Verify your email",
+        "configure_org": "Your organisation",
+        "create_org": "Create your organisation",
+        "done": "Take your widget",
+        "join_campaign": "Join the campaign"
+    },
+    "Customise": "Customise",
+    "Twitter Account": "Twitter Account",
+    "View your widget for {{org}}": "View your widget for {{org}}",
+    "join": {
+        "goal": "How many people do you expect will take action via your website?",
+        "goalHelper": "This guess will only be seen by the coordinator… and we know it's hard to estimate",
+        "request": "Do you plan dedicated mailing to your supporters? Are you also planning social media activities, including paid advertising",
+        "requestHelper": "to help us plan this campaign"
+    },
+    "createOrg": {
+        "intro": "The fastest is to start with the twitter account of your organisation (if you have several, pick one)",
+        "manual": "Switch to fill the details manually",
+        "noTwitter": "My organisation isn't on twitter"
+    },
+    "externalPartner": "only external partners",
+    "Fields": "Fields",
+    "format": "Format",
+    "json": "JSON",
+    "Required": "Required",
+    "Show": "Show",
+    "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
+    "You can update your organisation's details": "You can update your organisation's details",
+    "Stats": "Stats",
+    "supporters": "Supporters",
+    "widget": {
+        "edit_icon": "Settings for {{id}}",
+        "stats_icon": "Stats for {{id}}",
+        "lang": "Language of the widget",
+        "shareable": "Shareable link",
+        "test": "Widget is in the test mode"
+    },
+    "csv": "CSV",
+    "Switch to fill the details manually": "Switch to fill the details manually",
+    "Used to fill the details of your organisation": "Used to fill the details of your organisation",
+    "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation"
+}

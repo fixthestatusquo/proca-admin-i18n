@@ -1,1 +1,167 @@
-{}
+{
+    "action": {
+        "register": "Registrácia",
+        "mail2target": "Mail na cieľ",
+        "share": "Zdieľanie na sociálnych sieťach",
+        "twitter_click": "Tweet na cieľ"
+    },
+    "onboarding": {
+        "user": {
+            "phoneNumberHelper": "Vrátane kódu krajiny",
+            "country": "Vaša krajina",
+            "phoneNumber": "Vaše telefónne číslo",
+            "socialAccount": "Vaše sociálne médiá",
+            "jobTitle": "Pracovný názov",
+            "emailAddress": "Vaša e-mailová adresa",
+            "name": "Vaše meno",
+            "sectionTitle": "Vaše kontaktné údaje",
+            "socialAccountHelper": "Na Twitteri/Instagrame/Linkedine"
+        },
+        "thanks": "Ďakujeme, že ste sa zapojili do tejto kampane",
+        "warning": {
+            "is_coordinator": "Ku kampani sa nemôžete pripojiť pod účtom **{{org}}**, je to koordinátor **{{campaign}}**.",
+            "is_member": "Ste členom organizácie **{{org}}**, ktorá vedie túto kampaň!"
+        },
+        "login": "Zaregistrujte sa ako používateľ alebo sa prihláste pomocou poverení zo sociálnych sietí alebo e-mailu. Je to vaše osobné konto, po registrácii budete môcť nastaviť svoju organizáciu.",
+        "mailling": "Zoznam adries",
+        "maillingHelper": "Odoslaním tohto formulára súhlasím so zaradením do poštového zoznamu {{campaign}}. Z odberu sa môžem kedykoľvek odhlásiť.",
+        "organisation": {
+            "doubleOptIn": "Moji priaznivci sa musia dvakrát prihlásiť na odber noviniek",
+            "network": "Moja organizácia je súčasťou zastrešujúcej organizácie...",
+            "sectionTitle": "Organizácia",
+            "another": "Vyberte inú organizáciu",
+            "collectsEmail": "Nemáte newsletter a nechcete zbierať e-mailové adresy? (Túto funkciu budete môcť sami skryť na svojej webovej stránke) Zaškrtnite toto políčko:",
+            "logged_in": "Ste prihlásený pod kontom organizácie <b>{{orgName}}</b>",
+            "collectsEmailHelper": "Nemám newsletter. Som si istý, že nechcem mať zaškrtávacie políčko pre newsletter, ktoré zhromažďuje e-mailové adresy, ktoré môžeme neskôr použiť.",
+            "crm": "Aký softvér CRM používate?",
+            "networkHelper": "Vítame všetky organizácie!",
+            "organisationHelper": "Z ktorej časti rodiny ste? Vítame všetky organizácie!",
+            "remarks": "Chcete nám povedať nejaké pripomienky k nástroju?"
+        },
+        "done": "E-mailom dostanete potvrdzujúcu správu. Na svoju webovú stránku už môžete vložiť testovaciu verziu <1>widgetu</1>",
+        "embargo": "Embargo",
+        "intro": "Aby sme zvýšili náš vplyv, potrebujeme širokú koalíciu a snažili sme sa vám umožniť, aby ste sa k nej čo najjednoduchšie pripojili.",
+        "title": "Ste organizácia alebo sociálne hnutie, ktoré chce pridať túto kampaň na svoju stránku?",
+        "verify": "Váš e-mail ešte nie je overený. Skontrolujte svoj e-mail a pokračujte kliknutím na potvrdzujúci odkaz.",
+        "welcome": "Vitajte v partnerskej zóne tejto kampane, ktorú koordinuje {{coordinator}}",
+        "embargoHelper": "Beriem na vedomie, že na materiály kampane je až do ďalšieho oznámenia uvalené prísne embargo. Súhlasím s tým, že tieto materiály nebudem zdieľať s nikým mimo mojej organizácie."
+    },
+    "externalPartner": "len externí partneri",
+    "join": {
+        "goal": "Koľko ľudí podľa vás podnikne kroky prostredníctvom vašej webovej stránky?",
+        "goalHelper": "Tento odhad uvidí len koordinátor... a my vieme, že je ťažké ho odhadnúť",
+        "requestHelper": "aby ste nám pomohli naplánovať túto kampaň",
+        "request": "Plánujete špeciálne zasielanie e-mailov svojim priaznivcom? Plánujete aj aktivity v sociálnych médiách vrátane platenej reklamy?"
+    },
+    "You can update your organisation's details": "Môžete aktualizovať údaje o svojej organizácii",
+    "export": {
+        "gdprLabel": "GDPR",
+        "exportLabel": "Export",
+        "exportType": {
+            "activities": "Aktivity",
+            "activities_help": "Exportuje akcie vykonané používateľmi, ako je podpisovanie, zdieľanie atď.",
+            "contacts": "Kontakty",
+            "contacts_help": "Exportuje len kontaktné informácie."
+        },
+        "errorIncomplete": "Vyskytla sa chyba, údaje CSV sú neúplné.",
+        "csv_help": "CSV je štandardný formát. Použite ho, ak nepotrebujete výslovne JSON.",
+        "errorPermission": "Nemáte povolenie na export údajov pre túto organizáciu.",
+        "exporting": "Exportovanie",
+        "exportingWithCount": "Exportovanie {{count}}...",
+        "exportingWithErrors": "(bez kľúča pre akcie {{count}} )",
+        "gdpr": {
+            "double_opt_in": "Dvojité prihlásenie",
+            "double_opt_in_help": "Podporovatelia, ktorí potvrdili svoju účasť prostredníctvom e-mailovej potvrdzujúcej adresy URL",
+            "opt_in": "Prihlásenie",
+            "opt_in_help": "Podporovatelia, ktorí si vybrali možnosť opt-on na widgete (prepínač \"Áno, chcem dostávať e-maily\")",
+            "opt_out": "Odhlásiť sa",
+            "opt_out_help": "Podporovatelia, ktorí nechcú dostávať informačné bulletiny (\"Nie, nechcem dostávať e-maily\" prepínač na widgete alebo adresa URL na odhlásenie v e-maile.",
+            "opt_out_required": "*Prosím, uveďte, že ste si vedomí následkov",
+            "opt_out_warning": "Viem, že kontaktovanie používateľov, ktorí nedali výslovný súhlas, je nezákonné, až na veľmi obmedzené výnimky."
+        },
+        "json_help": "Formát JSON pre pokročilé integrácie.",
+        "key_help": "Ak sú vaše údaje zašifrované, pred exportom načítajte šifrovací kľúč.",
+        "keyLabel": "Načítanie dešifrovacích kľúčov",
+        "campaignLabel": "Kampaň na vývoz",
+        "title": "Export údajov o členoch",
+        "campaignDefault": "Všetky kampane"
+    },
+    "invite": {
+        "default": "Pozývame vás, aby ste sa pripojili k účtu {{org}} na informačnom paneli Fix the Status Quo.\n\nTáto pozvánka bude platná počas nasledujúcich 24 hodín. Prijmite ju čo najskôr.\n\nVeľmi sa tešíme, že ste sa k nám pripojili!",
+        "subject": "Pozvánka na pripojenie sa k stránke {{org}} na informačnom paneli Fix the Status Quo",
+        "copied": "Skopírované!",
+        "copy": "Kopírovanie adresy URL pozvánky",
+        "another": "Pozvať ďalšieho člena tímu",
+        "roles": {
+            "coordinator": {
+                "label": "Koordinátor",
+                "description": "Môžete zobraziť údaje podporovateľov, ale nemôžete vytvárať kampane, spravovať nastavenia ani exportovať údaje."
+            },
+            "owner": {
+                "label": "Vlastník",
+                "description": "Úplný administratívny prístup. Môžete spravovať všetko vrátane nastavení, kampaní, exportov a šifrovania."
+            },
+            "translator": {
+                "label": "Prekladateľ",
+                "description": "Úprava textu kampane"
+            },
+            "campaigner": {
+                "description": "Môžete zobraziť a spravovať akcie, podporovateľov a údaje o kampani. Nemôže meniť nastavenia organizácie ani exportovať údaje.",
+                "label": "Účastník kampane"
+            }
+        },
+        "title": "Pozvánka na pripojenie {{org}}",
+        "translatorTitle": "Pozvánka na {{org}} ako prekladateľ",
+        "emailHelper": "Pošleme vám e-mail s pozvánkou a prepojením, aby ste sa mohli hneď pripojiť.",
+        "required": "Vyžaduje sa e-mailová adresa",
+        "roleLabel": "Výber úrovne autorizácie",
+        "tooltip": "Poznámka: Údaje o podporovateľoch bude môcť exportovať iba \"vlastník\".",
+        "translator": "Ahoj,\n\nobraciame sa na vás s výzvou na spoluprácu pri preklade a zdokonaľovaní listu kampane pre vašu krajinu. Vaša znalosť miestneho politického kontextu by bola cenná - nielen pri preklade, ale aj pri zabezpečení účinného ohlasu posolstva u podporovateľov.\n\nList je štruktúrovaný do viacerých častí, z ktorých každá má niekoľko variantov. Podporovatelia dostanú náhodne zostavené verzie, aby sa maximalizovala angažovanosť a zabránilo sa ich odmietnutiu zo strany príjemcov.\n\nHneď ako prijmete pozvanie, budete mať prístup k listu [tu]({{location}}). **Po vykonaní zmien nezabudnite uložiť!**\n\nPo dokončení vašich príspevkov informujte nás a koordinátora, aby sme mohli nasadiť aktualizácie.\n\nVážime si váš čas a odborné znalosti - ide o spoločné úsilie o posilnenie vplyvu kampane.\n\n**V záujme bezpečnosti platnosť vášho prístupového odkazu na pozvánku vyprší za 24 hodín.**",
+        "messageLabel": "Osobná správa pre pozvaného",
+        "sent": "Pozvánka zaslaná {{email}}",
+        "sentInstructions": "Nižšie uvedené prepojenie môžete zdieľať aj priamo:"
+    },
+    "step": {
+        "done": "Vezmite si svoj widget",
+        "join_campaign": "Pripojte sa ku kampani",
+        "login": "Váš účet",
+        "configure_org": "Vaša organizácia",
+        "create_org": "Vytvorte svoju organizáciu",
+        "verify": "Overenie e-mailu"
+    },
+    "mineOnly": "len z mojej organizácie",
+    "Used to fill the details of your organisation": "Slúži na vyplnenie údajov o vašej organizácii",
+    "cancel": "Zrušiť",
+    "send": "Odoslať",
+    "createOrg": {
+        "manual": "Prepnutie na manuálne vyplnenie údajov",
+        "intro": "Najrýchlejšie je začať s twitterovým účtom vašej organizácie (ak ich máte niekoľko, vyberte si jeden).",
+        "noTwitter": "Moja organizácia nie je na Twitteri"
+    },
+    "Switch to fill the details manually": "Prepnutie na manuálne vyplnenie údajov",
+    "close": "Zatvoriť",
+    "Customise": "Prispôsobenie stránky",
+    "delete": "Odstrániť",
+    "edit": "Upraviť",
+    "Fields": "Polia",
+    "save": "Uložiť",
+    "Twitter Account": "Účet na Twitteri",
+    "unusedOnly": "iba nepoužívané widgety",
+    "You can register an new organisation to join the coalition": "Do koalície môžete zaregistrovať novú organizáciu",
+    "Stats": "Štatistiky",
+    "supporters": "Podporovatelia",
+    "Used to pre-fill name, description and logo of your organisation": "Slúži na predvyplnenie názvu, popisu a loga vašej organizácie",
+    "View your widget for {{org}}": "Zobrazenie widgetu pre {{org}}",
+    "widget": {
+        "edit_icon": "Nastavenia pre {{id}}",
+        "stats_icon": "Štatistiky pre {{id}}",
+        "lang": "Jazyk widgetu",
+        "shareable": "Zdieľateľné prepojenie",
+        "test": "Widget je v testovacom režime"
+    },
+    "csv": "CSV",
+    "format": "Formát",
+    "json": "JSON",
+    "Required": "Požadované",
+    "Show": "Zobraziť"
+}

@@ -1,1 +1,167 @@
-{}
+{
+    "onboarding": {
+        "organisation": {
+            "collectsEmailHelper": "뉴스레터를 받지 않습니다. 나중에 사용할 수 있는 이메일 주소를 수집하는 뉴스레터 체크박스를 원하지 않습니다.",
+            "remarks": "도구에 대해 하고 싶은 말이 있으신가요?",
+            "sectionTitle": "조직",
+            "crm": "어떤 CRM 소프트웨어를 사용하고 있나요?",
+            "doubleOptIn": "내 서포터가 뉴스레터를 받으려면 이중 옵트인해야 합니다.",
+            "network": "우리 조직은 엄브렐러 조직의 일부입니다...",
+            "organisationHelper": "여러분은 어느 계열의 가족인가요? 모든 조직을 환영합니다!",
+            "another": "다른 조직 선택",
+            "collectsEmail": "뉴스레터를 받지 않고 이메일 주소 수집을 원하지 않으시나요? (웹사이트에서 이 기능을 직접 숨길 수 있습니다.) 이 확인란을 선택하세요:",
+            "logged_in": "<b>{{orgName}}</b> 조직 계정으로 로그인했습니다.",
+            "networkHelper": "모든 조직을 환영합니다!"
+        },
+        "embargo": "엠바고",
+        "user": {
+            "name": "사용자 이름",
+            "jobTitle": "직책",
+            "phoneNumber": "휴대폰 번호",
+            "sectionTitle": "연락처 정보",
+            "socialAccount": "소셜 미디어",
+            "country": "귀하의 국가",
+            "emailAddress": "이메일 주소",
+            "phoneNumberHelper": "국가 코드 포함",
+            "socialAccountHelper": "트위터/인스타그램/링크드인에서"
+        },
+        "welcome": "다음 기관이 협력하는 이 캠페인의 파트너 영역에 오신 것을 환영합니다. {{coordinator}}",
+        "verify": "이메일이 아직 인증되지 않았습니다. 계속하려면 이메일을 확인한 후 확인 링크를 클릭하세요.",
+        "thanks": "이 캠페인에 참여해 주셔서 감사합니다.",
+        "title": "이 캠페인을 사이트에 추가하고 싶은 단체나 사회 운동 단체가 있나요?",
+        "warning": {
+            "is_coordinator": "{{org}}**의 계정으로는 캠페인에 참여할 수 없으며, **{{campaign}}**의 코디네이터입니다.",
+            "is_member": "귀하는 이 캠페인을 운영하는 **{{org}}** 조직의 회원입니다!"
+        },
+        "done": "이메일로 확인 메시지를 받게 됩니다. 이미 웹사이트에 <1>위젯의 테스트 버전을 임베드할 수 있습니다</1>.",
+        "embargoHelper": "본인은 캠페인 자료가 추후 공지가 있을 때까지 엄격하게 금지됨을 인정합니다. 본인은 이러한 자료를 소속 조직 외부의 누구와도 공유하지 않을 것에 동의합니다.",
+        "intro": "영향력을 키우려면 광범위한 연합이 필요하며, 여러분도 참여할 수 있도록 최대한 간단하게 만들려고 노력했습니다.",
+        "login": "사용자로 등록하거나 소셜 미디어 자격 증명 또는 이메일로 로그인합니다. 개인 계정이며, 등록 후 조직을 설정할 수 있습니다.",
+        "mailling": "메일링 리스트",
+        "maillingHelper": "이 양식을 제출함으로써 {{campaign}} 메일링 리스트에 추가되는 것에 동의합니다. 언제든지 구독을 취소할 수 있습니다."
+    },
+    "step": {
+        "configure_org": "조직",
+        "create_org": "조직 만들기",
+        "join_campaign": "캠페인 참여하기",
+        "login": "내 계정",
+        "verify": "이메일 인증",
+        "done": "위젯 가져가기"
+    },
+    "Switch to fill the details manually": "세부 정보를 수동으로 입력하도록 전환",
+    "Twitter Account": "트위터 계정",
+    "Used to fill the details of your organisation": "조직의 세부 정보를 입력하는 데 사용됩니다.",
+    "createOrg": {
+        "intro": "가장 빠른 방법은 조직의 트위터 계정으로 시작하는 것입니다(여러 개가 있는 경우 하나만 선택).",
+        "manual": "세부 정보를 수동으로 입력하도록 전환",
+        "noTwitter": "내 조직이 트위터에 가입되어 있지 않습니다."
+    },
+    "join": {
+        "goal": "얼마나 많은 사람들이 귀하의 웹사이트를 통해 행동을 취할 것으로 예상하십니까?",
+        "goalHelper": "이 추측은 코디네이터만 볼 수 있으며 추정하기 어렵다는 것을 알고 있습니다.",
+        "request": "서포터에게 전용 메일을 보낼 계획이 있나요? 유료 광고를 포함한 소셜 미디어 활동도 계획하고 있나요?",
+        "requestHelper": "이 캠페인을 기획하는 데 도움을 주셨습니다."
+    },
+    "mineOnly": "내 조직에서만",
+    "Fields": "필드",
+    "Required": "필수",
+    "Show": "표시",
+    "You can update your organisation's details": "조직의 세부 정보를 업데이트할 수 있습니다.",
+    "export": {
+        "exportLabel": "내보내기",
+        "exportType": {
+            "contacts": "연락처",
+            "activities": "활동",
+            "activities_help": "서명, 공유 등 사용자가 수행한 작업을 내보냅니다.",
+            "contacts_help": "연락처 정보만 내보냅니다."
+        },
+        "gdpr": {
+            "opt_out_required": "*결과에 대해 인지하고 있음을 표시해 주세요.",
+            "double_opt_in": "이중 옵트인",
+            "double_opt_in_help": "이메일 확인 URL을 통해 참여를 확인한 서포터즈",
+            "opt_out": "옵트아웃",
+            "opt_out_help": "뉴스레터 수신을 원하지 않는 서포터는 위젯의 '아니요, 이메일 수신을 원하지 않습니다' 라디오 버튼 또는 이메일의 수신 거부 URL을 클릭합니다.",
+            "opt_out_warning": "매우 제한적인 예외를 제외하고 명시적으로 동의하지 않은 사용자에게 연락하는 것은 불법이라는 것을 알고 있습니다.",
+            "opt_in": "옵트인",
+            "opt_in_help": "위젯에서 옵트온을 선택한 서포터('예, 이메일 수신을 원합니다' 라디오 버튼)"
+        },
+        "errorIncomplete": "오류가 발생했습니다. CSV 데이터가 불완전합니다.",
+        "csv_help": "CSV가 표준 형식입니다. 특별히 JSON이 필요한 경우가 아니라면 이 형식을 사용하세요.",
+        "json_help": "고급 통합을 위한 JSON 형식입니다.",
+        "keyLabel": "암호 해독 키 로드",
+        "key_help": "데이터가 암호화되어 있는 경우 내보내기 전에 암호화 키를 로드하세요.",
+        "exportingWithCount": "내보내기 {{count}}...",
+        "exportingWithErrors": "( {{count}} 작업의 경우 키 없음)",
+        "errorPermission": "이 조직에 대한 데이터를 내보낼 수 있는 권한이 없습니다.",
+        "exporting": "내보내기",
+        "gdprLabel": "GDPR",
+        "campaignLabel": "수출 캠페인",
+        "title": "회원 데이터 내보내기",
+        "campaignDefault": "모든 캠페인"
+    },
+    "invite": {
+        "title": "가입 초대 {{org}}",
+        "translatorTitle": "번역가로 {{org}} 가입하기",
+        "tooltip": "참고: '소유자'만 서포터즈 데이터를 내보낼 수 있습니다.",
+        "subject": "현상 유지 대시보드에서 {{org}} 참여 초대장 받기",
+        "emailHelper": "바로 가입할 수 있는 링크가 포함된 초대 이메일을 보내드리겠습니다.",
+        "required": "이메일 주소는 필수 입력 사항입니다.",
+        "sentInstructions": "아래 링크를 직접 공유할 수도 있습니다:",
+        "roles": {
+            "campaigner": {
+                "label": "선거운동원",
+                "description": "활동, 서포터 및 캠페인 데이터를 보고 관리할 수 있습니다. 조직 설정을 변경하거나 데이터를 내보낼 수 없습니다."
+            },
+            "owner": {
+                "description": "전체 관리자 액세스 권한. 설정, 캠페인, 내보내기, 암호화 등 모든 것을 관리할 수 있습니다.",
+                "label": "소유자"
+            },
+            "coordinator": {
+                "description": "서포터 데이터를 볼 수는 있지만 캠페인을 만들거나 설정을 관리하거나 데이터를 내보낼 수는 없습니다.",
+                "label": "코디네이터"
+            },
+            "translator": {
+                "description": "캠페인 텍스트 편집",
+                "label": "번역기"
+            }
+        },
+        "another": "다른 팀원 초대하기",
+        "copied": "복사 완료!",
+        "copy": "초대 URL 복사",
+        "default": "현상 유지 대시보드에서 {{org}} 계정에 가입할 수 있습니다.\n\n이 초대는 앞으로 24시간 동안 유효합니다. 가능한 한 빨리 수락해 주세요.\n\n함께하게 되어 기쁩니다!",
+        "messageLabel": "초대받은 사람을 위한 개인 메시지",
+        "roleLabel": "인증 수준 선택",
+        "sent": "다음 주소로 초대를 보냈습니다. {{email}}",
+        "translator": "안녕하세요,\n\n귀하의 국가를 위한 캠페인 서한을 번역하고 다듬는 데 협력해 주실 분을 모시고자 연락을 드립니다. 현지 정치 상황에 대한 여러분의 이해는 번역뿐만 아니라 지지자들에게 효과적으로 메시지를 전달할 수 있도록 하는 데에도 큰 도움이 될 것입니다.\n\n서한은 여러 섹션으로 구성되며, 각 섹션에는 여러 가지 변형이 있습니다. 지지자들은 무작위로 조합된 버전을 받게 되어 참여도를 극대화하고 수신자가 지루해하지 않도록 할 수 있습니다.\n\n초대를 수락하는 즉시 [여기]({{location}})에서 편지에 액세스할 수 있습니다. **변경한 후 저장하는 것을 잊지 마세요!\n\n기여가 완료되면 업데이트가 배포될 수 있도록 저희와 코디네이터에게 알려주세요.\n\n여러분의 시간과 전문 지식에 감사드립니다. 이는 캠페인의 영향력을 강화하기 위한 공동의 노력입니다.\n\n**보안을 위해 24시간 후에 초대 액세스 링크가 만료됩니다."
+    },
+    "cancel": "취소",
+    "send": "보내기",
+    "action": {
+        "mail2target": "대상에게 메일 보내기",
+        "register": "등록하기",
+        "share": "소셜 미디어에 공유",
+        "twitter_click": "타겟에게 트윗하기"
+    },
+    "close": "닫기",
+    "delete": "삭제",
+    "edit": "편집",
+    "save": "저장",
+    "Customise": "사용자 지정",
+    "externalPartner": "외부 파트너만",
+    "unusedOnly": "사용하지 않는 위젯만",
+    "Used to pre-fill name, description and logo of your organisation": "조직의 이름, 설명 및 로고를 미리 입력하는 데 사용됩니다.",
+    "You can register an new organisation to join the coalition": "새 조직을 등록하여 연합에 참여할 수 있습니다.",
+    "Stats": "통계",
+    "supporters": "서포터즈",
+    "widget": {
+        "edit_icon": "다음 항목에 대한 설정 {{id}}",
+        "stats_icon": "다음 통계 {{id}}",
+        "lang": "위젯 언어",
+        "shareable": "공유 가능한 링크",
+        "test": "위젯이 테스트 모드에 있습니다."
+    },
+    "csv": "CSV",
+    "format": "형식",
+    "json": "JSON",
+    "View your widget for {{org}}": "위젯 보기 {{org}}"
+}

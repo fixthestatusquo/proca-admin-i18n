@@ -1,1 +1,167 @@
-{}
+{
+    "Customise": "Personalizați",
+    "Fields": "Câmpuri",
+    "You can register an new organisation to join the coalition": "Puteți înregistra o nouă organizație pentru a se alătura coaliției",
+    "onboarding": {
+        "user": {
+            "emailAddress": "Adresa dvs. de e-mail",
+            "jobTitle": "Titlul postului",
+            "name": "Numele dvs.",
+            "sectionTitle": "Datele dumneavoastră de contact",
+            "socialAccount": "Social media",
+            "phoneNumber": "Numărul dvs. de telefon",
+            "phoneNumberHelper": "Inclusiv codul de țară",
+            "country": "Țara dumneavoastră",
+            "socialAccountHelper": "Pe Twitter/Instagram/Linkedin"
+        },
+        "verify": "Adresa dvs. de e-mail nu este încă verificată. Vă rugăm să vă verificați e-mailul și să faceți clic pe link-ul de confirmare pentru a continua.",
+        "welcome": "Bine ați venit în zona partenerilor pentru această campanie coordonată de {{coordinator}}",
+        "warning": {
+            "is_coordinator": "Nu vă puteți alătura unei campanii sub contul **{{org}}**, acesta este coordonatorul campaniei **{{campaign}}**",
+            "is_member": "Sunteți membru al organizației **{{org}}** care desfășoară această campanie!"
+        },
+        "done": "Veți primi un mesaj de confirmare prin e-mail. Puteți încorpora deja o versiune de test a <1>widget-ului pe site-ul dvs. web</1>",
+        "embargo": "Embargo",
+        "organisation": {
+            "crm": "Ce software CRM utilizați?",
+            "sectionTitle": "Organizație",
+            "collectsEmail": "Nu aveți un buletin informativ și nu doriți să colectați adrese de e-mail? (Veți putea ascunde această caracteristică pe site-ul dvs. web) Bifați această casetă:",
+            "doubleOptIn": "Susținătorii mei trebuie să se înscrie de două ori pentru a primi buletinul informativ",
+            "another": "Selectați o altă organizație",
+            "logged_in": "Sunteți conectat cu contul organizației <b>{{orgName}}</b>",
+            "network": "Organizația mea face parte din organizația umbrelă...",
+            "networkHelper": "Toate organizațiile sunt binevenite!",
+            "organisationHelper": "Din ce parte a familiei sunteți? Toate organizațiile sunt binevenite!",
+            "remarks": "Doriți să ne spuneți ceva despre instrument?",
+            "collectsEmailHelper": "Nu am un buletin informativ. Sunt sigur că nu vreau o căsuță de selectare pentru newsletter care să colecteze adrese de e-mail pe care să le putem folosi ulterior."
+        },
+        "thanks": "Vă mulțumim pentru că v-ați alăturat acestei campanii",
+        "embargoHelper": "Recunosc că materialele campaniei sunt strict sub embargo până la noi ordine. Sunt de acord să NU PARTAJEZ aceste materiale cu nimeni din afara organizației mele.",
+        "login": "Înregistrează-te ca utilizator sau autentifică-te cu datele tale de identificare de pe rețelele sociale sau cu adresa ta de e-mail. Acesta este contul dvs. personal, veți putea să vă configurați organizația după ce vă înregistrați.",
+        "mailling": "Listă de corespondență",
+        "maillingHelper": "Prin trimiterea acestui formular, sunt de acord să fiu adăugat la lista de corespondență {{campaign}}. Mă pot dezabona în orice moment.",
+        "title": "Sunteți o organizație sau o mișcare socială care dorește să adauge această campanie pe site-ul dumneavoastră?",
+        "intro": "Pentru a ne spori impactul, avem nevoie de o coaliție largă și am încercat să simplificăm cât mai mult posibil aderarea dumneavoastră la aceasta."
+    },
+    "step": {
+        "login": "Contul dvs.",
+        "configure_org": "Organizația dumneavoastră",
+        "create_org": "Creați-vă organizația",
+        "done": "Ia-ți widget-ul",
+        "join_campaign": "Alăturați-vă campaniei",
+        "verify": "Verifică-ți adresa de e-mail"
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "double_opt_in": "Dublu opt-in",
+            "opt_out_help": "Susținători care nu doresc să primească buletine informative (butonul radio \"Nu, nu doresc să primesc e-mailuri\" de pe widget sau URL-ul de renunțare din e-mail.",
+            "double_opt_in_help": "Susținători care și-au confirmat participarea prin e-mail de confirmare URL",
+            "opt_in": "Acceptați",
+            "opt_in_help": "Susținători care au ales opt-on pe un widget (butonul radio \"Da, vreau să primesc e-mailuri\")",
+            "opt_out": "Renunțare",
+            "opt_out_warning": "Sunt conștient de faptul că este ilegal să contactați utilizatorii care nu și-au dat consimțământul în mod explicit, cu excepția unor excepții foarte limitate.",
+            "opt_out_required": "*Vă rugăm să indicați că sunteți conștient de consecințe"
+        },
+        "campaignDefault": "Toate campaniile",
+        "exportLabel": "Export",
+        "exportType": {
+            "contacts": "Contacte",
+            "activities": "Activități",
+            "contacts_help": "Exportează numai informațiile de contact.",
+            "activities_help": "Exportă acțiunile întreprinse de utilizatori, cum ar fi semnarea, partajarea etc."
+        },
+        "csv_help": "CSV este formatul standard. Folosiți acest format dacă nu aveți nevoie în mod specific de JSON.",
+        "errorIncomplete": "A apărut o eroare, datele CSV sunt incomplete.",
+        "errorPermission": "Nu aveți permisiunea de a exporta date pentru această organizație.",
+        "json_help": "Format JSON pentru integrări avansate.",
+        "key_help": "Dacă datele dvs. sunt criptate, încărcați cheia de criptare înainte de export.",
+        "exporting": "Exportul",
+        "exportingWithCount": "Export {{count}}...",
+        "exportingWithErrors": "(nu există taste pentru acțiunile {{count}} )",
+        "campaignLabel": "Campanie pentru export",
+        "keyLabel": "Încărcați cheile de decriptare",
+        "title": "Exportați datele membrilor"
+    },
+    "invite": {
+        "translatorTitle": "Invitați să vă alăturați {{org}} în calitate de traducător",
+        "subject": "Invitație de a vă alătura {{org}} pe tabloul de bord Fix the Status Quo",
+        "default": "Sunteți invitat să vă alăturați contului {{org}} de pe tabloul de bord Fix the Status Quo.\n\nAceastă invitație va fi valabilă pentru următoarele 24 de ore. Vă rugăm să o acceptați cât mai curând posibil.\n\nSuntem încântați să vă avem alături de noi!",
+        "translator": "Bună,\n\nVă contactăm pentru a vă invita să colaborați la traducerea și perfecționarea unei scrisori de campanie pentru țara dumneavoastră. Înțelegerea dvs. a contextului politic local ar fi valoroasă - nu doar în traducere, ci și pentru a vă asigura că mesajul rezonează eficient cu susținătorii.\n\nScrisoarea este structurată în mai multe secțiuni, fiecare cu mai multe variante. Susținătorii vor primi versiuni asamblate aleatoriu pentru a maximiza implicarea și a evita să fie respinși de destinatari.\n\nImediat ce ați acceptat invitația, veți putea accesa scrisoarea [aici]({{location}}). **Nu uitați să salvați după ce ați făcut modificările!**\n\nOdată ce contribuțiile dvs. sunt complete, vă rugăm să ne notificați pe noi și pe coordonator, astfel încât să putem implementa actualizările.\n\nApreciem timpul și expertiza dumneavoastră - acesta este un efort comun de a consolida impactul campaniei.\n\n**Pentru securitate, link-ul dvs. de acces la invitație va expira în 24 de ore.**",
+        "another": "Invitați un alt membru al echipei",
+        "copied": "Copiat!",
+        "roles": {
+            "campaigner": {
+                "description": "Poate vizualiza și gestiona acțiunile, susținătorii și datele campaniei. Nu poate modifica setările organizației sau exporta date.",
+                "label": "Militant"
+            },
+            "coordinator": {
+                "description": "Poate vizualiza datele suporterilor, dar nu poate crea campanii, nu poate gestiona setările și nu poate exporta date.",
+                "label": "Coordonator"
+            },
+            "owner": {
+                "description": "Acces administrativ complet. Puteți gestiona totul, inclusiv setările, campaniile, exporturile și criptarea.",
+                "label": "Proprietar"
+            },
+            "translator": {
+                "description": "Editarea textului campaniei",
+                "label": "Traducător"
+            }
+        },
+        "tooltip": "Notă: Numai \"proprietarul\" va putea exporta datele suporterilor",
+        "title": "Invitați să vă alăturați {{org}}",
+        "emailHelper": "Vom trimite un e-mail de invitație cu un link pentru a vă înscrie imediat.",
+        "required": "Adresa de e-mail este obligatorie",
+        "copy": "Copiați URL-ul invitației",
+        "messageLabel": "Mesaj personal pentru invitat",
+        "roleLabel": "Selectați nivelul de autentificare",
+        "sent": "Invitație trimisă la {{email}}",
+        "sentInstructions": "De asemenea, puteți partaja direct link-ul de mai jos:"
+    },
+    "Used to fill the details of your organisation": "Folosit pentru a completa detaliile organizației dvs.",
+    "Used to pre-fill name, description and logo of your organisation": "Folosit pentru a precompleta numele, descrierea și logo-ul organizației dvs.",
+    "View your widget for {{org}}": "Vizualizați widget-ul dvs. pentru {{org}}",
+    "join": {
+        "requestHelper": "pentru a ne ajuta să planificăm această campanie",
+        "goal": "Câți oameni credeți că vor lua măsuri prin intermediul site-ului dvs. web?",
+        "goalHelper": "Această presupunere va fi văzută doar de coordonator... și știm că este greu de estimat",
+        "request": "Planificați trimiterea de corespondență dedicată susținătorilor dumneavoastră? Planificați, de asemenea, activități de social media, inclusiv publicitate plătită"
+    },
+    "cancel": "Anulează",
+    "action": {
+        "mail2target": "Trimitere la țintă",
+        "twitter_click": "Tweet la țintă",
+        "register": "Înregistrare",
+        "share": "Partajați pe rețelele sociale"
+    },
+    "createOrg": {
+        "manual": "Treceți la completarea manuală a detaliilor",
+        "intro": "Cel mai rapid este să începeți cu contul de Twitter al organizației dumneavoastră (dacă aveți mai multe, alegeți unul)",
+        "noTwitter": "Organizația mea nu este pe twitter"
+    },
+    "close": "Închidere",
+    "delete": "Ștergeți",
+    "edit": "Editare",
+    "save": "Salvați",
+    "send": "Trimiteți",
+    "Stats": "Statistici",
+    "supporters": "Susținători",
+    "unusedOnly": "numai widget-uri neutilizate",
+    "You can update your organisation's details": "Puteți actualiza datele organizației dvs.",
+    "widget": {
+        "edit_icon": "Setări pentru {{id}}",
+        "stats_icon": "Statistici pentru {{id}}",
+        "lang": "Limba widget-ului",
+        "shareable": "Link partajabil",
+        "test": "Widgetul este în modul de testare"
+    },
+    "csv": "CSV",
+    "externalPartner": "numai partenerii externi",
+    "format": "Format",
+    "json": "JSON",
+    "mineOnly": "numai din partea organizației mele",
+    "Required": "Necesar",
+    "Show": "Spectacol",
+    "Switch to fill the details manually": "Treceți la completarea manuală a detaliilor",
+    "Twitter Account": "Cont Twitter"
+}
