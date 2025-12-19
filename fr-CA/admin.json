@@ -1,1 +1,167 @@
-{}
+{
+    "export": {
+        "keyLabel": "Charger les clés de décryptage",
+        "csv_help": "CSV est le format standard. Utilisez-le à moins que vous n'ayez spécifiquement besoin de JSON.",
+        "errorIncomplete": "Il y a eu une erreur, les données CSV sont incomplètes.",
+        "errorPermission": "Vous n'avez pas l'autorisation d'exporter des données pour cette organisation.",
+        "exportLabel": "Exportation",
+        "exportType": {
+            "activities": "Activités",
+            "activities_help": "Exporte les actions entreprises par les utilisateurs, telles que la signature, le partage, etc.",
+            "contacts": "Contacts",
+            "contacts_help": "Exporte uniquement les informations de contact."
+        },
+        "gdpr": {
+            "double_opt_in_help": "Les supporters qui ont confirmé leur participation par l'intermédiaire de l'URL de confirmation du courrier électronique",
+            "opt_in_help": "Les sympathisants qui ont choisi l'option \"opt-on\" sur un widget (bouton radio \"Oui, je veux recevoir des courriels\")",
+            "opt_out": "Refus de participer",
+            "opt_out_help": "Les supporters qui ne veulent pas recevoir de newsletter (bouton radio \"Non, je ne veux pas recevoir d'e-mails\" sur le widget ou URL d'exclusion dans l'e-mail).",
+            "opt_out_required": "*Veuillez indiquer que vous êtes conscient des conséquences.",
+            "opt_out_warning": "Je sais qu'il est illégal de contacter des utilisateurs qui n'ont pas explicitement donné leur consentement, sauf exceptions très limitées.",
+            "double_opt_in": "Double opt-in",
+            "opt_in": "Opt in"
+        },
+        "json_help": "Format JSON pour les intégrations avancées.",
+        "campaignDefault": "Toutes les campagnes",
+        "gdprLabel": "GDPR",
+        "campaignLabel": "Campagne d'exportation",
+        "title": "Exporter les données des membres",
+        "exporting": "Exportation",
+        "exportingWithCount": "Exportation {{count}}...",
+        "exportingWithErrors": "(pas de touche pour les actions {{count}} )",
+        "key_help": "Si vos données sont cryptées, chargez la clé de cryptage avant l'exportation."
+    },
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Économiser",
+    "send": "Envoyer",
+    "action": {
+        "mail2target": "Courrier au destinataire",
+        "register": "Registre",
+        "share": "Partager sur les médias sociaux",
+        "twitter_click": "Tweet à cibler"
+    },
+    "delete": "Supprimer",
+    "edit": "Editer",
+    "externalPartner": "uniquement les partenaires externes",
+    "unusedOnly": "uniquement les widgets inutilisés",
+    "Twitter Account": "Compte Twitter",
+    "Required": "Exigée",
+    "Show": "Afficher",
+    "You can register an new organisation to join the coalition": "Vous pouvez inscrire une nouvelle organisation pour rejoindre la coalition",
+    "createOrg": {
+        "intro": "Le plus rapide est de commencer par le compte twitter de votre organisation (si vous en avez plusieurs, choisissez-en un).",
+        "manual": "Passer à la saisie manuelle des données",
+        "noTwitter": "Mon organisation n'est pas sur Twitter"
+    },
+    "invite": {
+        "emailHelper": "Nous vous enverrons un courriel d'invitation avec un lien pour vous inscrire immédiatement.",
+        "copy": "Copier l'URL de l'invitation",
+        "sentInstructions": "Vous pouvez également partager le lien ci-dessous directement :",
+        "roles": {
+            "campaigner": {
+                "label": "Responsable de campagne",
+                "description": "Peut visualiser et gérer les actions, les supporters et les données de la campagne. Il n'est pas possible de modifier les paramètres de l'organisation ou d'exporter des données."
+            },
+            "owner": {
+                "description": "Accès administratif complet. Peut tout gérer, y compris les paramètres, les campagnes, les exportations et le cryptage.",
+                "label": "Propriétaire"
+            },
+            "coordinator": {
+                "description": "Peut consulter les données des supporters, mais ne peut pas créer de campagnes, gérer les paramètres ou exporter des données.",
+                "label": "Coordinateur"
+            },
+            "translator": {
+                "description": "Modifier le texte de la campagne",
+                "label": "Traducteur"
+            }
+        },
+        "another": "Inviter un autre membre de l'équipe",
+        "copied": "Copié !",
+        "required": "L'adresse électronique est requise",
+        "tooltip": "Note : Seul le \"propriétaire\" pourra exporter les données des supporters.",
+        "translator": "Bonjour,\n\nNous vous invitons à collaborer à la traduction et à l'amélioration d'une lettre de campagne pour votre pays. Votre compréhension du contexte politique local serait précieuse, non seulement pour la traduction, mais aussi pour s'assurer que le message trouve un écho efficace auprès des sympathisants.\n\nLa lettre est structurée en plusieurs sections, chacune comportant plusieurs variantes. Les partisans recevront des versions assemblées de manière aléatoire afin de maximiser l'engagement et d'éviter que les destinataires ne les rejettent.\n\nDès que vous aurez accepté l'invitation, vous pourrez accéder à la lettre [ici]({{location}}). **N'oubliez pas de sauvegarder vos modifications !\n\nUne fois vos contributions terminées, veuillez nous en informer ainsi que le coordinateur afin que nous puissions déployer les mises à jour.\n\nNous apprécions votre temps et votre expertise - il s'agit d'un effort commun pour renforcer l'impact de la campagne.\n\n**Pour des raisons de sécurité, votre lien d'accès à l'invitation expirera dans 24 heures.",
+        "default": "Vous êtes invité à rejoindre le compte {{org}} sur le tableau de bord \"Fix the Status Quo\".\n\nCette invitation sera valable pendant les prochaines 24 heures. Veuillez l'accepter dès que possible.\n\nNous sommes ravis de vous compter parmi nous !",
+        "title": "Inviter à adhérer {{org}}",
+        "translatorTitle": "Invitation à rejoindre {{org}} en tant que traducteur",
+        "subject": "Invitation à rejoindre {{org}} sur le tableau de bord Fix the Status Quo",
+        "messageLabel": "Message personnel pour l'invité",
+        "roleLabel": "Sélectionner le niveau d'authentification",
+        "sent": "Invitation envoyée à {{email}}"
+    },
+    "join": {
+        "request": "Prévoyez-vous d'envoyer des courriers à vos sympathisants ? Prévoyez-vous également des activités dans les médias sociaux, y compris de la publicité payante ?",
+        "goal": "Combien de personnes pensez-vous passer à l'action via votre site web ?",
+        "goalHelper": "Cette estimation ne sera vue que par le coordinateur... et nous savons qu'il est difficile de l'estimer.",
+        "requestHelper": "pour nous aider à planifier cette campagne"
+    },
+    "onboarding": {
+        "intro": "Pour accroître notre impact, nous avons besoin d'une large coalition et nous avons essayé de la rendre aussi simple que possible pour que vous puissiez la rejoindre.",
+        "maillingHelper": "En soumettant ce formulaire, j'accepte d'être ajouté à la liste de diffusion de {{campaign}}. Je peux me désinscrire à tout moment.",
+        "organisation": {
+            "remarks": "Vous avez des commentaires à faire sur l'outil ?",
+            "sectionTitle": "Organisation",
+            "another": "Sélectionner une autre organisation",
+            "logged_in": "Vous êtes connecté sous <b>{{orgName}}</b> compte de l'organisation",
+            "collectsEmail": "Vous n'avez pas de bulletin d'information et ne souhaitez pas collecter d'adresses électroniques ? (Vous pourrez vous-même masquer cette fonction sur votre site web) Cochez cette case :",
+            "collectsEmailHelper": "Je n'ai pas de bulletin d'information. Je suis sûr que je ne veux pas d'une case à cocher pour la lettre d'information qui recueille des adresses électroniques que nous pouvons utiliser par la suite.",
+            "crm": "Quel logiciel de gestion de la relation client utilisez-vous ?",
+            "doubleOptIn": "Mes sympathisants ont besoin d'un double consentement pour recevoir la lettre d'information.",
+            "network": "Mon organisation fait partie d'une organisation faîtière...",
+            "networkHelper": "Toutes les organisations sont les bienvenues !",
+            "organisationHelper": "De quelle partie de la famille faites-vous partie ? Toutes les organisations sont les bienvenues !"
+        },
+        "thanks": "Merci de vous joindre à cette campagne",
+        "user": {
+            "country": "Votre pays",
+            "name": "Votre nom",
+            "phoneNumber": "Votre numéro de téléphone",
+            "phoneNumberHelper": "Y compris le code du pays",
+            "sectionTitle": "Vos coordonnées",
+            "socialAccount": "Vos médias sociaux",
+            "socialAccountHelper": "Sur Twitter/Instagram/Linkedin",
+            "emailAddress": "Votre adresse électronique",
+            "jobTitle": "Titre du poste"
+        },
+        "verify": "Votre adresse électronique n'est pas encore vérifiée. Veuillez vérifier votre courriel et cliquer sur le lien de confirmation pour continuer.",
+        "welcome": "Bienvenue dans l'espace partenaires de cette campagne coordonnée par {{coordinator}}",
+        "embargoHelper": "Je reconnais que le matériel de campagne fait l'objet d'un embargo strict jusqu'à nouvel ordre. J'accepte de NE PAS PARTAGER ces documents avec des personnes extérieures à mon organisation.",
+        "login": "Inscrivez-vous en tant qu'utilisateur ou connectez-vous à l'aide de vos identifiants de médias sociaux ou de votre adresse électronique. Il s'agit de votre compte personnel, vous pourrez configurer votre organisation après votre inscription.",
+        "title": "Vous êtes une organisation ou un mouvement social et vous souhaitez ajouter cette campagne sur votre site ?",
+        "warning": {
+            "is_coordinator": "Vous ne pouvez pas rejoindre une campagne sous le compte de **{{org}}**, c'est le coordinateur de la campagne **{{campaign}}**.",
+            "is_member": "Vous êtes membre de l'organisation **{{org}}** qui mène cette campagne !"
+        },
+        "mailling": "Liste de diffusion",
+        "done": "Vous recevrez un message de confirmation par courrier électronique. Vous pouvez d'ores et déjà intégrer une version test du <1>widget sur votre site web</1>.",
+        "embargo": "Embargo"
+    },
+    "step": {
+        "verify": "Vérifiez votre adresse électronique",
+        "configure_org": "Votre organisation",
+        "login": "Votre compte",
+        "create_org": "Créez votre organisation",
+        "done": "Prenez votre widget",
+        "join_campaign": "Participez à la campagne"
+    },
+    "mineOnly": "uniquement de mon organisation",
+    "Fields": "Domaines",
+    "Stats": "Statistiques",
+    "supporters": "Les soutiens",
+    "Switch to fill the details manually": "Passer à la saisie manuelle des données",
+    "Used to fill the details of your organisation": "Utilisé pour remplir les détails de votre organisation",
+    "Used to pre-fill name, description and logo of your organisation": "Utilisé pour pré-remplir le nom, la description et le logo de votre organisation.",
+    "You can update your organisation's details": "Vous pouvez mettre à jour les coordonnées de votre organisation",
+    "widget": {
+        "edit_icon": "Paramètres pour {{id}}",
+        "stats_icon": "Stats pour {{id}}",
+        "lang": "Langue du widget",
+        "shareable": "Lien partageable",
+        "test": "Le widget est en mode test"
+    },
+    "csv": "CSV",
+    "Customise": "Personnaliser",
+    "format": "Format",
+    "json": "JSON",
+    "View your widget for {{org}}": "Consultez votre widget pour {{org}}"
+}
