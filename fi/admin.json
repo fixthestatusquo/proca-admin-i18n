@@ -2,9 +2,166 @@
     "unusedOnly": "vain käyttämättömät vimpaimet",
     "View your widget for {{org}}": "Näytä vimpaimesi {{org}}:lle",
     "step": {
-        "done": "Ota vimpaimesi"
+        "done": "Ota vimpaimesi",
+        "join_campaign": "Liity kampanjaan",
+        "create_org": "Luo organisaatiosi",
+        "login": "Tilisi",
+        "verify": "Vahvista sähköpostiosoitteesi",
+        "configure_org": "Organisaatiosi"
     },
     "onboarding": {
-        "done": "Saat vahvistusviestin sähköpostitse. Voit jo upottaa testiversion <1>vimpaimesta verkkosivustollesi</1>"
-    }
+        "done": "Saat vahvistusviestin sähköpostitse. Voit jo upottaa testiversion <1>vimpaimesta verkkosivustollesi</1>",
+        "organisation": {
+            "crm": "Mitä CRM-ohjelmistoa käytät?",
+            "organisationHelper": "Mistä suvun osasta olet kotoisin? Kaikki organisaatiot ovat tervetulleita!",
+            "networkHelper": "Kaikki organisaatiot ovat tervetulleita!",
+            "remarks": "Onko sinulla kommentteja työkalusta, jotka haluat kertoa meille?",
+            "collectsEmail": "Sinulla ei ole uutiskirjettä etkä halua kerätä sähköpostiosoitteita? (Voit itse piilottaa tämän ominaisuuden verkkosivustollasi) Rastita tämä ruutu:",
+            "sectionTitle": "Organisaatio",
+            "another": "Valitse toinen organisaatio",
+            "collectsEmailHelper": "Minulla ei ole uutiskirjettä. Olen varma, etten halua uutiskirjeeseen rasti ruutuun, joka kerää sähköpostiosoitteita, joita voimme käyttää jälkikäteen.",
+            "doubleOptIn": "Kannattajieni on tehtävä kaksinkertainen opt in saadakseen uutiskirjeen.",
+            "logged_in": "Olet kirjautunut sisään osoitteessa <b>{{orgName}}</b> organisaatiotilillä.",
+            "network": "Organisaationi on osa kattojärjestöä..."
+        },
+        "user": {
+            "country": "Maasi",
+            "sectionTitle": "Yhteystietosi",
+            "socialAccount": "Sosiaalinen media",
+            "emailAddress": "Sähköpostiosoitteesi",
+            "jobTitle": "Työn nimi",
+            "name": "Nimesi",
+            "phoneNumber": "Puhelinnumerosi",
+            "phoneNumberHelper": "Mukaan lukien maakoodi",
+            "socialAccountHelper": "Twitterissä/Instagramissa/Linkedinissä"
+        },
+        "embargoHelper": "Hyväksyn, että kampanjamateriaali on ehdottomasti kielletty toistaiseksi. Suostun siihen, etten jaa näitä materiaaleja kenellekään organisaationi ulkopuoliselle.",
+        "thanks": "Kiitos, että liityt tähän kampanjaan",
+        "mailling": "Postituslista",
+        "maillingHelper": "Lähettämällä tämän lomakkeen suostun siihen, että minut lisätään {{campaign}} -postituslistalle. Voin peruuttaa tilaukseni milloin tahansa.",
+        "welcome": "Tervetuloa tämän kampanjan yhteistyökumppaneiden alueelle, jota koordinoi seuraavat tahot {{coordinator}}",
+        "intro": "Vaikuttavuuden lisäämiseksi tarvitsemme laajan koalition, ja yritimme tehdä siitä mahdollisimman yksinkertaisen, jotta voit liittyä siihen.",
+        "title": "Oletko järjestö tai yhteiskunnallinen liike, joka haluaa lisätä tämän kampanjan sivustollesi?",
+        "verify": "Sähköpostiasi ei ole vielä vahvistettu. Tarkista sähköpostiosoitteesi ja klikkaa vahvistuslinkkiä jatkaaksesi.",
+        "warning": {
+            "is_coordinator": "Et voi liittyä kampanjaan **{{org}}**:n tilillä, sillä se on **{{campaign}}**:n koordinaattori.",
+            "is_member": "Olet tämän kampanjan järjestön **{{org}}** jäsen!"
+        },
+        "embargo": "Embargo",
+        "login": "Rekisteröidy käyttäjäksi tai kirjaudu sisään sosiaalisen median tunnuksillasi tai sähköpostiosoitteellasi. Se on henkilökohtainen tilisi, voit perustaa organisaatiosi rekisteröinnin jälkeen."
+    },
+    "action": {
+        "mail2target": "Posti kohteeseen",
+        "share": "Jaa sosiaalisessa mediassa",
+        "register": "Rekisteröi",
+        "twitter_click": "Tweet kohteeseen"
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "opt_in": "Opt in",
+            "double_opt_in": "Kaksinkertainen opt-in",
+            "double_opt_in_help": "Tukijat, jotka vahvistivat osallistumisensa sähköpostitse vahvistusosoitteella URL-osoite.",
+            "opt_in_help": "Kannattajat, jotka valitsivat opt-on-valinnan widgetissä (\"Kyllä, haluan vastaanottaa sähköposteja\" -valintaruutu).",
+            "opt_out": "Opt out",
+            "opt_out_help": "Tukijat, jotka eivät halua vastaanottaa uutiskirjeitä (\"Ei, en halua vastaanottaa sähköposteja\" -valintanappi widgetissä tai opt-out-osoite sähköpostissa.",
+            "opt_out_required": "*Kirjoita, että olet tietoinen seurauksista.",
+            "opt_out_warning": "Olen tietoinen siitä, että on laitonta ottaa yhteyttä käyttäjiin, jotka eivät ole nimenomaisesti antaneet suostumustaan, paitsi hyvin rajoitetuissa poikkeustapauksissa."
+        },
+        "exportingWithCount": "Vienti {{count}}...",
+        "campaignLabel": "Vientikampanja",
+        "errorIncomplete": "Tapahtui virhe, CSV-tiedot ovat epätäydellisiä.",
+        "errorPermission": "Sinulla ei ole lupaa viedä tämän organisaation tietoja.",
+        "exporting": "Vienti",
+        "exportingWithErrors": "(ei näppäintä {{count}} toimintoja varten)",
+        "title": "Vie jäsentiedot",
+        "campaignDefault": "Kaikki kampanjat",
+        "csv_help": "CSV on vakiomuoto. Käytä tätä, ellet tarvitse erityisesti JSON-muotoa.",
+        "exportLabel": "Vie",
+        "exportType": {
+            "activities": "Toiminta",
+            "activities_help": "Vie käyttäjien tekemät toimet, kuten allekirjoittaminen, jakaminen jne.",
+            "contacts": "Yhteystiedot",
+            "contacts_help": "Vie vain yhteystiedot."
+        },
+        "json_help": "JSON-muodossa kehittyneitä integraatioita varten.",
+        "key_help": "Jos tiedot on salattu, lataa salausavain ennen vientiä.",
+        "keyLabel": "Lataa salauksen purkuavaimet"
+    },
+    "invite": {
+        "subject": "Kutsu liittyä {{org}} Fix the Status Quo -mittaristoon.",
+        "roles": {
+            "coordinator": {
+                "label": "Koordinaattori",
+                "description": "Voi tarkastella tukijatietoja, mutta ei voi luoda kampanjoita tai hallita asetuksia tai viedä tietoja."
+            },
+            "campaigner": {
+                "description": "Voi tarkastella ja hallita toimia, tukijoita ja kampanjatietoja. Ei voi muuttaa organisaation asetuksia tai viedä tietoja.",
+                "label": "Kampanjoija"
+            },
+            "owner": {
+                "description": "Täysi hallinnollinen käyttöoikeus. Voit hallita kaikkea, myös asetuksia, kampanjoita, vientiä ja salausta.",
+                "label": "Omistaja"
+            },
+            "translator": {
+                "description": "Muokkaa kampanjatekstiä",
+                "label": "Kääntäjä"
+            }
+        },
+        "messageLabel": "Henkilökohtainen viesti kutsutulle",
+        "sent": "Kutsu lähetetään osoitteeseen {{email}}",
+        "copy": "Kopioi kutsun URL-osoite",
+        "default": "Sinua pyydetään liittymään {{org}} -tilille Fix the Status Quo -kojelaudalla.\n\nTämä kutsu on voimassa seuraavat 24 tuntia. Hyväksy se mahdollisimman pian.\n\nOlemme innoissamme saadessamme sinut mukaan!",
+        "emailHelper": "Lähetämme kutsusähköpostin, jossa on linkki liittymiseen heti.",
+        "required": "Sähköpostiosoite vaaditaan",
+        "roleLabel": "Valitse valtuutustaso",
+        "sentInstructions": "Voit myös jakaa alla olevan linkin suoraan:",
+        "title": "Kutsu liittymään {{org}}",
+        "tooltip": "Huomautus: Vain \"omistaja\" voi viedä tukijatiedot.",
+        "translator": "Hei,\n\nHaluamme pyytää teitä tekemään yhteistyötä kampanjakirjeen kääntämiseksi ja hiomiseksi maassanne. Tietämyksesi paikallisesta poliittisesta tilanteesta olisi arvokasta - ei pelkästään käännöksessä, vaan myös sen varmistamisessa, että viesti saavuttaa tehokkaasti kannattajat.\n\nKirje on jäsennelty useisiin osiin, joista jokaisessa on useita muunnelmia. Kannattajat saavat satunnaisesti kootut versiot, jotta sitoutuminen olisi mahdollisimman suurta ja jotta vastaanottajat eivät jättäisi kirjettä pois.\n\nHeti kun olet hyväksynyt kutsun, pääset tutustumaan kirjeeseen [täällä]({{location}}). **Älkää unohtako tallentaa, kun olette tehneet muutokset!**\n\nKun panoksesi on valmis, ilmoita siitä meille ja koordinaattorille, jotta voimme ottaa päivitykset käyttöön.\n\nArvostamme aikaanne ja asiantuntemustanne - tämä on yhteinen ponnistus kampanjan vaikutuksen vahvistamiseksi.\n\n**Turvallisuuden vuoksi kutsulinkkisi vanhenee 24 tunnin kuluttua.**",
+        "translatorTitle": "Kutsu liittymään kääntäjäksi osoitteeseen {{org}}.",
+        "another": "Kutsu toinen tiimin jäsen",
+        "copied": "Kopioitu!"
+    },
+    "mineOnly": "vain minun organisaatiostani",
+    "createOrg": {
+        "intro": "Nopein tapa on aloittaa organisaatiosi Twitter-tilistä (jos sinulla on useita, valitse yksi).",
+        "manual": "Siirry täyttämään tiedot manuaalisesti",
+        "noTwitter": "Organisaationi ei ole Twitterissä"
+    },
+    "join": {
+        "goal": "Kuinka monen ihmisen odotat ryhtyvän toimiin verkkosivustosi kautta?",
+        "goalHelper": "Tämän arvauksen näkee vain koordinaattori... ja tiedämme, että sitä on vaikea arvioida...",
+        "requestHelper": "auttamaan meitä tämän kampanjan suunnittelussa",
+        "request": "Suunnitteletko tukijoillesi suunnattua postitusta? Suunnitteletteko myös sosiaalisen median toimintaa, mukaan lukien maksettu mainonta?"
+    },
+    "externalPartner": "vain ulkoiset kumppanit",
+    "Fields": "Kentät",
+    "Show": "Näytä",
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "Customise": "Mukauta",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "Required": "Vaadittu",
+    "save": "Tallenna",
+    "send": "Lähetä",
+    "Stats": "Tilastot",
+    "supporters": "Kannattajat",
+    "Used to fill the details of your organisation": "Käytetään organisaationne tietojen täyttämiseen",
+    "Used to pre-fill name, description and logo of your organisation": "Käytetään organisaation nimen, kuvauksen ja logon esitäyttöön.",
+    "You can register an new organisation to join the coalition": "Voit rekisteröidä uuden organisaation liittyäkseen liittouman jäseneksi",
+    "You can update your organisation's details": "Voit päivittää organisaatiosi tiedot",
+    "widget": {
+        "edit_icon": "Asetukset {{id}}",
+        "stats_icon": "Tilastot {{id}}",
+        "lang": "Widgetin kieli",
+        "shareable": "Jaettava linkki",
+        "test": "Widget on testitilassa"
+    },
+    "Twitter Account": "Twitter-tili",
+    "csv": "CSV",
+    "format": "Muotoilu",
+    "json": "JSON",
+    "Switch to fill the details manually": "Siirry täyttämään tiedot manuaalisesti"
 }
