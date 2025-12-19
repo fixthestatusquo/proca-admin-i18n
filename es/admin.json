@@ -29,7 +29,9 @@
             "crm": "¿Qué software de CRM está utilizando?",
             "sectionTitle": "Organización",
             "doubleOptIn": "Mis seguidores necesitan suscribirse dos veces para recibir el boletín",
-            "networkHelper": "¡Damos la bienvenida a todas las organizaciones!"
+            "networkHelper": "¡Damos la bienvenida a todas las organizaciones!",
+            "another": "Seleccione otra organización",
+            "logged_in": "Ha iniciado sesión con la cuenta de la organización <b>{{orgName}}</b>"
         },
         "user": {
             "phoneNumberHelper": "Incluyendo el código postal",
@@ -44,7 +46,9 @@
         },
         "thanks": "Gracias por sumarte a esta campaña",
         "warning": {
-            "is_partner": "👋 ¡Eh, para! ¡Ya eres socio de esta campaña! ¡No tiene sentido que te unas de nuevo!"
+            "is_partner": "👋 ¡Eh, para! ¡Ya eres socio de esta campaña! ¡No tiene sentido que te unas de nuevo!",
+            "is_coordinator": "No puedes unirte a una campaña bajo la cuenta de **{{org}}**, es el coordinador de la **{{campaign}}**",
+            "is_member": "Usted es miembro de la organización **{{org}}** que dirige esta campaña."
         },
         "login": "Regístrate como usuario o inicia sesión utilizando tus datos de acceso a la red social o tu dirección de correo electrónico. Es tu cuenta personal. Puede configurar su organización después del registro.",
         "mailling": "Lista de correo",
@@ -65,11 +69,45 @@
     "View your widget for {{org}}": "Mostrar su widget para {{org}}",
     "createOrg": {
         "manual": "Cambiar a rellenar los datos manualmente",
-        "intro": "Lo más rápido es empezar por la cuenta de twitter de tu organización (si tienes varias, elige una)"
+        "intro": "Lo más rápido es empezar por la cuenta de twitter de tu organización (si tienes varias, elige una)",
+        "noTwitter": "Mi organización no está en twitter"
     },
     "You are registered for {{campaign}}": "Estás registrado en {{campaign}}",
     "invite": {
-        "message": "Oye, **te necesitamos** para esta campaña, ¿podrías unirte?"
+        "message": "Oye, **te necesitamos** para esta campaña, ¿podrías unirte?",
+        "title": "Invitar a unirse {{org}}",
+        "copy": "Copiar URL de invitación",
+        "subject": "Invitación a unirse a {{org}} en el panel de control Fix the Status Quo",
+        "default": "Le invitamos a unirse a la cuenta {{org}} en el tablero de mandos de Fix the Status Quo.\n\nEsta invitación será válida durante las próximas 24 horas. Por favor, acéptela lo antes posible.\n\nEstamos encantados de tenerte a bordo.",
+        "translatorTitle": "Invitación a unirse a {{org}} como traductor",
+        "emailHelper": "Te enviaremos una invitación por correo electrónico con un enlace para que te unas inmediatamente.",
+        "required": "Dirección de correo electrónico obligatoria",
+        "roleLabel": "Seleccione el nivel de autenticación",
+        "sent": "Invitación enviada a {{email}}",
+        "roles": {
+            "campaigner": {
+                "description": "Puede ver y gestionar acciones, simpatizantes y datos de campaña. No puede cambiar la configuración de la organización ni exportar datos.",
+                "label": "Campañista"
+            },
+            "coordinator": {
+                "label": "Coordinador",
+                "description": "Puede ver los datos de los simpatizantes, pero no puede crear campañas, gestionar la configuración ni exportar datos."
+            },
+            "translator": {
+                "description": "Editar el texto de la campaña",
+                "label": "Traductor"
+            },
+            "owner": {
+                "description": "Acceso administrativo total. Puede gestionarlo todo, incluidos los ajustes, las campañas, las exportaciones y el cifrado.",
+                "label": "Propietario"
+            }
+        },
+        "sentInstructions": "También puede compartir directamente el siguiente enlace:",
+        "tooltip": "Nota: Sólo el \"propietario\" podrá exportar los datos de los aficionados",
+        "translator": "Hola,\n\nNos ponemos en contacto contigo para invitarte a colaborar en la traducción y el perfeccionamiento de una carta de campaña para tu país. Tu conocimiento del contexto político local sería muy valioso, no solo para la traducción, sino también para garantizar que el mensaje llegue a los simpatizantes.\n\nLa carta está estructurada en varias secciones, cada una con diversas variantes. Los simpatizantes recibirán versiones ensambladas aleatoriamente para maximizar el compromiso y evitar que los destinatarios las descarten.\n\nEn cuanto haya aceptado la invitación, podrá acceder a la carta [aquí]({{location}}). **¡No olvides guardar después de hacer los cambios!**.\n\nUna vez completadas tus aportaciones, notifícanoslo a nosotros y al coordinador para que podamos desplegar las actualizaciones.\n\nApreciamos su tiempo y experiencia: se trata de un esfuerzo compartido para reforzar el impacto de la campaña.\n\n**Por motivos de seguridad, su enlace de acceso a la invitación caducará en 24 horas.",
+        "messageLabel": "Mensaje personal para el invitado",
+        "copied": "¡Copiado!",
+        "another": "Invitar a otro miembro del equipo"
     },
     "unusedOnly": "sólo widgets sin usar",
     "You are also a member of {{org}}": "👋 ¡Eh, para! ¡Eres el empleado de {{org}}, que dirige esta campaña! ¡No puedes unirte a ella como socio!",
@@ -82,5 +120,55 @@
         "verify": "Verifica tu correo electrónico",
         "configure_org": "Tu organización",
         "create_org": "Crea tu organización"
-    }
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "exporting": "Exportación de",
+        "exportingWithCount": "Exportar {{count}}...",
+        "campaignDefault": "Todas las campañas",
+        "campaignLabel": "Campaña de exportación",
+        "csv_help": "CSV es el formato estándar. Utilízalo a menos que necesites específicamente JSON.",
+        "errorIncomplete": "Se ha producido un error, datos CSV incompletos.",
+        "errorPermission": "No tiene permiso para exportar datos para esta organización.",
+        "exportLabel": "Exportar",
+        "exportType": {
+            "activities": "Actividades",
+            "activities_help": "Exporta las acciones realizadas por los usuarios, como firmar, compartir, etc.",
+            "contacts": "Contactos",
+            "contacts_help": "Exporta sólo información de contacto."
+        },
+        "gdpr": {
+            "opt_in": "Optar por",
+            "opt_in_help": "Partidarios que eligieron la opción de activación en un widget (botón de opción \"Sí, deseo recibir correos electrónicos\")",
+            "opt_out_help": "Seguidores que no desean recibir el boletín (botón de opción \"No, no deseo recibir correos electrónicos\" en el widget o URL de exclusión en el correo electrónico).",
+            "opt_out_warning": "Soy consciente de que es ilegal ponerse en contacto con usuarios que no hayan dado explícitamente su consentimiento, salvo excepciones muy limitadas.",
+            "double_opt_in": "Doble opt-in",
+            "double_opt_in_help": "Partidarios que confirmaron su participación a través de la URL de confirmación por correo electrónico",
+            "opt_out": "No participar",
+            "opt_out_required": "*Por favor, indique que es consciente de las consecuencias"
+        },
+        "json_help": "Formato JSON para integraciones avanzadas.",
+        "key_help": "Si tus datos están encriptados, carga la clave de encriptación antes de exportarlos.",
+        "keyLabel": "Cargar claves de descifrado",
+        "title": "Exportar datos de los afiliados",
+        "exportingWithErrors": "(sin tecla para las acciones {{count}} )"
+    },
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "send": "Enviar",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "Stats": "Estadísticas",
+    "supporters": "Partidarios",
+    "widget": {
+        "edit_icon": "Ajustes para {{id}}",
+        "stats_icon": "Estadísticas para {{id}}",
+        "lang": "Idioma del widget",
+        "shareable": "Enlace para compartir",
+        "test": "El widget está en modo de prueba"
+    },
+    "csv": "CSV",
+    "format": "Formato",
+    "json": "JSON"
 }
