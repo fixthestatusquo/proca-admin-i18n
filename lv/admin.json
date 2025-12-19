@@ -1,5 +1,167 @@
 {
     "action": {
-        "register": "Reģistrēties"
+        "register": "Reģistrēties",
+        "share": "Kopīgojiet sociālajos plašsaziņas līdzekļos",
+        "twitter_click": "Tvīts mērķauditorijai",
+        "mail2target": "Pasts mērķim"
+    },
+    "export": {
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "double_opt_in": "Dubultā pieteikšanās",
+            "opt_in": "Ielogojieties",
+            "opt_out_help": "Atbalstītāji, kuri nevēlas saņemt jaunumus (\"Nē, es nevēlos saņemt e-pastus\" radio poga logrīkā vai atteikšanās URL e-pastā.",
+            "double_opt_in_help": "Atbalstītāji, kas apstiprināja savu dalību, izmantojot e-pasta apstiprinājuma URL adresi",
+            "opt_in_help": "Atbalstītāji, kas izvēlējās opt-on logrīkā (\"Jā, es gribu saņemt e-pasta vēstules\" radio poga).",
+            "opt_out": "Atteikties",
+            "opt_out_required": "*Lūdzu norādīt, ka apzināties sekas",
+            "opt_out_warning": "Es zinu, ka ir nelikumīgi sazināties ar lietotājiem, kuri nav devuši skaidru piekrišanu, izņemot ļoti ierobežotus izņēmumus."
+        },
+        "exportLabel": "Eksportēt",
+        "errorIncomplete": "Kļūda, CSV dati ir nepilnīgi.",
+        "exportingWithCount": "Eksportēšana {{count}}...",
+        "campaignDefault": "Visas kampaņas",
+        "campaignLabel": "Eksporta kampaņa",
+        "csv_help": "CSV ir standarta formāts. Izmantojiet šo formātu, ja vien jums nav īpaši nepieciešams JSON.",
+        "errorPermission": "Jums nav atļaujas eksportēt šīs organizācijas datus.",
+        "exporting": "eksportēšana",
+        "exportingWithErrors": "(nav {{count}} darbību atslēgas)",
+        "exportType": {
+            "activities": "Aktivitātes",
+            "activities_help": "Eksportē lietotāju veiktās darbības, piemēram, parakstīšanu, kopīgošanu u. c.",
+            "contacts": "Kontakti",
+            "contacts_help": "Eksportē tikai kontaktinformāciju."
+        },
+        "json_help": "JSON formāts uzlabotām integrācijām.",
+        "key_help": "Ja dati ir šifrēti, pirms eksportēšanas ielādējiet šifrēšanas atslēgu.",
+        "keyLabel": "Ielādēt atšifrēšanas atslēgas",
+        "title": "Dalībnieku datu eksportēšana"
+    },
+    "invite": {
+        "default": "Esat aicināts pievienoties {{org}} kontam vietnē Fix the Status Quo dashboard.\n\nŠis ielūgums būs spēkā nākamās 24 stundas. Lūdzu, pieņemiet to pēc iespējas ātrāk.\n\nMēs priecājamies par jūsu pievienošanos!",
+        "another": "Uzaicināt citu komandas dalībnieku",
+        "subject": "Aicinājums pievienoties {{org}} sadaļā \"Fix the Status Quo\".",
+        "emailHelper": "Mēs nosūtīsim uzaicinājuma e-pastu ar saiti, lai pievienotos uzreiz.",
+        "required": "Nepieciešama e-pasta adrese",
+        "messageLabel": "Personiska ziņa ielūguma saņēmējam",
+        "roleLabel": "Izvēlieties autentificēšanas līmeni",
+        "sent": "Uzaicinājums nosūtīts {{email}}",
+        "sentInstructions": "Varat arī kopīgot tālāk redzamo saiti tieši:",
+        "roles": {
+            "campaigner": {
+                "label": "Kampaņas rīkotājs",
+                "description": "Var apskatīt un pārvaldīt darbības, atbalstītājus un kampaņas datus. Nevar mainīt organizācijas iestatījumus vai eksportēt datus."
+            },
+            "owner": {
+                "description": "Pilnīga administratīvā piekļuve. Var pārvaldīt visu, tostarp iestatījumus, kampaņas, eksportu un šifrēšanu.",
+                "label": "Īpašnieks"
+            },
+            "coordinator": {
+                "description": "Var apskatīt atbalstītāju datus, bet nevar izveidot kampaņas, pārvaldīt iestatījumus vai eksportēt datus.",
+                "label": "Koordinators"
+            },
+            "translator": {
+                "description": "Kampaņas teksta rediģēšana",
+                "label": "Tulkotājs"
+            }
+        },
+        "copied": "Kopēts!",
+        "copy": "Kopēt ielūguma URL",
+        "title": "Aicinājums pievienoties {{org}}",
+        "tooltip": "Piezīme: Atbalstītāju datus varēs eksportēt tikai \"īpašnieks\".",
+        "translator": "Sveiki,\n\nMēs vēršamies pie jums, lai aicinātu jūs sadarboties, lai pārtulkotu un pilnveidotu kampaņas vēstuli jūsu valstij. Jūsu izpratne par vietējo politisko kontekstu būtu vērtīga ne tikai tulkojumā, bet arī, lai nodrošinātu efektīvu vēstījuma rezonansi atbalstītāju vidū.\n\nVēstule ir strukturēta vairākās sadaļās, katrā no tām ir vairāki varianti. Atbalstītāji saņems izlases kārtībā sastādītus variantus, lai maksimāli palielinātu iesaistīšanos un izvairītos no tā, ka saņēmēji tos noraidīs.\n\nTiklīdz būsiet pieņēmuši uzaicinājumu, jūs varēsiet piekļūt vēstulei [šeit]({{location}}). **Neaizmirstiet saglabāt pēc izmaiņu veikšanas!\n\nKad jūsu ieguldījumi ir pabeigti, lūdzu, paziņojiet mums un koordinatoram, lai mēs varētu izvietot atjauninājumus.\n\nMēs novērtējam jūsu laiku un zināšanas - tas ir kopīgs darbs, lai stiprinātu kampaņas ietekmi.\n\n**Dēļ drošības jūsu uzaicinājuma piekļuves saite beigsies pēc 24 stundām**.",
+        "translatorTitle": "Uzaicinājums pievienoties {{org}} kā tulkotājam"
+    },
+    "step": {
+        "login": "Jūsu konts",
+        "verify": "Pārbaudiet savu e-pasta adresi",
+        "configure_org": "Jūsu organizācija",
+        "done": "Izmantojiet savu logrīku",
+        "join_campaign": "Pievienojieties kampaņai",
+        "create_org": "Izveidojiet savu organizāciju"
+    },
+    "Customise": "Pielāgojiet",
+    "Fields": "Lauki",
+    "Required": "Nepieciešams",
+    "View your widget for {{org}}": "Skatiet savu logrīku, lai {{org}}",
+    "createOrg": {
+        "manual": "Pārslēgšanās uz manuālu informācijas aizpildīšanu",
+        "intro": "Visātrāk ir sākt ar savas organizācijas tvitera kontu (ja jums ir vairāki, izvēlieties vienu).",
+        "noTwitter": "Mana organizācija nav tviterī"
+    },
+    "onboarding": {
+        "done": "Saņemsiet apstiprinājuma ziņojumu pa e-pastu. Jūs jau varat ievietot <1>vidžeta testa versiju savā tīmekļa vietnē</1>.",
+        "embargo": "Embargo",
+        "mailling": "Adresātu saraksts",
+        "maillingHelper": "Nosūtot šo veidlapu, es piekrītu, ka mani pievieno {{campaign}} adresātu sarakstam. Es varu jebkurā laikā atteikties no abonēšanas.",
+        "organisation": {
+            "collectsEmailHelper": "Man nav biļetena. Esmu pārliecināts, ka nevēlos, lai biļetena izvēles rūtiņa, kurā tiek apkopotas e-pasta adreses, ko mēs vēlāk varam izmantot.",
+            "crm": "Kādu CRM programmatūru izmantojat?",
+            "remarks": "Vai vēlaties mums pastāstīt kādas piezīmes par rīku?",
+            "another": "Izvēlieties citu organizāciju",
+            "collectsEmail": "Jums nav biļetena un nevēlaties vākt e-pasta adreses? (Jūs varēsiet paslēpt šo funkciju savā tīmekļa vietnē) Atzīmējiet šo lodziņu:",
+            "logged_in": "Jūs esat pieteicies <b>{{orgName}}</b> organizācijas kontā.",
+            "sectionTitle": "Organizācija",
+            "doubleOptIn": "Maniem atbalstītājiem ir divreiz jāpiesakās, lai saņemtu jaunumus",
+            "network": "Mana organizācija ir daļa no jumta organizācijas...",
+            "networkHelper": "Mēs laipni gaidām visas organizācijas!",
+            "organisationHelper": "No kuras dzimtas daļas esat jūs? Mēs laipni gaidām visas organizācijas!"
+        },
+        "thanks": "Paldies, ka pievienojaties šai kampaņai",
+        "title": "Vai esat organizācija vai sociālā kustība, kas vēlas pievienot šo kampaņu savai vietnei?",
+        "user": {
+            "country": "Jūsu valsts",
+            "emailAddress": "Jūsu e-pasta adrese",
+            "jobTitle": "Darba nosaukums",
+            "name": "Jūsu vārds",
+            "phoneNumber": "Jūsu tālruņa numurs",
+            "phoneNumberHelper": "Tostarp valsts kods",
+            "sectionTitle": "Jūsu kontaktinformācija",
+            "socialAccount": "Jūsu sociālie plašsaziņas līdzekļi",
+            "socialAccountHelper": "Twitter/Instagram/Linkedin"
+        },
+        "login": "Reģistrējieties kā lietotājs vai piesakieties, izmantojot sociālo tīklu akreditācijas datus vai e-pastu. Tas ir jūsu personīgais konts, un pēc reģistrēšanās jūs varēsiet izveidot savu organizāciju.",
+        "embargoHelper": "Apzinos, ka kampaņas materiāliem ir noteikts stingrs aizliegums līdz turpmākam paziņojumam. Es piekrītu nedalīties ar šiem materiāliem ar citām personām ārpus manas organizācijas.",
+        "intro": "Lai palielinātu mūsu ietekmi, mums ir nepieciešama plaša koalīcija, un mēs centāmies padarīt to pēc iespējas vienkāršāku, lai jūs varētu tai pievienoties.",
+        "verify": "Jūsu e-pasta adrese vēl nav pārbaudīta. Lūdzu, pārbaudiet savu e-pastu un noklikšķiniet uz apstiprinājuma saites, lai turpinātu.",
+        "warning": {
+            "is_coordinator": "Jūs nevarat pievienoties kampaņai ar **{{org}}** konta starpniecību, tas ir **{{campaign}}** koordinators.",
+            "is_member": "Jūs esat organizācijas **{{org}}**, kas vada šo kampaņu, biedrs!"
+        },
+        "welcome": "Laipni lūgti šīs kampaņas partneru zonā, ko koordinē {{coordinator}}"
+    },
+    "cancel": "Atcelt",
+    "close": "Aizvērt",
+    "delete": "Dzēst",
+    "join": {
+        "goal": "Cik daudz cilvēku, domājams, veiks darbības, izmantojot jūsu vietni?",
+        "requestHelper": "lai palīdzētu mums plānot šo kampaņu",
+        "goalHelper": "Šo minējumu redzēs tikai koordinators... un mēs zinām, ka to ir grūti novērtēt.",
+        "request": "Vai plānojat īpašu sūtījumu nosūtīšanu saviem atbalstītājiem? Vai plānojat arī pasākumus sociālajos plašsaziņas līdzekļos, tostarp apmaksātu reklāmu?"
+    },
+    "csv": "CSV",
+    "edit": "Rediģēt",
+    "externalPartner": "tikai ārējie partneri",
+    "format": "Formāts",
+    "json": "JSON",
+    "mineOnly": "tikai no manas organizācijas",
+    "save": "Saglabāt",
+    "send": "Sūtīt",
+    "Show": "Rādīt",
+    "Twitter Account": "Twitter konts",
+    "unusedOnly": "tikai neizmantotie logrīki",
+    "Stats": "Statistika",
+    "supporters": "Atbalstītāji",
+    "Switch to fill the details manually": "Pārslēgšanās uz manuālu informācijas aizpildīšanu",
+    "Used to fill the details of your organisation": "Izmanto, lai aizpildītu informāciju par jūsu organizāciju",
+    "Used to pre-fill name, description and logo of your organisation": "Izmanto, lai iepriekš aizpildītu organizācijas nosaukumu, aprakstu un logotipu.",
+    "You can register an new organisation to join the coalition": "Jūs varat reģistrēt jaunu organizāciju, lai pievienotos koalīcijai.",
+    "You can update your organisation's details": "Varat atjaunināt informāciju par savu organizāciju",
+    "widget": {
+        "edit_icon": "Iestatījumi {{id}}",
+        "stats_icon": "Statistika par {{id}}",
+        "lang": "Logrīka valoda",
+        "shareable": "Koplietojamā saite",
+        "test": "Logrīks ir testa režīmā"
     }
 }
