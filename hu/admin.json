@@ -1,1 +1,167 @@
-{}
+{
+    "action": {
+        "twitter_click": "Tweet a célpontnak",
+        "register": "Regisztráció",
+        "share": "Megosztás a közösségi médiában",
+        "mail2target": "Célpontnak küldött levél"
+    },
+    "onboarding": {
+        "organisation": {
+            "crm": "Milyen CRM szoftvert használ?",
+            "networkHelper": "Minden szervezetet szívesen látunk!",
+            "organisationHelper": "A család melyik részéből származol? Minden szervezetet szívesen látunk!",
+            "sectionTitle": "Szervezet",
+            "remarks": "Van bármilyen megjegyzésed az eszközzel kapcsolatban, amit el szeretnél mondani nekünk?",
+            "doubleOptIn": "Támogatóimnak duplán kell feliratkozniuk a hírlevélhez",
+            "another": "Válasszon ki egy másik szervezetet",
+            "collectsEmailHelper": "Nincs hírlevelem. Biztos vagyok benne, hogy nem akarok egy hírlevél-karikát, amely e-mail címeket gyűjt, amelyeket később felhasználhatunk.",
+            "logged_in": "Ön a <b>{{orgName}}</b> szervezeti fiók alatt van bejelentkezve.",
+            "network": "Szervezetem egy ernyőszervezet része...",
+            "collectsEmail": "Nincs hírlevele és nem szeretne e-mail címeket gyűjteni? (Ezt a funkciót maga tudja majd elrejteni a weboldalán) Jelölje be ezt a négyzetet:"
+        },
+        "embargo": "Embargó",
+        "embargoHelper": "Tudomásul veszem, hogy a kampányanyagokra további értesítésig szigorú embargó van érvényben. Elfogadom, hogy ezeket az anyagokat a szervezetemen kívül senki mással nem osztom meg.",
+        "mailling": "Levelezési lista",
+        "maillingHelper": "Az űrlap elküldésével hozzájárulok ahhoz, hogy felvegyenek a {{campaign}} levelezőlistára. Bármikor leiratkozhatok.",
+        "user": {
+            "emailAddress": "Az Ön e-mail címe",
+            "jobTitle": "Munkakör címe",
+            "name": "Az Ön neve",
+            "country": "Az Ön országa",
+            "phoneNumber": "Az Ön telefonszáma",
+            "phoneNumberHelper": "Országkóddal együtt",
+            "sectionTitle": "Az Ön elérhetőségei",
+            "socialAccount": "Az Ön közösségi médiája",
+            "socialAccountHelper": "Twitter/Instagram/Linkedin"
+        },
+        "intro": "Ahhoz, hogy növeljük hatásunkat, széles körű koalícióra van szükségünk, és megpróbáltuk a lehető legegyszerűbbé tenni, hogy Ön is csatlakozhasson.",
+        "login": "Regisztráljon felhasználóként, vagy jelentkezzen be a közösségi médián keresztül vagy az e-mail címével. Ez az Ön személyes fiókja, szervezetét a regisztráció után tudja majd beállítani.",
+        "thanks": "Köszönjük, hogy csatlakozott ehhez a kampányhoz",
+        "welcome": "Üdvözöljük a kampány partnereinek területén, amelyet a következő szervezetek koordinálnak {{coordinator}}",
+        "done": "Megerősítő üzenetet fog kapni e-mailben. A <1>widget tesztváltozatát már beágyazhatja a weboldalára</1>.",
+        "title": "Ön egy szervezet vagy társadalmi mozgalom, amely szeretné ezt a kampányt felvenni az oldalára?",
+        "verify": "Az Ön e-mail címe még nincs ellenőrizve. Kérjük, ellenőrizze e-mailjét, és kattintson a megerősítő linkre a folytatáshoz.",
+        "warning": {
+            "is_coordinator": "Nem csatlakozhatsz egy kampányhoz a **{{org}}** fiókja alatt, ez a **{{campaign}}** koordinátora.",
+            "is_member": "Ön tagja a kampányt működtető **{{org}}** szervezetnek!"
+        }
+    },
+    "externalPartner": "csak külső partnerek",
+    "createOrg": {
+        "intro": "A leggyorsabb, ha a szervezet Twitter-fiókjával kezd (ha több fiókja is van, válasszon egyet).",
+        "manual": "Váltson a részletek kézi kitöltésére",
+        "noTwitter": "Az én szervezetem nincs a Twitteren"
+    },
+    "export": {
+        "title": "Tagadatok exportálása",
+        "campaignDefault": "Minden kampány",
+        "gdprLabel": "GDPR",
+        "campaignLabel": "Exportkampány",
+        "gdpr": {
+            "double_opt_in": "Dupla opt-in",
+            "double_opt_in_help": "Azok a támogatók, akik e-mailben megerősítették részvételüket az URL-címen keresztül.",
+            "opt_in": "Bejelentkezés",
+            "opt_in_help": "Támogatók, akik az opt-on opciót választották egy widgeten (\"Igen, szeretnék e-maileket kapni\" rádiógomb)",
+            "opt_out": "Opt out",
+            "opt_out_help": "Támogatók, akik nem akarnak hírlevelet kapni (\"Nem, nem akarok e-maileket kapni\" rádiógomb a widgeten vagy az e-mailben található opt-out URL.",
+            "opt_out_required": "*Kérjük, jelezze, hogy tisztában van a következményekkel.",
+            "opt_out_warning": "Tisztában vagyok azzal, hogy illegális olyan felhasználókkal kapcsolatba lépni, akik nem adtak kifejezett hozzájárulást, kivéve nagyon korlátozott kivételeket."
+        },
+        "csv_help": "A CSV a szabványos formátum. Ezt használja, kivéve, ha kifejezetten JSON-ra van szüksége.",
+        "errorIncomplete": "Hiba történt, a CSV-adatok nem teljesek.",
+        "errorPermission": "Nincs engedélye az adatok exportálására a szervezet számára.",
+        "keyLabel": "Dekódoló kulcsok betöltése",
+        "exporting": "Exportálás",
+        "exportingWithCount": "Exportálás {{count}}...",
+        "exportingWithErrors": "(nincs kulcs a {{count}} műveletekhez)",
+        "exportLabel": "Exportálás",
+        "exportType": {
+            "activities": "Tevékenységek",
+            "activities_help": "A felhasználók által végrehajtott műveletek, például aláírás, megosztás stb. exportálása.",
+            "contacts": "Kapcsolat",
+            "contacts_help": "Csak a kapcsolattartási adatokat exportálja."
+        },
+        "json_help": "JSON formátum a fejlett integrációkhoz.",
+        "key_help": "Ha az adatok titkosítva vannak, exportálás előtt töltse be a titkosítási kulcsot."
+    },
+    "invite": {
+        "subject": "Felhívás a {{org}} oldalon a Fix the Status Quo műszerfalon való részvételre.",
+        "roles": {
+            "campaigner": {
+                "label": "Kampányoló",
+                "description": "Megnézheti és kezelheti az akciókat, támogatókat és kampányadatokat. Nem tudja megváltoztatni a szervezeti beállításokat vagy exportálni az adatokat."
+            },
+            "coordinator": {
+                "label": "Koordinátor",
+                "description": "A támogatók adatait megtekintheti, de nem hozhat létre kampányokat, nem kezelheti a beállításokat, és nem exportálhat adatokat."
+            },
+            "translator": {
+                "description": "Kampányszöveg szerkesztése",
+                "label": "Fordító"
+            },
+            "owner": {
+                "description": "Teljes körű adminisztratív hozzáférés. Mindent kezelhet, beleértve a beállításokat, kampányokat, exportálást és titkosítást.",
+                "label": "Tulajdonos"
+            }
+        },
+        "title": "Meghívás a csatlakozásra {{org}}",
+        "translatorTitle": "Meghívás a {{org}} honlapra fordítóként való csatlakozásra",
+        "emailHelper": "Azonnal küldünk egy meghívó e-mailt egy linkkel a csatlakozáshoz.",
+        "required": "Email cím szükséges",
+        "messageLabel": "Személyes üzenet a meghívottnak",
+        "roleLabel": "Engedélyezési szint kiválasztása",
+        "sent": "Meghívót küldtek a következő címre {{email}}",
+        "another": "Egy másik csapattag meghívása",
+        "copied": "Másolom!",
+        "copy": "Meghívó URL másolása",
+        "default": "A Fix the Status Quo műszerfalon a {{org}} fiókhoz csatlakozhatsz.\n\nEz a meghívó a következő 24 órában érvényes. Kérjük, minél hamarabb fogadja el.\n\nIzgatottan várjuk, hogy csatlakozol hozzánk!",
+        "sentInstructions": "Az alábbi linket közvetlenül is megoszthatja:",
+        "tooltip": "Megjegyzés: Csak a \"tulajdonos\" exportálhatja a támogatók adatait.",
+        "translator": "Szia,\n\nAzért fordulunk hozzád, hogy felkérjünk, működj közre egy kampánylevél lefordításában és finomításában az országod számára. A helyi politikai környezet ismerete értékes lenne - nem csak a fordításban, hanem annak biztosításában is, hogy az üzenet hatékonyan találjon visszhangra a támogatók körében.\n\nA levél több szakaszból áll, mindegyiknek több változata van. A támogatók véletlenszerűen összeállított változatokat kapnak, hogy maximalizálják az elkötelezettséget, és elkerüljék, hogy a címzettek elutasítsák.\n\nAmint elfogadta a meghívást, hozzáférhet a levélhez [itt]({{location}}). **Ne felejtsen el menteni, miután elvégezte a változtatásokat!**\n\nAmint a hozzászólásai elkészültek, kérjük, értesítsen minket és a koordinátort, hogy a frissítéseket be tudjuk telepíteni.\n\nNagyra értékeljük az Ön idejét és szakértelmét - ez egy közös erőfeszítés a kampány hatásának erősítésére.\n\n**A biztonság kedvéért a meghívó hozzáférési linkje 24 óra múlva lejár.**"
+    },
+    "step": {
+        "login": "Az Ön számlája",
+        "configure_org": "Az Ön szervezete",
+        "create_org": "Hozzon létre szervezetet",
+        "done": "Vegye a widgetet",
+        "join_campaign": "Csatlakozzon a kampányhoz",
+        "verify": "Ellenőrizze e-mail címét"
+    },
+    "mineOnly": "csak az én szervezetemtől",
+    "Required": "Kötelező",
+    "Show": "Mutasd meg a",
+    "Twitter Account": "Twitter fiók",
+    "cancel": "Törölje",
+    "close": "Zárja be a",
+    "delete": "Törölje a  címet.",
+    "edit": "Szerkesztés",
+    "save": "Mentés",
+    "send": "Küldje el a",
+    "Customise": "Testreszabás",
+    "join": {
+        "request": "Tervezel dedikált levelezést a támogatóidnak? Tervez-e közösségi média tevékenységeket is, beleértve a fizetett hirdetéseket is?",
+        "requestHelper": "hogy segítsen nekünk megtervezni ezt a kampányt",
+        "goal": "Mit gondol, hány ember fog cselekedni a weboldalán keresztül?",
+        "goalHelper": "Ezt a találgatást csak a koordinátor fogja látni... és tudjuk, hogy nehéz megbecsülni..."
+    },
+    "csv": "CSV",
+    "Fields": "Mezők",
+    "format": "Formátum",
+    "json": "JSON",
+    "View your widget for {{org}}": "Tekintse meg a widgetet a {{org}}",
+    "You can register an new organisation to join the coalition": "Új szervezetet regisztrálhat a koalícióhoz való csatlakozáshoz.",
+    "You can update your organisation's details": "Frissítheti szervezetének adatait",
+    "Stats": "Statisztikák",
+    "supporters": "Támogatók",
+    "Switch to fill the details manually": "Váltson a részletek kézi kitöltésére",
+    "unusedOnly": "csak a nem használt widgetek",
+    "Used to fill the details of your organisation": "Az Ön szervezetének adatainak kitöltésére szolgál",
+    "Used to pre-fill name, description and logo of your organisation": "A szervezet nevének, leírásának és logójának előzetes kitöltésére szolgál.",
+    "widget": {
+        "edit_icon": "Beállítások a {{id}}",
+        "stats_icon": "Statisztikák a {{id}}",
+        "lang": "A widget nyelve",
+        "shareable": "Megosztható link",
+        "test": "A Widget teszt üzemmódban van"
+    }
+}
