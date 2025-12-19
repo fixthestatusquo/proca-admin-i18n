@@ -1,1 +1,167 @@
-{}
+{
+    "action": {
+        "mail2target": "Pošta za cilj",
+        "register": "Register",
+        "share": "Deljenje v družabnih medijih",
+        "twitter_click": "Tweet za ciljno skupino"
+    },
+    "Required": "Zahtevano",
+    "onboarding": {
+        "embargo": "Embargo",
+        "thanks": "Hvala, ker ste se pridružili tej kampanji",
+        "user": {
+            "phoneNumber": "Vaša telefonska številka",
+            "sectionTitle": "Vaši kontaktni podatki",
+            "socialAccountHelper": "Na Twitterju/Instagramu/Linkedinu",
+            "country": "Vaša država",
+            "emailAddress": "Vaš e-poštni naslov",
+            "jobTitle": "Naziv delovnega mesta",
+            "name": "Vaše ime",
+            "socialAccount": "Vaši družabni mediji",
+            "phoneNumberHelper": "Vključno s kodo države"
+        },
+        "organisation": {
+            "another": "Izberite drugo organizacijo",
+            "doubleOptIn": "Moji podporniki se morajo dvakrat prijaviti za prejemanje novic",
+            "logged_in": "Prijavljeni ste pod računom organizacije <b>{{orgName}}</b>",
+            "organisationHelper": "Iz katerega dela družine ste? Dobrodošle so vse organizacije!",
+            "remarks": "Želite nam povedati kakšne pripombe o orodju?",
+            "sectionTitle": "Organizacija",
+            "collectsEmail": "Nimate glasila in ne želite zbirati e-poštnih naslovov? (To funkcijo boste lahko skrili sami na svoji spletni strani) Označite to polje:",
+            "collectsEmailHelper": "Nimam glasila. Prepričan sem, da si ne želim izbirnega polja za pošiljanje novic, ki zbira e-poštne naslove, ki jih lahko uporabimo pozneje.",
+            "crm": "Katero programsko opremo CRM uporabljate?",
+            "network": "Moja organizacija je del krovne organizacije...",
+            "networkHelper": "Pozdravljamo vse organizacije!"
+        },
+        "verify": "Vaš e-poštni naslov še ni preverjen. Preverite e-pošto in kliknite na potrditveno povezavo za nadaljevanje.",
+        "warning": {
+            "is_coordinator": "Kampanji se ne morete pridružiti pod računom **{{org}}**, saj je to koordinator **{{campaign}}**.",
+            "is_member": "Ste član organizacije **{{org}}**, ki vodi to kampanjo!"
+        },
+        "intro": "Da bi povečali svoj vpliv, potrebujemo široko koalicijo, zato smo vam poskušali omogočiti, da se ji pridružite na čim bolj preprost način.",
+        "login": "Registrirajte se kot uporabnik ali se prijavite s poverilnicami družabnih omrežij ali e-pošto. To je vaš osebni račun, po registraciji boste lahko nastavili svojo organizacijo.",
+        "welcome": "Dobrodošli na območju partnerjev te kampanje, ki jo koordinira {{coordinator}}",
+        "title": "Ste organizacija ali družbeno gibanje in želite to kampanjo dodati na svoje spletno mesto?",
+        "done": "Po e-pošti boste prejeli potrditveno sporočilo. Na svoje spletno mesto lahko že vstavite testno različico <1>vižice</1>.",
+        "embargoHelper": "Potrjujem, da je na gradivo kampanje do nadaljnjega strogo uveden embargo. Strinjam se, da tega gradiva ne bom delil z nikomer zunaj moje organizacije.",
+        "mailling": "Poštni seznam",
+        "maillingHelper": "Z oddajo tega obrazca se strinjam, da me dodajo na poštni seznam {{campaign}}. Od prejemanja se lahko kadar koli odjavim."
+    },
+    "export": {
+        "campaignDefault": "Vse kampanje",
+        "gdprLabel": "GDPR",
+        "gdpr": {
+            "double_opt_in": "Dvojna prijava",
+            "double_opt_in_help": "Podporniki, ki so svojo udeležbo potrdili prek e-poštnega potrditvenega URL naslova",
+            "opt_in": "Prijavite se",
+            "opt_in_help": "Podporniki, ki so na gradniku izbrali možnost opt-on (radijski gumb \"Da, želim prejemati e-poštna sporočila\").",
+            "opt_out": "Odjava",
+            "opt_out_required": "*Prosimo, označite, da se zavedate posledic",
+            "opt_out_warning": "Zavedam se, da je vzpostavljanje stikov z uporabniki, ki niso izrecno dali soglasja, nezakonito, razen v zelo omejenih izjemah.",
+            "opt_out_help": "Podporniki, ki ne želijo prejemati novic (\"Ne, ne želim prejemati e-pošte\" radijski gumb na gradniku ali URL za odjavo v e-pošti."
+        },
+        "exportLabel": "Izvoz",
+        "exportType": {
+            "activities": "Dejavnosti",
+            "activities_help": "Izvozi dejanja uporabnikov, kot so podpisovanje, deljenje itd.",
+            "contacts": "Kontakti",
+            "contacts_help": "Izvozi samo kontaktne podatke."
+        },
+        "csv_help": "Standardna oblika je CSV. Uporabite ga, razen če izrecno potrebujete JSON.",
+        "campaignLabel": "Kampanja za izvoz",
+        "errorIncomplete": "Zgodila se je napaka, podatki CSV so nepopolni.",
+        "errorPermission": "Za to organizacijo nimate dovoljenja za izvoz podatkov.",
+        "exporting": "Izvoz",
+        "exportingWithCount": "Izvoz {{count}}...",
+        "exportingWithErrors": "(ni tipke za akcije {{count}} )",
+        "json_help": "format JSON za napredne integracije.",
+        "key_help": "Če so podatki šifrirani, pred izvozom naložite šifrirni ključ.",
+        "keyLabel": "Nalaganje ključev za dešifriranje",
+        "title": "Izvoz podatkov o članih"
+    },
+    "invite": {
+        "default": "Vabimo vas, da se pridružite računu {{org}} na nadzorni plošči Fix the Status Quo.\n\nTo vabilo bo veljalo naslednjih 24 ur. Prosimo, da ga čim prej sprejmete.\n\nVeseli nas, da ste se nam pridružili!",
+        "title": "Povabilo za pridružitev {{org}}",
+        "translatorTitle": "Povabilo, da se pridružite {{org}} kot prevajalec",
+        "copied": "Kopirano!",
+        "roles": {
+            "campaigner": {
+                "label": "Organizator kampanje",
+                "description": "Lahko si ogledate in upravljate akcije, podpornike in podatke o kampanji. Ne more spreminjati nastavitev organizacije ali izvažati podatkov."
+            },
+            "owner": {
+                "label": "Lastnik",
+                "description": "Polni upravni dostop. Upravljate lahko vse, vključno z nastavitvami, kampanjami, izvozi in šifriranjem."
+            },
+            "translator": {
+                "label": "Prevajalec",
+                "description": "Urejanje besedila kampanje"
+            },
+            "coordinator": {
+                "description": "Lahko si ogledate podatke podpornikov, vendar ne morete ustvarjati kampanj, upravljati nastavitev ali izvažati podatkov.",
+                "label": "Koordinator"
+            }
+        },
+        "subject": "Povabilo, da se pridružite spletni strani {{org}} na nadzorni plošči Fix the Status Quo",
+        "another": "Povabite drugega člana ekipe",
+        "copy": "Kopiranje URL-ja povabila",
+        "emailHelper": "Poslali vam bomo e-poštno sporočilo z vabilom in povezavo za takojšnjo pridružitev.",
+        "messageLabel": "Osebno sporočilo za povabljenca",
+        "required": "Zahteva se e-poštni naslov",
+        "roleLabel": "Izberite raven avtentikacije",
+        "sent": "Vabilo poslano na naslov {{email}}",
+        "sentInstructions": "Spodnjo povezavo lahko delite tudi neposredno:",
+        "tooltip": "Opomba: Podatke o podpornikih bo lahko izvozil samo \"lastnik\".",
+        "translator": "Pozdravljeni,\n\nna vas se obračamo s povabilom k sodelovanju pri prevajanju in izpopolnjevanju pisma kampanje za vašo državo. Vaše poznavanje lokalnega političnega konteksta bi bilo dragoceno - ne le pri prevajanju, temveč tudi pri zagotavljanju, da bo sporočilo učinkovito odmevalo med podporniki.\n\nPismo je sestavljeno iz več delov, od katerih ima vsak več različic. Podporniki bodo prejeli naključno sestavljene različice, da bi povečali sodelovanje in se izognili temu, da bi jih prejemniki zavrnili.\n\nTakoj ko boste sprejeli povabilo, boste lahko dostopali do pisma [tukaj]({{location}}). **Ne pozabite shraniti, ko opravite spremembe!**\n\nKo bodo vaši prispevki končani, o tem obvestite nas in koordinatorja, da bomo lahko namestili posodobitve.\n\nCenimo vaš čas in strokovno znanje - to je skupno prizadevanje za okrepitev učinka kampanje.\n\n**Za varnost bo vaša povezava za dostop do vabila prenehala veljati v 24 urah.**"
+    },
+    "Fields": "Polja",
+    "mineOnly": "samo iz moje organizacije",
+    "Switch to fill the details manually": "Preklop za ročno izpolnjevanje podatkov",
+    "Twitter Account": "Račun Twitter",
+    "View your widget for {{org}}": "Oglejte si svoj gradnik za {{org}}",
+    "createOrg": {
+        "intro": "Najhitreje začnete z računom svoje organizacije na Twitterju (če jih imate več, izberite enega).",
+        "manual": "Preklop za ročno izpolnjevanje podatkov",
+        "noTwitter": "Moja organizacija ni na Twitterju"
+    },
+    "You can update your organisation's details": "Posodobite lahko podatke o svoji organizaciji.",
+    "join": {
+        "goalHelper": "To domnevo bo videl le koordinator... in vemo, da jo je težko oceniti.",
+        "goal": "Koliko ljudi bo po vašem pričakovanju ukrepalo prek vašega spletnega mesta?",
+        "request": "Ali nameravate svojim podpornikom pošiljati posebne dopise? Ali načrtujete tudi dejavnosti v družabnih medijih, vključno s plačanim oglaševanjem?",
+        "requestHelper": "da nam pomagate pri načrtovanju te kampanje"
+    },
+    "step": {
+        "configure_org": "Vaša organizacija",
+        "create_org": "Ustvarite svojo organizacijo",
+        "done": "Vzemite svoj gradnik",
+        "join_campaign": "Pridružite se kampanji",
+        "login": "Vaš račun",
+        "verify": "Preverjanje e-poštnega sporočila"
+    },
+    "cancel": "Prekliči",
+    "close": "Zapri",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "save": "Shrani",
+    "send": "Pošlji",
+    "You can register an new organisation to join the coalition": "Prijavite lahko novo organizacijo, ki se bo pridružila koaliciji.",
+    "Stats": "Statistika",
+    "supporters": "Podporniki",
+    "Used to pre-fill name, description and logo of your organisation": "Uporablja se za predhodno izpolnitev imena, opisa in logotipa vaše organizacije.",
+    "widget": {
+        "edit_icon": "Nastavitve za {{id}}",
+        "stats_icon": "Statistični podatki za {{id}}",
+        "lang": "Jezik gradnika",
+        "shareable": "Povezava za skupno rabo",
+        "test": "Pripomoček je v testnem načinu"
+    },
+    "csv": "CSV",
+    "Customise": "Prilagodite",
+    "externalPartner": "samo zunanji partnerji",
+    "format": "Format",
+    "json": "JSON",
+    "Show": "Prikaži",
+    "unusedOnly": "samo neuporabljeni gradniki",
+    "Used to fill the details of your organisation": "Uporablja se za izpolnjevanje podatkov o vaši organizaciji."
+}
