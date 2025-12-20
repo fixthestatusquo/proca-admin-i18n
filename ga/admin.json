@@ -133,7 +133,7 @@
     "export": {
         "title": "Easpórtáil sonraí ball",
         "campaignLabel": "Feachtas chun onnmhairiú",
-        "campaignDefault": "Gach sonraí ball",
+        "campaignDefault": "Gach feachtas",
         "gdprLabel": "GDPR",
         "gdpr": {
             "opt_in": "Roghnaigh isteach",
@@ -161,5 +161,14 @@
         "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú.",
         "errorIncomplete": "Tharla earráid, sonraí CSV neamhiomlán.",
         "errorPermission": "Níl cead agat sonraí a easpórtáil don eagraíocht seo."
+    },
+    "Stats": "Staitisticí",
+    "supporters": "lucht tacaíochta",
+    "widget": {
+        "edit_icon": "Socruithe le haghaidh {{id}}",
+        "stats_icon": "Staitisticí do {{id}}",
+        "lang": "Teanga an ghiuirléid",
+        "shareable": "Nasc inroinnte",
+        "test": "Tá an giuirléid i mód tástála"
     }
 }
