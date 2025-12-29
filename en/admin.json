@@ -142,8 +142,8 @@
   "Show": "Show",
   "Stats": "Stats",
   "step": {
-    "configure_org": "Your organisation",
     "create_org": "Create your organisation",
+    "org_error": "Error",
     "done": "Take your widget",
     "join_campaign": "Join the campaign",
     "login": "Your account",
