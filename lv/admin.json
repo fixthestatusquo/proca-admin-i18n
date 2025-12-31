@@ -78,7 +78,8 @@
         "configure_org": "Jūsu organizācija",
         "done": "Izmantojiet savu logrīku",
         "join_campaign": "Pievienojieties kampaņai",
-        "create_org": "Izveidojiet savu organizāciju"
+        "create_org": "Izveidojiet savu organizāciju",
+        "org_error": "Kļūda"
     },
     "Customise": "Pielāgojiet",
     "Fields": "Lauki",
@@ -122,7 +123,7 @@
         },
         "login": "Reģistrējieties kā lietotājs vai piesakieties, izmantojot sociālo tīklu akreditācijas datus vai e-pastu. Tas ir jūsu personīgais konts, un pēc reģistrēšanās jūs varēsiet izveidot savu organizāciju.",
         "embargoHelper": "Apzinos, ka kampaņas materiāliem ir noteikts stingrs aizliegums līdz turpmākam paziņojumam. Es piekrītu nedalīties ar šiem materiāliem ar citām personām ārpus manas organizācijas.",
-        "intro": "Lai palielinātu mūsu ietekmi, mums ir nepieciešama plaša koalīcija, un mēs centāmies padarīt to pēc iespējas vienkāršāku, lai jūs varētu tai pievienoties.",
+        "intro": "[Sadarbība ar šo kampaņu](https://fixthestatusquo.com/help/for-partners/) nozīmē kopīgi īstenot spēcīgu digitālo akciju, vienlaikus saglabājot pilnīgu kontroli pār to, kas ir svarīgs jūsu organizācijai. Mēs izveidosim jūsu identitātei atbilstošu zīmolu widgetu: tas darbosies jūsu tīmekļa vietnē, ar jūsu logotipu, jūsu krāsās un jūsu valodā.\n\nVairāk nekā 450 organizācijas to ir izmantojušas citās kampaņās. Rīkrīka pievienošana parasti aizņem dažas minūtes: vienkārši ielīmējiet vienu koda fragmentu savā vietnē (tikpat vienkārši kā ievietot YouTube video). Nav nepieciešamas tehniskas zināšanas, nav nepieciešams IT departaments, un mūsu [komanda jūs atbalstīs](mailto:support@fixthestatusquo.org) visā procesa gaitā. Kad tiešraide ir palaista, katra jūsu atbalstītāju veiktā darbība tiek ievadīta kopīgajā kampaņas skaitītājā, radot redzamu kolektīvo impulsu, kas demonstrē reālu spēku un veicina pārmaiņas.\n\nJūsu atbalstītāji, jūsu dati mūsu platformā, kas atbilst GDPR prasībām. Kampaņa darbojas uz īpašiem serveriem Vācijā, un jūs saglabājat pilnīgu īpašumtiesību uz saviem atbalstītāju datiem un varat tos lejupielādēt no vadības paneļa, kad vien vēlaties (vai sazinieties ar mums, lai apspriestu tiešu integrāciju ar savu adresātu sarakstu pārvaldnieku). \n\nPalieliniet savu atbalstītāju bāzi, vienlaikus sniedzot ieguldījumu plašākā kustībā. Kopā mēs radīsim tādu koordinētu spiedienu, kas reāli uzvar kampaņās.",
         "verify": "Jūsu e-pasta adrese vēl nav pārbaudīta. Lūdzu, pārbaudiet savu e-pastu un noklikšķiniet uz apstiprinājuma saites, lai turpinātu.",
         "warning": {
             "is_coordinator": "Jūs nevarat pievienoties kampaņai ar **{{org}}** konta starpniecību, tas ir **{{campaign}}** koordinators.",
