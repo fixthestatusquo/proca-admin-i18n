@@ -13,7 +13,7 @@
             "phoneNumberHelper": "Incluindo o código do país"
         },
         "embargo": "Embargo",
-        "intro": "Para aumentar nosso impacto, precisamos de uma ampla coalizão e tentamos simplificar ao máximo para que você possa participar dela.",
+        "intro": "[Fazer parceria com esta campanha] (https://fixthestatusquo.com/help/for-partners/) significa executar uma ação digital poderosa em conjunto e, ao mesmo tempo, manter o controle total do que é importante para a sua organização. Criaremos um widget de marca personalizada que corresponda à sua identidade: ele será executado em seu site, com seu logotipo, suas cores e em seu idioma.\n\nMais de 450 organizações já fizeram isso em outras campanhas. A adição do widget geralmente leva minutos: basta colar um trecho de código em seu site (tão fácil quanto incorporar um vídeo do YouTube). Não é necessário nenhum conhecimento técnico, nenhum departamento de TI, e nossa [equipe o apoiará] (mailto:support@fixthestatusquo.org) durante todo o processo. Uma vez no ar, cada ação dos seus apoiadores é alimentada em um contador de campanha compartilhado, criando um impulso coletivo visível que demonstra o poder real e promove mudanças.\n\nSeus apoiadores, seus dados, em nossa plataforma compatível com o GDPR. Executado em servidores dedicados na Alemanha, você mantém a propriedade total dos dados de seus apoiadores e pode baixá-los do painel sempre que desejar (ou entre em contato conosco para discutir a integração direta com seu gerenciador de listas de e-mails). \n\nAumente sua base de apoiadores e, ao mesmo tempo, contribua para um movimento maior. Juntos, criamos o tipo de pressão coordenada que realmente vence campanhas.",
         "embargoHelper": "Reconheço que os materiais da campanha estão estritamente embargados até novo aviso. Concordo em NÃO COMPARTILHAR esses materiais com ninguém fora da minha organização.",
         "thanks": "Obrigado por participar desta campanha",
         "mailling": "Lista de discussão",
@@ -47,7 +47,8 @@
         "configure_org": "Sua organização",
         "create_org": "Crie sua organização",
         "done": "Pegue seu widget",
-        "join_campaign": "Participe da campanha"
+        "join_campaign": "Participe da campanha",
+        "org_error": "Erro"
     },
     "Used to fill the details of your organisation": "Usado para preencher os detalhes de sua organização",
     "join": {
