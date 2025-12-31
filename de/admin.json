@@ -2,7 +2,7 @@
     "onboarding": {
         "welcome": "Willkommen im Partner' Bereich für diese Kampagne, koordiniert von {{coordinator}}",
         "title": "Sind Sie eine Organisation oder eine soziale Bewegung, die diese Kampagne auf ihrer Webseite veröffentlichen möchte?",
-        "intro": "Um unsere Wirkung zu verstärken, brauchen wir eine breite Koalition, und wir haben versucht, es so einfach wie möglich zu machen, damit Sie sich ihr anschließen können.",
+        "intro": "[Eine Partnerschaft mit dieser Kampagne] (https://fixthestatusquo.com/help/for-partners/) bedeutet, dass wir gemeinsam eine leistungsstarke digitale Aktion durchführen und dabei die volle Kontrolle über die für Ihre Organisation wichtigen Themen behalten. Wir erstellen ein individuelles Widget, das zu Ihrer Identität passt: Es läuft auf Ihrer Website, mit Ihrem Logo, Ihren Farben und in Ihrer Sprache.\n\nMehr als 450 Organisationen haben dies bereits bei anderen Kampagnen getan. Das Hinzufügen des Widgets dauert in der Regel nur wenige Minuten: Fügen Sie einfach einen Codeschnipsel auf Ihrer Website ein (so einfach wie das Einbetten eines YouTube-Videos). Sie brauchen kein technisches Fachwissen und keine IT-Abteilung, und unser [Team unterstützt Sie](mailto:support@fixthestatusquo.org) auf dem Weg dorthin. Sobald die Seite online ist, wird jede Aktion Ihrer Unterstützer in einen gemeinsamen Kampagnenzähler eingespeist, wodurch ein sichtbares kollektives Momentum entsteht, das echte Macht demonstriert und Veränderungen vorantreibt.\n\nIhre Unterstützer, Ihre Daten, auf unserer GDPR-konformen Plattform. Da die Plattform auf dedizierten Servern in Deutschland läuft, behalten Sie die volle Kontrolle über Ihre Unterstützerdaten und können sie jederzeit vom Dashboard herunterladen (oder kontaktieren Sie uns, um eine direkte Integration mit Ihrem Mailinglisten-Manager zu besprechen). \n\nVergrößern Sie Ihre Unterstützerbasis und tragen Sie gleichzeitig zu einer größeren Bewegung bei. Gemeinsam schaffen wir die Art von koordiniertem Druck, die Kampagnen tatsächlich zum Erfolg führt.",
         "thanks": "Danke, dass Sie sich an dieser Kampagne beteiligen",
         "done": "Sie erhalten dann eine Bestätigungsnachricht per E-Mail. Sie können bereits eine Testversion des <1>Widgets auf Ihrer Website einbetten</1>",
         "warning": {
@@ -58,7 +58,8 @@
         "create_org": "Erstellen Sie Ihre Organisation",
         "configure_org": "Ihre Organisation",
         "login": "Ihr Konto",
-        "verify": "Überprüfen Sie Ihre E-Mail"
+        "verify": "Überprüfen Sie Ihre E-Mail",
+        "org_error": "Fehler"
     },
     "join": {
         "requestHelper": "um uns bei der Planung dieser Kampagne zu helfen",
