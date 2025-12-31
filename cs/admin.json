@@ -57,7 +57,7 @@
     "onboarding": {
         "login": "Zaregistrujte se jako uživatel nebo se přihlaste pomocí přihlašovacích údajů ze sociálních sítí nebo e-mailu.Jedná se o váš osobní účet, po registraci budete moci nastavit svou organizaci.",
         "done": "Potvrzení obdržíte e-mailem. Na své webové stránky již můžete vložit testovací verzi <1>widgetu</1>",
-        "intro": "Abychom zvýšili náš dopad, potřebujeme širokou koalici a snažili jsme se, abyste se k ní mohli co nejjednodušeji připojit.",
+        "intro": "[Partnerství s touto kampaní](https://fixthestatusquo.com/help/for-partners/) znamená, že společně povedeme výkonnou digitální akci a zároveň budeme mít plnou kontrolu nad tím, co je pro vaši organizaci důležité. Vytvoříme widget na míru, který bude odpovídat vaší identitě: poběží na vašich webových stránkách, s vaším logem, ve vašich barvách a ve vašem jazyce.\n\nNa jiných kampaních to udělalo více než 450 organizací. Přidání widgetu obvykle trvá několik minut: stačí vložit jeden úryvek kódu na vaše stránky (stejně snadno jako vložení videa na YouTube). Nepotřebujete žádné technické znalosti, žádné IT oddělení a náš [tým vám poskytne podporu](mailto:support@fixthestatusquo.org) na celé cestě. Po spuštění se každá akce vašich příznivců zapíše do sdíleného počítadla kampaně a vytvoří viditelný kolektivní impuls, který demonstruje skutečnou sílu a podporuje změnu.\n\nVaši příznivci, vaše data, na naší platformě, která je v souladu s GDPR. Provozujeme ji na vyhrazených serverech v Německu, takže si zachováváte plné vlastnictví údajů o svých příznivcích a můžete si je kdykoli stáhnout z ovládacího panelu (nebo nás kontaktujte, abychom projednali přímou integraci se správcem vašich poštovních seznamů). \n\nRozšiřte svou základnu příznivců a zároveň přispějte k většímu hnutí. Společně vytváříme koordinovaný tlak, který skutečně vyhrává kampaně.",
         "thanks": "Děkujeme, že jste se připojili k této kampani",
         "title": "Jste organizace nebo sociální hnutí, které chce tuto kampaň přidat na své stránky?",
         "verify": "Váš e-mail ještě není ověřen. Zkontrolujte prosím svůj e-mail a pokračujte kliknutím na potvrzovací odkaz.",
@@ -102,7 +102,8 @@
         "configure_org": "Vaše organizace",
         "login": "Váš účet",
         "done": "Převezměte si svůj widget",
-        "join_campaign": "Připojte se ke kampani"
+        "join_campaign": "Připojte se ke kampani",
+        "org_error": "Chyba"
     },
     "action": {
         "register": "Registrace",
