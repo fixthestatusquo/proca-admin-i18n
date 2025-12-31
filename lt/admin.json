@@ -43,7 +43,7 @@
         "done": "El. paštu gausite patvirtinimo pranešimą. Savo svetainėje jau galite įterpti bandomąją <1>paveiksliuko versiją</1>",
         "embargo": "Embargas",
         "embargoHelper": "Pripažįstu, kad kampanijos medžiagai taikomas griežtas embargas iki tolesnio pranešimo. Sutinku nesidalyti šia medžiaga su niekuo už savo organizacijos ribų.",
-        "intro": "Kad padidintume savo poveikį, mums reikia plačios koalicijos, todėl stengėmės padaryti taip, kad jums būtų kuo paprasčiau prie jos prisijungti.",
+        "intro": "[Partnerystė su šia kampanija](https://fixthestatusquo.com/help/for-partners/) reiškia, kad kartu vykdysite galingą skaitmeninę akciją, kartu visiškai kontroliuodami tai, kas svarbu jūsų organizacijai. Sukursime individualų firminį valdiklį, kuris atitiks jūsų tapatybę: jis veiks jūsų svetainėje, su jūsų logotipu, jūsų spalvomis, jūsų kalba.\n\nDaugiau nei 450 organizacijų tai padarė vykdydamos kitas kampanijas. Valdiklio pridėjimas paprastai užtrunka kelias minutes: tereikia į svetainę įterpti vieną kodo fragmentą (taip pat paprasta, kaip įterpti \"YouTube\" vaizdo įrašą). Nereikia jokių techninių žinių, nereikia IT skyriaus, o mūsų [komanda jums padės](mailto:support@fixthestatusquo.org). Pradėjus veikti, kiekvienas jūsų rėmėjų veiksmas bus įtrauktas į bendrą kampanijos skaitiklį, taip sukuriant matomą kolektyvinį postūmį, kuris parodo realią galią ir skatina pokyčius.\n\nJūsų rėmėjai, jūsų duomenys mūsų BDAR reikalavimus atitinkančioje platformoje. Veikiama specialiuose serveriuose Vokietijoje, todėl jūsų rėmėjų duomenys visiškai priklauso jums ir galite juos atsisiųsti iš valdymo skydelio, kai tik norite (arba susisiekite su mumis, kad aptartume tiesioginę integraciją su jūsų pašto sąrašų tvarkytoju). \n\nDidinkite savo rėmėjų bazę ir kartu prisidėkite prie didesnio judėjimo. Kartu sukursime tokį koordinuotą spaudimą, kuris iš tikrųjų padeda laimėti kampanijas.",
         "login": "Užsiregistruokite kaip naudotojas arba prisijunkite naudodamiesi socialinės žiniasklaidos įgaliojimais arba el. paštu. Tai jūsų asmeninė paskyra, užsiregistravę galėsite nustatyti savo organizaciją.",
         "mailling": "Pašto sąrašas"
     },
@@ -126,7 +126,8 @@
         "create_org": "Sukurkite savo organizaciją",
         "join_campaign": "Prisijunkite prie kampanijos",
         "login": "Jūsų paskyra",
-        "verify": "Patikrinkite savo el. pašto adresą"
+        "verify": "Patikrinkite savo el. pašto adresą",
+        "org_error": "Klaida"
     },
     "Customise": "Pritaikykite",
     "mineOnly": "tik iš mano organizacijos",
