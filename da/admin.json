@@ -33,7 +33,7 @@
         "embargoHelper": "Jeg anerkender, at kampagnematerialet er under streng embargo indtil videre. Jeg accepterer IKKE at DELE disse materialer med nogen uden for min organisation.",
         "login": "Registrer dig som bruger, eller log ind med dine oplysninger fra sociale medier eller din e-mail. Det er din personlige konto, og du vil kunne oprette din organisation, når du har registreret dig.",
         "thanks": "Tak, fordi du deltager i denne kampagne",
-        "intro": "For at øge vores gennemslagskraft har vi brug for en bred koalition, og vi har forsøgt at gøre det så enkelt som muligt for dig at være med.",
+        "intro": "[Partnerskab med denne kampagne](https://fixthestatusquo.com/help/for-partners/) betyder at køre en stærk digital aktion sammen, mens du beholder fuld kontrol over, hvad der betyder noget for din organisation. Vi skaber en specialdesignet widget, der matcher din identitet: Den kører på din hjemmeside, med dit logo, dine farver og på dit sprog.\n\nMere end 450 organisationer har gjort det i forbindelse med andre kampagner. Det tager normalt kun få minutter at tilføje widgetten: Du skal bare indsætte en kodestump på din hjemmeside (lige så nemt som at indlejre en YouTube-video). Der er ikke brug for teknisk ekspertise eller en it-afdeling, og vores [team vil støtte dig](mailto:support@fixthestatusquo.org) undervejs. Når den er live, vil alle handlinger, som dine støtter foretager, blive registreret i en fælles kampagnetæller, hvilket skaber et synligt kollektivt momentum, der viser reel magt og skaber forandring.\n\nDine tilhængere, dine data, på vores GDPR-kompatible platform. Den kører på dedikerede servere i Tyskland, og du bevarer det fulde ejerskab over dine supporterdata og kan downloade dem fra dashboardet, når du vil (eller kontakte os for at drøfte direkte integration med din mailinglisteadministrator). \n\nUdvid din støttebase, mens du bidrager til en større bevægelse. Sammen skaber vi den form for koordineret pres, der rent faktisk vinder kampagner.",
         "mailling": "Mailingliste",
         "maillingHelper": "Ved at indsende denne formular accepterer jeg at blive tilføjet til mailinglisten {{campaign}}. Jeg kan til enhver tid afmelde mig igen.",
         "done": "Du vil modtage en bekræftelse via e-mail. Du kan allerede indlejre en testversion af <1>widgeten på din hjemmeside</1>.",
@@ -145,7 +145,8 @@
         "create_org": "Opret din organisation",
         "done": "Tag din widget",
         "join_campaign": "Deltag i kampagnen",
-        "login": "Din konto"
+        "login": "Din konto",
+        "org_error": "Fejl"
     },
     "Used to fill the details of your organisation": "Bruges til at udfylde oplysninger om din organisation",
     "Stats": "Statistik",
