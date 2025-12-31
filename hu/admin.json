@@ -34,7 +34,7 @@
             "socialAccount": "Az Ön közösségi médiája",
             "socialAccountHelper": "Twitter/Instagram/Linkedin"
         },
-        "intro": "Ahhoz, hogy növeljük hatásunkat, széles körű koalícióra van szükségünk, és megpróbáltuk a lehető legegyszerűbbé tenni, hogy Ön is csatlakozhasson.",
+        "intro": "A [partneri együttműködés ezzel a kampánnyal] (https://fixthestatusquo.com/help/for-partners/) azt jelenti, hogy együtt indítunk egy erőteljes digitális akciót, miközben teljes mértékben megtartjuk az ellenőrzést a szervezetünk számára fontos dolgok felett. Egyedi márkájú widgetet készítünk, amely megfelel az Ön identitásának: az Ön weboldalán fut, az Ön logójával, az Ön színeivel, az Ön nyelvén.\n\nTöbb mint 450 szervezet csinálta ezt más kampányok során. A widget hozzáadása általában percekig tart: csak egy kódrészletet kell beillesztenie a webhelyére (ez olyan egyszerű, mint egy YouTube-videó beágyazása). Nincs szükség műszaki szakértelemre, nincs szükség informatikai részlegre, és [csapatunk támogatja Önt](mailto:support@fixthestatusquo.org) az út során. Amint élesben működik, támogatói minden egyes akciója egy közös kampányszámlálóba kerül, látható kollektív lendületet adva, amely valódi erőt mutat és változást eredményez.\n\nAz Ön támogatói, az Ön adatai, a GDPR-kompatibilis platformunkon. Németországban dedikált szervereken fut, így támogatói adatai teljes mértékben az Ön tulajdonában maradnak, és bármikor letöltheti azokat a műszerfalról (vagy lépjen kapcsolatba velünk, hogy megbeszéljük a közvetlen integrációt a levelezőlista-kezelőjével). \n\nNövelje támogatói bázisát, miközben hozzájárul egy nagyobb mozgalomhoz. Együtt olyan összehangolt nyomást hozunk létre, amely valóban megnyeri a kampányokat.",
         "login": "Regisztráljon felhasználóként, vagy jelentkezzen be a közösségi médián keresztül vagy az e-mail címével. Ez az Ön személyes fiókja, szervezetét a regisztráció után tudja majd beállítani.",
         "thanks": "Köszönjük, hogy csatlakozott ehhez a kampányhoz",
         "welcome": "Üdvözöljük a kampány partnereinek területén, amelyet a következő szervezetek koordinálnak {{coordinator}}",
@@ -125,7 +125,8 @@
         "create_org": "Hozzon létre szervezetet",
         "done": "Vegye a widgetet",
         "join_campaign": "Csatlakozzon a kampányhoz",
-        "verify": "Ellenőrizze e-mail címét"
+        "verify": "Ellenőrizze e-mail címét",
+        "org_error": "Hiba"
     },
     "mineOnly": "csak az én szervezetemtől",
     "Required": "Kötelező",
