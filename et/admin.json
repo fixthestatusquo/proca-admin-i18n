@@ -64,7 +64,7 @@
         "mailling": "Postiloend",
         "done": "Saate e-posti teel kinnituse. Saate juba oma veebisaidil <1>laiendi testversiooni </1> sisse põimida.",
         "embargoHelper": "Tunnistan, et kampaaniamaterjalid on kuni edasise teatamiseni rangelt keelatud. Nõustun, et ma EI JAGA neid materjale kellelegi väljaspool minu organisatsiooni.",
-        "intro": "Et suurendada meie mõju, vajame laiaulatuslikku koalitsiooni ja me püüdsime teha selle nii lihtsaks kui võimalik, et te saaksite sellega liituda.",
+        "intro": "[Partnerlus selle kampaaniaga] (https://fixthestatusquo.com/help/for-partners/) tähendab, et me viime koos läbi võimsa digitaalse tegevuse, säilitades samas täieliku kontrolli selle üle, mis on teie organisatsiooni jaoks oluline. Me loome teie identiteedile vastava, kohandatud kaubamärgiga vidina: see töötab teie veebisaidil, teie logoga, teie värvidega, teie keeles.\n\nRohkem kui 450 organisatsiooni on seda teinud teiste kampaaniate puhul. Vidina lisamine võtab tavaliselt vaid mõne minuti: lihtsalt kleebige üks koodilõik oma veebisaidile (sama lihtne kui YouTube'i video manustamine). Selleks ei ole vaja tehnilisi teadmisi ega IT-osakonda ning meie [meeskond toetab teid](mailto:support@fixthestatusquo.org) kogu protsessi vältel. Kui teie toetajate tegevus on käivitatud, kantakse iga tegevus ühisele kampaanialoendurile, mis loob nähtava kollektiivse hoo, mis näitab tõelist jõudu ja ajendab muutusi.\n\nTeie toetajad, teie andmed, meie GDPR-konformsel platvormil. Saksamaal asuvatel spetsiaalsetel serveritel toimides on teie toetajate andmed täielikult teie omanduses ja te saate neid igal ajal armatuurlaualt alla laadida (või võtke meiega ühendust, et arutada otsest integreerimist teie postiloendite haldajaga). \n\nSuurendage oma toetajaskonda, aidates samal ajal kaasa suuremale liikumisele. Koos loome kooskõlastatud surve, mis tegelikult võidab kampaaniaid.",
         "welcome": "Tere tulemast selle kampaania partnerite piirkonda, mida koordineerib {{coordinator}}",
         "thanks": "Täname teid selle kampaaniaga liitumise eest",
         "embargo": "Embargo",
@@ -148,7 +148,8 @@
         "login": "Teie konto",
         "configure_org": "Teie organisatsioon",
         "join_campaign": "Liitu kampaaniaga",
-        "verify": "Kontrollida oma e-posti aadressi"
+        "verify": "Kontrollida oma e-posti aadressi",
+        "org_error": "Viga"
     },
     "Twitter Account": "Twitteri konto",
     "Used to fill the details of your organisation": "Kasutatakse teie organisatsiooni andmete täitmiseks",
