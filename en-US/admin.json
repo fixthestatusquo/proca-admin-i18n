@@ -102,7 +102,7 @@
         "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}",
         "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
         "embargo": "Embargo",
-        "intro": "To increase our impact, we need a broad coalition and we tried to make it as simple as possible to let you join it.",
+        "intro": "[Partnering with this campaign](https://fixthestatusquo.com/help/for-partners/) means running a powerful digital action together while keeping full control of what matters to your organization. We'll create a custom-branded widget that matches your identity: it runs on your website, with your logo, your colors, in your language.\n\nMore than 450 organisations have done it on other campaigns. Adding the widget usually takes minutes: just paste one snippet of code into your site (as easy as embedding a YouTube video). No technical expertise needed, no IT department required, and our [team will support you](mailto:support@fixthestatusquo.org) along the way. Once live, every action your supporters take feeds into a shared campaign counter, creating visible collective momentum that demonstrates real power and drives change.\n\nYour supporters, your data, on our GDPR-compliant platform. Running on dedicated servers in Germany, you maintain complete ownership of your supporter data and can download it from the dashboard whenever you want (or contact us to discuss direct integration with your mailing list manager). \n\nGrow your supporter base while contributing to a bigger movement. Together, we create the kind of coordinated pressure that actually wins campaigns.",
         "mailling": "Mailing list",
         "thanks": "Thank you for joining this campaign",
         "title": "Are you an organisation or social movement that wants to add this campaign on your site?"
@@ -127,7 +127,8 @@
         "configure_org": "Your organisation",
         "create_org": "Create your organisation",
         "done": "Take your widget",
-        "join_campaign": "Join the campaign"
+        "join_campaign": "Join the campaign",
+        "org_error": "Error"
     },
     "Customise": "Customise",
     "Twitter Account": "Twitter Account",
