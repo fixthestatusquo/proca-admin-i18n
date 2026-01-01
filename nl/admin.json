@@ -45,7 +45,7 @@
         },
         "welcome": "Welkom bij het partnergebied voor deze campagne, gecoördineerd door {{coordinator}}",
         "done": "Je ontvangt een bevestigingsbericht per e-mail. Je kunt al een testversie van de <1>widget op je website insluiten</1>.",
-        "intro": "Om onze impact te vergroten, hebben we een brede coalitie nodig en we hebben geprobeerd het zo eenvoudig mogelijk te maken om je erbij aan te sluiten.",
+        "intro": "[Samenwerken met deze campagne](https://fixthestatusquo.com/help/for-partners/) betekent samen een krachtige digitale actie voeren terwijl je volledige controle houdt over wat belangrijk is voor jouw organisatie. We maken een widget op maat die past bij jouw identiteit: hij draait op jouw website, met jouw logo, jouw kleuren, in jouw taal.\n\nMeer dan 450 organisaties hebben dit gedaan voor andere campagnes. Het toevoegen van de widget duurt meestal maar een paar minuten: je hoeft alleen maar een stukje code op je site te plakken (net zo makkelijk als het insluiten van een YouTube-video). Geen technische expertise nodig, geen IT-afdeling nodig en ons [team zal je](mailto:support@fixthestatusquo.org) onderweg ondersteunen. Zodra de campagne live is, wordt elke actie van je supporters opgenomen in een gedeelde campagneteller, waardoor een zichtbaar collectief momentum ontstaat dat echte kracht toont en verandering stimuleert.\n\nJouw supporters, jouw gegevens, op ons GDPR-compliant platform. Het draait op dedicated servers in Duitsland, je behoudt het volledige eigendom van je supportergegevens en kunt ze downloaden van het dashboard wanneer je maar wilt (of neem contact met ons op om een directe integratie met je mailinglijstbeheerder te bespreken). \n\nLaat je supportersbestand groeien terwijl je bijdraagt aan een grotere beweging. Samen creëren we het soort gecoördineerde druk waarmee je campagnes wint.",
         "login": "Registreer je als gebruiker of log in met je social media gegevens of je e-mailadres. Het is je persoonlijke account, na je registratie kun je je organisatie instellen."
     },
     "export": {
@@ -131,7 +131,8 @@
         "configure_org": "Uw organisatie",
         "create_org": "Creëer je organisatie",
         "login": "Uw account",
-        "verify": "Controleer uw e-mail"
+        "verify": "Controleer uw e-mail",
+        "org_error": "Fout"
     },
     "cancel": "Annuleren",
     "close": "Sluit",
