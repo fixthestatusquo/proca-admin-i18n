@@ -103,7 +103,7 @@
         },
         "done": "Vous recevrez un message de confirmation par courrier électronique. Vous pouvez d'ores et déjà intégrer une version test du <1>widget sur votre site web</1>.",
         "embargo": "Embargo",
-        "intro": "Pour accroître notre impact, nous avons besoin d'une large coalition et nous avons essayé de la rendre aussi simple que possible pour que vous puissiez la rejoindre.",
+        "intro": "[S'associer à cette campagne] (https://fixthestatusquo.com/help/for-partners/), c'est mener ensemble une action numérique puissante tout en gardant le contrôle total de ce qui compte pour votre organisation. Nous créerons un widget personnalisé qui correspond à votre identité : il fonctionnera sur votre site web, avec votre logo, vos couleurs, dans votre langue.\n\nPlus de 450 organisations l'ont fait dans le cadre d'autres campagnes. L'ajout du widget ne prend généralement que quelques minutes : il suffit de coller un bout de code sur votre site (aussi facile que d'intégrer une vidéo YouTube). Aucune expertise technique n'est nécessaire, aucun service informatique n'est requis, et notre [équipe vous soutiendra] (mailto:support@fixthestatusquo.org) tout au long du processus. Une fois en ligne, chaque action de vos sympathisants alimente un compteur de campagne partagé, créant ainsi une dynamique collective visible qui démontre un réel pouvoir et conduit au changement.\n\nVos sympathisants, vos données, sur notre plateforme conforme au GDPR. Fonctionnant sur des serveurs dédiés en Allemagne, vous restez entièrement propriétaire des données de vos supporters et pouvez les télécharger depuis le tableau de bord quand vous le souhaitez (ou contactez-nous pour discuter d'une intégration directe avec votre gestionnaire de listes de diffusion). \n\nDéveloppez votre base de supporters tout en contribuant à un mouvement plus large. Ensemble, nous créons le type de pression coordonnée qui permet de gagner des campagnes.",
         "maillingHelper": "En soumettant ce formulaire, j'accepte d'être ajouté à la liste de diffusion de {{campaign}}. Je peux me désinscrire à tout moment.",
         "welcome": "Bienvenue dans l'espace partenaires de cette campagne coordonnée par {{coordinator}}"
     },
@@ -129,7 +129,8 @@
         "verify": "Vérifiez votre adresse électronique",
         "login": "Votre compte",
         "configure_org": "Votre organisation",
-        "join_campaign": "Participez à la campagne"
+        "join_campaign": "Participez à la campagne",
+        "org_error": "Erreur"
     },
     "createOrg": {
         "intro": "Le plus rapide est de commencer par le compte twitter de votre organisation (si vous en avez plusieurs, choisissez-en un).",
