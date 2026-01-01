@@ -40,7 +40,7 @@
         },
         "done": "E-mailom dostanete potvrdzujúcu správu. Na svoju webovú stránku už môžete vložiť testovaciu verziu <1>widgetu</1>",
         "embargo": "Embargo",
-        "intro": "Aby sme zvýšili náš vplyv, potrebujeme širokú koalíciu a snažili sme sa vám umožniť, aby ste sa k nej čo najjednoduchšie pripojili.",
+        "intro": "[Partnerstvo s touto kampaňou](https://fixthestatusquo.com/help/for-partners/) znamená, že spoločne spustíte výkonnú digitálnu akciu a zároveň si ponecháte plnú kontrolu nad tým, čo je pre vašu organizáciu dôležité. Vytvoríme widget na mieru, ktorý bude zodpovedať vašej identite: bude fungovať na vašej webovej lokalite, s vaším logom, vo vašich farbách a vo vašom jazyku.\n\nViac ako 450 organizácií to urobilo v rámci iných kampaní. Pridanie widgetu zvyčajne trvá niekoľko minút: stačí vložiť jeden úryvok kódu na vašu stránku (rovnako jednoduché ako vloženie videa na YouTube). Nie sú potrebné žiadne technické znalosti, žiadne oddelenie IT a náš [tím vám poskytne podporu](mailto:support@fixthestatusquo.org) na celej ceste. Po spustení sa každá akcia vašich podporovateľov zapíše do spoločného počítadla kampane, čím sa vytvorí viditeľný kolektívny impulz, ktorý preukáže skutočnú silu a podporí zmenu.\n\nVaši podporovatelia, vaše údaje, na našej platforme, ktorá spĺňa požiadavky GDPR. Beží na vyhradených serveroch v Nemecku, zachovávate si úplné vlastníctvo údajov o svojich podporovateľoch a môžete si ich stiahnuť z ovládacieho panela, kedykoľvek chcete (alebo nás kontaktujte, aby sme prediskutovali priamu integráciu so správcom vašich poštových zoznamov). \n\nZväčšujte svoju základňu podporovateľov a zároveň prispievajte k väčšiemu hnutiu. Spoločne vytvárame koordinovaný tlak, ktorý skutočne vyhráva kampane.",
         "title": "Ste organizácia alebo sociálne hnutie, ktoré chce pridať túto kampaň na svoju stránku?",
         "verify": "Váš e-mail ešte nie je overený. Skontrolujte svoj e-mail a pokračujte kliknutím na potvrdzujúci odkaz.",
         "welcome": "Vitajte v partnerskej zóne tejto kampane, ktorú koordinuje {{coordinator}}",
@@ -127,7 +127,8 @@
         "login": "Váš účet",
         "configure_org": "Vaša organizácia",
         "create_org": "Vytvorte svoju organizáciu",
-        "verify": "Overenie e-mailu"
+        "verify": "Overenie e-mailu",
+        "org_error": "Chyba"
     },
     "mineOnly": "len z mojej organizácie",
     "Used to fill the details of your organisation": "Slúži na vyplnenie údajov o vašej organizácii",
