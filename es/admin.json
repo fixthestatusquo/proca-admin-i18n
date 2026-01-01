@@ -17,7 +17,7 @@
     "onboarding": {
         "done": "Recibirás un mensaje de confirmación por correo electrónico. Ya puede incrustar una versión de prueba del <1>widget en su pàgina web</1>",
         "embargoHelper": "Reconozco que los materiales de la campaña están estrictamente embargados hasta nuevo aviso. Me comprometo a NO COMPARTIR estos materiales con nadie ajeno a mi organización.",
-        "intro": "Para aumentar nuestro impacto, necesitamos una coalición amplia y tratamos de hacerlo lo más simple posible para que usted se una a ella.",
+        "intro": "[Asociarse a esta campaña](https://fixthestatusquo.com/help/for-partners/) significa llevar a cabo juntos una potente acción digital al tiempo que mantienes el control total de lo que importa a tu organización. Crearemos un widget personalizado que se adapte a su identidad: funcionará en su sitio web, con su logotipo, sus colores y en su idioma.\n\nMás de 450 organizaciones lo han hecho en otras campañas. Añadir el widget suele llevar unos minutos: basta con pegar un fragmento de código en su sitio web (tan fácil como incrustar un vídeo de YouTube). No se necesitan conocimientos técnicos ni un departamento informático, y nuestro [equipo le ayudará](mailto:support@fixthestatusquo.org) durante todo el proceso. Una vez en marcha, cada acción de tus simpatizantes alimenta un contador de campaña compartido, creando un impulso colectivo visible que demuestra el poder real e impulsa el cambio.\n\nTus simpatizantes, tus datos, en nuestra plataforma conforme a la GDPR. Funcionando en servidores dedicados en Alemania, mantienes la propiedad completa de los datos de tus seguidores y puedes descargarlos desde el panel de control siempre que quieras (o ponte en contacto con nosotros para hablar de la integración directa con tu gestor de listas de correo). \n\nHaz crecer tu base de simpatizantes a la vez que contribuyes a un movimiento mayor. Juntos, creamos el tipo de presión coordinada que realmente hace ganar campañas.",
         "embargo": "Embargo",
         "maillingHelper": "Al enviar este formulario, acepto ser añadido a la lista de correo de {{campaign}} . Puedo cancelar mi suscripción en cualquier momento.",
         "organisation": {
@@ -119,7 +119,8 @@
         "login": "Tu cuenta",
         "verify": "Verifica tu correo electrónico",
         "configure_org": "Tu organización",
-        "create_org": "Crea tu organización"
+        "create_org": "Crea tu organización",
+        "org_error": "Error"
     },
     "export": {
         "gdprLabel": "GDPR",
