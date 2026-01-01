@@ -7,7 +7,8 @@
         "create_org": "Luo organisaatiosi",
         "login": "Tilisi",
         "verify": "Vahvista sähköpostiosoitteesi",
-        "configure_org": "Organisaatiosi"
+        "configure_org": "Organisaatiosi",
+        "org_error": "Virhe"
     },
     "onboarding": {
         "done": "Saat vahvistusviestin sähköpostitse. Voit jo upottaa testiversion <1>vimpaimesta verkkosivustollesi</1>",
@@ -40,7 +41,7 @@
         "mailling": "Postituslista",
         "maillingHelper": "Lähettämällä tämän lomakkeen suostun siihen, että minut lisätään {{campaign}} -postituslistalle. Voin peruuttaa tilaukseni milloin tahansa.",
         "welcome": "Tervetuloa tämän kampanjan yhteistyökumppaneiden alueelle, jota koordinoi seuraavat tahot {{coordinator}}",
-        "intro": "Vaikuttavuuden lisäämiseksi tarvitsemme laajan koalition, ja yritimme tehdä siitä mahdollisimman yksinkertaisen, jotta voit liittyä siihen.",
+        "intro": "[Yhteistyö tämän kampanjan kanssa] (https://fixthestatusquo.com/help/for-partners/) tarkoittaa tehokkaan digitaalisen toiminnan toteuttamista yhdessä ja samalla täyden hallinnan säilyttämistä siitä, mikä on organisaatiollesi tärkeää. Luomme räätälöidyn widgetin, joka vastaa identiteettiäsi: se toimii verkkosivustollasi, logollasi, väreilläsi ja kielelläsi.\n\nYli 450 organisaatiota on tehnyt niin muissa kampanjoissa. Widgetin lisääminen vie yleensä minuutteja: liitä vain yksi koodinpätkä sivustollesi (yhtä helppoa kuin YouTube-videon upottaminen). Et tarvitse teknistä asiantuntemusta, et tarvitse IT-osastoa, ja [tiimimme tukee sinua](mailto:support@fixthestatusquo.org) koko matkan ajan. Kun sivusto on toiminnassa, jokainen kannattajiesi tekemä toimi syötetään yhteiseen kampanjalaskuriin, mikä luo näkyvää kollektiivista vauhtia, joka osoittaa todellista voimaa ja edistää muutosta.\n\nSinun kannattajasi, sinun tietosi GDPR:n mukaisella alustallamme. Järjestelmä toimii Saksassa sijaitsevilla palvelimilla, joten voit pitää kannattajatietosi täysin omissa käsissäsi ja ladata ne kojelaudalta milloin haluat (tai ota yhteyttä, niin keskustellaan suorasta integroinnista postituslistanhallintaasi). \n\nKasvata kannattajakuntaasi ja osallistu samalla suurempaan liikkeeseen. Yhdessä luomme sellaista koordinoitua painostusta, jolla kampanjat todella voitetaan.",
         "title": "Oletko järjestö tai yhteiskunnallinen liike, joka haluaa lisätä tämän kampanjan sivustollesi?",
         "verify": "Sähköpostiasi ei ole vielä vahvistettu. Tarkista sähköpostiosoitteesi ja klikkaa vahvistuslinkkiä jatkaaksesi.",
         "warning": {
