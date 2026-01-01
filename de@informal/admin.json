@@ -5,13 +5,14 @@
         "create_org": "Erstelle Deine Organisation",
         "configure_org": "Deine Organisation",
         "login": "Dein Konto",
-        "verify": "Überprüfe deine E-Mail"
+        "verify": "Überprüfe deine E-Mail",
+        "org_error": "Fehler"
     },
     "onboarding": {
         "welcome": "Willkommen im Partnerbereich für diese Kampagne, die von {{coordinator}} koordiniert wird",
         "title": "Bist du eine Organisation oder eine soziale Bewegung, die diese Kampagne auf ihrer Seite hinzufügen möchte?",
         "thanks": "Danke, dass Du Dich an dieser Kampagne beteiligst",
-        "intro": "Um unsere Wirkung zu verstärken, brauchen wir eine breite Koalition, und wir haben versucht, es so einfach wie möglich zu machen, damit ihr euch anschliessen könnt.",
+        "intro": "[Eine Partnerschaft mit dieser Kampagne] (https://fixthestatusquo.com/help/for-partners/) bedeutet, dass wir gemeinsam eine starke digitale Aktion durchführen und dabei die volle Kontrolle darüber behalten, was für deine Organisation wichtig ist. Wir erstellen ein individuelles Widget, das zu deiner Identität passt: Es läuft auf deiner Website, mit deinem Logo, in deinen Farben und in deiner Sprache.\n\nMehr als 450 Organisationen haben dies bereits bei anderen Kampagnen getan. Das Hinzufügen des Widgets dauert in der Regel nur wenige Minuten: Du musst nur einen Codeschnipsel auf deiner Website einfügen (so einfach wie das Einbetten eines YouTube-Videos). Du brauchst keine technischen Kenntnisse, keine IT-Abteilung und unser [Team unterstützt dich](mailto:support@fixthestatusquo.org) bei der Umsetzung. Sobald die Kampagne online ist, fließt jede Aktion deiner Unterstützer/innen in einen gemeinsamen Kampagnenzähler ein und erzeugt eine sichtbare kollektive Dynamik, die echte Macht demonstriert und Veränderungen vorantreibt.\n\nDeine Unterstützer, deine Daten, auf unserer GDPR-konformen Plattform. Da die Plattform auf eigenen Servern in Deutschland läuft, behältst du die volle Kontrolle über deine Unterstützerdaten und kannst sie jederzeit aus dem Dashboard herunterladen (oder kontaktiere uns, um eine direkte Integration mit deinem Mailinglistenmanager zu besprechen). \n\nVergrößere deine Unterstützerbasis und trage gleichzeitig zu einer größeren Bewegung bei. Gemeinsam schaffen wir die Art von koordiniertem Druck, die Kampagnen tatsächlich zum Erfolg führt.",
         "done": "Du wirst eine Bestätigungsemail per Email erhalten. Du kannst bereits eine Testversion des <1>Widgets auf eure Website einbetten</1>",
         "warning": {
             "is_partner": "Du bist bereits Partner/in von {{org}}",
