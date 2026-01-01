@@ -12,7 +12,8 @@
         "create_org": "Opprett organisasjonen din",
         "done": "Ta widgeten din",
         "join_campaign": "Bli med i kampanjen",
-        "verify": "Bekreft e-postadressen din"
+        "verify": "Bekreft e-postadressen din",
+        "org_error": "Feil"
     },
     "export": {
         "campaignDefault": "Alle kampanjer",
@@ -95,7 +96,7 @@
             "socialAccountHelper": "På Twitter/Instagram/Linkedin"
         },
         "embargoHelper": "Jeg erkjenner at kampanjematerialet er underlagt streng embargo inntil videre. Jeg samtykker i å IKKE DELE dette materialet med noen utenfor min organisasjon.",
-        "intro": "For å øke gjennomslagskraften vår trenger vi en bred koalisjon, og vi har forsøkt å gjøre det så enkelt som mulig for deg å bli med i den.",
+        "intro": "[Partnerskap med denne kampanjen](https://fixthestatusquo.com/help/for-partners/) betyr å gjennomføre en kraftfull digital aksjon sammen, samtidig som du beholder full kontroll over hva som er viktig for organisasjonen din. Vi lager en spesialtilpasset widget som samsvarer med din identitet: den kjører på nettstedet ditt, med din logo, dine farger og på ditt språk.\n\nMer enn 450 organisasjoner har gjort det i andre kampanjer. Det tar vanligvis bare noen minutter å legge til widgeten: Det er bare å lime inn en kodesnutt på nettstedet ditt (like enkelt som å legge inn en YouTube-video). Ingen teknisk ekspertise eller IT-avdeling er nødvendig, og [teamet vårt] (mailto:support@fixthestatusquo.org) vil støtte deg underveis. Når kampanjen er live, vil alle handlinger som dine støttespillere utfører, mates inn i en felles kampanjeteller, noe som skaper et synlig kollektivt momentum som demonstrerer reell makt og driver frem endring.\n\nDine støttespillere, dine data, på vår GDPR-kompatible plattform. Plattformen kjører på dedikerte servere i Tyskland, og du har full kontroll over dine egne data og kan laste dem ned fra dashbordet når du vil (eller ta kontakt med oss for å diskutere direkte integrasjon med din mailinglisteadministrator). \n\nØk antall støttespillere samtidig som du bidrar til en større bevegelse. Sammen skaper vi den typen koordinert press som faktisk vinner kampanjer.",
         "login": "Registrer deg som bruker eller logg inn med dine sosiale medier-opplysninger eller e-postadressen din. Det er din personlige konto, og du vil kunne sette opp organisasjonen din etter at du har registrert deg.",
         "mailling": "Mailingliste",
         "organisation": {
