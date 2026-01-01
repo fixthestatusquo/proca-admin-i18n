@@ -35,7 +35,7 @@
         "verify": "Din e-postadress är ännu inte verifierad. Vänligen kontrollera din e-post och klicka på bekräftelselänken för att fortsätta.",
         "done": "Du kommer att få ett bekräftelsemeddelande via e-post. Du kan redan bädda in en testversion av <1>widgeten på din webbplats</1>.",
         "embargoHelper": "Jag är medveten om att kampanjmaterialet är belagt med embargo tills vidare. Jag samtycker till att INTE DELA detta material med någon utanför min organisation.",
-        "intro": "För att öka vår påverkan behöver vi en bred koalition och vi har försökt göra det så enkelt som möjligt för dig att gå med i den.",
+        "intro": "[Att samarbeta med den här kampanjen] (https://fixthestatusquo.com/help/for-partners/) innebär att du driver en kraftfull digital aktion tillsammans och samtidigt behåller full kontroll över vad som är viktigt för din organisation. Vi skapar en widget med eget varumärke som matchar din identitet: den körs på din webbplats, med din logotyp, dina färger och på ditt språk.\n\nMer än 450 organisationer har gjort det i andra kampanjer. Att lägga till widgeten tar vanligtvis bara några minuter: klistra bara in en kodsnutt på din webbplats (lika enkelt som att bädda in en YouTube-video). Ingen teknisk expertis behövs, ingen IT-avdelning krävs och vårt [team kommer att stödja dig](mailto:support@fixthestatusquo.org) längs vägen. När kampanjen är live matas varje åtgärd som dina supportrar vidtar in i en delad kampanjräknare, vilket skapar ett synligt kollektivt momentum som visar på verklig makt och driver förändring.\n\nDina supportrar, dina uppgifter, på vår GDPR-kompatibla plattform. Med dedikerade servrar i Tyskland har du full kontroll över dina supporterdata och kan ladda ner dem från instrumentpanelen när du vill (eller kontakta oss för att diskutera direktintegrering med din e-postlistehanterare). \n\nÖka din supporterbas samtidigt som du bidrar till en större rörelse. Tillsammans skapar vi den typ av samordnade påtryckningar som faktiskt vinner kampanjer.",
         "mailling": "Mailinglista",
         "maillingHelper": "Genom att skicka in detta formulär samtycker jag till att läggas till i e-postlistan {{campaign}}. Jag kan avregistrera mig när som helst.",
         "thanks": "Tack för att du deltar i denna kampanj"
@@ -115,7 +115,8 @@
         "configure_org": "Din organisation",
         "join_campaign": "Gå med i kampanjen",
         "login": "Ditt konto",
-        "verify": "Verifiera din e-postadress"
+        "verify": "Verifiera din e-postadress",
+        "org_error": "Fel"
     },
     "Used to pre-fill name, description and logo of your organisation": "Används för att fylla i namn, beskrivning och logotyp för din organisation",
     "You can register an new organisation to join the coalition": "Du kan registrera en ny organisation för att gå med i koalitionen",
