@@ -38,7 +38,7 @@
             "is_coordinator": "Kampanji se ne morete pridružiti pod računom **{{org}}**, saj je to koordinator **{{campaign}}**.",
             "is_member": "Ste član organizacije **{{org}}**, ki vodi to kampanjo!"
         },
-        "intro": "Da bi povečali svoj vpliv, potrebujemo široko koalicijo, zato smo vam poskušali omogočiti, da se ji pridružite na čim bolj preprost način.",
+        "intro": "[Partnerstvo s to kampanjo](https://fixthestatusquo.com/help/for-partners/) pomeni, da skupaj izvajate močno digitalno akcijo, pri čemer imate popoln nadzor nad tem, kaj je pomembno za vašo organizacijo. Izdelali bomo pripomoček po meri, ki bo ustrezal vaši identiteti: deloval bo na vašem spletnem mestu, z vašim logotipom, v vaših barvah in v vašem jeziku.\n\nVeč kot 450 organizacij je to storilo pri drugih kampanjah. Dodajanje gradnika običajno traja nekaj minut: na svoje spletno mesto prilepite en delček kode (tako enostavno kot vstavljanje videoposnetka YouTube). Tehnično znanje ni potrebno, oddelek za IT ni potreben, naša [ekipa vam bo pomagala](mailto:support@fixthestatusquo.org) na tej poti. Ko je kampanja v polnem teku, se vsako dejanje vaših podpornikov vnese v skupni števec kampanje, kar ustvarja viden skupni zagon, ki dokazuje resnično moč in spodbuja spremembe.\n\nVaši podporniki, vaši podatki, na naši platformi, ki je skladna z uredbo GDPR. Deluje na namenskih strežnikih v Nemčiji, ohranite popolno lastništvo nad podatki o podpornikih in jih lahko prenesete z nadzorne plošče, kadar koli želite (ali pa se z nami posvetujte o neposredni integraciji z vašim upraviteljem poštnih seznamov). \n\nPovečajte svojo bazo podpornikov in hkrati prispevajte k večjemu gibanju. Skupaj ustvarjamo usklajen pritisk, ki dejansko zmaguje v kampanjah.",
         "login": "Registrirajte se kot uporabnik ali se prijavite s poverilnicami družabnih omrežij ali e-pošto. To je vaš osebni račun, po registraciji boste lahko nastavili svojo organizacijo.",
         "welcome": "Dobrodošli na območju partnerjev te kampanje, ki jo koordinira {{coordinator}}",
         "title": "Ste organizacija ali družbeno gibanje in želite to kampanjo dodati na svoje spletno mesto?",
@@ -137,7 +137,8 @@
         "done": "Vzemite svoj gradnik",
         "join_campaign": "Pridružite se kampanji",
         "login": "Vaš račun",
-        "verify": "Preverjanje e-poštnega sporočila"
+        "verify": "Preverjanje e-poštnega sporočila",
+        "org_error": "Napaka"
     },
     "cancel": "Prekliči",
     "close": "Zapri",
