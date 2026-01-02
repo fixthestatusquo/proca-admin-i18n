@@ -15,7 +15,7 @@
         "embargo": "lánchosc",
         "embargoHelper": "Admhaím go bhfuil lánchosc ar ábhair an fheachtais go dtí go bhfógrófar a mhalairt. Aontaím GAN na hábhair seo a roinnt le haon duine lasmuigh de m'eagraíocht.",
         "login": "Cláraigh mar úsáideoir nó logáil isteach le do dhintiúir meáin shóisialta nó do ríomhphost. Is é do chuntas pearsanta é, beidh tú in ann d’eagraíocht a bhunú tar éis duit clárú.",
-        "intro": "Chun ár dtionchar a mhéadú, tá comhrialtas leathan de dhíth orainn agus rinneamar iarracht é a dhéanamh chomh simplí agus is féidir ligean duit a bheith páirteach ann.",
+        "intro": "Ciallaíonn [comhpháirtíocht leis an bhfeachtas seo](https://fixthestatusquo.com/help/for-partners/) gníomh digiteach cumhachtach a reáchtáil le chéile agus smacht iomlán a choinneáil ar a bhfuil tábhachtach do d'eagraíocht. Cruthóimid giuirléid saincheaptha-bhrandáilte a oireann do d'aitheantas: ritheann sé ar do shuíomh Gréasáin, le do lógó, do dathanna, i do theanga.\n\nTá níos mó ná 450 eagraíocht tar éis é a dhéanamh ar fheachtais eile. De ghnáth tógann sé nóiméid an ghiuirléid a chur leis: níl le déanamh ach píosa amháin cóid a ghreamú isteach i do shuíomh (chomh héasca le físeán YouTube a leabú). Níl aon saineolas teicniúil ag teastáil, níl aon roinn TF ag teastáil, agus [tacóidh ár bhfoireann leat](mailto:support@fixthestatusquo.org) ar an mbealach. Nuair a bheidh sé beo, beathaíonn gach gníomh a dhéanann do lucht tacaíochta isteach i gcuntar feachtas comhroinnte, rud a chruthaíonn móiminteam comhchoiteann infheicthe a léiríonn fíorchumhacht agus a thiomáineann athrú.\n\nDo lucht tacaíochta, do shonraí, ar ár n-ardán atá comhlíontach le GDPR. Ag rith ar fhreastalaithe tiomnaithe sa Ghearmáin, coinníonn tú úinéireacht iomlán ar shonraí do lucht tacaíochta agus is féidir leat é a íoslódáil ón deais aon uair is mian leat (nó déan teagmháil linn chun comhtháthú díreach a phlé le do bhainisteoir liosta poist).\n\nMéadaigh do bhonn tacaíochta agus cuir le gluaiseacht níos mó ag an am céanna. Le chéile, cruthaímid an cineál brú comhordaithe a bhuafaidh feachtais i ndáiríre.",
         "maillingHelper": "Tríd an bhfoirm seo a chur isteach, aontaím le cur leis an liosta seoltaí {{campaign}}. Is féidir liom díliostáil am ar bith.",
         "title": "An eagraíocht nó gluaiseacht shóisialta thú atá ag iarraidh an feachtas seo a chur ar do shuíomh?",
         "mailling": "Liosta postála",
@@ -75,7 +75,8 @@
         "join_campaign": "Bí ar an bhfeachtas",
         "done": "Tóg do ghiuirléid",
         "login": "Do chuntas",
-        "verify": "Fíoraigh do ríomhphost"
+        "verify": "Fíoraigh do ríomhphost",
+        "org_error": "Earráid"
     },
     "mineOnly": "ó m'eagraíocht amháin",
     "unusedOnly": "giuirléidí neamhúsáidte amháin",
