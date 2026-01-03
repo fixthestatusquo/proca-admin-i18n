@@ -32,7 +32,7 @@
         "thanks": "Merci de vous joindre à cette campagne",
         "done": "Vous recevrez un message de confirmation par courrier électronique. Vous pouvez d'ores et déjà intégrer une version test du <1>widget sur votre site web</1>.",
         "embargo": "Embargo",
-        "intro": "Pour accroître notre impact, nous avons besoin d'une large coalition et nous avons essayé de la rendre aussi simple que possible pour que vous puissiez la rejoindre.",
+        "intro": "[S'associer à cette campagne] (https://fixthestatusquo.com/help/for-partners/), c'est mener ensemble une action numérique puissante tout en gardant le contrôle total de ce qui compte pour votre organisation. Nous créerons un widget personnalisé qui correspond à votre identité : il fonctionnera sur votre site web, avec votre logo, vos couleurs, dans votre langue.\n\nPlus de 450 organisations l'ont fait dans le cadre d'autres campagnes. L'ajout du widget ne prend généralement que quelques minutes : il suffit de coller un bout de code sur votre site (aussi facile que d'intégrer une vidéo YouTube). Aucune expertise technique n'est nécessaire, aucun service informatique n'est requis, et notre [équipe vous soutiendra] (mailto:support@fixthestatusquo.org) tout au long du processus. Une fois en ligne, chaque action de vos sympathisants alimente un compteur de campagne partagé, créant ainsi une dynamique collective visible qui démontre un réel pouvoir et conduit au changement.\n\nVos sympathisants, vos données, sur notre plateforme conforme au GDPR. Fonctionnant sur des serveurs dédiés en Allemagne, vous restez entièrement propriétaire des données de vos supporters et pouvez les télécharger depuis le tableau de bord quand vous le souhaitez (ou contactez-nous pour discuter d'une intégration directe avec votre gestionnaire de listes de diffusion). \n\nDéveloppez votre base de supporters tout en contribuant à un mouvement plus large. Ensemble, nous créons le type de pression coordonnée qui permet de gagner des campagnes.",
         "title": "Vous êtes une organisation ou un mouvement social et vous souhaitez ajouter cette campagne sur votre site ?",
         "verify": "Votre adresse électronique n'est pas encore vérifiée. Veuillez vérifier votre courriel et cliquer sur le lien de confirmation pour continuer.",
         "warning": {
@@ -66,7 +66,8 @@
         "create_org": "Créez votre organisation",
         "done": "Prenez votre widget",
         "login": "Votre compte",
-        "verify": "Vérifiez votre adresse électronique"
+        "verify": "Vérifiez votre adresse électronique",
+        "org_error": "Erreur"
     },
     "Switch to fill the details manually": "Changez pour remplir les détails manuellement",
     "export": {

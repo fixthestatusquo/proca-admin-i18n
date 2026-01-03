@@ -3,7 +3,7 @@
         "embargo": "Lệnh cấm vận",
         "mailling": "Danh sách gửi thư",
         "thanks": "Cảm ơn bạn đã tham gia chiến dịch này.",
-        "intro": "Để tăng cường tác động của chúng ta, chúng ta cần một liên minh rộng lớn và chúng ta đã cố gắng làm cho việc tham gia vào liên minh này trở nên đơn giản nhất có thể.",
+        "intro": "[Hợp tác với chiến dịch này](https://fixthestatusquo.com/help/for-partners/) có nghĩa là cùng thực hiện một hành động kỹ thuật số mạnh mẽ trong khi vẫn giữ toàn quyền kiểm soát những gì quan trọng đối với tổ chức của bạn. Chúng tôi sẽ tạo ra một widget được tùy chỉnh theo thương hiệu của bạn: nó hoạt động trên trang web của bạn, với logo của bạn, màu sắc của bạn và ngôn ngữ của bạn.\n\nHơn 450 tổ chức đã thực hiện điều này trong các chiến dịch khác. Thêm widget thường chỉ mất vài phút: chỉ cần dán một đoạn mã vào trang web của bạn (dễ dàng như nhúng video YouTube). Không cần kỹ năng kỹ thuật, không cần bộ phận IT, và đội ngũ của chúng tôi sẽ hỗ trợ bạn (mailto:support@fixthestatusquo.org) trong suốt quá trình. Khi widget hoạt động, mọi hành động của người ủng hộ sẽ được ghi nhận vào đồng hồ đếm chung của chiến dịch, tạo ra động lực tập thể rõ ràng, thể hiện sức mạnh thực sự và thúc đẩy sự thay đổi.\n\nNgười ủng hộ của bạn, dữ liệu của bạn, trên nền tảng tuân thủ GDPR của chúng tôi. Hoạt động trên các máy chủ chuyên dụng tại Đức, bạn duy trì quyền sở hữu hoàn toàn dữ liệu người ủng hộ và có thể tải xuống từ bảng điều khiển bất cứ lúc nào (hoặc liên hệ với chúng tôi để thảo luận về tích hợp trực tiếp với trình quản lý danh sách email của bạn). \n\nMở rộng cơ sở người ủng hộ trong khi đóng góp cho một phong trào lớn hơn. Cùng nhau, chúng ta tạo ra loại áp lực phối hợp thực sự mang lại chiến thắng cho các chiến dịch.",
         "organisation": {
             "remarks": "Bạn có ý kiến gì về công cụ này muốn chia sẻ với chúng tôi không?",
             "sectionTitle": "Tổ chức",
@@ -121,7 +121,8 @@
         "join_campaign": "Tham gia chiến dịch",
         "verify": "Xác minh email của bạn",
         "done": "Lấy widget của bạn",
-        "login": "Tài khoản của bạn"
+        "login": "Tài khoản của bạn",
+        "org_error": "Lỗi"
     },
     "action": {
         "mail2target": "Gửi email đến đối tượng mục tiêu",

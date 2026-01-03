@@ -41,7 +41,7 @@
         "mailling": "Listă de corespondență",
         "maillingHelper": "Prin trimiterea acestui formular, sunt de acord să fiu adăugat la lista de corespondență {{campaign}}. Mă pot dezabona în orice moment.",
         "title": "Sunteți o organizație sau o mișcare socială care dorește să adauge această campanie pe site-ul dumneavoastră?",
-        "intro": "Pentru a ne spori impactul, avem nevoie de o coaliție largă și am încercat să simplificăm cât mai mult posibil aderarea dumneavoastră la aceasta."
+        "intro": "[Parteneriatul cu această campanie] (https://fixthestatusquo.com/help/for-partners/) înseamnă să desfășurați împreună o acțiune digitală puternică, păstrând în același timp controlul deplin asupra a ceea ce contează pentru organizația dumneavoastră. Vom crea un widget personalizat care se potrivește cu identitatea dvs.: va rula pe site-ul dvs. web, cu logo-ul dvs., în culorile dvs., în limba dvs.\n\nMai mult de 450 de organizații au făcut acest lucru în cadrul altor campanii. Adăugarea widget-ului durează de obicei câteva minute: trebuie doar să lipiți un fragment de cod pe site-ul dumneavoastră (la fel de ușor ca încorporarea unui videoclip YouTube). Nu este nevoie de expertiză tehnică, nici de un departament IT, iar [echipa noastră vă va sprijini](mailto:support@fixthestatusquo.org) pe parcurs. Odată activată, fiecare acțiune pe care o întreprind susținătorii dvs. intră într-un contor de campanie comun, creând un impuls colectiv vizibil care demonstrează o putere reală și determină schimbarea.\n\nSusținătorii tăi, datele tale, pe platforma noastră conformă cu GDPR. Funcționând pe servere dedicate din Germania, vă păstrați proprietatea completă asupra datelor dvs. despre susținători și le puteți descărca din tabloul de bord oricând doriți (sau contactați-ne pentru a discuta integrarea directă cu managerul dvs. de liste de corespondență). \n\nCreșteți-vă baza de susținători în timp ce contribuiți la o mișcare mai mare. Împreună, creăm tipul de presiune coordonată care chiar câștigă campanii."
     },
     "step": {
         "login": "Contul dvs.",
@@ -49,7 +49,8 @@
         "create_org": "Creați-vă organizația",
         "done": "Ia-ți widget-ul",
         "join_campaign": "Alăturați-vă campaniei",
-        "verify": "Verifică-ți adresa de e-mail"
+        "verify": "Verifică-ți adresa de e-mail",
+        "org_error": "Eroare"
     },
     "export": {
         "gdprLabel": "GDPR",

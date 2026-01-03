@@ -2,7 +2,7 @@
     "onboarding": {
         "welcome": "Benvenuti nell'area dei partner di questa campagna coordinata da {{coordinator}}",
         "title": "Siete un'organizzazione o un movimento sociale che vuole aggiungere questa campagna al proprio sito?",
-        "intro": "Per aumentare il nostro impatto, abbiamo bisogno di un'ampia coalizione e abbiamo cercato di rendere il più semplice possibile farvi aderire.",
+        "intro": "[Collaborare con questa campagna](https://fixthestatusquo.com/help/for-partners/) significa condurre insieme una potente azione digitale mantenendo il pieno controllo di ciò che conta per la vostra organizzazione. Creeremo un widget personalizzato che corrisponde alla vostra identità: funzionerà sul vostro sito web, con il vostro logo, i vostri colori, nella vostra lingua.\n\nPiù di 450 organizzazioni lo hanno fatto per altre campagne. L'aggiunta del widget richiede di solito pochi minuti: basta incollare uno snippet di codice nel vostro sito (facile come incorporare un video di YouTube). Non sono necessarie competenze tecniche, né un reparto informatico, e il nostro [team vi supporterà](mailto:support@fixthestatusquo.org) lungo tutto il percorso. Una volta attivo, ogni azione dei vostri sostenitori confluisce in un contatore condiviso della campagna, creando uno slancio collettivo visibile che dimostra un potere reale e spinge al cambiamento.\n\nI vostri sostenitori, i vostri dati, sulla nostra piattaforma conforme al GDPR. La piattaforma, che viene eseguita su server dedicati in Germania, vi consente di mantenere la completa proprietà dei dati dei vostri sostenitori e di scaricarli dalla dashboard ogni volta che lo desiderate (oppure contattateci per discutere l'integrazione diretta con il vostro gestore di mailing list). \n\nFate crescere la vostra base di sostenitori contribuendo a un movimento più grande. Insieme, creiamo il tipo di pressione coordinata che fa vincere le campagne.",
         "thanks": "Grazie per aderire a questa campagna",
         "done": "Riceverete un messaggio di conferma via e-mail. Potete già integrare una versione di prova del <1>widget on your website</1>",
         "warning": {
@@ -58,7 +58,8 @@
         "create_org": "Create la vostra organizzazione",
         "configure_org": "La vostra organizzazione",
         "verify": "Verificare l'e-mail",
-        "login": "Il tuo account"
+        "login": "Il tuo account",
+        "org_error": "Errore"
     },
     "join": {
         "requestHelper": "per aiutarci a pianificare questa campagna",

@@ -39,7 +39,7 @@
         },
         "thanks": "Merci de vous joindre à cette campagne",
         "login": "Inscris-toi en tant qu'utilisateur ou connecte-toi avec tes identifiants de médias sociaux ou ton email. Il s'agit de ton compte personnel, tu pourras configurer ton organisation après ton inscription.",
-        "intro": "Pour accroître notre impact, nous avons besoin d'une large coalition et nous avons essayé de rendre les choses aussi simples que possible pour te permettre de la rejoindre.",
+        "intro": "[S'associer à cette campagne] (https://fixthestatusquo.com/help/for-partners/), c'est mener ensemble une action numérique puissante tout en gardant le contrôle total de ce qui compte pour ton organisation. Nous créerons un widget personnalisé qui correspond à ton identité : il fonctionne sur ton site web, avec ton logo, tes couleurs, dans ta langue.\n\nPlus de 450 organisations l'ont fait pour d'autres campagnes. L'ajout du widget prend généralement quelques minutes : il suffit de coller un bout de code sur ton site (aussi facile que d'intégrer une vidéo YouTube). Aucune expertise technique n'est nécessaire, aucun service informatique n'est requis, et notre [équipe te soutiendra](mailto:support@fixthestatusquo.org) tout au long du processus. Une fois en ligne, chaque action de tes sympathisants alimente un compteur de campagne partagé, créant un élan collectif visible qui démontre un réel pouvoir et conduit au changement.\n\nTes soutiens, tes données, sur notre plateforme conforme au GDPR. Fonctionnant sur des serveurs dédiés en Allemagne, tu restes entièrement propriétaire des données de tes soutiens et tu peux les télécharger depuis le tableau de bord quand tu le souhaites (ou nous contacter pour discuter d'une intégration directe avec ton gestionnaire de listes de diffusion). \n\nDéveloppe ta base de supporters tout en contribuant à un mouvement plus important. Ensemble, nous créons le type de pression coordonnée qui permet de gagner des campagnes.",
         "welcome": "Bienvenue dans l'espace des partenaires de cette campagne coordonnée par {{coordinator}}",
         "embargo": "Embargo",
         "embargoHelper": "Je reconnais que le matériel de la campagne fait l'objet d'un embargo strict jusqu'à nouvel ordre. Je m'engage à NE PAS PARTAGER ces documents avec des personnes extérieures à mon organisation.",
@@ -126,7 +126,8 @@
         "join_campaign": "Rejoins la campagne",
         "login": "Ton compte",
         "verify": "Vérifie ton e-mail",
-        "done": "Prends ton widget"
+        "done": "Prends ton widget",
+        "org_error": "Erreur"
     },
     "mineOnly": "uniquement de mon organisation",
     "cancel": "Annuler",

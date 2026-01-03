@@ -42,7 +42,7 @@
             "is_member": "Jesteś członkiem organizacji **{{org}}**, która prowadzi tę kampanię!"
         },
         "embargoHelper": "Przyjmuję do wiadomości, że materiały kampanii są objęte ścisłym embargiem do odwołania. Zgadzam się NIE UDOSTĘPNIAĆ tych materiałów nikomu spoza mojej organizacji.",
-        "intro": "Aby zwiększyć nasz wpływ, potrzebujemy szerokiej koalicji i staraliśmy się, aby dołączenie do niej było jak najprostsze.",
+        "intro": "[Współpraca z tą kampanią](https://fixthestatusquo.com/help/for-partners/) oznacza wspólne prowadzenie potężnej akcji cyfrowej przy zachowaniu pełnej kontroli nad tym, co jest ważne dla Twojej organizacji. Stworzymy niestandardowy widget, który pasuje do Twojej tożsamości: działa na Twojej stronie internetowej, z Twoim logo, w Twoich kolorach, w Twoim języku.\n\nPonad 450 organizacji zrobiło to w innych kampaniach. Dodanie widżetu zajmuje zwykle kilka minut: wystarczy wkleić jeden fragment kodu na swojej stronie (tak łatwo, jak osadzenie filmu na YouTube). Nie jest wymagana specjalistyczna wiedza techniczna, nie jest wymagany dział IT, a nasz [zespół będzie Cię wspierać](mailto:support@fixthestatusquo.org) przez cały czas. Po uruchomieniu, każde działanie podjęte przez Twoich zwolenników zasila wspólny licznik kampanii, tworząc widoczny wspólny impet, który pokazuje prawdziwą moc i napędza zmiany.\n\nTwoi zwolennicy, Twoje dane, na naszej platformie zgodnej z RODO. Działając na dedykowanych serwerach w Niemczech, zachowujesz pełną własność danych swoich zwolenników i możesz je pobrać z pulpitu nawigacyjnego, kiedy tylko chcesz (lub skontaktuj się z nami, aby omówić bezpośrednią integrację z menedżerem listy mailingowej). \n\nRozwijaj swoją bazę zwolenników, przyczyniając się do większego ruchu. Wspólnie tworzymy rodzaj skoordynowanej presji, która faktycznie wygrywa kampanie.",
         "thanks": "Dziękujemy za przyłączenie się do tej kampanii",
         "title": "Czy jesteś organizacją lub ruchem społecznym, który chce dodać tę kampanię na swojej stronie?"
     },
@@ -119,7 +119,8 @@
         "login": "Twoje konto",
         "configure_org": "Twoja organizacja",
         "create_org": "Utwórz swoją organizację",
-        "verify": "Zweryfikuj swój adres e-mail"
+        "verify": "Zweryfikuj swój adres e-mail",
+        "org_error": "Błąd"
     },
     "Customise": "Dostosuj",
     "Fields": "Pola",
