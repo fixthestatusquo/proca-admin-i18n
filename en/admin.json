@@ -98,7 +98,8 @@
     "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
     "embargo": "Embargo",
     "embargoHelper": "I acknowledge that the campaign materials are strictly embargoed until further notice. I agree to NOT SHARING these materials with anyone outside of my organisation.",
-          "intro": "[Partnering with this campaign](https://fixthestatusquo.com/help/for-partners/) means running a powerful digital action together while keeping full control of what matters to your organization. We'll create a custom-branded widget that matches your identity: it runs on your website, with your logo, your colors, in your language.\n\nMore than 450 organisations have done it on other campaigns. Adding the widget usually takes minutes: just paste one snippet of code into your site (as easy as embedding a YouTube video). No technical expertise needed, no IT department required, and our [team will support you](mailto:support@fixthestatusquo.org) along the way. Once live, every action your supporters take feeds into a shared campaign counter, creating visible collective momentum that demonstrates real power and drives change.\n\nYour supporters, your data, on our GDPR-compliant platform. Running on dedicated servers in Germany, you maintain complete ownership of your supporter data and can download it from the dashboard whenever you want (or contact us to discuss direct integration with your mailing list manager). \n\nGrow your supporter base while contributing to a bigger movement. Together, we create the kind of coordinated pressure that actually wins campaigns.",
+          "intro": "Campaigns are more powerful when there are many organisations working together for a common goal. This is your chance to become a partner and grow your impact, while keeping full control over your message, branding, and supporter contacts.\n\n[When you join a campaign](https://fixthestatusquo.com/help/for-partners/), you get to set up your own easy-to-use Proca campaign “widget”. The widget includes the form to collect supporter actions (petition signatures, messages sent to target, etc) and a smart share action which allows signers to share the campaign and mobilise even more support.\n\nAll supporter actions from all partner widgets count together, feeding into a shared campaign counter. That creates visible collective momentum and demonstrates the real power people have when we act together. At the same time, each partner keeps their own supporter contact information, and there is no need for complex data sharing.\n\nThe widget is multilingual and easy to customise with your colours and logo. Adding it to your page takes only a minute, and is as easy as embedding a YouTube video. No technical expertise required (and if you need any help, [Proca’s team will support you](mailto:support@fixthestatusquo.org))!\n\nProca takes supporter data security very seriously. Our dedicated servers in Germany are fully GDPR compliant, and your organisation remains the sole owner of the data collected through your widget. You can monitor your campaign’s performance and download the data anytime, using our user-friendly dashboard. We can also integrate directly with your mailer system.\n\nMore than 450 partners are already using Proca for their online campaigns, growing their supporter base, and creating a stronger, more collaborative movement. Together, we can create the kind of pressure that wins campaigns. Join us!",
+
     "login": "Register as a user or login with your social media credentials or your email. It is your personal account, you will be able to set up your organisation after your register.",
     "mailling": "Mailing list",
     "maillingHelper": "By submitting this form, I agree to be added to the {{campaign}} mailing list. I can unsubscribe at any time.",
@@ -116,7 +117,7 @@
       "sectionTitle": "Organisation"
     },
     "thanks": "Thank you for joining this campaign",
-    "title": "Are you an organisation or social movement that wants to add this campaign on your site?",
+          "title": "Join this partnership campaign: easily add it on your website",
     "user": {
       "country": "Your Country",
       "emailAddress": "Your email address",
@@ -141,8 +142,8 @@
   "Show": "Show",
   "Stats": "Stats",
   "step": {
-    "configure_org": "Your organisation",
     "create_org": "Create your organisation",
+    "org_error": "Error",
     "done": "Take your widget",
     "join_campaign": "Join the campaign",
     "login": "Your account",
@@ -161,7 +162,6 @@
     "edit_icon": "Settings for {{id}}",
     "stats_icon": "Stats for {{id}}",
     "lang": "Language of the widget",
-    "shareable": "Shareable link",
     "test": "Widget is in the test mode"
   }
 }
