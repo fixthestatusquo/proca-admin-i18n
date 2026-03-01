@@ -25,7 +25,7 @@
     "onboarding": {
         "login": "Registriraj se kao korisnik ili se prijavi pomoću tvojih podataka za prijavu na društvene mreže ili pomoću tvoje e-mail adrese. To je tvoj osobni račun. Tvoju organizaciju možeš postaviti nakon registracije.",
         "done": "Poruku potvrde primit ćeš putem e-maila. Testnu verziju <1>programčića već možeš ugraditi u svoju web-stranicu</1>",
-        "intro": "Da bismo povećali naš utjecaj, potrebna nam je široka koalicija i pokušali smo ti omogućiti najjednostavniji način za pridruživanje.",
+        "intro": "[Partnerstvo u ovoj kampanji](https://fixthestatusquo.com/help/for-partners/) znači zajedničko vođenje snažne digitalne akcije uz potpunu kontrolu nad onim što je važno vašoj organizaciji. Izradit ćemo prilagođeni widget s vašim brendom koji odgovara vašem identitetu: on se pokreće na vašoj web stranici, s vašim logotipom, u vašim bojama, na vašem jeziku.\n\nViše od 450 organizacija to je već učinilo u drugim kampanjama. Dodavanje widgeta obično traje samo nekoliko minuta: samo zalijepite jedan isječak koda na svoju stranicu (jednostavno kao ugradnja YouTube videa). Nije potrebna tehnička stručnost, nije potreban IT odjel, a naš [tim će vam pružiti podršku](mailto:support@fixthestatusquo.org) tijekom cijelog procesa. Kada kampanja započne, svaka radnja vaših pristaša upisuje se u zajednički brojač kampanje, stvarajući vidljiv zajednički zamah koji pokazuje stvarnu moć i potiče promjene.\n\nVaši pristaše, vaši podaci, na našoj platformi usklađenoj s GDPR-om. Budući da se platforma nalazi na namjenskim poslužiteljima u Njemačkoj, zadržavate potpuno vlasništvo nad podacima svojih pristalica i možete ih preuzeti s nadzorne ploče kad god želite (ili nas kontaktirajte kako bismo razgovarali o izravnoj integraciji s vašim upraviteljem mailing liste). \n\nPovećajte svoju bazu pristalica dok doprinosite većem pokretu. Zajedno stvaramo vrstu koordiniranog pritiska koja zaista pobjeđuje u kampanjama.",
         "thanks": "Hvala ti što si se pridružio/la ovoj kampanji",
         "title": "Jesi li organizacija ili društveni pokret koji ovu kampanju želi dodati na tvoju web-stranicu?",
         "verify": "Tvoja e-mail adresa još nije potvrđena. Za nastavak provjeri svoju e-poštu i pritisni poveznicu za potvrdu.",
@@ -70,7 +70,8 @@
         "configure_org": "Tvoja organizacija",
         "create_org": "Stvori svoju organizaciju",
         "done": "Preuzmi svoj programčić",
-        "join_campaign": "Pridruži se kampanji"
+        "join_campaign": "Pridruži se kampanji",
+        "org_error": "Greška"
     },
     "View your widget for {{org}}": "Pogledaj svoj widget za {{org}}",
     "You can register an new organisation to join the coalition": "Možeš registrirati novu organizaciju za pridruživanje koaliciji",
@@ -131,7 +132,7 @@
     "delete": "Izbriži",
     "edit": "Uredi",
     "export": {
-        "campaignDefault": "Svi podaci članova",
+        "campaignDefault": "Sve kampanje",
         "campaignLabel": "Kampanja za izvoz",
         "csv_help": "CSV je standardni format. Koristi ga ukoliko ne trebaš JSON.",
         "errorIncomplete": "Dogodila se greška, CSV podaci su nepotpuni.",
@@ -165,5 +166,13 @@
     "format": "Format",
     "json": "JSON",
     "save": "Spremi",
-    "send": "Pošalji"
+    "send": "Pošalji",
+    "Stats": "Statistika",
+    "supporters": "Pristalice",
+    "widget": {
+        "edit_icon": "Postavke za {{id}}",
+        "stats_icon": "Statistike za {{id}}",
+        "lang": "Jezik widgeta",
+        "test": "Widget je u testnom načinu rada."
+    }
 }
