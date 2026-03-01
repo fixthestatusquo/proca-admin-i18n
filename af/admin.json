@@ -1,1 +1,166 @@
-{}
+{
+    "export": {
+        "errorIncomplete": "Daar was 'n fout, CSV-data onvolledig.",
+        "csv_help": "CSV is die standaardformaat. Gebruik dit tensy jy spesifiek JSON benodig.",
+        "errorPermission": "U het nie toestemming om data vir hierdie organisasie uit te voer nie.",
+        "exporting": "Uitvoer",
+        "exportLabel": "Uitvoer",
+        "exportType": {
+            "activities": "Aktiwiteite",
+            "activities_help": "Uitvoeraksies wat deur gebruikers geneem is, soos onderteken, deel, ens.",
+            "contacts": "Kontakte",
+            "contacts_help": "Stuur slegs kontakbesonderhede."
+        },
+        "gdpr": {
+            "double_opt_in_help": "Ondersteuners wat hul deelname via 'n e-posbevestigings-URL bevestig het",
+            "opt_in_help": "Ondersteuners wat gekies het om in te skakel op 'n widget ('Ja, ek wil e-posse ontvang'-radioknoppie)",
+            "opt_out": "Onthouding",
+            "opt_out_help": "Ondersteuners wat nie nuusbriewe wil ontvang nie ('Nee, ek wil nie e-posse ontvang nie'-radioknoppie op die widget of 'n afmeldskakel in die e-pos).",
+            "opt_out_required": "*Wys asseblief dat u bewus is van die gevolge",
+            "opt_out_warning": "Ek is bewus daarvan dat dit onwettig is om gebruikers te kontak wat nie uitdruklik toestemming gegee het nie, behalwe in baie beperkte uitsonderings.",
+            "double_opt_in": "Dubbele aanmelding",
+            "opt_in": "Teken in"
+        },
+        "json_help": "JSON-formaat vir gevorderde integrasies.",
+        "key_help": "As jou data versleuteld is, laai die versleutelingstrefwoord voor uitvoer.",
+        "keyLabel": "Laai ontsleutelingessleutels in",
+        "campaignLabel": "Kampanje om uit te voer",
+        "title": "Eksporteer liddata",
+        "gdprLabel": "GDPR",
+        "campaignDefault": "Alle veldtogte",
+        "exportingWithCount": "Uitvoer van {{count}}...",
+        "exportingWithErrors": "(geen sleutel vir {{count}} -aksies)"
+    },
+    "onboarding": {
+        "thanks": "Dankie dat u by hierdie veldtog aangesluit het.",
+        "user": {
+            "socialAccountHelper": "Op Twitter/Instagram/Linkedin",
+            "socialAccount": "Jou sosiale media",
+            "country": "Jou Land",
+            "emailAddress": "Jou e-posadres",
+            "jobTitle": "Werktitel",
+            "name": "Jou Naam",
+            "phoneNumber": "Jou telefoonnommer",
+            "phoneNumberHelper": "Insluitend landkode",
+            "sectionTitle": "Jou kontakbesonderhede"
+        },
+        "maillingHelper": "Deur hierdie vorm in te stuur, stem ek in om by die poslys van die {{campaign}} gevoeg te word. Ek kan te eniger tyd uitteken.",
+        "organisation": {
+            "collectsEmail": "Jy het nie 'n nuusbrief nie en wil nie e-posadresse insamel nie? (Jy sal self hierdie funksie op jou webwerf kan wegsteek) Merk hierdie boks:",
+            "another": "Kies 'n ander organisasie",
+            "collectsEmailHelper": "Ek het nie 'n nuusbrief nie. Ek is seker ek wil nie 'n nuusbrief-tikboks hê wat e-posadresse insamel wat ons daarna kan gebruik nie.",
+            "crm": "Watter CRM-sagteware gebruik jy?",
+            "doubleOptIn": "My ondersteuners moet dubbel opt-in doen om die nuusbrief te ontvang.",
+            "logged_in": "Jy is aangemeld onder die organisasie-rekening van <b>{{orgName}}</b>",
+            "network": "My organisasie is deel van 'n koepelorganisasie...",
+            "networkHelper": "Ons verwelkom alle organisasies!",
+            "organisationHelper": "Uit watter deel van die familie kom jy? Ons verwelkom alle organisasies!",
+            "remarks": "Enige kommentaar oor die hulpmiddel wat jy vir ons wil vertel?",
+            "sectionTitle": "Organisasie"
+        },
+        "login": "Registreer as 'n gebruiker of meld aan met jou sosiale media-inlogbesonderhede of jou e-pos. Dit is jou persoonlike rekening; jy sal jou organisasie kan opstel nadat jy geregistreer het.",
+        "mailling": "Poslys",
+        "title": "Is jy 'n organisasie of sosiale beweging wat hierdie veldtog op jou webwerf wil byvoeg?",
+        "verify": "Jou e-pos is nog nie bevestig nie. Kontroleer asseblief jou e-pos en klik op die bevestigingskakel om voort te gaan.",
+        "warning": {
+            "is_coordinator": "Jy kan nie by 'n veldtog onder **{{org}}** se rekening aansluit nie; dit is die koördineerder van die **{{campaign}}**.",
+            "is_member": "Jy is 'n lid van die organisasie **{{org}}** wat hierdie veldtog voer!"
+        },
+        "welcome": "Welkom by die vennote-area vir hierdie veldtog gekoördineer deur {{coordinator}}",
+        "done": "U sal 'n bevestigingsboodskap per e-pos ontvang. U kan reeds 'n toetsweergawe van die <1>widget op u webwerf inbed</1>",
+        "embargo": "Embarg",
+        "embargoHelper": "Ek erken dat die veldtogmateriaal streng onder embargo is tot verdere kennisgewing. Ek stem in om hierdie materiaal nie met enigiemand buite my organisasie te deel nie.",
+        "intro": "[Om met hierdie veldtog saam te werk](https://fixthestatusquo.com/help/for-partners/) beteken dat ons saam 'n kragtige digitale aksie loods, terwyl jy volle beheer behou oor wat vir jou organisasie saak maak. Ons sal 'n pasgemaakte, handelsmerk-gebaseerde widget skep wat by jou identiteit pas: dit werk op jou webwerf, met jou logo, jou kleure en in jou taal.\n\nMeer as 450 organisasies het dit al by ander veldtogte gedoen. Om die widget by te voeg neem gewoonlik net 'n paar minute in beslag: plak net een stukkie kode in jou webwerf in (so maklik soos om 'n YouTube-video in te bed). Geen tegniese kundigheid of IT-afdeling nodig nie, en ons [span sal jou ondersteun](mailto:support@fixthestatusquo.org) onderweg. Sodra dit live is, word elke aksie wat jou ondersteuners neem, by 'n gedeelde veldtog-teller ingevoer, wat 'n sigbare kollektiewe momentum skep wat werklike mag demonstreer en verandering dryf.\n\nJou ondersteuners, jou data, op ons GDPR-voldoende platform. Aangedryf deur toegewyde bedieners in Duitsland, behou jy volle eienaarskap van jou ondersteunersdata en kan dit te eniger tyd vanaf die kontrolepaneel aflaai (of kontak ons om direkte integrasie met jou poslysbestuurder te bespreek). \n\nLaat jou ondersteunersbasis groei terwyl jy bydra tot 'n groter beweging. Saam skep ons die soort gekoördineerde druk wat werklik veldtogte laat wen."
+    },
+    "cancel": "Kanselleer",
+    "close": "Sluit",
+    "delete": "Verwyder",
+    "externalPartner": "slegs eksterne vennote",
+    "createOrg": {
+        "intro": "Die vinnigste manier is om met jou organisasie se Twitter-rekening te begin (as jy verskeie het, kies een).",
+        "manual": "Skakel oor om die besonderhede handmatig in te vul",
+        "noTwitter": "My organisasie is nie op Twitter nie."
+    },
+    "invite": {
+        "subject": "Uitnodiging om by {{org}} op die Fix the Status Quo-dashboard aan te sluit",
+        "emailHelper": "Ons sal 'n uitnodigings-e-pos stuur met 'n skakel om dadelik aan te sluit.",
+        "roles": {
+            "translator": {
+                "label": "Vertaler",
+                "description": "Bewerk veldtogteks"
+            },
+            "campaigner": {
+                "description": "Kan aksies, ondersteuners en veldtogdata besigtig en bestuur. Kan nie organisasieninstellings verander of data uitvoer nie.",
+                "label": "Kampanjist"
+            },
+            "coordinator": {
+                "description": "Kan ondersteunergegewens besigtig, maar kan nie veldtogte skep of instellings bestuur, of gegewens uitvoer nie.",
+                "label": "Koördineerder"
+            },
+            "owner": {
+                "description": "Volledige administratiewe toegang. Kan alles bestuur, insluitend instellings, veldtogte, uitvoere en enkripsie.",
+                "label": "Eienaar"
+            }
+        },
+        "another": "Nooi nog 'n spanlid in",
+        "copied": "Kopieer!",
+        "copy": "Kopieer uitnodigings-URL",
+        "default": "Jy word uitgenooi om by die {{org}} -rekening op die Fix the Status Quo-dashboard aan te sluit.\n\nHierdie uitnodiging is vir die volgende 24 uur geldig. Aanvaar dit asseblief so gou moontlik.\n\nOns is opgewonde om jou aan boord te hê!",
+        "messageLabel": "Persoonlike boodskap vir die genooide",
+        "roleLabel": "Kies outhentiseringsvlak",
+        "sent": "Uitnodiging gestuur aan {{email}}",
+        "sentInstructions": "Jy kan ook die onderstaande skakel direk deel:",
+        "tooltip": "Nota: Slegs die 'eienaar' sal die ondersteunersdata kan uitvoer.",
+        "translator": "Hallo,\n\nOns nader jou om saam te werk aan die vertaling en verfynings van 'n veldtogbrief vir jou land. Jou begrip van die plaaslike politieke konteks sal waardevol wees — nie net in die vertaling nie, maar ook om te verseker dat die boodskap effektief by ondersteuners aanklank vind.\n\nDie brief is in verskeie afdelings gestruktureer, elk met verskeie variante. Ondersteuners sal lukraak saamgestelde weergawes ontvang om betrokkenheid te maksimeer en te voorkom dat ontvangers dit verwerp.\n\nSodra u die uitnodiging aanvaar het, sal u toegang tot die brief hê [hier]({{location}}). **Moenie vergeet om te stoor nadat u u veranderinge aangebring het nie!**\n\nSodra u bydraes voltooi is, laat weet ons asseblief en die koördineerder sodat ons die opdaterings kan implementeer.\n\nOns waardeer u tyd en kundigheid — dit is 'n gesamentlike poging om die veldtog se impak te versterk.\n\n**Vir sekuriteitsdoeleindes sal u uitnodigingskakel oor 24 uur verval.**",
+        "required": "E-posadres is verpligtend",
+        "title": "Nooi om aan te sluit {{org}}",
+        "translatorTitle": "Nooi om by {{org}} as 'n vertaler aan te sluit"
+    },
+    "action": {
+        "register": "Registreer",
+        "share": "Deel op sosiale media",
+        "mail2target": "Pos na teiken",
+        "twitter_click": "Tweet aan teiken"
+    },
+    "edit": "Wysig",
+    "Fields": "Velde",
+    "mineOnly": "slegs van my organisasie",
+    "Required": "Benodig",
+    "save": "Bewaar",
+    "send": "Stuur",
+    "Show": "Wys",
+    "step": {
+        "create_org": "Skep jou organisasie",
+        "done": "Neem jou widget",
+        "join_campaign": "Sluit by die veldtog aan",
+        "login": "Jou rekening",
+        "verify": "Verifieer jou e-pos",
+        "org_error": "Fout"
+    },
+    "Stats": "Statistieke",
+    "supporters": "Ondersteuners",
+    "Switch to fill the details manually": "Skakel oor om die besonderhede handmatig in te vul",
+    "Twitter Account": "Twitter-rekening",
+    "unusedOnly": "slegs ongebruikte widgets",
+    "Used to fill the details of your organisation": "Gebruik om die besonderhede van jou organisasie in te vul",
+    "Used to pre-fill name, description and logo of your organisation": "Gebruik om die naam, beskrywing en logo van jou organisasie vooraf in te vul",
+    "widget": {
+        "edit_icon": "Instellings vir {{id}}",
+        "stats_icon": "Statistieke vir {{id}}",
+        "lang": "Taal van die widget",
+        "test": "Widget is in toetsmodus"
+    },
+    "csv": "CSV",
+    "format": "Formaat",
+    "json": "JSON",
+    "Customise": "Pas aan",
+    "View your widget for {{org}}": "Beskou jou widget vir {{org}}",
+    "You can register an new organisation to join the coalition": "Jy kan 'n nuwe organisasie registreer om by die koalisie aan te sluit.",
+    "You can update your organisation's details": "Jy kan jou organisasie se besonderhede opdateer.",
+    "join": {
+        "goal": "Hoeveel mense verwag jy sal via jou webwerf optree?",
+        "goalHelper": "Hierdie raaiskoot sal net deur die koördineerder gesien word… en ons weet dit is moeilik om te skat.",
+        "request": "Beplan jy spesiale posstuur aan jou ondersteuners? Beplan jy ook sosiale media-aktiwiteite, insluitend betaalde advertensies?",
+        "requestHelper": "om ons te help om hierdie veldtog te beplan"
+    }
+}
