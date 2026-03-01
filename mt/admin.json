@@ -1,1 +1,166 @@
-{}
+{
+    "createOrg": {
+        "manual": "Ibdel biex timla d-dettalji manwalment",
+        "intro": "L-iktar mod mgħaġġel hu li tibda bl-account Twitter tal-organizzazzjoni tiegħek (jekk għandek diversi, agħżel wieħed).",
+        "noTwitter": "L-organizzazzjoni tiegħi mhix fuq Twitter."
+    },
+    "export": {
+        "campaignLabel": "Kampanja biex tinħareġ",
+        "gdprLabel": "GDPR",
+        "exporting": "Esportazzjoni",
+        "exportingWithErrors": "(ebda ċavetta għall-azzjonijiet tal- {{count}} )",
+        "csv_help": "CSV huwa l-format standard. Uża dan sakemm m'għandekx bżonn speċifiku ta' JSON.",
+        "errorIncomplete": "Kien hemm żball, id-dejta CSV mhix kompluta.",
+        "errorPermission": "M'għandekx permess li tesporta d-dejta għal din l-organizzazzjoni.",
+        "campaignDefault": "Il-kampanji kollha",
+        "exportLabel": "Esportazzjoni",
+        "exportType": {
+            "activities": "Attivitajiet",
+            "activities_help": "Azzjonijiet ta' esportazzjoni meħuda mill-utenti, bħal iffirma, qsim, eċċ.",
+            "contacts": "Kuntatti",
+            "contacts_help": "Esportazzjonijiet: informazzjoni ta' kuntatt biss."
+        },
+        "gdpr": {
+            "double_opt_in": "Kunsens doppju",
+            "double_opt_in_help": "Appoġġaturi li kkonfermaw il-parteċipazzjoni tagħhom permezz ta' URL ta' konferma bl-imejl",
+            "opt_in": "Agħżel li tieħu sehem",
+            "opt_in_help": "Appoġġaturi li għażlu l-għażla fuq widget ('buttuna tar-radju 'Iva, irrid nirċievi emails'')",
+            "opt_out": "Tneħħi l-għażla",
+            "opt_out_help": "Appoġġaturi li ma jridxu jirċievu l-newsletter ('No, I do not want to receive emails' buttuna tar-radju fuq il-widget jew URL ta' opt-out fl-email).",
+            "opt_out_required": "Jekk jogħġbok, indika li inti konxju tal-konsegwenzi.",
+            "opt_out_warning": "Jiena konxju li huwa illegali li tikkuntattja utenti li ma tawx kunsens espliċitu, ħlief f'ċerti eċċezzjonijiet strettament limitati."
+        },
+        "json_help": "Format JSON għall-integrazzjonijiet avvanzati.",
+        "key_help": "Jekk id-dejta tiegħek hija kriptata, niżżel iċ-ċavetta tal-kriptazzjoni qabel l-esportazzjoni.",
+        "keyLabel": "Ċarġja l-imfissijiet tad-dekriptazzjoni",
+        "title": "Esporta d-dejta tal-membri",
+        "exportingWithCount": "Esportazzjoni ta' {{count}}..."
+    },
+    "invite": {
+        "subject": "Stedina biex tingħaqad ma' {{org}} fuq il-pannell ta' kontroll Fix the Status Quo",
+        "roles": {
+            "translator": {
+                "description": "Immodifika t-test tal-kampanja",
+                "label": "Traduttur"
+            },
+            "coordinator": {
+                "description": "Jista' jara d-dejta tal-appoġġaturi imma ma jistax joħloq kampanji, jimmaniġġja l-issettjar jew jesporta d-dejta.",
+                "label": "Koordinatur"
+            },
+            "campaigner": {
+                "description": "Tista' tara u timmaniġġja azzjonijiet, sostenituri u data tal-kampanja. Ma tistax tibdel l-issettjar tal-organizzazzjoni jew tesporta d-data.",
+                "label": "Kampanjist"
+            },
+            "owner": {
+                "description": "Aċċess amministrattiv sħiħ. Jista' jimmaniġġja kollox, inklużi l-issettjar, il-kampanji, l-esportazzjonijiet u l-kriptazzjoni.",
+                "label": "Sid"
+            }
+        },
+        "title": "Stieden biex tingħaqad {{org}}",
+        "translatorTitle": "Stieden biex tingħaqad ma' {{org}} bħala traduttur",
+        "default": "Int mistieden tingħaqad mal-kont tal- {{org}} fuq il-pannell ta' Fix the Status Quo.\n\nDin l-istedina tkun valida għal 24 siegħa. Jekk jogħġbok aċċettaha kemm jista' jkun malajr.\n\nAħna eċċitati li se tkun magħna!",
+        "emailHelper": "Se nibgħatulek email ta' stedina b'link biex tingħaqad minnufih.",
+        "messageLabel": "Messaġġ personali għall-mistieden",
+        "another": "Stieden membru ieħor tat-tim",
+        "copied": "Kopjat!",
+        "copy": "Ikkopja l-URL tal-istedina",
+        "required": "Indirizz tal-email huwa meħtieġ",
+        "roleLabel": "Agħżel il-livell tal-awtorizzazzjoni",
+        "sent": "Stiedenna mibgħuta lil {{email}}",
+        "sentInstructions": "Tista' wkoll taqsam direttament il-link hawn taħt:",
+        "tooltip": "Nota: Biss il-propjetarju se jkun jista' jesporta d-dejta tal-appoġġaturi.",
+        "translator": "Ħelow,\n\nQed nikkuntattjawk biex nistednuk tikkolabora fuq it-traduzzjoni u t-titjib ta' ittra ta' kampanja għall-pajjiż tiegħek. Il-fehim tiegħek tal-kuntest politiku lokali jkun ta' valur — mhux biss fit-traduzzjoni, iżda wkoll biex niżguraw li l-messaġġ jirreżona b'mod effettiv mal-appoġġaturi.\n\nL-ittra hija strutturata f'diversi sezzjonijiet, kull waħda b'diversi varjanti. L-appoġġaturi se jirċievu verżjonijiet imħallta b'mod każwali biex jiżdied l-involviment u biex ma jiġux injorati mir-riċevituri.\n\nL-ewwel darba li taċċetta l-istedina, tkun tista' taċċessa l-ittra [hawn]({{location}}). **Tinsa'x tiffranka wara li tkun għamilt il-bidliet tiegħek!**\n\nLadarba l-kontribuzzjonijiet tiegħek ikunu kompluti, jekk jogħġbok għarrafna u lill-koordinatur sabiex inkunu nistgħu nippubblikaw l-aġġornamenti.\n\nNapprezzaw il-ħin u l-kompetenza tiegħek — dan huwa sforz kondiviż biex nissaħħu l-impatt tal-kampanja.\n\n**Għal raġunijiet ta' sigurtà, il-link tal-istedina tiegħek se jiskadi fi żmien 24 siegħa.**"
+    },
+    "onboarding": {
+        "user": {
+            "country": "Il-pajjiż tiegħek",
+            "socialAccountHelper": "Fuq Twitter/Instagram/Linkedin",
+            "emailAddress": "L-indirizz elettroniku tiegħek",
+            "jobTitle": "Titolu tax-Xogħol",
+            "name": "Isemk",
+            "phoneNumber": "In-numru tat-telefon tiegħek",
+            "phoneNumberHelper": "Inkluż il-kodiċi tal-pajjiż",
+            "sectionTitle": "Id-dettalji ta' kuntatt tiegħek",
+            "socialAccount": "Il-midja soċjali tiegħek"
+        },
+        "embargo": "Embargo",
+        "embargoHelper": "Nirrikonoxxi li l-materjali tal-kampanja huma strettament embargati sakemm ma jkunx hemm avviż ieħor. Naqbel li ma naqsmx dawn il-materjali ma' ħadd barra mill-organizzazzjoni tiegħi.",
+        "maillingHelper": "Billi nibgħat din il-formola, naqbel li jiġi miżjud fil-lista tal-posta elettronika tal- {{campaign}}. Nista' nneħħi l-abbonament tiegħi fi kwalunkwe ħin.",
+        "organisation": {
+            "crm": "Liema softwer CRM qed tuża?",
+            "sectionTitle": "Organizzazzjoni",
+            "another": "Agħżel organizzazzjoni oħra",
+            "collectsEmail": "M'għandekx newsletter u ma tridx tiġbor indirizzi email? (Int tkun tista' taħbi din il-karatteristika waħdek fuq il-websajt tiegħek) Agħżel din il-kaxxa:",
+            "logged_in": "Inti logjat taħt il-kont tal-organizzazzjoni <b>{{orgName}}</b>",
+            "collectsEmailHelper": "Ma għandi l-ebda newsletter. Jien ċert li ma rridx kaxxa ta' tikka għall-newsletter li tiġbor indirizzi tal-email li nistgħu nużaw wara.",
+            "doubleOptIn": "L-appoġġanti tiegħi għandhom bżonn jikkonfermaw l-abbonament darbtejn biex jirċievu l-newsletter.",
+            "network": "L-organizzazzjoni tiegħi hija parti minn organizzazzjoni ombrellali...",
+            "networkHelper": "Nilqgħu l-organizzazzjonijiet kollha!",
+            "organisationHelper": "Minn liema parti tal-familja inti? Aħna nilqgħu lill-organizzazzjonijiet kollha!",
+            "remarks": "Xi kummenti dwar l-għodda li trid tgħidilna?"
+        },
+        "thanks": "Grazzi talli ngħaqadt ma' din il-kampanja",
+        "title": "Inti organizzazzjoni jew moviment soċjali li trid iżżid din il-kampanja fis-sit tiegħek?",
+        "verify": "L-email tiegħek għadha mhix ivverifikata. Jekk jogħġbok iċċekkja l-email tiegħek u ikklikkja fuq il-link ta' konferma biex tkompli.",
+        "warning": {
+            "is_coordinator": "Ma tistax tingħaqad ma' kampanja taħt il-kont ta' **{{org}}**; huwa l-koordinatur tal-**{{campaign}}**",
+            "is_member": "Int membru tal-organizzazzjoni **{{org}}** li tmexxi din il-kampanja!"
+        },
+        "welcome": "Merħba fl-area tal-partners għal din il-kampanja kkoordinata minn {{coordinator}}",
+        "done": "Se tirċievi messaġġ ta' konferma bl-imejl. Diġà tista' tintegra verżjoni ta' prova tal-<1>widget fuq il-websajt tiegħek</1>",
+        "login": "Irreġistra bħala utent jew idħol bil-kredenzjali tal-midja soċjali tiegħek jew bl-email tiegħek. Huwa l-kont personali tiegħek; wara r-reġistrazzjoni tkun tista' tissettja l-organizzazzjoni tiegħek.",
+        "mailling": "Lista ta' indirizzi postali",
+        "intro": "[Li ssieħeb f'din il-kampanja](https://fixthestatusquo.com/help/for-partners/) tfisser li twettaq azzjoni diġitali qawwija flimkien, filwaqt li żżomm kontroll sħiħ fuq dak li hu importanti għall-organizzazzjoni tiegħek. Se noħolqu widget b'marka personalizzata li jaqbel mal-identità tiegħek: jaħdem fuq is-sit web tiegħek, bil-logo tiegħek, bil-kuluri tiegħek, u bil-lingwa tiegħek.\n\nAktar minn 450 organizzazzjoni diġà għamlu dan f'kampanji oħra. Żżid il-widget normalment jieħu ftit minuti: sempliċement ippejstja biċċa kodiċi waħda fis-sit tiegħek (faċli daqs kemm hu li tpoġġi vidjo YouTube). Ma tridx għarfien tekniku, m'hemmx bżonn ta' dipartiment tal-IT, u t-tim tagħna se jappoġġjak tul il-proċess. Ladarba jkun attiv, kull azzjoni li jwettqu l-appoġġanti tiegħek tiġi miżjuda ma' kontatur komuni tal-kampanja, u toħloq momentum kollettiv viżibbli li juri poter reali u jwassal għal bidla.\n\nL-appoġġanti tiegħek, id-dejta tiegħek, fuq il-pjattaforma tagħna konformi mal-GDPR. Peress li taħdem fuq servers dedikati fil-Ġermanja, inti żżomm proprjetà sħiħa tad-dejta tal-appoġġanti tiegħek u tista' tniżżilha mid-dashboard kull meta trid (jew ikkuntattjana biex niddiskutu integrazzjoni diretta mal-maniġer tal-lista tal-posta tiegħek). \n\nIkber il-bażi ta' appoġġanti tiegħek filwaqt li tikkontribwixxi għal moviment akbar. Flimkien, noħolqu l-pressjoni koordinata li tassew tirbaħ il-kampanji."
+    },
+    "action": {
+        "mail2target": "Email lill-mira",
+        "twitter_click": "Tweet lill-mira",
+        "register": "Irreġistra",
+        "share": "Iqassam fuq il-midja soċjali"
+    },
+    "cancel": "Ikkanċella",
+    "close": "Għalaq",
+    "delete": "Ħassar",
+    "edit": "Immodifika",
+    "save": "Salva",
+    "send": "Ibgħat",
+    "mineOnly": "biss mill-organizzazzjoni tiegħi",
+    "You can register an new organisation to join the coalition": "Tista' tirreġistra organizzazzjoni ġdida biex tingħaqad mal-koalizzjoni.",
+    "join": {
+        "goal": "Kemm nies tistenna li jieħdu azzjoni permezz tal-websajt tiegħek?",
+        "goalHelper": "Din it-tbassira se tintwera biss lill-koordinatur… u nafu li huwa diffiċli biex tistima",
+        "request": "Qed tippjana kampanja ta' posta dedikata lis-segwaċi tiegħek? Qed tippjana wkoll attivitajiet fuq il-midja soċjali, inklużi reklami mħallsa?",
+        "requestHelper": "biex jgħinna nippjanaw din il-kampanja"
+    },
+    "Customise": "Personalizza",
+    "externalPartner": "sħab esterni biss",
+    "Fields": "Kampijiet",
+    "format": "Format",
+    "json": "ĠSON",
+    "Required": "Meħtieġ",
+    "Show": "Uri",
+    "step": {
+        "create_org": "Oħloq l-organizzazzjoni tiegħek",
+        "done": "Ħu l-widget tiegħek",
+        "join_campaign": "Ingħaqad mal-kampanja",
+        "login": "Il-kont tiegħek",
+        "verify": "Ivverifika l-email tiegħek",
+        "org_error": "Żball"
+    },
+    "Stats": "Statistiċi",
+    "supporters": "Appoġġaturi",
+    "Switch to fill the details manually": "Ibdel biex timla d-dettalji manwalment",
+    "Twitter Account": "Kont ta' Twitter",
+    "unusedOnly": "biss widġits mhux użati",
+    "Used to fill the details of your organisation": "Użat biex timla d-dettalji tal-organizzazzjoni tiegħek",
+    "Used to pre-fill name, description and logo of your organisation": "Użat biex timla minn qabel l-isem, id-deskrizzjoni u l-logo tal-organizzazzjoni tiegħek",
+    "View your widget for {{org}}": "Ara l-widget tiegħek għal {{org}}",
+    "You can update your organisation's details": "Tista' taġġorna d-dettalji tal-organizzazzjoni tiegħek.",
+    "widget": {
+        "edit_icon": "Issettjar għal {{id}}",
+        "stats_icon": "Statistiċi għal {{id}}",
+        "lang": "Lingwa tal-widget",
+        "test": "Il-widget huwa fil-modalità tat-test."
+    },
+    "csv": "CSV"
+}
