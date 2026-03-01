@@ -1,1 +1,166 @@
-{}
+{
+    "onboarding": {
+        "done": "Dir kritt eng Bestätegungsnoriicht per E-Mail. Dir kënnt schonn eng Testversioun vum <1>Widget op Ärer Websäit agebett</1>",
+        "embargo": "Embarg",
+        "login": "Mellt Iech als Benotzer un oder gitt mat Äre soziale Medien-Zougangsdaten oder Ärer E-Mailadress un. Et ass Äre perséinleche Kont; no der Aschreiwung kënnt Dir Är Organisatioun astellen.",
+        "organisation": {
+            "remarks": "Hutt Dir eppes iwwer dat Tool, wat Dir eis soe wëllt?",
+            "sectionTitle": "Organisatioun",
+            "logged_in": "Dir sidd ënner dem Organisatiounskonto <b>{{orgName}}</b> ageloggt.",
+            "networkHelper": "Mir begréissen all Organisatiounen!",
+            "another": "Wielt eng aner Organisatioun",
+            "organisationHelper": "Aus wéi engem Deel vun der Famill bass du? Mir begréissen all Organisatiounen!",
+            "collectsEmail": "Dir hutt keen Newsletter a wëllt keng E-Mail-Adressen sammelen? (Dir kënnt dës Funktioun selwer op Ärer Websäit verstoppen) Markéiert dës Këscht:",
+            "collectsEmailHelper": "Ech hunn keen Newsletter. Ech si sécher, datt ech keng Newsletter-Opt-in-Këscht wëll, déi E-Mail-Adressen sammelt, déi mir duerno kënne benotzen.",
+            "crm": "Wéi eng CRM-Software benotzt du?",
+            "doubleOptIn": "Meng Ënnerstëtzer mussen sech fir de Newsletter ze kréien zwoumol explizit aschreiwen.",
+            "network": "Meng Organisatioun ass Deel vun enger Dachorganisatioun..."
+        },
+        "user": {
+            "sectionTitle": "Är Kontaktdetailer",
+            "name": "Ären Numm",
+            "phoneNumber": "Äre Telefonsnummer",
+            "country": "Äert Land",
+            "socialAccountHelper": "Op Twitter/Instagram/Linkedin",
+            "emailAddress": "Är E-Mail-Adress",
+            "jobTitle": "Aarbechtsbezeechnung",
+            "phoneNumberHelper": "Inklusiv Lännerkennziffer",
+            "socialAccount": "Äre soziale Medien"
+        },
+        "verify": "Äre E-Mail ass nach net verifizéiert. W.e.g. kontrolléiert Äre E-Mail an klickt op de Bestätegungslink fir weiderzemaachen.",
+        "thanks": "Merci datt Dir un dëser Kampagne deelgeholl hutt.",
+        "title": "Sidd Dir eng Organisatioun oder eng sozial Beweegung, déi dës Kampagne op hirer Websäit derbäisetzen wëllt?",
+        "warning": {
+            "is_coordinator": "Dir kënnt Iech net mat engem Kont ënner{{org}} un enger Kampagne deelhuelen; et ass de Koordinator vun{{campaign}}",
+            "is_member": "Dir sidd e Member vun der Organisatioun **{{org}}**, déi dës Kampagne féiert!"
+        },
+        "welcome": "Wëllkomm am Partnerberäich fir dës Kampagne, koordinéiert vun {{coordinator}}",
+        "embargoHelper": "Ech bestätegen, datt d'Kampagnenmaterialien bis op weider Undeel strikt ënner Embargo stinn. Ech stëmmen zou, dës Materialien net mat iergendeen ausserhalb vu menger Organisatioun ze deelen.",
+        "mailling": "Mailinglëscht",
+        "maillingHelper": "Duerch d'Ofschécken vun dësem Formulaire stëmmen ech zou, an d' {{campaign}} -Mailinglëscht opgeholl ze ginn. Ech kann mech zu all Moment ofmellen.",
+        "intro": "[D'Zesummenaarbecht mat dëser Campagne](https://fixthestatusquo.com/help/for-partners/) bedeit, eng staark digital Aktioun zesummen duerchzeféieren, an dobäi d'voll Kontroll iwwer dat ze behale, wat fir Är Organisatioun wichteg ass. Mir erstellen e personaliséierten Widget mat Ärem Branding, deen zu Ärer Identitéit passt: en leeft op Ärer Websäit, mat Ärem Logo, Äre Faarwen an an Ärer Sprooch.\n\nMéi wéi 450 Organisatiounen hunn dat schonn an anere Campagnen gemaach. D'Integratioun vum Widget dauert normalerweis nëmmen e puer Minutten: Dir kopéiert einfach ee Code-Schnipsel an Är Websäit (sou einfach wéi e YouTube-Video anzebannen). Keng technesch Expertise néideg, keng IT-Ofdeelung erfuerderlech, an eist [Team ënnerstëtzt Iech](mailto:support@fixthestatusquo.org) dobäi. Wann et live ass, fléisst all Aktioun vun äre Supporter an en gemeinsame Campagnecompter, wat e sichtbare kollektiven Elan schaaft, deen reell Kraaft demonstréiert an Verännerung uetrib.\n\nÄr Ënnerstëtzer, Är Donnéeën, op eiser GDPR-konformer Plattform. Duerch de Betrib op dedizéierten Serveren a Däitschland behalt Dir d'voll Besëtzrecht iwwer Är Ënnerstëtzer-Donnéeën a kënnt se zu all Moment vum Dashboard eroflueden (oder kontaktéiert eis fir eng direkt Integratioun mat Ärem Mailing-List-Manager ze diskutéieren). \n\nVergréissert Är Ënnerstëtzerbasis, während Dir zu enger méi grousser Beweegung bäidréit. Zesumme schafen mir déi koordinéiert Drock, déi Campagnen wierklech gewënnt."
+    },
+    "createOrg": {
+        "intro": "Déi séierst Manéier ass, mam Twitter-Konto vun Ärer Organisatioun unzefänken (wann Dir e puer hutt, wielt een).",
+        "manual": "Schalt op d'Manuell Ausfëllung vun de Detailer",
+        "noTwitter": "Meng Organisatioun ass net op Twitter."
+    },
+    "export": {
+        "gdprLabel": "Allgemeng Donnéeeschutzverordnung",
+        "csv_help": "CSV ass de Standardformat. Benotzt dëst, ausser Dir braucht explizit JSON.",
+        "keyLabel": "Lued Decryptiounsschlësselen",
+        "campaignLabel": "Kampagne fir ze exportéieren",
+        "errorIncomplete": "Et gouf e Feeler, CSV-Daten onvollstänneg.",
+        "errorPermission": "Dir hutt keng Erlaabnis, Donnéeën fir dës Organisatioun ze exportéieren.",
+        "exporting": "Exportéieren",
+        "exportingWithCount": "Exportéieren {{count}}...",
+        "exportingWithErrors": "(kee Schlëssel fir {{count}} -Aktiounen)",
+        "exportLabel": "Exportéieren",
+        "exportType": {
+            "activities": "Aktivitéiten",
+            "activities_help": "Exportaktiounen, déi vun de Benotzer ausgefouert ginn, wéi Ënnerschreiwen, Deelen, asw.",
+            "contacts": "Kontakter",
+            "contacts_help": "Exportéiert nëmmen d'Kontaktinformatioun."
+        },
+        "gdpr": {
+            "double_opt_in": "Duebel Opt-in",
+            "double_opt_in_help": "Ënnerstëtzer, déi hir Participatioun iwwer eng E-Mail-Bestätegungs-URL bestätegt hunn",
+            "opt_in": "Opt-in",
+            "opt_in_help": "Ënnerstëtzer, déi op engem Widget d'Opt-in ausgewielt hunn ('Jo, ech wëll E-Mailen kréien' Radioknäppchen)",
+            "opt_out": "Ofmellen",
+            "opt_out_help": "Ënnerstëtzer, déi de Newsletter net wëllen kréien ('Nee, ech wëll keng E-Mailen kréien' Radioknäppchen am Widget oder Opt-out-URL an der E-Mail).",
+            "opt_out_required": "*W.e.g. weist drop hin, datt Dir Iech vun de Konsequenzen bewosst sidd",
+            "opt_out_warning": "Ech sinn bewosst, datt et illegal ass, Benotzer ze kontaktéieren, déi net explizit hir Zoustëmmung ginn hunn, ausser et ginn ganz limitéiert Ausnamen."
+        },
+        "json_help": "JSON-Format fir fortgeschratt Integratiounen.",
+        "key_help": "Wann Är Donnéeën verschlësselt sinn, lued de Verschlësselungsschlëssel virum Export erop.",
+        "title": "Exportéiert d'Memberdaten",
+        "campaignDefault": "All Kampagnen"
+    },
+    "invite": {
+        "subject": "Invitatioun fir Iech dem {{org}} um Dashboard \"Fix the Status Quo\" unzeschléissen.",
+        "another": "Ee weidere Teammember invitéieren",
+        "roles": {
+            "campaigner": {
+                "label": "Kampagnéier",
+                "description": "Kann Aktiounen, Ënnerstëtzer a Campagnedonnéeën ugekucken a verwalten. Kann d'Organisatiounsastellungen net änneren oder Donnéeën exportéieren."
+            },
+            "coordinator": {
+                "description": "Kann d'Supporterdaten kucken, mee kann keng Kampagnen erstellen oder Astellungen verwalten, oder Daten exportéieren.",
+                "label": "Koordinator"
+            },
+            "owner": {
+                "description": "Vollstännege administrativen Zougang. Kann alles verwalten, dorënner Astellungen, Kampagnen, Exporter an Verschlësselung.",
+                "label": "Besëtzer"
+            },
+            "translator": {
+                "description": "Kampagnetext änneren",
+                "label": "Iwwersetzer"
+            }
+        },
+        "default": "Dir sidd invitéiert, dem {{org}} -Kont um Dashboard vum Fix the Status Quo bäizetrieden.\n\nDës Invitatioun gëllt fir déi nächst 24 Stonnen. W.e.g. akzeptéiert se esou séier wéi méiglech.\n\nMir freeën eis, Iech dobäi ze hunn!",
+        "emailHelper": "Mir schécken eng Invitatiouns-E-Mail mat engem Link, fir direkt matzemaachen.",
+        "required": "Eng E-Mail-Adress ass erfuerderlech.",
+        "roleLabel": "Wielt d'Auth-Niveau",
+        "copied": "Kopieéiert!",
+        "copy": "Kopieiert d'URL vun der Invitatioun",
+        "messageLabel": "Perséinlech Noriicht fir den invitéierten",
+        "sent": "Invitatioun un {{email}}",
+        "sentInstructions": "Dir kënnt och de Link hei drënner direkt deelen:",
+        "title": "Invitatioun fir matzemaachen {{org}}",
+        "tooltip": "Bemierkung: Nëmmen de 'Besëtzer' kann d'Donnéeën vun de Ënnerstëtzer exportéieren.",
+        "translator": "Moien,\n\nMir kontaktéieren Iech, fir Iech anzefroen, mat eis zesummenzeschaffen un der Iwwersetzung an der Feinschléifung vun engem Campagnebréif fir Äert Land. Äert Verständnis vum lokalen politeschen Kontext wier wäertvoll — net nëmmen an der Iwwersetzung, mee och fir sécherzestellen, datt d'Botschaft effektiv bei de Supporter ukënnt.\n\nDe Bréif ass an e puer Sektiounen agedeelt, déi all verschidde Varianten hunn. D'Supporter kréien zoufälleg zesummegesate Versioune, fir d'Beteiliung ze maximéieren an ze verhënneren, datt si vun de Empfänger ofgeleent ginn.\n\nSoubal Dir d'Invitatioun ugeholl hutt, kënnt Dir op de Bréif zougräifen [hei]({{location}}). **Vergiesst net ze späicheren nodeems Dir Är Ännerungen gemaach hutt!**\n\nWann Är Bäiträg fäerdeg sinn, sot eis an dem Koordinator w.e.g. Bescheed, sou datt mir d'Aktualisatiounen kënne rullend setzen.\n\nMir schätzen Är Zäit an Äert Fachwëssen — dëst ass eng gemeinsam Effort fir d'Wierkung vun der Campagne ze stäerken.\n\n**Aus Sécherheetsgrënn gëllt Äre Link fir den Zougang zur Invitatioun nëmmen nach 24 Stonnen.**",
+        "translatorTitle": "Eluedung fir als Iwwersetzer bei {{org}} matzemaachen"
+    },
+    "mineOnly": "Nëmmen vun menger Organisatioun",
+    "join": {
+        "goalHelper": "Dës Schätzung gesäit nëmmen de Koordinator… an mir wëssen, datt et schwéier ass ze schätzen.",
+        "request": "Plangt Dir dedizéiert Mailings un Är Ënnerstëtzer? Plangt Dir och Aktivitéiten op de soziale Medien, dorënner bezuelte Annoncen?",
+        "requestHelper": "fir eis ze hëllefen, dës Kampagne ze plangen",
+        "goal": "Wéi vill Leit erwaart Dir, datt si iwwer Är Websäit Aktioun huelen?"
+    },
+    "step": {
+        "create_org": "Erstellt Är Organisatioun",
+        "login": "Äre Kont",
+        "done": "Huelt Äre Widget",
+        "join_campaign": "Schléiss dech der Kampagne un",
+        "verify": "Bestätegt Är E-Mail",
+        "org_error": "Feeler"
+    },
+    "action": {
+        "mail2target": "Mail un d'Zil",
+        "register": "Registréieren",
+        "share": "Deelen op sozialen Medien",
+        "twitter_click": "Tweet un d'Zil"
+    },
+    "Fields": "Felder",
+    "Required": "Erfuerderlech",
+    "Used to pre-fill name, description and logo of your organisation": "Fir de Numm, d'Beschreiwung an d'Logo vun Ärer Organisatioun virzestellen",
+    "View your widget for {{org}}": "Kuckt Äre Widget fir {{org}}",
+    "cancel": "Ofsoen",
+    "close": "Zoumaachen",
+    "Customise": "Personnéieren",
+    "delete": "Läschen",
+    "edit": "Ännert",
+    "externalPartner": "nëmmen extern Partner",
+    "save": "Späicheren",
+    "send": "Schécken",
+    "You can register an new organisation to join the coalition": "Dir kënnt eng nei Organisatioun registréieren, fir der Koalitioun bäizetrieden.",
+    "Stats": "Statistiken",
+    "supporters": "Ënnerstëtzer",
+    "Switch to fill the details manually": "Schalt op d'Manuell Ausfëllung vun de Detailer",
+    "Twitter Account": "Twitter-Kont",
+    "You can update your organisation's details": "Dir kënnt d'Detailer vun Ärer Organisatioun aktualiséieren.",
+    "widget": {
+        "edit_icon": "Astellungen fir {{id}}",
+        "stats_icon": "Statistiken fir {{id}}",
+        "lang": "Sprooch vum Widget",
+        "test": "Widget ass am Testmodus"
+    },
+    "csv": "CSV",
+    "format": "Format",
+    "json": "JSON",
+    "Show": "Wise",
+    "unusedOnly": "Nëmmen net benotzt Widgets",
+    "Used to fill the details of your organisation": "Fir d'Detailer vun Ärer Organisatioun auszefëllen"
+}
