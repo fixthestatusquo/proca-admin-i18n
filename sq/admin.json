@@ -1,1 +1,166 @@
-{}
+{
+    "export": {
+        "gdprLabel": "Rregullorja e Përgjithshme për Mbrojtjen e të Dhënave",
+        "gdpr": {
+            "double_opt_in": "Regjistrim me dy konfirmime",
+            "double_opt_in_help": "Mbështetësit që konfirmuan pjesëmarrjen e tyre përmes URL-së së konfirmimit me email",
+            "opt_in": "Përfshihet",
+            "opt_in_help": "Mbështetësit që zgjodhën aktivizimin në një widget ('Radio butoni: Po, dua të marr email-e')",
+            "opt_out": "Tërhiqu",
+            "opt_out_required": "Ju lutemi tregoni se jeni të vetëdijshëm për pasojat.",
+            "opt_out_warning": "Jam i vetëdijshëm që është e paligjshme të kontaktosh përdoruesit që nuk kanë dhënë pëlqim të qartë, përveç në raste shumë të kufizuara.",
+            "opt_out_help": "Mbështetësit që nuk duan të marrin buletinin ('Jo, nuk dua të marr email-e' butoni radio në widget ose lidhja për t'u tërhequr nga email-i)."
+        },
+        "errorIncomplete": "Ka pasur një gabim, të dhënat CSV janë të paplotë.",
+        "csv_help": "CSV është formati standard. Përdoreni këtë, përveç nëse keni nevojë specifike për JSON.",
+        "exportingWithErrors": "(pa çelës për veprimet {{count}} )",
+        "campaignLabel": "Fushata për eksport",
+        "errorPermission": "Ju nuk keni leje për të eksportuar të dhëna për këtë organizatë.",
+        "exporting": "Eksportimi",
+        "exportingWithCount": "Eksportimi i {{count}}...",
+        "exportType": {
+            "activities": "Aktivitetet",
+            "activities_help": "Veprimet e eksportit të kryera nga përdoruesit, si nënshkrimi, ndarja, etj.",
+            "contacts": "Kontakte",
+            "contacts_help": "Eksportoni vetëm informacionin e kontaktit."
+        },
+        "json_help": "Formati JSON për integrime të avancuara.",
+        "key_help": "Nëse të dhënat tuaja janë të kriptuara, ngarkoni çelësin e kriptimit para eksportit.",
+        "keyLabel": "Ngarko çelësat e dekripimit",
+        "title": "Eksportoni të dhënat e anëtarëve",
+        "campaignDefault": "Të gjitha fushatat",
+        "exportLabel": "Eksport"
+    },
+    "invite": {
+        "subject": "Ftesë për t'u bashkuar me {{org}} në panelin e kontrollit Fix the Status Quo",
+        "default": "Jeni të ftuar të bashkoheni me llogarinë {{org}} në panelin e kontrollit Fix the Status Quo.\n\nKy ftesë do të jetë e vlefshme për 24 orët e ardhshme. Ju lutemi, pranoni sa më shpejt të jetë e mundur.\n\nJemi të emocionuar që do të na bashkoheni!",
+        "title": "Ftohje për t'u bashkuar {{org}}",
+        "translatorTitle": "Ftohje për t'u bashkuar me {{org}} si përkthyes",
+        "emailHelper": "Do t'ju dërgojmë një email ftonjës me një lidhje për t'u bashkuar menjëherë.",
+        "required": "Adresa e emailit është e detyrueshme",
+        "another": "Fto një anëtar tjetër të ekipit",
+        "copied": "Kopjuar!",
+        "roles": {
+            "campaigner": {
+                "label": "Fushata",
+                "description": "Mund të shikoni dhe menaxhoni veprimet, mbështetësit dhe të dhënat e fushatës. Nuk mund të ndryshoni cilësimet e organizatës ose të eksportoni të dhëna."
+            },
+            "owner": {
+                "description": "Qasje e plotë administrative. Mund të menaxhoni gjithçka, përfshirë cilësimet, fushatat, eksportet dhe enkriptimin.",
+                "label": "Pronar"
+            },
+            "coordinator": {
+                "description": "Mund të shikojë të dhënat e mbështetësve, por nuk mund të krijojë fushata, të menaxhojë cilësimet ose të eksportojë të dhëna.",
+                "label": "Koordinator"
+            },
+            "translator": {
+                "description": "Redakto tekstin e fushatës",
+                "label": "Përkthyesi"
+            }
+        },
+        "tooltip": "Shënim: Vetëm 'pronari' do të mund të eksportojë të dhënat e mbështetësve.",
+        "copy": "Kopjo URL-në e ftesës",
+        "messageLabel": "Mesazh personal për të ftuarin",
+        "roleLabel": "Zgjidh nivelin e autorizimit",
+        "sent": "Ftesa u dërgua te {{email}}",
+        "sentInstructions": "Ju gjithashtu mund të ndani drejtpërdrejt lidhjen më poshtë:",
+        "translator": "Përshëndetje,\n\nJemi duke ju ftuar të bashkëpunoni në përkthimin dhe përmirësimin e një letre fushate për vendin tuaj. Kuptimi juaj i kontekstit politik lokal do të ishte i vlefshëm — jo vetëm në përkthim, por edhe për t'u siguruar që mesazhi të ketë jehonë efektive tek mbështetësit.\n\nLetra është e strukturuar në disa seksione, secili me disa variante. Mbështetësit do të marrin versione të përbëra në mënyrë të rastësishme për të maksimizuar angazhimin dhe për të shmangur që të injorohen nga marrësit.\n\nSapo të keni pranuar ftesën, do të mund të aksesoni letrën [këtu]({{location}}). **Mos harroni të ruani ndryshimet pasi t'i keni bërë!**\n\nKur kontributet tuaja të jenë përfunduar, ju lutemi na njoftoni dhe koordinatorin në mënyrë që të mund të zbatojmë përditësimet.\n\nNe vlerësojmë kohën dhe ekspertizën tuaj — ky është një përpjekje e përbashkët për të forcuar ndikimin e fushatës.\n\n**Për siguri, lidhja juaj e ftesës do të skadojë pas 24 orësh.**"
+    },
+    "onboarding": {
+        "user": {
+            "phoneNumberHelper": "Përfshirë kodin e vendit",
+            "country": "Vendi yt",
+            "sectionTitle": "Të dhënat tuaja të kontaktit",
+            "socialAccount": "Rrjetet tuaja sociale",
+            "socialAccountHelper": "Në Twitter/Instagram/Linkedin",
+            "emailAddress": "Adresa juaj e emailit",
+            "jobTitle": "Titulli i punës",
+            "name": "Emri yt",
+            "phoneNumber": "Numri yt i telefonit"
+        },
+        "embargo": "Embargo",
+        "embargoHelper": "Pranoj se materialet e fushatës janë rreptësisht të embargosura deri në njoftimin e mëtejshëm. Pranoj të mos i ndaj këto materiale me askënd jashtë organizatës sime.",
+        "mailling": "Lista e postës",
+        "organisation": {
+            "another": "Zgjidhni një organizatë tjetër",
+            "logged_in": "Jeni të kyçur me llogarinë e organizatës <b>{{orgName}}</b>",
+            "network": "Organizata ime është pjesë e një organizate ombrellë...",
+            "networkHelper": "Ne mirëpresim të gjitha organizatat!",
+            "collectsEmail": "Nuk keni buletin dhe nuk dëshironi të mbledhni adresa emaili? (Ju do të mund ta fshihni vetë këtë veçori në faqen tuaj të internetit) Shënoni këtë kuti:",
+            "collectsEmailHelper": "Nuk kam një buletin. Jam i sigurt që nuk dua një kuti për t'u abonuar në buletin që mbledh adresat e emailit që mund t'i përdorim më vonë.",
+            "crm": "Cilin softuer CRM po përdorni?",
+            "doubleOptIn": "Mbështetësit e mi duhet të konfirmojnë dy herë pajtimin për të marrë buletinin.",
+            "organisationHelper": "Nga cila pjesë e familjes jeni? Ne mirëpresim të gjitha organizatat!",
+            "remarks": "A keni ndonjë koment rreth mjetit që dëshironi të na tregoni?",
+            "sectionTitle": "Organizatë"
+        },
+        "thanks": "Faleminderit që iu bashkuat kësaj fushate",
+        "title": "A jeni një organizatë ose një lëvizje sociale që dëshironi të shtoni këtë fushatë në faqen tuaj?",
+        "verify": "Email-i juaj ende nuk është verifikuar. Ju lutemi kontrolloni email-in tuaj dhe klikoni në lidhjen e konfirmimit për të vazhduar.",
+        "warning": {
+            "is_coordinator": "Ju nuk mund të bashkoheni në një fushatë nën llogarinë e **{{org}}**, ai është koordinatori i **{{campaign}}**",
+            "is_member": "Ju jeni anëtar i organizatës **{{org}}** që drejton këtë fushatë!"
+        },
+        "intro": "[Bashkëpunimi me këtë fushatë](https://fixthestatusquo.com/help/for-partners/) do të thotë të zhvilloni së bashku një veprim të fuqishëm dixhital, duke ruajtur kontrollin e plotë mbi atë që ka rëndësi për organizatën tuaj. Ne do të krijojmë një widget me markë të personalizuar që përputhet me identitetin tuaj: ai funksionon në faqen tuaj të internetit, me logon tuaj, ngjyrat tuaja, në gjuhën tuaj.\n\nMë shumë se 450 organizata e kanë bërë këtë në fushata të tjera. Shtimi i widget-it zakonisht zgjat vetëm disa minuta: thjesht ngjitni një fragment kodi në faqen tuaj (po aq e lehtë sa futja e një videoje në YouTube). Nuk kërkohet ekspertizë teknike, nuk nevojitet departament IT, dhe [ekipi ynë do t'ju mbështesë](mailto:support@fixthestatusquo.org) gjatë gjithë rrugës. Pasi të jetë aktiv, çdo veprim që mbështetësit tuaj kryejnë regjistrohet në një numërues të përbashkët të fushatës, duke krijuar një moment kolektiv të dukshëm që demonstron fuqinë e vërtetë dhe nxit ndryshimin.\n\nMbështetësit tuaj, të dhënat tuaja, në platformën tonë në përputhje me GDPR. Duke funksionuar në serverë të dedikuar në Gjermani, ju ruani pronësinë e plotë të të dhënave të mbështetësve tuaj dhe mund t'i shkarkoni nga paneli i kontrollit sa herë të dëshironi (ose na kontaktoni për të diskutuar integrimin direkt me menaxherin tuaj të listës së postës elektronike). \n\nZgjeroni bazën tuaj të mbështetësve ndërsa kontribuoni në një lëvizje më të madhe. Së bashku, krijojmë llojin e presionit të koordinuar që me të vërtetë fiton fushatat.",
+        "login": "Regjistrohu si përdorues ose hy me të dhënat e llogarisë tënde në rrjetet sociale ose me emailin tënd. Kjo është llogaria jote personale; pasi të regjistrohesh, do të mund të konfigurosh organizatën tënde.",
+        "welcome": "Mirësevini në zonën e partnerëve për këtë fushatë të koordinuar nga {{coordinator}}",
+        "done": "Do të merrni një mesazh konfirmimi me email. Ju tashmë mund të integroni një version prove të widget-it në faqen tuaj të internetit.",
+        "maillingHelper": "Duke dërguar këtë formular, unë pajtohem të shtohem në listën e postës elektronike të \" {{campaign}} \". Mund të ç'regjistrohem në çdo kohë."
+    },
+    "cancel": "Shfuqizo",
+    "close": "Mbyll",
+    "createOrg": {
+        "noTwitter": "Organizata ime nuk është në Twitter.",
+        "intro": "Më e shpejtë është të filloni me llogarinë në Twitter të organizatës suaj (nëse keni disa, zgjidhni njërën).",
+        "manual": "Kaloni në modalitetin e plotësimit manual të detajeve"
+    },
+    "delete": "Fshi",
+    "edit": "Redakto",
+    "save": "Ruaj",
+    "send": "Dërgo",
+    "Used to pre-fill name, description and logo of your organisation": "Përdoret për të paraprëmbushur emrin, përshkrimin dhe logon e organizatës suaj",
+    "You can register an new organisation to join the coalition": "Ju mund të regjistroni një organizatë të re për t'u bashkuar me koalicionin.",
+    "Stats": "Statistika",
+    "supporters": "Mbështetësit",
+    "Used to fill the details of your organisation": "Përdoret për të plotësuar detajet e organizatës suaj",
+    "View your widget for {{org}}": "Shikoni widget-in tuaj për {{org}}",
+    "You can update your organisation's details": "Ju mund të përditësoni të dhënat e organizatës suaj.",
+    "widget": {
+        "edit_icon": "Cilat janë cilësimet për {{id}}",
+        "stats_icon": "Statistikat për {{id}}",
+        "lang": "Gjuha e widget-it",
+        "test": "Widget-i është në modalitetin e testimit."
+    },
+    "action": {
+        "mail2target": "Email për marrësin",
+        "register": "Regjistrohu",
+        "share": "Ndajeni në rrjetet sociale",
+        "twitter_click": "Tweet për targetin"
+    },
+    "externalPartner": "vetëm partnerë të jashtëm",
+    "mineOnly": "vetëm nga organizata ime",
+    "unusedOnly": "vetëm widget-et e papërdorura",
+    "Customise": "Përshtat",
+    "Fields": "Fushat",
+    "Required": "E kërkuar",
+    "Show": "Tregoni",
+    "Switch to fill the details manually": "Kaloni në modalitetin e plotësimit manual të detajeve",
+    "step": {
+        "create_org": "Krijoni organizatën tuaj",
+        "done": "Merr widgetin tënd",
+        "join_campaign": "Bashkohuni në fushatë",
+        "login": "Llogaria juaj",
+        "verify": "Verifikoni emailin tuaj",
+        "org_error": "Gabim"
+    },
+    "csv": "CSV",
+    "format": "Format",
+    "json": "JSON",
+    "Twitter Account": "Llogaria në Twitter",
+    "join": {
+        "goal": "Sa njerëz prisni që do të ndërmarrin veprime përmes faqes suaj të internetit?",
+        "goalHelper": "Kjo supozim do të shihet vetëm nga koordinatori… dhe e dimë që është e vështirë për ta vlerësuar.",
+        "request": "A planifikoni dërgimin e postës së dedikuar tek mbështetësit tuaj? A planifikoni gjithashtu aktivitete në mediat sociale, duke përfshirë reklamat e paguara?",
+        "requestHelper": "për të na ndihmuar të planifikojmë këtë fushatë"
+    }
+}
