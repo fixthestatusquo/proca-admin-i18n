@@ -170,12 +170,15 @@
   "Used to fill the details of your organisation": "Used to fill the details of your organisation",
   "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation",
   "View your widget for {{org}}": "View your widget for {{org}}",
+  "week": "Week",
+  "month": "Month",
   "widget": {
     "edit_icon": "Settings for {{id}}",
     "lang": "Language of the widget",
     "stats_icon": "Stats for {{id}}",
     "test": "Widget is in the test mode"
   },
+  "topCampaignsTitle": "Most active campaigns",
   "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
   "You can update your organisation's details": "You can update your organisation's details"
 }
