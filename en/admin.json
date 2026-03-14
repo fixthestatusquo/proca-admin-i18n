@@ -5,8 +5,13 @@
     "share": "Share on social media",
     "twitter_click": "Tweet to target"
   },
+  "all": "All",
   "cancel": "Cancel",
   "close": "Close",
+  "contact": "Contact",
+  "copied": "Copied!",
+  "copy": "Copy to clipboard",
+  "country": "Country",
   "createOrg": {
     "intro": "The fastest is to start with the twitter account of your organisation (if you have several, pick one)",
     "manual": "Switch to fill the details manually",
@@ -15,6 +20,8 @@
   "csv": "CSV",
   "Customise": "Customise",
   "delete": "Delete",
+  "downloadCSV": "Download CSV",
+  "downloadCSWHelp": "Download partner data as CSV. Contact info only available for partners who joined via URL.",
   "edit": "Edit",
   "export": {
     "campaignDefault": "All campaigns",
@@ -48,9 +55,11 @@
     "keyLabel": "Load decryption keys",
     "title": "Export member data"
   },
-  "externalPartner": "only external partners",
+  "externalPartner": "External partners only",
+  "extraSupporters": "Extra supporters",
   "Fields": "Fields",
   "format": "Format",
+  "hasSupporters": "Has supporters",
   "invite": {
     "another": "Invite another team member",
     "copied": "Copied!",
@@ -94,12 +103,12 @@
   },
   "json": "JSON",
   "mineOnly": "only from my organisation",
+  "noPartnersMatch": "No partners match the selected filters.",
   "onboarding": {
     "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
     "embargo": "Embargo",
     "embargoHelper": "I acknowledge that the campaign materials are strictly embargoed until further notice. I agree to NOT SHARING these materials with anyone outside of my organisation.",
-          "intro": "Campaigns are more powerful when there are many organisations working together for a common goal. This is your chance to become a partner and grow your impact, while keeping full control over your message, branding, and supporter contacts.\n\n[When you join a campaign](https://fixthestatusquo.com/help/for-partners/), you get to set up your own easy-to-use Proca campaign “widget”. The widget includes the form to collect supporter actions (petition signatures, messages sent to target, etc) and a smart share action which allows signers to share the campaign and mobilise even more support.\n\nAll supporter actions from all partner widgets count together, feeding into a shared campaign counter. That creates visible collective momentum and demonstrates the real power people have when we act together. At the same time, each partner keeps their own supporter contact information, and there is no need for complex data sharing.\n\nThe widget is multilingual and easy to customise with your colours and logo. Adding it to your page takes only a minute, and is as easy as embedding a YouTube video. No technical expertise required (and if you need any help, [Proca’s team will support you](mailto:support@fixthestatusquo.org))!\n\nProca takes supporter data security very seriously. Our dedicated servers in Germany are fully GDPR compliant, and your organisation remains the sole owner of the data collected through your widget. You can monitor your campaign’s performance and download the data anytime, using our user-friendly dashboard. We can also integrate directly with your mailer system.\n\nMore than 450 partners are already using Proca for their online campaigns, growing their supporter base, and creating a stronger, more collaborative movement. Together, we can create the kind of pressure that wins campaigns. Join us!",
-
+    "intro": "[Partnering with this campaign](https://fixthestatusquo.com/help/for-partners/) means running a powerful digital action together while keeping full control of what matters to your organization. We'll create a custom-branded widget that matches your identity: it runs on your website, with your logo, your colors, in your language.\n\nMore than 450 organisations have done it on other campaigns. Adding the widget usually takes minutes: just paste one snippet of code into your site (as easy as embedding a YouTube video). No technical expertise needed, no IT department required, and our [team will support you](mailto:support@fixthestatusquo.org) along the way. Once live, every action your supporters take feeds into a shared campaign counter, creating visible collective momentum that demonstrates real power and drives change.\n\nYour supporters, your data, on our GDPR-compliant platform. Running on dedicated servers in Germany, you maintain complete ownership of your supporter data and can download it from the dashboard whenever you want (or contact us to discuss direct integration with your mailing list manager). \n\nGrow your supporter base while contributing to a bigger movement. Together, we create the kind of coordinated pressure that actually wins campaigns.",
     "login": "Register as a user or login with your social media credentials or your email. It is your personal account, you will be able to set up your organisation after your register.",
     "mailling": "Mailing list",
     "maillingHelper": "By submitting this form, I agree to be added to the {{campaign}} mailing list. I can unsubscribe at any time.",
@@ -117,7 +126,7 @@
       "sectionTitle": "Organisation"
     },
     "thanks": "Thank you for joining this campaign",
-          "title": "Join this partnership campaign: easily add it on your website",
+    "title": "Are you an organisation or social movement that wants to add this campaign on your site?",
     "user": {
       "country": "Your Country",
       "emailAddress": "Your email address",
@@ -136,6 +145,9 @@
     },
     "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}"
   },
+  "organisation": "Organisation",
+  "other": "Other",
+  "partnerJoinLink": "Link for partners to join the campaign",
   "Required": "Required",
   "save": "Save",
   "send": "Send",
@@ -143,25 +155,27 @@
   "Stats": "Stats",
   "step": {
     "create_org": "Create your organisation",
-    "org_error": "Error",
     "done": "Take your widget",
     "join_campaign": "Join the campaign",
     "login": "Your account",
+    "org_error": "Error",
     "verify": "Verify your email"
   },
   "supporters": "Supporters",
+  "supportersHelp": "Number of unique, deduplicated supporters",
   "Switch to fill the details manually": "Switch to fill the details manually",
+  "total": "Total",
   "Twitter Account": "Twitter Account",
   "unusedOnly": "only unused widgets",
   "Used to fill the details of your organisation": "Used to fill the details of your organisation",
   "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation",
   "View your widget for {{org}}": "View your widget for {{org}}",
-  "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
-  "You can update your organisation's details": "You can update your organisation's details",
   "widget": {
     "edit_icon": "Settings for {{id}}",
-    "stats_icon": "Stats for {{id}}",
     "lang": "Language of the widget",
+    "stats_icon": "Stats for {{id}}",
     "test": "Widget is in the test mode"
-  }
+  },
+  "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
+  "You can update your organisation's details": "You can update your organisation's details"
 }
