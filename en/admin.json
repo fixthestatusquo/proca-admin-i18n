@@ -101,6 +101,7 @@
     "request": "Do you plan dedicated mailing to your supporters? Are you also planning social media activities, including paid advertising",
     "requestHelper": "to help us plan this campaign"
   },
+  "joinedAt": "Joined at",
   "json": "JSON",
   "mineOnly": "only from my organisation",
   "noPartnersMatch": "No partners match the selected filters.",
@@ -147,6 +148,7 @@
   },
   "organisation": "Organisation",
   "other": "Other",
+  "partners": "partners",
   "partnerJoinLink": "Link for partners to join the campaign",
   "Required": "Required",
   "save": "Save",
