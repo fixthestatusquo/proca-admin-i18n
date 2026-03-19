@@ -13,6 +13,7 @@
   "copied": "Copied!",
   "copy": "Copy to clipboard",
   "country": "Country",
+  "countryRequired": "Country is required",
   "create": "Create",
   "invalidUrl": "Please enter a valid URL",
   "createOrg": {
