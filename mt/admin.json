@@ -100,7 +100,7 @@
             "remarks": "Xi kummenti dwar l-għodda li trid tgħidilna?"
         },
         "thanks": "Grazzi talli ngħaqadt ma' din il-kampanja",
-        "title": "Ingħaqad ma' din il-kampanja ta' sħubija: żidha faċilment fis-sit web tiegħek.",
+        "title": "Ingħaqad f'din il-kampanja ta' sħubija: uriha faċilment fuq il-websajt tiegħek u fuq il-midja soċjali.",
         "verify": "L-email tiegħek għadha mhix ivverifikata. Jekk jogħġbok iċċekkja l-email tiegħek u ikklikkja fuq il-link ta' konferma biex tkompli.",
         "warning": {
             "is_coordinator": "Ma tistax tingħaqad ma' kampanja taħt il-kont ta' **{{org}}**; huwa l-koordinatur tal-**{{campaign}}**",
@@ -110,7 +110,7 @@
         "done": "Se tirċievi messaġġ ta' konferma bl-imejl. Diġà tista' tintegra verżjoni ta' prova tal-<1>widget fuq il-websajt tiegħek</1>",
         "login": "Irreġistra bħala utent jew idħol bil-kredenzjali tal-midja soċjali tiegħek jew bl-email tiegħek. Huwa l-kont personali tiegħek; wara r-reġistrazzjoni tkun tista' tissettja l-organizzazzjoni tiegħek.",
         "mailling": "Lista ta' indirizzi postali",
-        "intro": "Il-kampanji huma aktar b'saħħithom meta jkunu hemm ħafna organizzazzjonijiet jaħdmu flimkien għal għan komuni. Din hija ċ-ċans tiegħek biex issir sieħeb u tikber l-impatt tiegħek, filwaqt li żżomm kontroll sħiħ fuq il-messaġġ tiegħek, il-branding tiegħek, u l-kuntatti tal-appoġġaturi tiegħek.\n\n[Meta tingħaqad ma' kampanja](https://fixthestatusquo.com/help/for-partners/), tista' toħloq il-widget tal-kampanja Proca tiegħek stess, faċli għall-użu. Il-widget jinkludi l-formola biex jiġbor l-azzjonijiet tal-appoġġanti (firma fuq petizzjoni, messaġġi mibgħuta lill-mira, eċċ.) u azzjoni intelliġenti ta' qsim li tippermetti lill-firmatarji jaqsmu l-kampanja u jimmobilizzaw aktar appoġġ.\n\nL-azzjonijiet kollha tal-appoġġaturi minn kull widget partner jingħaddu flimkien, u jmorru f'kontatur komuni tal-kampanja. Dan joħloq momentum kollettiv viżibbli u juri l-qawwa vera li jkollha n-nies meta naġixxu flimkien. Fl-istess ħin, kull partner iżomm l-informazzjoni ta' kuntatt tal-appoġġaturi tiegħu stess, u m'hemmx bżonn ta' qsim tad-dejta kumplessu.\n\nIl-widget huwa multilingwi u faċli biex jiġi personalizzat bil-kuluri u l-logo tiegħek. Li żżiduh mal-paġna tiegħek jieħu biss minuta, u huwa daqshekk faċli daqs li tpoġġi vidjo ta' YouTube. Ma hemmx bżonn ta' għarfien tekniku (u jekk għandek bżonn kwalunkwe għajnuna, [it-tim ta' Proca se jappoġġjak](mailto:support@fixthestatusquo.org))!\n\nProca tieħu s-sigurtà tad-dejta tal-appoġġaturi b'mod serju ħafna. Is-servers dedikati tagħna fil-Ġermanja huma kompletament konformi mal-GDPR, u l-organizzazzjoni tiegħek tibqa' l-unika proprjetarja tad-dejta miġbura permezz tal-widget tiegħek. Tista' timmonitorja l-prestazzjoni tal-kampanja tiegħek u tniżżel id-dejta fi kwalunkwe ħin, billi tuża d-dashboard faċli għall-utent tagħna. Nistgħu wkoll nintegraw direttament mas-sistema tal-posta elettronika tiegħek.\n\nAktar minn 450 sieħeb diġà qed jużaw lil Proca għall-kampanji onlajn tagħhom, qed jikbru l-bażi ta' appoġġ tagħhom, u qed joħolqu moviment aktar b'saħħtu u kollaborattiv. Flimkien, nistgħu noħolqu l-pressjoni li tirbaħ il-kampanji. Ingħaqad magħna!"
+        "intro": "Il-kampanji huma aktar b'saħħithom meta ħafna organizzazzjonijiet jaħdmu flimkien għal għan komuni. Proca tagħtik ċans biex issir sieħeb fil-kampanja u tikber l-impatt tiegħek, filwaqt li żżomm kontroll sħiħ fuq il-messaġġ tiegħek, il-branding, u l-kuntatti tal-appoġġaturi.\n\n[Meta tingħaqad ma' kampanja](https://fixthestatusquo.com/help/for-partners/), tista' toħloq il-widget Proca tiegħek stess li huwa faċli biex tużah. Il-widget jinkludi l-formola biex jiġbor l-azzjonijiet tal-appoġġaturi (firma tal-petizzjoni, messaġġi mibgħuta lill-mira, eċċ.) u azzjoni intelliġenti ta' qsim, li tippermetti lil dawk li jiffirmaw jaqsmu l-azzjoni u jimmobilizzaw aktar appoġġ.\n\n L-azzjonijiet kollha tal-appoġġaturi minn kull widget partner jingħaddu flimkien, u jmorru f'kontatur komuni tal-kampanja. Dan joħloq momentum kollettiv viżibbli, u juri l-qawwa vera li jkollha n-nies meta naġixxu flimkien. Fl-istess ħin, kull partner iżomm l-informazzjoni tal-kuntatt tal-appoġġaturi tiegħu stess, u m'hemmx bżonn ta' qsim tad-dejta kumplessu.\n\nIl-widget huwa multilingwi u faċli biex jiġi personalizzat bil-kuluri u l-logo tiegħek. Li żżiduh mas-sit web tiegħek jieħu biss minuta, u huwa daqshekk faċli daqs li tintegra vidjo ta' YouTube. Mhux meħtieġa ebda għarfien tekniku (u jekk għandek bżonn kwalunkwe għajnuna, [it-tim ta' Proca se jappoġġjak](mailto:support@fixthestatusquo.org))!\n\nProca tieħu s-sigurtà tad-dejta tal-appoġġaturi b'mod serju ħafna. Is-servers dedikati tagħna fil-Ġermanja huma kompletament konformi mal-GDPR, u l-organizzazzjoni tiegħek tibqa' l-unika proprjetarja tad-dejta miġbura permezz tal-widget tiegħek. Tista' timmonitorja l-prestazzjoni tal-kampanja tiegħek u tniżżel id-dejta fi kwalunkwe ħin, billi tuża d-dashboard faċli għall-utent tagħna. Nistgħu wkoll nintegraw direttament mas-sistema tal-posta elettronika tiegħek.\n\nAktar minn 500 sieħeb diġà qed jużaw lil Proca għall-kampanji onlajn tagħhom, qed jikbru l-bażi ta' appoġġ tagħhom, u qed joħolqu moviment aktar b'saħħtu u kollaborattiv. Flimkien, nistgħu noħolqu l-pressjoni li tirbaħ il-kampanji. Ingħaqad magħna!"
     },
     "action": {
         "mail2target": "Email lill-mira",
@@ -133,7 +133,7 @@
         "requestHelper": "biex jgħinna nippjanaw din il-kampanja"
     },
     "Customise": "Personalizza",
-    "externalPartner": "sħab esterni biss",
+    "externalPartner": "Sħab esterni biss",
     "Fields": "Kampijiet",
     "format": "Format",
     "json": "ĠSON",
@@ -162,5 +162,39 @@
         "lang": "Lingwa tal-widget",
         "test": "Il-widget huwa fil-modalità tat-test."
     },
-    "csv": "CSV"
+    "csv": "CSV",
+    "all": "Kollha",
+    "contact": "Kuntatt",
+    "contactSupport": "Ikkuntattja l-appoġġ",
+    "copied": "Kopjat!",
+    "copy": "Kopja fil-memorja tal-qtugħ",
+    "country": "Pajjiż",
+    "countryRequired": "Il-pajjiż huwa meħtieġ",
+    "create": "Oħloq",
+    "invalidUrl": "Jekk jogħġbok daħħal URL valida.",
+    "description": "Deskrizzjoni f'linja waħda",
+    "downloadCSV": "Niżżel CSV",
+    "downloadCSWHelp": "Niżżel id-dejta tal-partners bħala CSV. L-informazzjoni ta' kuntatt hija disponibbli biss għal dawk il-partners li ngħaqdu permezz ta' URL.",
+    "enterOrgUrl": "Daħħal l-URL tal-organizzazzjoni tiegħek",
+    "extraSupporters": "Appoġġaturi żejda",
+    "hasSupporters": "Għandu appoġġaturi",
+    "joinedAt": "Peress li",
+    "countryHelper": "Jgħinna nimmappjaw il-firxa tal-appoġġanti tagħna",
+    "mainLanguage": "Lingwa prinċipali",
+    "mainLanguageHelper": "Int tkun tista' tagħżel lingwi differenti għall-widgets tiegħek.",
+    "month": "Xahar",
+    "noPartnersMatch": "Ma hemm l-ebda sieħeb li jaqbel mal-filtri magħżula.",
+    "refreshMetadata": "Aġġorna d-dettalji tal-organizzazzjoni tiegħek",
+    "organisation": "Organizzazzjoni",
+    "orgDuplicateError": "L-organizzazzjoni tiegħek diġà qed tuża Proca għal kampanja oħra. Jekk taf il-membru tat-tim li ħoloqha, staqsieh biex jistedink, inkella",
+    "orgName": "Isem tal-organizzazzjoni tiegħek",
+    "other": "Oħrajn",
+    "partnerJoinLink": "Link għall-partners biex jingħaqdu mal-kampanja",
+    "partners": "sħab",
+    "supportersHelp": "In-numru ta' sostenituri uniċi, deduplikati",
+    "topCampaignsTitle": "L-aktar kampanji attivi",
+    "total": "Totali",
+    "website": "Sit web",
+    "websiteHelper": "Daħħal il-websajt tal-organizzazzjoni tiegħek biex tibda.",
+    "week": "Ġimgħa"
 }
