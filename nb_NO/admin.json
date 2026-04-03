@@ -83,7 +83,7 @@
         "copied": "Oppfattet!"
     },
     "onboarding": {
-        "title": "Bli med i denne partnerskapskampanjen: Legg den enkelt til på nettstedet ditt",
+        "title": "Bli med i denne partnerskapskampanjen: Du kan enkelt vise den på nettstedet ditt og i sosiale medier.",
         "user": {
             "name": "Ditt navn",
             "phoneNumber": "Telefonnummeret ditt",
@@ -96,7 +96,7 @@
             "socialAccountHelper": "På Twitter/Instagram/Linkedin"
         },
         "embargoHelper": "Jeg erkjenner at kampanjematerialet er underlagt streng embargo inntil videre. Jeg samtykker i å IKKE DELE dette materialet med noen utenfor min organisasjon.",
-        "intro": "Kampanjer får større gjennomslagskraft når mange organisasjoner jobber sammen mot et felles mål. Dette er din sjanse til å bli en partner og øke gjennomslagskraften, samtidig som du beholder full kontroll over budskapet, merkevarebyggingen og kontaktene til støttespillerne dine.\n\n[Når du blir med i en kampanje](https://fixthestatusquo.com/help/for-partners/), får du muligheten til å sette opp din egen brukervennlige \"widget\" for Proca-kampanjen. Widgeten inneholder et skjema for å samle inn støttespillerhandlinger (underskrifter på opprop, meldinger sendt til målgruppen osv.) og en smart delingshandling som gjør det mulig for underskriverne å dele kampanjen og mobilisere enda flere støttespillere.\n\nAlle støtteaksjoner fra alle partner-widgetene teller sammen, og de mates inn i en felles kampanjeteller. Det skaper et synlig kollektivt momentum og viser hvilken reell makt folk har når vi handler sammen. Samtidig beholder hver partner sin egen kontaktinformasjon for støttespillere, og det er ikke behov for kompleks datadeling.\n\nWidgeten er flerspråklig og enkel å tilpasse med egne farger og logo. Det tar bare et minutt å legge den til på siden din, og det er like enkelt som å legge inn en YouTube-video. Ingen teknisk ekspertise er nødvendig (og hvis du trenger hjelp, hjelper [Procas team deg] (mailto:support@fixthestatusquo.org))!\n\nProca tar datasikkerhet for supportere svært alvorlig. Våre dedikerte servere i Tyskland er i samsvar med GDPR, og organisasjonen din forblir eneeier av dataene som samles inn gjennom widgeten din. Du kan overvåke kampanjens resultater og laste ned data når som helst ved hjelp av vårt brukervennlige dashbord. Vi kan også integrere direkte med e-postsystemet ditt.\n\nMer enn 450 partnere bruker allerede Proca til sine nettkampanjer, øker antall støttespillere og skaper en sterkere og mer samarbeidsvillig bevegelse. Sammen kan vi skape det presset som vinner kampanjer. Bli en av oss!",
+        "intro": "Kampanjer blir mer slagkraftige når mange organisasjoner samarbeider om et felles mål. Proca gir deg muligheten til å bli kampanjepartner og øke gjennomslagskraften din, samtidig som du beholder full kontroll over budskapet, merkevarebyggingen og støttespillerkontaktene dine.\n\n[Når du blir med i en kampanje] (https://fixthestatusquo.com/help/for-partners/), får du muligheten til å sette opp din egen brukervennlige Proca-\"widget\". Widgeten inneholder et skjema for å samle inn støttespillere (underskrifter på opprop, meldinger sendt til målgruppen osv.) og en smart delingshandling, som gjør det mulig for underskriverne å dele handlingen og mobilisere mer støtte.\n\n Alle støtteaksjoner fra alle partner-widgetene teller sammen, og de mates inn i en felles kampanjeteller. Det skaper et synlig kollektivt momentum, og viser hvilken reell makt folk har når vi handler sammen. Samtidig beholder hver partner sin egen kontaktinformasjon for støttespillere, og det er ikke behov for kompleks datadeling.\n\nWidgeten er flerspråklig og enkel å tilpasse med egne farger og logo. Det tar bare et minutt å legge den til på nettstedet ditt, og det er like enkelt som å legge inn en YouTube-video. Ingen teknisk ekspertise er nødvendig (og hvis du trenger hjelp, vil [Procas team hjelpe deg] (mailto:support@fixthestatusquo.org))!\n\nProca tar datasikkerhet for supportere svært alvorlig. Våre dedikerte servere i Tyskland er i samsvar med GDPR, og organisasjonen din forblir eneeier av dataene som samles inn gjennom widgeten din. Du kan overvåke kampanjens resultater og laste ned data når som helst ved hjelp av vårt brukervennlige dashbord. Vi kan også integrere direkte med e-postsystemet ditt.\n\nMer enn 500 partnere bruker allerede Proca til sine nettkampanjer, øker antall støttespillere og skaper en sterkere og mer samarbeidsvillig bevegelse. Sammen kan vi skape det presset som vinner kampanjer. Bli en av oss!",
         "login": "Registrer deg som bruker eller logg inn med dine sosiale medier-opplysninger eller e-postadressen din. Det er din personlige konto, og du vil kunne sette opp organisasjonen din etter at du har registrert deg.",
         "mailling": "Mailingliste",
         "organisation": {
@@ -123,7 +123,7 @@
         },
         "embargo": "Embargo"
     },
-    "externalPartner": "kun eksterne partnere",
+    "externalPartner": "Kun eksterne partnere",
     "mineOnly": "bare fra min organisasjon",
     "unusedOnly": "bare ubrukte widgeter",
     "Show": "Vis",
@@ -164,5 +164,39 @@
     "format": "Format",
     "json": "JSON",
     "Required": "Nødvendig",
-    "Used to pre-fill name, description and logo of your organisation": "Brukes til å forhåndsutfylle navn, beskrivelse og logo for organisasjonen din"
+    "Used to pre-fill name, description and logo of your organisation": "Brukes til å forhåndsutfylle navn, beskrivelse og logo for organisasjonen din",
+    "all": "Alle",
+    "contact": "Kontakt",
+    "contactSupport": "kontakt support",
+    "copied": "Oppfattet!",
+    "copy": "Kopier til utklippstavlen",
+    "country": "Land",
+    "countryRequired": "Land er påkrevd",
+    "create": "Opprett",
+    "invalidUrl": "Vennligst skriv inn en gyldig URL",
+    "description": "Beskrivelse på én linje",
+    "downloadCSV": "Last ned CSV",
+    "downloadCSWHelp": "Last ned partnerdata som CSV. Kontaktinformasjon er bare tilgjengelig for partnere som ble med via URL.",
+    "enterOrgUrl": "Skriv inn URL-adressen til organisasjonen din",
+    "extraSupporters": "Ekstra støttespillere",
+    "hasSupporters": "Har støttespillere",
+    "joinedAt": "Siden",
+    "countryHelper": "Hjelper oss med å kartlegge spredningen av støttespillerne våre",
+    "mainLanguage": "Hovedspråk",
+    "mainLanguageHelper": "Du vil kunne velge forskjellige språk for widgetene dine",
+    "month": "Måned",
+    "noPartnersMatch": "Ingen partnere samsvarer med de valgte filtrene.",
+    "refreshMetadata": "Oppdater opplysningene om organisasjonen din",
+    "organisation": "Organisasjon",
+    "orgDuplicateError": "Organisasjonen din bruker allerede Proca til en annen kampanje. Hvis du kjenner teammedlemmet som har opprettet den, kan du be vedkommende om å invitere deg, ellers",
+    "orgName": "Navn på organisasjonen din",
+    "other": "Annet",
+    "partnerJoinLink": "Lenke for partnere som vil bli med i kampanjen",
+    "partners": "partnere",
+    "supportersHelp": "Antall unike, deduplikerte støttespillere",
+    "topCampaignsTitle": "De mest aktive kampanjene",
+    "total": "Totalt",
+    "website": "Nettsted",
+    "websiteHelper": "Skriv inn organisasjonens nettsted for å komme i gang",
+    "week": "Uke"
 }
