@@ -1,1 +1,200 @@
-{}
+{
+    "invite": {
+        "translatorTitle": "Invitació per unir-te a {{org}} com a traductor",
+        "default": "Esteu convidat a unir-vos al compte « {{org}} » al tauler de control de Fix the Status Quo.\n\nAquesta invitació serà vàlida durant les pròximes 24 hores. Si us plau, accepteu-la com més aviat millor.\n\nEstem encantats de comptar amb vós!",
+        "another": "Convidar un altre membre de l'equip",
+        "roles": {
+            "coordinator": {
+                "label": "Coordinador",
+                "description": "Pot veure les dades dels simpatitzants, però no pot crear campanyes, ni gestionar la configuració, ni exportar dades."
+            },
+            "campaigner": {
+                "description": "Pot veure i gestionar accions, simpatitzants i dades de la campanya. No pot canviar la configuració de l'organització ni exportar dades.",
+                "label": "Campanyista"
+            },
+            "owner": {
+                "description": "Accés administratiu complet. Pot gestionar-ho tot, incloent-hi la configuració, les campanyes, les exportacions i el xifratge.",
+                "label": "Propietari"
+            },
+            "translator": {
+                "description": "Edita el text de la campanya",
+                "label": "Traductor"
+            }
+        },
+        "subject": "Invitació a unir-se a {{org}} al tauler de control Fix the Status Quo",
+        "roleLabel": "Seleccioneu el nivell d'autenticació",
+        "copied": "Copiat!",
+        "copy": "Copia l'URL de la invitació",
+        "emailHelper": "Enviarem un correu electrònic d'invitació amb un enllaç per unir-te-hi immediatament.",
+        "messageLabel": "Missatge personal per al convidat",
+        "required": "L'adreça de correu electrònic és obligatòria",
+        "sent": "Invitació enviada a {{email}}",
+        "sentInstructions": "També podeu compartir directament l'enllaç de sota:",
+        "title": "Convidem a unir-se {{org}}",
+        "tooltip": "Nota: només l''owner' podrà exportar les dades dels simpatitzants.",
+        "translator": "Hola,\n\nEns posem en contacte amb tu per convidar-te a col·laborar en la traducció i l'adaptació d'una carta de campanya per al teu país. La teva comprensió del context polític local seria valuosa, no només per a la traducció, sinó també per garantir que el missatge connecti eficaçment amb els simpatitzants.\n\nLa carta està estructurada en diverses seccions, cadascuna amb diverses variants. Els simpatitzants rebran versions combinades aleatòriament per maximitzar la participació i evitar que els receptors les ignorin.\n\nTan bon punt acceptis la invitació, podràs accedir a la carta [aquí]({{location}}). **No t'oblidis de desar els canvis després de fer-los!**\n\nUn cop hagis acabat les teves aportacions, si us plau, notifica-ho a nosaltres i al coordinador perquè puguem desplegar les actualitzacions.\n\nAgraïm el vostre temps i la vostra experiència: aquest és un esforç compartit per enfortir l'impacte de la campanya.\n\n**Per motius de seguretat, l'enllaç d'accés de la vostra invitació expirarà d'aquí a 24 hores.**"
+    },
+    "cancel": "Cancel·la",
+    "close": "Tanca",
+    "delete": "Suprimeix",
+    "Show": "Mostra",
+    "View your widget for {{org}}": "Vegeu el vostre widget per a {{org}}",
+    "join": {
+        "goal": "Quantes persones esperes que prenguin mesures a través del teu lloc web?",
+        "goalHelper": "Aquestes suposicions només les veurà el coordinador… i sabem que és difícil d'estimar.",
+        "requestHelper": "per ajudar-nos a planificar aquesta campanya",
+        "request": "Penses fer enviaments de correu postal dedicats als teus simpatitzants? També estàs planificant activitats a les xarxes socials, incloent-hi publicitat de pagament?"
+    },
+    "onboarding": {
+        "embargo": "Embargament",
+        "maillingHelper": "En enviar aquest formulari, accepto que se m'afegeixi a la llista de correu electrònic de l' {{campaign}}. Puc donar-me de baixa en qualsevol moment.",
+        "organisation": {
+            "crm": "Quin programari de CRM estàs utilitzant?",
+            "doubleOptIn": "Els meus seguidors han de confirmar la subscripció doble per rebre el butlletí.",
+            "network": "La meva organització forma part d'una organització paraigua...",
+            "another": "Seleccioneu una altra organització",
+            "logged_in": "Esteu iniciat amb el compte de l'organització <b>{{orgName}}</b>",
+            "collectsEmail": "No teniu butlletí informatiu i no voleu recollir adreces de correu electrònic? (Podeu amagar aquesta funció vosaltres mateixos al vostre lloc web) Marqueu aquesta casella:",
+            "collectsEmailHelper": "No tinc cap butlletí. Estic segur que no vull un quadre de selecció per al butlletí que reculli adreces de correu electrònic que puguem utilitzar després.",
+            "networkHelper": "Donem la benvinguda a totes les organitzacions!",
+            "organisationHelper": "De quina part de la família sou? Donem la benvinguda a totes les organitzacions!",
+            "remarks": "Alguna cosa que vulgueu comentar sobre l'eina?",
+            "sectionTitle": "Organització"
+        },
+        "user": {
+            "jobTitle": "Títol del lloc de treball",
+            "country": "El vostre país",
+            "emailAddress": "La teva adreça de correu electrònic",
+            "name": "El teu nom",
+            "phoneNumber": "El teu número de telèfon",
+            "phoneNumberHelper": "Incloent el codi de país",
+            "sectionTitle": "Les teves dades de contacte",
+            "socialAccount": "Les teves xarxes socials",
+            "socialAccountHelper": "A Twitter/Instagram/Linkedin"
+        },
+        "title": "Uneix-te a aquesta campanya de col·laboració: inclou-la fàcilment al teu lloc web i a les xarxes socials.",
+        "verify": "El teu correu electrònic encara no està verificat. Si us plau, comprova el teu correu electrònic i fes clic a l'enllaç de confirmació per continuar.",
+        "warning": {
+            "is_coordinator": "No podeu unir-vos a una campanya amb el compte de **{{org}}**; és el coordinador de **{{campaign}}**",
+            "is_member": "Ets membre de l'organització **{{org}}** que duu a terme aquesta campanya!"
+        },
+        "welcome": "Benvinguts a l'àrea de socis d'aquesta campanya coordinada per {{coordinator}}",
+        "done": "Rebràs un missatge de confirmació per correu electrònic. Ja pots incrustar una versió de prova del <1>giny al teu lloc web</1>",
+        "mailling": "Llista de correu electrònic",
+        "embargoHelper": "Reconeixo que els materials de la campanya estan estrictament sota embargament fins a nou avís. D'acordo a NO COMPARTIR aquests materials amb ningú fora de la meva organització.",
+        "login": "Registra't com a usuari o inicia la sessió amb les teves credencials de xarxes socials o amb el teu correu electrònic. És el teu compte personal; podràs configurar la teva organització després de registrar-te.",
+        "thanks": "Gràcies per unir-te a aquesta campanya",
+        "intro": "Les campanyes són més potents quan moltes organitzacions treballen juntes per a un objectiu comú. Proca et dona l'oportunitat de convertir-te en soci de la campanya i fer créixer el teu impacte, tot mantenint el control total sobre el teu missatge, la teva marca i els contactes dels teus simpatitzants.\n\n[Quan t'uneixes a una campanya](https://fixthestatusquo.com/help/for-partners/), pots configurar el teu propi \"widget\" de Proca fàcil d'utilitzar. El widget inclou el formulari per recollir les accions dels simpatitzants (signatures de la petició, missatges enviats al destinatari, etc.) i una acció de compartir intel·ligent, que permet als signants compartir l'acció i mobilitzar més suport.\n\n Totes les accions dels simpatitzants de tots els 'widgets' de col·laboradors sumen en un comptador de campanya compartit. Això crea un impuls col·lectiu visible i demostra el poder real que tenen les persones quan actuem juntes. Al mateix temps, cada col·laborador conserva la informació de contacte dels seus simpatitzants i no cal un intercanvi de dades complex.\n\nEl 'widget' és multilingüe i fàcil de personalitzar amb els teus colors i logotip. Afegir-lo al teu lloc web només porta un minut i és tan fàcil com incrustar un vídeo de YouTube. No cal cap coneixement tècnic (i si necessiteu ajuda, l'equip de Proca us donarà suport)!\n\nA Proca ens prenem molt seriosament la seguretat de les dades dels simpatitzants. Els nostres servidors dedicats a Alemanya compleixen totalment el RGPD, i la vostra organització conserva la propietat exclusiva de les dades recollides a través del vostre widget. Podeu fer un seguiment del rendiment de la vostra campanya i descarregar les dades en qualsevol moment, utilitzant el nostre panell de control fàcil d'utilitzar. També podem integrar-nos directament amb el vostre sistema de correu electrònic.\n\nMés de 500 socis ja utilitzen Proca per a les seves campanyes en línia, fent créixer la seva base de seguidors i creant un moviment més fort i col·laboratiu. Junts, podem crear el tipus de pressió que guanya les campanyes. Uniu-vos-hi!"
+    },
+    "createOrg": {
+        "intro": "El més ràpid és començar amb el compte de Twitter de la vostra organització (si en teniu diversos, trieu-ne un).",
+        "manual": "Canvia per omplir els detalls manualment",
+        "noTwitter": "La meva organització no és a Twitter."
+    },
+    "edit": "Edita",
+    "export": {
+        "campaignLabel": "Campanya per exportar",
+        "csv_help": "CSV és el format estàndard. Utilitza'l tret que necessitis específicament JSON.",
+        "errorIncomplete": "S'ha produït un error, les dades CSV estan incompletes.",
+        "errorPermission": "No teniu permís per exportar dades d'aquesta organització.",
+        "exporting": "Exportant",
+        "exportingWithCount": "Exportant {{count}}...",
+        "exportingWithErrors": "(sense tecla per a les accions {{count}} )",
+        "exportLabel": "Exportar",
+        "exportType": {
+            "activities": "Activitats",
+            "activities_help": "Accions d'exportació realitzades pels usuaris, com ara signar, compartir, etc.",
+            "contacts": "Contactes",
+            "contacts_help": "Només informació de contacte d'exportacions."
+        },
+        "gdpr": {
+            "double_opt_in": "Doble consentiment previ",
+            "double_opt_in_help": "Seguidors que van confirmar la seva participació mitjançant l'URL de confirmació per correu electrònic",
+            "opt_out": "Donar-se de baixa",
+            "opt_out_help": "Seguidors que no volen rebre el butlletí ('No, no vull rebre correus electrònics' botó de ràdio al giny o enllaç de cancel·lació a l'email).",
+            "opt_out_required": "Indiqueu que sou conscients de les conseqüències.",
+            "opt_out_warning": "Sóc conscient que és il·legal contactar usuaris que no han donat el seu consentiment explícit, excepte en casos d'excepció molt limitats.",
+            "opt_in": "Subscriure's",
+            "opt_in_help": "Seguidors que van triar l'activació en un giny ('Sí, vull rebre correus electrònics' botó de ràdio)"
+        },
+        "json_help": "Format JSON per a integracions avançades.",
+        "key_help": "Si les teves dades estan xifrades, carrega la clau de xifratge abans d'exportar.",
+        "keyLabel": "Carregar les claus de descifratge",
+        "title": "Exportar dades de membres",
+        "campaignDefault": "Totes les campanyes",
+        "gdprLabel": "RGPD"
+    },
+    "save": "Desa",
+    "send": "Enviar",
+    "Stats": "Estadístiques",
+    "step": {
+        "done": "Agafa el teu giny",
+        "join_campaign": "Uneix-te a la campanya",
+        "login": "El vostre compte",
+        "verify": "Verifica el teu correu electrònic",
+        "create_org": "Crea la teva organització",
+        "org_error": "Error"
+    },
+    "supporters": "Seguidors",
+    "Switch to fill the details manually": "Canvia per omplir els detalls manualment",
+    "Used to pre-fill name, description and logo of your organisation": "S'utilitza per preomplir el nom, la descripció i el logotip de la vostra organització",
+    "You can register an new organisation to join the coalition": "Podeu registrar una nova organització per unir-vos a la coalició.",
+    "You can update your organisation's details": "Podeu actualitzar les dades de la vostra organització.",
+    "widget": {
+        "edit_icon": "Configuració per a {{id}}",
+        "stats_icon": "Estadístiques per a {{id}}",
+        "lang": "Llenguatge del giny",
+        "test": "El widget està en mode de prova."
+    },
+    "action": {
+        "mail2target": "Correu electrònic a l'objectiu",
+        "register": "Registrar-se",
+        "share": "Comparteix a les xarxes socials",
+        "twitter_click": "Tuit a l'objectiu"
+    },
+    "csv": "CSV",
+    "Customise": "Personalitza",
+    "externalPartner": "Socis externs només",
+    "Fields": "Camps",
+    "format": "Format",
+    "json": "JSON",
+    "mineOnly": "només de la meva organització",
+    "Required": "Obligatori",
+    "Twitter Account": "Compte de Twitter",
+    "unusedOnly": "només els ginyos no utilitzats",
+    "Used to fill the details of your organisation": "S'utilitza per omplir els detalls de la vostra organització",
+    "all": "Tots",
+    "contact": "Contacte",
+    "contactSupport": "Contacta amb el suport",
+    "copied": "Copiat!",
+    "copy": "Còpia al porta-retalls",
+    "country": "País",
+    "countryRequired": "El país és obligatori",
+    "create": "Crea",
+    "invalidUrl": "Introduïu una URL vàlida.",
+    "description": "Descripció d'una sola línia",
+    "downloadCSV": "Descarrega CSV",
+    "downloadCSWHelp": "Descarrega les dades dels socis com a CSV. La informació de contacte només està disponible per als socis que s'han incorporat mitjançant URL.",
+    "enterOrgUrl": "Introdueix l'URL de la teva organització",
+    "extraSupporters": "Suportadors addicionals",
+    "hasSupporters": "Té partidaris",
+    "joinedAt": "Des de",
+    "countryHelper": "Ens ajuda a cartografiar la distribució dels nostres simpatitzants.",
+    "mainLanguage": "Llengua principal",
+    "mainLanguageHelper": "Podràs triar diferents idiomes per als teus ginyos.",
+    "month": "Mes",
+    "noPartnersMatch": "No hi ha cap soci que coincideixi amb els filtres seleccionats.",
+    "refreshMetadata": "Actualitza les dades de la teva organització",
+    "organisation": "Organització",
+    "orgDuplicateError": "La vostra organització ja està utilitzant Proca per a una altra campanya. Si sabeu quin membre de l'equip l'ha creat, demaneu-li que us convidi, si no",
+    "orgName": "Nom de la vostra organització",
+    "other": "Altres",
+    "partnerJoinLink": "Enllaç perquè els socis s'uneixin a la campanya",
+    "partners": "socis",
+    "supportersHelp": "Nombre de simpatitzants únics i deduplicats",
+    "topCampaignsTitle": "Les campanyes més actives",
+    "total": "Total",
+    "website": "Lloc web",
+    "websiteHelper": "Introdueix el lloc web de la teva organització per començar.",
+    "week": "Setmana"
+}

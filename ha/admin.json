@@ -1,1 +1,200 @@
-{}
+{
+    "export": {
+        "campaignDefault": "Duk kamfen",
+        "gdprLabel": "Dokar Kare Bayanan Sirri ta Tarayyar Turai",
+        "campaignLabel": "Kamfen na fitarwa",
+        "title": "Fitar da bayanan mambobi",
+        "gdpr": {
+            "double_opt_in": "Shiga sau biyu",
+            "opt_out": "Ficewa",
+            "opt_out_help": "Masu goyon baya da ba sa son karɓar wasiƙar labarai ('No, I do not want to receive emails' maɓallin zaɓi a widget ɗin ko mahaɗin opt-out a cikin imel).",
+            "double_opt_in_help": "Masu goyon baya da suka tabbatar da halartarsu ta hanyar URL na tabbatarwa ta imel",
+            "opt_in": "Zaɓi shiga",
+            "opt_in_help": "Masu goyon baya da suka zaɓi shiga ta atomatik a kan widget ('Ee, ina so in karɓi imel' maɓallin zaɓi na rediyo)",
+            "opt_out_required": "Don Allah ku nuna cewa kun san sakamakon.",
+            "opt_out_warning": "Na san cewa ba bisa doka ba ne a tuntubi masu amfani da ba su bayar da izini a fili ba, sai dai a wasu iyakantattun lokuta."
+        },
+        "exportLabel": "Fitarwa",
+        "exportType": {
+            "contacts": "Tuntuɓa",
+            "activities": "Ayyuka",
+            "activities_help": "Ayyukan fitarwa da masu amfani suka yi, kamar sa hannu, raba, da sauransu.",
+            "contacts_help": "Fitar da bayanan tuntuɓa kawai."
+        },
+        "errorIncomplete": "An sami kuskure, bayanan CSV ba su cika ba.",
+        "keyLabel": "Lod maɓallan fassarar",
+        "csv_help": "CSV ita ce tsarin da aka saba amfani da shi. Yi amfani da ita sai dai idan kana buƙatar JSON musamman.",
+        "errorPermission": "Ba ku da izinin fitar da bayanai na wannan ƙungiya.",
+        "exporting": "Fitarwa",
+        "exportingWithCount": "Fitarwa {{count}}...",
+        "exportingWithErrors": "(ba maɓalli don ayyukan {{count}} )",
+        "json_help": "Tsarin JSON don haɗe-haɗe na ci gaba.",
+        "key_help": "Idan an ɓoye bayananka, loda makullin ɓoyewa kafin fitarwa."
+    },
+    "onboarding": {
+        "user": {
+            "socialAccount": "Kafafen sada zumunta naka",
+            "country": "Ƙasarku",
+            "emailAddress": "Adireshin imel ɗinka",
+            "jobTitle": "Sunan Aiki",
+            "name": "Sunanka",
+            "phoneNumber": "Lambobin wayarka",
+            "phoneNumberHelper": "Ciki har da lambar ƙasa",
+            "sectionTitle": "Bayanan tuntuɓarka",
+            "socialAccountHelper": "A Twitter/Instagram/Linkedin"
+        },
+        "mailling": "Jerin wasiƙa",
+        "organisation": {
+            "collectsEmail": "Ba ku da wasiƙar labarai kuma ba ku son tattara adireshin imel? (Za ku iya ɓoye wannan fasalin da kanku a shafin yanar gizonku) Yi alama a wannan akwatin:",
+            "collectsEmailHelper": "Ba ni da wasiƙar labarai. Na tabbata bana son akwatin zaɓi na wasiƙar labarai da ke tattara adireshin imel da za mu iya amfani da su daga baya.",
+            "network": "Kungiyata tana ɓangare ne na wata babbar ƙungiya...",
+            "organisationHelper": "Daga wane ɓangare na iyali kake? Muna maraba da duk ƙungiyoyi!",
+            "sectionTitle": "Kungiya",
+            "another": "Zaɓi wata ƙungiya",
+            "doubleOptIn": "Masu goyon bayana suna buƙatar su yi rajista sau biyu don su karɓi wasiƙar labarai.",
+            "logged_in": "Kun shiga ƙarƙashin asusun ƙungiyar <b>{{orgName}}</b>",
+            "crm": "Wane CRM software kake amfani da shi?",
+            "networkHelper": "Muna maraba da duk ƙungiyoyi!",
+            "remarks": "Akwai wani sharhi game da kayan aikin da kake son gaya mana?"
+        },
+        "thanks": "Na gode da kasancewarku cikin wannan kamfen",
+        "title": "Ku shiga wannan kamfen na haɗin gwiwa: ku saka shi cikin sauƙi a shafin yanar gizonku da kafofin sada zumunta.",
+        "verify": "Ba a tabbatar da imel ɗinka ba tukuna. Don Allah duba imel ɗinka ka danna mahaɗin tabbatarwa don ci gaba.",
+        "warning": {
+            "is_coordinator": "Ba za ka iya shiga kamfen a ƙarƙashin asusun **{{org}}** ba; shi ne mai tsara **{{campaign}}**.",
+            "is_member": "Kai memba ne na ƙungiyar **{{org}}** wadda ke gudanar da wannan kamfen!"
+        },
+        "welcome": "Maraba zuwa yankin abokan hulɗa na wannan kamfen da aka tsara ta {{coordinator}}",
+        "done": "Za ku karɓi saƙon tabbaci ta imel.  Kuna iya riga ku saka sigar gwaji na <1>widget a shafin yanar gizonku</1>.",
+        "embargo": "Hana",
+        "embargoHelper": "Na yarda cewa kayan yakin neman zaɓe an haramta su ƙwarai har sai an ba da wata sanarwa. Na yarda ba zan raba waɗannan kayan da kowa a wajen ƙungiyata ba.",
+        "login": "Yi rijista a matsayin mai amfani ko shiga da bayanan shaidarka na kafafen sada zumunta ko imel ɗinka. Wannan asusunka ne na sirri, za ka iya kafa ƙungiyarka bayan ka yi rijista.",
+        "maillingHelper": "Ta hanyar gabatar da wannan fom, na yarda a ƙara ni cikin jerin wasiƙun imel na {{campaign}}. Zan iya daina biyan sabis a kowane lokaci.",
+        "intro": "Kamfen na da ƙarfi sosai idan kungiyoyi da yawa sun yi aiki tare don cimma buri guda. Proca na ba ka damar zama abokin hulɗa a kamfen ka kuma ƙara tasirinka, yayin da kake da cikakken iko kan saƙonka, tambarinka, da bayanan masu goyon bayanka.\n\n[Idan ka shiga kamfen](https://fixthestatusquo.com/help/for-partners/), za ka iya saita naka widget na Proca mai sauƙin amfani. Widget ɗin yana ɗauke da fom don tattara ayyukan masu goyon baya (sa hannun roƙo, saƙonnin da aka aika zuwa ga wanda ake nufi, da sauransu) da kuma aikin raba mai wayo, wanda ke ba masu sa hannu damar raba wannan aikin da tara ƙarin goyon baya.\n\n Duk ayyukan masu goyon baya daga dukkan 'widgets' na abokan hulɗa ana kirga su tare, suna cika ma'aunin kamfen ɗin da aka raba. Wannan yana haifar da gagarumar ƙarfi ta haɗin gwiwa da za a iya gani, kuma yana nuna ainihin ikon da mutane ke da shi idan muka yi aiki tare. A lokaci guda, kowanne abokin hulɗa yana riƙe da bayanan tuntuɓar masu goyon bayansa, kuma babu buƙatar raba bayanai masu rikitarwa.\n\n'Widget' ɗin yana da harsuna da dama kuma yana da sauƙin keɓancewa da launukanka da tambarinka. Ƙara shi a shafinka na yanar gizo yana ɗaukar minti ɗaya kawai, kuma yana da sauƙi kamar saka bidiyon YouTube. Ba a buƙatar ƙwarewar fasaha (kuma idan kuna buƙatar taimako, ƙungiyar Proca za ta tallafa muku) mailto:support@fixthestatusquo.org)!\n\nProca na ɗaukar tsaron bayanan masu goyon baya da muhimmanci sosai. Uwar garkenmu na musamman a Jamus sun cika ka'idodin GDPR gaba ɗaya, kuma ƙungiyarku ce kaɗai ke da mallakar bayanan da aka tattara ta widget ɗinku. Kuna iya sa ido kan yadda kamfen ɗinku ke tafiya kuma ku sauke bayanan a kowane lokaci, ta amfani da dashibodinmu mai sauƙin amfani. Hakanan za mu iya haɗawa kai tsaye da tsarin aikawa da imel ɗinku.\n\nFiye da abokan haɗin gwiwa 500 suna riga suna amfani da Proca don kamfen ɗinsu na kan layi, suna haɓaka yawan masu goyon bayansu, da ƙirƙirar wani motsi mafi ƙarfi da haɗin kai. Tare, za mu iya ƙirƙirar irin matsin lamba da ke sa kamfen su yi nasara. Ku haɗu da mu!"
+    },
+    "close": "Rufe",
+    "delete": "Goge",
+    "cancel": "Soke",
+    "edit": "Gyara",
+    "save": "Ajiye",
+    "send": "Aika",
+    "Customise": "Yi gyara na musamman",
+    "externalPartner": "Abokan haɗin gwiwa na waje kawai",
+    "invite": {
+        "translatorTitle": "Gayyata don shiga {{org}} a matsayin mai fassara",
+        "subject": "Gayyata don shiga {{org}} a allon kula da Fix the Status Quo",
+        "emailHelper": "Za mu aiko maka da imel na gayyata tare da mahaɗi don ka shiga nan take.",
+        "required": "Ana buƙatar adireshin imel.",
+        "roleLabel": "Zaɓi matakin izini",
+        "sent": "An aika gayyata zuwa {{email}}",
+        "roles": {
+            "campaigner": {
+                "description": "Za a iya duba da sarrafa ayyuka, masu goyon baya, da bayanan kamfen. Ba za a iya canza saitunan ƙungiya ko fitar da bayanai ba.",
+                "label": "Mai fafutuka"
+            },
+            "coordinator": {
+                "description": "Za a iya duba bayanan masu tallafawa amma ba za a iya ƙirƙirar kamfen ko sarrafa saituna ko fitar da bayanai ba.",
+                "label": "Mai daidaitawa"
+            },
+            "owner": {
+                "description": "Cikakken izinin gudanarwa. Zai iya sarrafa komai, ciki har da saituna, kamfen, fitarwa, da ɓoyewar bayanai.",
+                "label": "Mai shi"
+            },
+            "translator": {
+                "description": "Gyara rubutun kamfen",
+                "label": "Mai fassara"
+            }
+        },
+        "another": "Gayyaci wani memba na ƙungiya",
+        "copied": "An kwafa!",
+        "copy": "Kwafi mahaɗin gayyata",
+        "default": "An gayyace ku ku shiga asusun {{org}} a kan dashboard ɗin Fix the Status Quo.\n\nWannan gayyata za ta kasance mai aiki na tsawon awanni 24 masu zuwa. Da fatan za ku karɓi gayyatar nan da wuri-wuri.\n\nMuna farin cikin samun ku a cikin tawaga!",
+        "messageLabel": "Sako na sirri ga wanda aka gayyata",
+        "sentInstructions": "Hakanan za ka iya raba mahaɗin da ke ƙasa kai tsaye:",
+        "title": "Gayyata don shiga {{org}}",
+        "tooltip": "Lura: Mai mallaka ne kawai zai iya fitar da bayanan masu goyon baya.",
+        "translator": "Sannu,\n\nMuna tuntuɓar ku ne don gayyatar ku ku yi haɗin gwiwa wajen fassara da inganta wasiƙar kamfen don ƙasarku. Fahimtarku game da yanayin siyasa na cikin gida za ta kasance mai amfani — ba wai wajen fassara kawai ba, har ma wajen tabbatar da cewa saƙon ya yi tasiri sosai ga magoya baya.\n\nAn tsara wasiƙar ne cikin sassa da dama, kowanne na da nau'uka da dama. Magoya baya za su karɓi nau'ukan da aka haɗa ba bisa ƙa'ida ba don ƙara haɓaka hulɗa da kuma hana masu karɓa yin watsi da su.\n\nDa zarar ka amince da gayyatar, za ka iya samun damar shiga wasiƙar [an nan]({{location}}). **Kada ka manta ka ajiye bayan ka yi canje-canjenka!**\n\nDa zarar ka kammala gudummawarka, don Allah ka sanar da mu da mai tsara aikin domin mu iya aiwatar da sabuntawa.\n\nMuna godiya da lokacinku da ƙwarewarku — wannan haɗin gwiwa ne don ƙarfafa tasirin kamfen ɗin.\n\n**Don tsaro, hanyar haɗin gayyatar ku za ta ƙare cikin awanni 24.**"
+    },
+    "join": {
+        "goal": "Nawa mutane kake tsammanin za su ɗauki mataki ta shafin yanar gizonka?",
+        "goalHelper": "Wannan hasashe za a ga shi ne kawai ta hannun mai tsara… kuma mun san yana da wahala a kimanta",
+        "request": "Shin kuna shirin aika wasiƙu na musamman ga masu goyon bayanku? Shin kuma kuna shirin ayyukan kafofin sada zumunta, ciki har da tallan da aka biya?",
+        "requestHelper": "don taimaka mana shirya wannan kamfen"
+    },
+    "createOrg": {
+        "intro": "Mafi sauri shi ne ka fara da asusun Twitter na ƙungiyarku (idan kuna da fiye da ɗaya, zaɓi ɗaya).",
+        "manual": "Juya don cika bayanai da hannu",
+        "noTwitter": "Kungiyata ba ta kan Twitter."
+    },
+    "step": {
+        "done": "Ka ɗauki widget ɗinka",
+        "join_campaign": "Ku shiga yakin neman zabe",
+        "login": "Asusunka",
+        "verify": "Tabbatar da imel ɗinka",
+        "create_org": "Kirkiri ƙungiyarku",
+        "org_error": "Kuskure"
+    },
+    "Used to pre-fill name, description and logo of your organisation": "Ana amfani da shi don cika gabaɗaya sunan, bayanin da tambarin ƙungiyarku",
+    "View your widget for {{org}}": "Duba widget ɗinka don {{org}}",
+    "You can register an new organisation to join the coalition": "Za ka iya yin rijistar sabuwar ƙungiya don shiga kawancen.",
+    "action": {
+        "mail2target": "Aika imel zuwa manufa",
+        "register": "Yi rijista",
+        "share": "Raba a kafafen sada zumunta",
+        "twitter_click": "Tweet zuwa manufa"
+    },
+    "Stats": "Kididdiga",
+    "supporters": "Masu goyon baya",
+    "Switch to fill the details manually": "Juya don cika bayanai da hannu",
+    "Twitter Account": "Asusun Twitter",
+    "unusedOnly": "widgets da ba a yi amfani da su ba kawai",
+    "Used to fill the details of your organisation": "Ana amfani da shi don cika cikakkun bayanai game da ƙungiyarku",
+    "You can update your organisation's details": "Za ku iya sabunta bayanan ƙungiyarku.",
+    "widget": {
+        "edit_icon": "Saituna don {{id}}",
+        "stats_icon": "Kididdiga don {{id}}",
+        "lang": "Harshen widget ɗin",
+        "test": "Widget yana cikin yanayin gwaji"
+    },
+    "csv": "CSV",
+    "Fields": "Filaye",
+    "format": "Tsari",
+    "json": "JSON",
+    "mineOnly": "daga ƙungiyata kawai",
+    "Required": "Ana buƙata",
+    "Show": "Nuna",
+    "all": "Duka",
+    "contact": "Tuntuɓa",
+    "contactSupport": "Tuntuɓi tallafi",
+    "copied": "An kwafa!",
+    "copy": "Kwafi zuwa allon yanka",
+    "country": "Ƙasa",
+    "countryRequired": "Ana buƙatar ƙasa",
+    "create": "Kirkira",
+    "invalidUrl": "Don Allah ku shigar da URL mai inganci.",
+    "description": "Bayani a layi ɗaya",
+    "downloadCSV": "Zazzage CSV",
+    "downloadCSWHelp": "Zazzage bayanan abokan hulɗa a matsayin CSV. Bayanan tuntuɓa suna samuwa ne kawai ga abokan hulɗa da suka shiga ta hanyar URL.",
+    "enterOrgUrl": "Shigar da URL na ƙungiyarku",
+    "extraSupporters": "Masu goyon baya ƙari",
+    "hasSupporters": "Yana da magoya baya",
+    "joinedAt": "Tun daga",
+    "countryHelper": "Yana taimaka mana mu tsara yaduwar magoya bayarmu.",
+    "mainLanguage": "Harshe na asali",
+    "mainLanguageHelper": "Za ku iya zaɓar harsuna daban-daban don widgets ɗinku.",
+    "month": "Wata",
+    "noPartnersMatch": "Babu abokan tarayya da suka dace da matakan tacewa da aka zaɓa.",
+    "refreshMetadata": "Sabunta bayanan ƙungiyarku",
+    "organisation": "Kungiya",
+    "orgDuplicateError": "Kungiyarku tuni tana amfani da Proca don wani kamfen daban. Idan kun san memban ƙungiyar da ya ƙirƙira shi, ku roƙe shi ya gayyace ku, in ba haka ba",
+    "orgName": "Sunan ƙungiyarku",
+    "other": "Sauran",
+    "partnerJoinLink": "Mahadar da abokan hulɗa za su bi don shiga yakin neman",
+    "partners": "abokan hulɗa",
+    "supportersHelp": "Adadin masu goyon baya na musamman da aka cire maimaituwa",
+    "topCampaignsTitle": "Kamfen-kamfen da suka fi aiki",
+    "total": "Jimlar",
+    "website": "Shafin yanar gizo",
+    "websiteHelper": "Shigar da gidan yanar gizon ƙungiyarku don farawa",
+    "week": "Mako"
+}

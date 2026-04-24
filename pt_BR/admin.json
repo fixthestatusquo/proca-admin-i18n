@@ -13,7 +13,7 @@
             "phoneNumberHelper": "Incluindo o código do país"
         },
         "embargo": "Embargo",
-        "intro": "Para aumentar nosso impacto, precisamos de uma ampla coalizão e tentamos simplificar ao máximo para que você possa participar dela.",
+        "intro": "As campanhas são mais poderosas quando muitas organizações trabalham juntas em prol de um objetivo comum. O Proca lhe dá a chance de se tornar um parceiro de campanha e aumentar seu impacto, mantendo controle total sobre sua mensagem, marca e contatos de apoiadores.\n\n[Ao participar de uma campanha] (https://fixthestatusquo.com/help/for-partners/), você pode configurar seu próprio \"widget\" do Proca, que é fácil de usar. O widget inclui o formulário para coletar ações de apoiadores (assinaturas de petições, mensagens enviadas para o alvo, etc.) e uma ação de compartilhamento inteligente, que permite que os signatários compartilhem a ação e mobilizem mais apoio.\n\n Todas as ações de apoiadores de todos os widgets parceiros são contabilizadas em conjunto, alimentando um contador de campanha compartilhado. Isso cria um impulso coletivo visível e demonstra o poder real que as pessoas têm quando agem em conjunto. Ao mesmo tempo, cada parceiro mantém suas próprias informações de contato de apoiadores, e não há necessidade de compartilhamento complexo de dados.\n\nO widget é multilíngue e fácil de personalizar com suas cores e logotipo. Adicioná-lo ao seu site leva apenas um minuto e é tão fácil quanto incorporar um vídeo do YouTube. Não é necessário nenhum conhecimento técnico (e se você precisar de ajuda, [a equipe da Proca o apoiará](mailto:support@fixthestatusquo.org))!\n\nA Proca leva muito a sério a segurança dos dados dos usuários. Nossos servidores dedicados na Alemanha são totalmente compatíveis com o GDPR, e sua organização continua sendo a única proprietária dos dados coletados por meio de seu widget. Você pode monitorar o desempenho da sua campanha e baixar os dados a qualquer momento, usando nosso painel de controle fácil de usar. Também podemos nos integrar diretamente com seu sistema de mala direta.\n\nMais de 500 parceiros já estão usando o Proca para suas campanhas on-line, aumentando sua base de apoiadores e criando um movimento mais forte e colaborativo. Juntos, podemos criar o tipo de pressão que vence campanhas. Junte-se a nós!",
         "embargoHelper": "Reconheço que os materiais da campanha estão estritamente embargados até novo aviso. Concordo em NÃO COMPARTILHAR esses materiais com ninguém fora da minha organização.",
         "thanks": "Obrigado por participar desta campanha",
         "mailling": "Lista de discussão",
@@ -32,7 +32,7 @@
             "organisationHelper": "De que parte da família você é? Todas as organizações são bem-vindas!",
             "sectionTitle": "Organização"
         },
-        "title": "Você é uma organização ou movimento social que deseja adicionar essa campanha em seu site?",
+        "title": "Participe desta campanha de parceria: destaque-a facilmente em seu site e nas mídias sociais.",
         "login": "Registre-se como usuário ou faça login com suas credenciais de mídia social ou seu e-mail. Essa é a sua conta pessoal. Você poderá configurar sua organização após o registro.",
         "verify": "Seu e-mail ainda não foi verificado. Verifique seu e-mail e clique no link de confirmação para continuar.",
         "warning": {
@@ -47,7 +47,8 @@
         "configure_org": "Sua organização",
         "create_org": "Crie sua organização",
         "done": "Pegue seu widget",
-        "join_campaign": "Participe da campanha"
+        "join_campaign": "Participe da campanha",
+        "org_error": "Erro"
     },
     "Used to fill the details of your organisation": "Usado para preencher os detalhes de sua organização",
     "join": {
@@ -131,7 +132,7 @@
         "twitter_click": "Tweet para o alvo"
     },
     "Customise": "Personalizar",
-    "externalPartner": "somente parceiros externos",
+    "externalPartner": "Somente parceiros externos",
     "Fields": "Campos",
     "Required": "Necessário",
     "Twitter Account": "Conta do Twitter",
@@ -163,5 +164,39 @@
     "format": "Formato",
     "json": "JSON",
     "mineOnly": "somente de minha organização",
-    "unusedOnly": "somente widgets não utilizados"
+    "unusedOnly": "somente widgets não utilizados",
+    "all": "Todos",
+    "contact": "Contato",
+    "contactSupport": "suporte ao contato",
+    "copied": "Copiado!",
+    "copy": "Copiar para a área de transferência",
+    "country": "País",
+    "countryRequired": "O país é obrigatório",
+    "create": "Criar",
+    "invalidUrl": "Digite um URL válido",
+    "description": "Descrição de uma linha",
+    "downloadCSV": "Baixar CSV",
+    "downloadCSWHelp": "Faça o download dos dados do parceiro como CSV. Informações de contato disponíveis apenas para parceiros que se associaram via URL.",
+    "enterOrgUrl": "Digite o URL de sua organização",
+    "extraSupporters": "Apoiadores extras",
+    "hasSupporters": "Tem apoiadores",
+    "joinedAt": "Desde",
+    "countryHelper": "Ajuda-nos a mapear a disseminação de nossos apoiadores",
+    "mainLanguage": "Idioma principal",
+    "mainLanguageHelper": "Você poderá escolher diferentes idiomas para seus widgets",
+    "month": "Mês",
+    "noPartnersMatch": "Nenhum parceiro corresponde aos filtros selecionados.",
+    "refreshMetadata": "Atualize os detalhes de sua organização",
+    "organisation": "Organização",
+    "orgDuplicateError": "Sua organização já está usando o Proca para outra campanha. Se você conhece o membro da equipe que a criou, peça a ele que o convide, caso contrário",
+    "orgName": "Nome de sua organização",
+    "other": "Outros",
+    "partnerJoinLink": "Link para parceiros participarem da campanha",
+    "partners": "parceiros",
+    "supportersHelp": "Número de apoiadores únicos e deduplicados",
+    "topCampaignsTitle": "Campanhas mais ativas",
+    "total": "Total",
+    "website": "Site",
+    "websiteHelper": "Digite o site de sua organização para começar",
+    "week": "Semana"
 }

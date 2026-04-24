@@ -5,7 +5,7 @@
         "mail2target": "Mail naar doel",
         "share": "Delen op sociale media"
     },
-    "externalPartner": "alleen externe partners",
+    "externalPartner": "Alleen externe partners",
     "unusedOnly": "alleen ongebruikte widgets",
     "onboarding": {
         "maillingHelper": "Door dit formulier te verzenden, ga ik ermee akkoord dat ik word toegevoegd aan de {{campaign}} mailinglijst. Ik kan me te allen tijde uitschrijven.",
@@ -37,7 +37,7 @@
         },
         "embargoHelper": "Ik erken dat het campagnemateriaal tot nader order strikt onder embargo is. Ik ga ermee akkoord dat ik deze materialen NIET DEEL met iemand buiten mijn organisatie.",
         "thanks": "Bedankt voor je deelname aan deze campagne",
-        "title": "Ben je een organisatie of sociale beweging die deze campagne op je site wil zetten?",
+        "title": "Doe mee met deze partnerschapscampagne: plaats deze eenvoudig op je website en sociale media.",
         "verify": "Uw e-mailadres is nog niet geverifieerd. Controleer uw e-mail en klik op de bevestigingslink om verder te gaan.",
         "warning": {
             "is_coordinator": "Je kunt niet deelnemen aan een campagne onder **{{org}}**'s account, het is de coördinator van de **{{campaign}}**.",
@@ -45,7 +45,7 @@
         },
         "welcome": "Welkom bij het partnergebied voor deze campagne, gecoördineerd door {{coordinator}}",
         "done": "Je ontvangt een bevestigingsbericht per e-mail. Je kunt al een testversie van de <1>widget op je website insluiten</1>.",
-        "intro": "Om onze impact te vergroten, hebben we een brede coalitie nodig en we hebben geprobeerd het zo eenvoudig mogelijk te maken om je erbij aan te sluiten.",
+        "intro": "Campagnes zijn krachtiger wanneer veel organisaties samenwerken voor een gemeenschappelijk doel. Proca geeft je de kans om campagnepartner te worden en je impact te vergroten, terwijl je volledige controle houdt over je boodschap, branding en supporterscontacten.\n\n[Wanneer je meedoet aan een campagne](https://fixthestatusquo.com/help/for-partners/), krijg je de beschikking over je eigen gebruiksvriendelijke Proca \"widget\". De widget bevat een formulier om supportersacties te verzamelen (petitiehandtekeningen, berichten naar het doel, etc.) en een slimme deelactie, waarmee ondertekenaars de actie kunnen delen en meer steun kunnen mobiliseren.\n\n Alle supportersacties van alle partnerwidgets tellen samen en worden opgenomen in een gedeelde campagneteller. Dat creëert een zichtbaar collectief momentum en laat de echte macht zien die mensen hebben als we samen actie ondernemen. Tegelijkertijd behoudt elke partner zijn eigen supportercontactinformatie en is het delen van complexe gegevens niet nodig.\n\nDe widget is meertalig en eenvoudig aan te passen met je eigen kleuren en logo. Het toevoegen aan je website duurt slechts een minuut en is net zo eenvoudig als het insluiten van een YouTube-video. Geen technische kennis vereist (en als je hulp nodig hebt, zal [Proca's team je ondersteunen](mailto:support@fixthestatusquo.org))!\n\nProca neemt de beveiliging van supportergegevens zeer serieus. Onze dedicated servers in Duitsland voldoen volledig aan GDPR en jouw organisatie blijft de enige eigenaar van de gegevens die via jouw widget worden verzameld. Je kunt de prestaties van je campagne op elk moment controleren en de gegevens downloaden via ons gebruiksvriendelijke dashboard. We kunnen ook direct integreren met je mailer systeem.\n\nMeer dan 500 partners gebruiken Proca al voor hun online campagnes, laten hun supportersbestand groeien en creëren een sterkere, meer samenwerkende beweging. Samen kunnen we het soort druk creëren dat campagnes wint. Sluit je bij ons aan!",
         "login": "Registreer je als gebruiker of log in met je social media gegevens of je e-mailadres. Het is je persoonlijke account, na je registratie kun je je organisatie instellen."
     },
     "export": {
@@ -131,7 +131,8 @@
         "configure_org": "Uw organisatie",
         "create_org": "Creëer je organisatie",
         "login": "Uw account",
-        "verify": "Controleer uw e-mail"
+        "verify": "Controleer uw e-mail",
+        "org_error": "Fout"
     },
     "cancel": "Annuleren",
     "close": "Sluit",
@@ -163,5 +164,39 @@
     "format": "Formaat",
     "json": "JSON",
     "mineOnly": "alleen van mijn organisatie",
-    "Switch to fill the details manually": "Overschakelen om de gegevens handmatig in te vullen"
+    "Switch to fill the details manually": "Overschakelen om de gegevens handmatig in te vullen",
+    "all": "Alle",
+    "contact": "Neem contact op met",
+    "contactSupport": "contact ondersteuning",
+    "copied": "Gekopieerd!",
+    "copy": "Kopiëren naar klembord",
+    "country": "Land",
+    "countryRequired": "Land is vereist",
+    "create": "Maak",
+    "invalidUrl": "Voer een geldige URL in",
+    "description": "Beschrijving in één regel",
+    "downloadCSV": "CSV downloaden",
+    "downloadCSWHelp": "Download partnergegevens als CSV. Contactgegevens zijn alleen beschikbaar voor partners die zich via URL hebben aangemeld.",
+    "enterOrgUrl": "Voer de URL van uw organisatie in",
+    "extraSupporters": "Extra supporters",
+    "hasSupporters": "Heeft supporters",
+    "joinedAt": "Sinds",
+    "countryHelper": "Helpt ons om de verspreiding van onze supporters in kaart te brengen",
+    "mainLanguage": "Hoofdtaal",
+    "mainLanguageHelper": "Je kunt verschillende talen kiezen voor je widgets",
+    "month": "Maand",
+    "noPartnersMatch": "Geen enkele partner komt overeen met de geselecteerde filters.",
+    "refreshMetadata": "Werk de gegevens van uw organisatie bij",
+    "organisation": "Organisatie",
+    "orgDuplicateError": "Je organisatie gebruikt Proca al voor een andere campagne. Als je het teamlid kent die het heeft gemaakt, vraag hem dan om je uit te nodigen, anders",
+    "orgName": "Naam van uw organisatie",
+    "other": "Andere",
+    "partnerJoinLink": "Link voor partners om deel te nemen aan de campagne",
+    "partners": "partners",
+    "supportersHelp": "Aantal unieke, ontdubbelde supporters",
+    "topCampaignsTitle": "Meest actieve campagnes",
+    "total": "Totaal",
+    "website": "Website",
+    "websiteHelper": "Voer de website van uw organisatie in om te beginnen",
+    "week": "Week"
 }

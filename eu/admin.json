@@ -1,1 +1,200 @@
-{}
+{
+    "export": {
+        "gdprLabel": "Datu Babeserako Erregelamendu Orokorra",
+        "gdpr": {
+            "double_opt_in": "Bi aldizko izena ematea",
+            "opt_out_help": "Buletina jaso nahi ez duten jarraitzaileak ('Ez, ez dut mezu elektronikorik jaso nahi' radio-botoia widgetean edo posta elektronikoan dagoen baja-URLaren bidez).",
+            "double_opt_in_help": "Parte-hartzea posta elektroniko bidezko baieztapen-URL baten bidez berretsi duten babesleak",
+            "opt_in": "Parte hartu",
+            "opt_in_help": "Widget batean 'Bai, mezu elektronikoak jaso nahi ditut' irrati-botoia hautatu zuten babesleak",
+            "opt_out": "Baztertu",
+            "opt_out_required": "Mesedez, adierazi ondorioen berri duzula.",
+            "opt_out_warning": "Badakit oso salbuespen mugatuak izan ezean, baimen espliziturik eman ez duten erabiltzaileei harremanetan jartzea legez kanpokoa dela."
+        },
+        "exportLabel": "Exportatu",
+        "errorIncomplete": "Akats bat gertatu da, CSV datuak osatu gabe daude.",
+        "exportType": {
+            "activities": "Jarduerak",
+            "contacts": "Harremanak",
+            "contacts_help": "Exportatu kontaktu-informazioa bakarrik.",
+            "activities_help": "Erabiltzaileek egindako esportazio-ekintzak, hala nola sinatzea, partekatzea, etab."
+        },
+        "campaignDefault": "Kanpaina guztiak",
+        "campaignLabel": "Exportatzeko kanpaina",
+        "errorPermission": "Ez duzu baimenik antolaketa honetako datuak esportatzeko.",
+        "key_help": "Zure datuak zifratuta badaude, esportatu aurretik kargatu zifratze-gakoa.",
+        "title": "Kideen datuak esportatu",
+        "csv_help": "CSV da formatu estandarra. Erabili hau, JSON behar baduzu bakarrik.",
+        "json_help": "Aurreratutako integrazioetarako JSON formatua.",
+        "keyLabel": "Deszifratze-gakoak kargatu",
+        "exporting": "Exportatzen",
+        "exportingWithCount": "{{count}}-en esportatzea ...",
+        "exportingWithErrors": "{{count}} -eko ekintzetarako gakoik ez dago"
+    },
+    "invite": {
+        "title": "Batu zaitez gonbidapena {{org}}",
+        "translatorTitle": "{{org}} -en itzultzaile gisa parte hartzera gonbidatzen zaitugu.",
+        "another": "Beste talde kide bat gonbidatu",
+        "copied": "Kopiatuta!",
+        "messageLabel": "Gonbidatuarentzako mezu pertsonala",
+        "roles": {
+            "campaigner": {
+                "description": "Ekintzak, babesleak eta kanpainako datuak ikusi eta kudeatu daitezke. Erakundearen ezarpenak aldatu edo datuak esportatu ezin dira.",
+                "label": "Kanpaina-egile"
+            },
+            "coordinator": {
+                "description": "Babesleen datuak ikusi daitezke, baina ezin dira kanpainak sortu, ezta ezarpenak kudeatu edo datuak esportatu.",
+                "label": "Koordinatzailea"
+            },
+            "owner": {
+                "description": "Administrazio-sarbide osoa. Ezarpenak, kanpainak, esportazioak eta zifratzea barne, dena kudeatu dezake.",
+                "label": "Jabea"
+            },
+            "translator": {
+                "description": "Kanpainaren testua editatu",
+                "label": "Itzultzaile"
+            }
+        },
+        "subject": "{{org}} -en parte hartzeko gonbidapena Fix the Status Quo kontrol-taulan",
+        "copy": "Kopiatu gonbidapenaren URL-a",
+        "sentInstructions": "Hurrengo esteka zuzenean ere parteka dezakezu:",
+        "default": "{{org}} kontuan parte hartzera gonbidatzen zaitugu Fix the Status Quo kontrol-panelaren barruan.\n\nGonbidapen honek hurrengo 24 orduetan balioko du. Mesedez, onartu ahalik eta lasterren.\n\nPozik gaude zurekin batera lan egiteko!",
+        "emailHelper": "Berehala bat egiteko estekadun gonbidapen-mezu elektroniko bat bidaliko dizugu.",
+        "required": "Posta elektronikoaren helbidea derrigorrezkoa da",
+        "roleLabel": "Aukeratu baimen-maila",
+        "sent": "Gonbidapena bidali zaio {{email}}",
+        "tooltip": "Oharra: soilik 'jabeak' izango du babesleen datuak esportatzeko aukera.",
+        "translator": "Kaixo,\n\nZure herrialderako kanpaina-gutun bat itzultzeko eta hobetzeko lankidetzan aritzeko gonbidatu nahi zaitugu. Tokiko testuinguru politikoaren ulermena baliagarria izango litzateke — ez bakarrik itzulpenean, baita mezua babesleekin modu eraginkorrean bat datorrela ziurtatzeko ere.\n\nGutuna atal anitzetan egituratuta dago, eta bakoitzak hainbat aldaera ditu. Babesleek ausaz osatutako bertsioak jasoko dituzte, parte-hartzea maximizatzeko eta hartzaileek baztertzea saihesteko.\n\nGonbidapena onartzen duzun bezain pronto, gutunera [hemen]({{location}}) sarbidea izango duzu. **Aldaketak egin ondoren gorde ez ahaztu!**\n\nZure ekarpenak amaitutakoan, mesedez, jakinarazi iezaguzu eta koordinatzaileari, eguneraketak martxan jar ditzagun.\n\nZure denbora eta aditutasuna eskertzen ditugu — hau da kanpainaren eragina indartzeko ahalegin partekatua.\n\n**Segurtasunagatik, zure gonbidapen-estekak 24 ordutan iraungiko dira.**"
+    },
+    "onboarding": {
+        "thanks": "Eskerrik asko kanpaina honetan parte hartzeagatik.",
+        "login": "Erregistratu zaitez erabiltzaile gisa edo saioa hasi zure sare sozialetako kredentzialekin edo zure posta elektronikoko helbidearekin. Zure kontu pertsonala da; erregistratu ondoren zure erakundea konfiguratu ahal izango duzu.",
+        "organisation": {
+            "collectsEmail": "Ez duzu buletinik eta ez duzu posta elektroniko helbiderik biltu nahi? (Zure webgunean funtzio hau zuk zeuk ezkutatu ahal izango duzu) Markatu kutxa hau:",
+            "collectsEmailHelper": "Ez dut buletinerik. Ziur nago ez dudala nahi posta elektroniko helbideak biltzen dituen eta ondoren erabil ditzakegun buletin-markatze-koadro bat.",
+            "crm": "Zein CRM software erabiltzen ari zara?",
+            "doubleOptIn": "Nire jarraitzaileek bi aldiz izena eman behar dute buletina jasotzeko.",
+            "networkHelper": "Ongi etorri dira erakunde guztiak!",
+            "sectionTitle": "Antolaketa",
+            "another": "Beste erakunde bat hautatu",
+            "logged_in": "<b>{{orgName}}</b> erakunde kontuan saioa hasi duzu.",
+            "organisationHelper": "Familiaaren zein zatitik zara? Ongi etorri dira erakunde guztiak!",
+            "network": "Nire erakundea eguzkitako erakunde baten parte da...",
+            "remarks": "Tresnari buruz esan nahi diguzun iruzkinik al dago?"
+        },
+        "title": "Batu zaitez lankidetza-kanpaina honetan: erraz txertatu zure webgunean eta sare sozialetan.",
+        "user": {
+            "country": "Zure Herrialdea",
+            "emailAddress": "Zure posta elektronikoaren helbidea",
+            "jobTitle": "Lanpostuaren izenburua",
+            "sectionTitle": "Zure harremanetarako xehetasunak",
+            "socialAccount": "Zure sare sozialak",
+            "socialAccountHelper": "Twitteren/Instagramen/LinkedIn-en",
+            "name": "Zure izena",
+            "phoneNumber": "Zure telefono zenbakia",
+            "phoneNumberHelper": "Herrialde kodea barne hartuta"
+        },
+        "verify": "Zure posta elektronikoa oraindik ez dago egiaztatuta. Mesedez, egiaztatu zure posta elektronikoa eta egin klik baieztapen estekan jarraitzeko.",
+        "warning": {
+            "is_coordinator": "{{org}}-en kontuaren pean ezin zara kanpaina batean batu;{{campaign}}-en koordinatzailea da.",
+            "is_member": "Zuk **{{org}}** izeneko erakunde honetako kidea zara, kanpaina hau kudeatzen duena!"
+        },
+        "welcome": "Ongi etorri kanpaina honen bazkideen eremura, koordinatuta dagoena {{coordinator}}",
+        "done": "Mezu elektroniko bidez baieztapen-mezu bat jasoko duzu. Zure webgunean <1>widgetaren</1> probako bertsioa txerta dezakezu jada.",
+        "embargo": "Blokeoa",
+        "embargoHelper": "Onartzen dut kanpainako materialak aurrerako jakinarazpenik arte zorrotz debekatuta daudela. Ados nago material hauek nire erakundetik kanpoko inorekin ez partekatzeko.",
+        "mailling": "Posta-zerrenda",
+        "maillingHelper": "Inprimaki hau bidalita, {{campaign}} posta-zerrendan sartzea onartzen dut. Nahi dudanean harpidetzetik baja har dezaket.",
+        "intro": "Kanpainak indartsuagoak dira erakunde askok helburu komunerako elkarrekin lan egiten dutenean. Procak kanpaina-bazkide bihurtzeko eta zure eragina handitzeko aukera ematen dizu, zure mezua, marka eta babesleen harremanetan kontrol osoa mantenduz.\n\n[Kanpaina batean parte hartzen duzunean](https://fixthestatusquo.com/help/for-partners/), zure kabuz erraz erabil dezakezun Proca \"widget\" bat konfiguratzeko aukera duzu. Widget-ak sinatzaileen ekintzak biltzeko inprimakia (petizio-sinadurak, helburuari bidalitako mezuak, etab.) eta ekintza adimentsu bat barne hartzen ditu, sinatzaileek ekintza partekatu eta babes gehiago mobilizatzeko aukera ematen duena.\n\n Bazkide guztien widgetetatik datozen babesle-ekintza guztiak batera zenbatzen dira, kanpaina partekatu baten kontagailu komunean metatuz. Horrek elkartasunezko bultzada ikusgarri bat sortzen du, eta jendeak elkarrekin jarduten duenean duen benetako indarra erakusten du. Era berean, bazkide bakoitzak bere babesleen harremanetarako informazioa gordetzen du, eta ez da datu-truke konplexurik behar.\n\nWidget-a eleanitza da eta erraz pertsonaliza daiteke zure kolore eta logotipoekin. Zure webgunean txertatzeak minutu bat besterik ez du behar, eta YouTube bideo bat txertatzea bezain erraza da. Ez da ezagutza teknikorik behar (eta laguntza behar baduzu, [Proca-ko taldeak lagunduko dizu](mailto:support@fixthestatusquo.org))!\n\nProcak babesleen datuen segurtasuna oso serio hartzen du. Alemanian dauden gure zerbitzari espezializatuak erabat GDPR betetzean daude, eta zure erakundea da zure widget-aren bidez biltzen diren datuen jabe bakarra. Zure kanpainaren errendimendua jarrai dezakezu eta datuak nahi duzun unetan deskarga ditzakezu, gure kontrol-panel errazari esker. Zure posta elektroniko bidalketa sistemarekin zuzenean integratzea ere posible da.\n\n500 bazkide baino gehiagok jada erabiltzen dute Proca beren lineako kanpainetarako, babesleen oinarria handituz eta mugimendu sendoago eta lankidetzan oinarritutako bat sortuz. Elkarrekin, kanpainak irabazteko behar den presioa sor dezakegu. Bat egin gurekin!"
+    },
+    "cancel": "Ezeztatu",
+    "send": "Bidali",
+    "action": {
+        "mail2target": "Helburuari posta elektronikoa bidali",
+        "register": "Erregistratu",
+        "share": "Partekatu sare sozialetan",
+        "twitter_click": "Helbururako txiokatu"
+    },
+    "close": "Itxi",
+    "Customise": "Pertsonalizatu",
+    "delete": "Ezabatu",
+    "edit": "Aldatu",
+    "externalPartner": "Kanpoko bazkideak soilik",
+    "save": "Gorde",
+    "join": {
+        "goalHelper": "Aurreikuspen hau bakarrik koordinatzaileak ikusiko du… eta badakigu zaila dela estimatzea.",
+        "requestHelper": "kanpaina hau planifikatzen laguntzeko",
+        "goal": "Zenbat pertsonak ekintza egingo dutela zure webgunearen bidez espero duzu?",
+        "request": "Zure babesleei zuzendutako posta-kanpaina espezifikoa antolatzen ari zara? Sare sozialetako jarduerak ere planifikatzen ari zara, ordainpeko publizitatea barne?"
+    },
+    "step": {
+        "join_campaign": "Kanpainan parte hartu",
+        "create_org": "Sortu zure erakundea",
+        "done": "Hartu zure widgeta",
+        "login": "Zure kontua",
+        "verify": "Ziurtatu zure posta elektronikoa",
+        "org_error": "Akatsa"
+    },
+    "createOrg": {
+        "intro": "Azkarrena da zure erakundearen Twitter kontuarekin hastea (badauzkazu hainbat, hautatu bat).",
+        "manual": "Aldatu xehetasunak eskuz betetzeko",
+        "noTwitter": "Nire erakundea ez dago Twitterren."
+    },
+    "Show": "Eman",
+    "Stats": "Estatistikak",
+    "supporters": "Babesleak",
+    "Switch to fill the details manually": "Aldatu xehetasunak eskuz betetzeko",
+    "unusedOnly": "erabili gabeko widgetak soilik",
+    "Used to fill the details of your organisation": "Zure erakundearen xehetasunak betetzeko erabiltzen da",
+    "Used to pre-fill name, description and logo of your organisation": "Zure erakundearen izena, deskribapena eta logotipoa aurrez betetzeko erabiltzen da.",
+    "View your widget for {{org}}": "Zure widgeta ikusi {{org}}",
+    "You can register an new organisation to join the coalition": "Koalizioan sartzeko erakunde berri bat erregistratu dezakezu.",
+    "You can update your organisation's details": "Zure erakundearen xehetasunak eguneratu ditzakezu.",
+    "widget": {
+        "edit_icon": "Ezarpenak {{id}}",
+        "stats_icon": "Estatistikak {{id}}",
+        "lang": "Widgetaren hizkuntza",
+        "test": "Widgeta proba moduan dago"
+    },
+    "csv": "CSV",
+    "Fields": "Zelaiak",
+    "format": "Formatu",
+    "json": "JSON",
+    "mineOnly": "Nire erakundetik bakarrik",
+    "Required": "Beharrezkoa",
+    "Twitter Account": "Twitter kontua",
+    "all": "Denak",
+    "contact": "Harremanetarako",
+    "contactSupport": "Jarri harremanetan laguntzarekin",
+    "copied": "Kopiatuta!",
+    "copy": "Hautatutako testua kopiatuta mozteko buferera",
+    "country": "Herrialdea",
+    "countryRequired": "Herrialdea derrigorrezkoa da",
+    "create": "Sortu",
+    "invalidUrl": "Mesedez, sartu URL baliodun bat.",
+    "description": "Deskribapen lerro bakarra",
+    "downloadCSV": "Deskargatu CSV",
+    "downloadCSWHelp": "Deskargatu bazkideen datuak CSV formatuan. Harremanetarako informazioa soilik eskuragarri dago URL bidez batu diren bazkideentzat.",
+    "enterOrgUrl": "Sartu zure erakundearen URL-a",
+    "extraSupporters": "Lagun gehiago",
+    "hasSupporters": "Babesleak ditu",
+    "joinedAt": "Ziur aski",
+    "countryHelper": "Gure babesleen hedapena mapatzen laguntzen digu.",
+    "mainLanguage": "Hizkuntza nagusia",
+    "mainLanguageHelper": "Zure widgetentzat hizkuntza desberdinak aukeratu ahal izango dituzu.",
+    "month": "Hilean",
+    "noPartnersMatch": "Ez dago hautatutako iragazkiekin bat datorren bazkiderik.",
+    "refreshMetadata": "Zure erakundearen xehetasunak eguneratu",
+    "organisation": "Antolaketa",
+    "orgDuplicateError": "Zure erakundeak jada Proca erabiltzen du beste kanpaina baterako. Sortu duen taldekidea badakizu, eskatu gonbidatzeko; bestela",
+    "orgName": "Zure erakundearen izena",
+    "other": "Besteak",
+    "partnerJoinLink": "Bazkideek kanpainan parte hartzeko esteka",
+    "partners": "bazkideak",
+    "supportersHelp": "Berdindu gabeko babesle bakunen kopurua",
+    "topCampaignsTitle": "Kanpaina aktiboenak",
+    "week": "Aste",
+    "total": "Guztira",
+    "website": "Webgunea",
+    "websiteHelper": "Sartu zure erakundearen webgunea hasteko."
+}

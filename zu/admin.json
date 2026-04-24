@@ -1,1 +1,200 @@
-{}
+{
+    "step": {
+        "login": "I-akhawunti yakho",
+        "verify": "Qinisekisa i-imeyili yakho",
+        "done": "Thatha iwijethi yakho",
+        "join_campaign": "Joyina umkhankaso",
+        "create_org": "Dala inhlangano yakho",
+        "org_error": "Iphutha"
+    },
+    "createOrg": {
+        "intro": "Okusheshayo kakhulu ukuqala nge-akhawunti ye-Twitter yenhlangano yakho (uma unazo eziningi, khetha eyodwa).",
+        "manual": "Shintsha ukuze ugcwalise imininingwane ngesandla",
+        "noTwitter": "Inhlangano yami ayikho ku-Twitter."
+    },
+    "export": {
+        "campaignDefault": "Imikhankaso yonke",
+        "campaignLabel": "Umkhankaso wokuthekelisa",
+        "gdpr": {
+            "opt_in": "Khetha ukungena",
+            "double_opt_in": "Ukungena kabili",
+            "double_opt_in_help": "Abaxhasi abaqinisekisile ukubamba kwabo iqhaza ngokusebenzisa i-URL yokuqinisekisa nge-imeyili",
+            "opt_in_help": "Abaxhasi abakhethe ukubhalisa ku-widget ('Yebo, ngifuna ukuthola ama-imeyili' inkinobho yeradio)",
+            "opt_out_help": "Abaxhasi abangafuni ukuthola incwajana yezindaba (inkinobho yeradio ethi 'Cha, angifuni ukuthola ama-imeyili' kwi-widget noma i-URL yokuphuma ku-imeyili).",
+            "opt_out_required": "Sicela ukhombise ukuthi uyazi imiphumela.",
+            "opt_out_warning": "Ngiyazi ukuthi akuvunyelwe ukuxhumana nabasebenzisi abangakavumi ngokusobala ngaphandle kwezimo ezimbalwa kakhulu.",
+            "opt_out": "Khetha ukungabambi iqhaza"
+        },
+        "exportLabel": "Thumela ngaphandle",
+        "errorIncomplete": "Kube nempazamo, idatha ye-CSV ayiphelele.",
+        "exportType": {
+            "activities": "Imisebenzi",
+            "activities_help": "Izenzo zokuthekelisa ezenziwe ngabasebenzisi, njengokusayina, ukwabelana, njll.",
+            "contacts": "Amakontakthi",
+            "contacts_help": "Thumela imininingwane yokuxhumana kuphela."
+        },
+        "exporting": "Ukuthumela ngaphandle",
+        "exportingWithCount": "Ukuthumela ngaphandle kwe- {{count}}...",
+        "exportingWithErrors": "(Ayikho inkinobho yemisebenzi ye- {{count}} )",
+        "csv_help": "CSV iyifomethi ejwayelekile. Sebenzisa le ngaphandle kokuthi ngempela udinga i-JSON.",
+        "errorPermission": "Awunalo imvume yokuthekelisa idatha yale nhlangano.",
+        "json_help": "Ifomethi ye-JSON yokuhlanganiswa okuthuthukisiwe.",
+        "key_help": "Uma idatha yakho ifihlwe, layisha ukhiye wokufihla ngaphambi kokuthekelisa.",
+        "keyLabel": "Layisha amakhiwo okuvula ukufihlwa",
+        "title": "Thumela ngaphandle idatha yamalungu",
+        "gdprLabel": "Umthetho Wokuvikelwa Kwedatha Wase-EU"
+    },
+    "invite": {
+        "default": "Umenyiwe ukuba ujoyine i-akhawunti ye- {{org}} ku-dashboard ye-Fix the Status Quo.\n\nLesi simemo sizosebenza amahora angu-24 azayo. Sicela usamukele ngokushesha okukhulu.\n\nSiyajabula ukuba nawe!",
+        "sent": "Isimemo sithunyelwe ku {{email}}",
+        "another": "Mema elinye ilungu leqembu",
+        "subject": "Isimemo sokujoyina i- {{org}} ku-dashboard ethi \"Fix the Status Quo\"",
+        "emailHelper": "Sizothumela i-imeyili yesimemo enesixhumanisi ukuze ujoyine ngokushesha.",
+        "required": "Ikheli le-imeyili liyadingeka",
+        "roleLabel": "Khetha izinga lokugunyaza",
+        "copied": "Kukopishwe!",
+        "copy": "Kopisha i-URL yesimemo",
+        "sentInstructions": "Ungabelana futhi ngesixhumanisi esingezansi ngqo:",
+        "roles": {
+            "campaigner": {
+                "description": "Ungabuka futhi uphathe izenzo, abaxhasi, kanye nedatha yomkhankaso. Awukwazi ukushintsha izilungiselelo zenhlangano noma ukuthekelisa idatha.",
+                "label": "Umkhankaseli"
+            },
+            "translator": {
+                "description": "Hlela umbhalo womkhankaso",
+                "label": "Umhumushi"
+            },
+            "coordinator": {
+                "description": "Ungabuka idatha yabaxhasi kodwa awukwazi ukudala imikhankaso, ukuphatha izilungiselelo, noma ukuthekelisa idatha.",
+                "label": "Uxhumanisi"
+            },
+            "owner": {
+                "description": "Ukufinyelela okuphelele kokuphatha. Ungaphatha konke, kuhlanganise nezilungiselelo, imikhankaso, ukuthekelisa, nokufihla imininingwane.",
+                "label": "Umnikazi"
+            }
+        },
+        "messageLabel": "Umyalezo siqu kumuntu omenywayo",
+        "title": "Mema ukuba ujoyine {{org}}",
+        "tooltip": "Qaphela: Kuphela 'umnikazi' ongakwazi ukuthekelisa idatha yabaxhasi.",
+        "translator": "Sawubona,\n\nSiyakumema ukuthi usebenzisane nathi ekuguquleni nasekuthuthukiseni incwadi yomkhankaso yezwe lakho. Ukuqonda kwakho isimo sezepolitiki sendawo kuzoba wusizo olukhulu — hhayi kuphela ekuguquleni, kodwa nasekuqinisekiseni ukuthi umlayezo uyavumelana kahle nabaxhasi.\n\nIncwadi ihlelwe izigaba eziningi, ngayinye inezinguqulo eziningana. Abaxhasi bazothola izinguqulo ezihlanganiswe ngokungahleliwe ukuze kuthuthukiswe ukuzibandakanya futhi kugwenywe ukuthi abamukeli baziphose.\n\nUma usuvumile isimemo, uzokwazi ukufinyelela incwadi [lapha]({{location}}). **Ungakhohlwa ukulondoloza ngemva kokwenza izinguquko zakho!**\n\nUma umnikelo wakho usuqediwe, sicela usazise kanye nomxhumanisi ukuze sikwazi ukusabalalisa izibuyekezo.\n\nSiyawazisa isikhathi sakho nobuchwepheshe bakho — lo ngumzamo esabelana ngawo wokuqinisa umthelela womkhankaso.\n\n**Ngenxa yokuphepha, isixhumanisi sakho sokungena isimemo sizophela emahoreni angu-24.**",
+        "translatorTitle": "Mema ukuthi ujoyine i {{org}} njengomhumushi"
+    },
+    "onboarding": {
+        "user": {
+            "country": "Izwe lakho",
+            "jobTitle": "Isihloko somsebenzi",
+            "name": "Igama Lakho",
+            "phoneNumber": "Inombolo yakho yocingo",
+            "phoneNumberHelper": "Kuhlanganisa ikhodi yezwe",
+            "sectionTitle": "Imininingwane yakho yokuxhumana",
+            "socialAccount": "Amaqonga akho okuxhumana",
+            "emailAddress": "Ikheli lakho le-imeyili",
+            "socialAccountHelper": "Ku-Twitter/Instagram/Linkedin"
+        },
+        "warning": {
+            "is_coordinator": "Awukwazi ukujoyina umkhankaso ngaphansi kwe-akhawunti ka-{{org}}, ungumxhumanisi we-{{campaign}}",
+            "is_member": "Ungumuntu oyingxenye yenhlangano ethi **{{org}}** eqhuba lo mkhankaso!"
+        },
+        "embargo": "Isithiyo sokuhweba",
+        "organisation": {
+            "sectionTitle": "Uhlelo",
+            "another": "Khetha enye inhlangano",
+            "logged_in": "Ungene ngaphansi kwe-akhawunti yenhlangano ethi <b>{{orgName}}</b>",
+            "collectsEmail": "Awunayo incwajana yezindaba futhi awufuni ukuqoqa amakheli e-imeyili? (Uzokwazi ukufihla lesi sici ngokwakho kuwebhusayithi yakho) Maka lebhokisi:",
+            "collectsEmailHelper": "Anginayo incwajana yezindaba. Ngiyazi ukuthi angifuni ibhokisi lokumaka lokuthola incwajana yezindaba eliqoqa amakheli e-imeyili esingawasebenzisa kamuva.",
+            "crm": "Uyisebenzisa yisiphi isoftware ye-CRM?",
+            "doubleOptIn": "Abaxhasi bami kumele bafake isicelo kabili ukuze bathole incwajana yezindaba.",
+            "network": "Inhlangano yami ingxenye yenhlangano ebambisene.",
+            "networkHelper": "Siyamukela zonke izinhlangano!",
+            "organisationHelper": "Uvela kuwo liphi ingxenye lomndeni? Samukela zonke izinhlangano!",
+            "remarks": "Ngabe kukhona amazwana mayelana nethuluzi ofuna ukusitshela wona?"
+        },
+        "thanks": "Siyabonga ngokujoyina lo mkhankaso",
+        "welcome": "Siyakwamukela endaweni yabalingani yalomkhankaso ohlelwe yi- {{coordinator}}",
+        "verify": "I-imeyili yakho ayikakasekelwa. Sicela uhlole i-imeyili yakho bese uchofoza kusixhumanisi sokuqinisekisa ukuze uqhubeke.",
+        "intro": "Imikhankaso inamandla kakhulu lapho izinhlangano eziningi zisebenza ndawonye ngenhloso efanayo. I-Proca ikunika ithuba lokuba umlingani womkhankaso nokwandisa umthelela wakho, ngenkathi ugcina ukulawula okuphelele ngomlayezo wakho, uphawu lwakho, kanye nokuxhumana nabaxhasi bakho.\n\n[Uma ujoyina umkhankaso](https://fixthestatusquo.com/help/for-partners/), uthola ithuba lokusetha i-'widget' yakho ye-Proca elula ukuyisebenzisa. I-widget ifaka ifomu lokuqoqa izenzo zabaxhasi (isiginesha sephetishini, imilayezo ethunyelwe kulabo abaqondiwe, njll.) kanye nesenzo sokwabelana esihlakaniphile, esivumela abasayinile ukuthi babelane ngesenzo futhi baqoqe ukwesekwa okwengeziwe.\n\n Zonke izenzo zabaxhasi ezivela kuwo wonke ama-widget abalingani zibalwa ndawonye, zifaka ekubaleni komkhankaso okwabelwana ngakho. Lokho kudala umfutho obonakalayo obuhlangene, futhi kubonisa amandla angempela abantu abanalo lapho sisebenza ndawonye. Ngasikhathi sinye, uhlangothi ngalunye lobambiswano lugcina ulwazi lwawo lokuxhumana nabaxhasi, futhi akudingeki ukwabelana ngedatha okuyinkimbinkimbi.\n\nI-widget isekela izilimi eziningi futhi kulula ukuyihlela ngemibala yakho nelogo yakho. Ukuyifaka kuwebhusayithi yakho kuthatha umzuzu owodwa kuphela, futhi kulula njengokufaka ividiyo ye-YouTube. Akudingeki ulwazi lobuchwepheshe (futhi uma udinga usizo, ithimba le-Proca lizokusekela) [mailto:support@fixthestatusquo.org]!\n\nI-Proca ithatha ngokungathi sína ukuphepha kwedatha yabaxhasi. Iseva yethu ezinikele eJalimane iyahambisana ngokuphelele ne-GDPR, futhi inhlangano yakho ihlala ingumnikazi oyedwa wedatha eqoqwe nge-widget yakho. Ungabheka ukusebenza komkhankaso wakho futhi ulande idatha noma kunini, usebenzisa ideshibhodi yethu elula ukuyisebenzisa. Singahlanganisa ngqo nohlelo lwakho lokuthumela imeyili.\n\nAbalingani abangaphezu kuka-500 sebebasebenzisa iProca emikhankasweni yabo eku-inthanethi, bakhulisa isisekelo sabaxhasi babo, futhi bedala inyakazo eqinile, ebambisanayo. Sihlangene, singadala ingcindezi ewinisa imikhankaso. Hlanganyela nathi!",
+        "done": "Uzothola umlayezo wokuqinisekisa nge-imeyili.  Ungase ufake inguqulo yokuhlola ye-<1>widget kuwebhusayithi yakho</1>.",
+        "embargoHelper": "Ngiyavuma ukuthi izinto zomkhankaso zivaliwe ngokuqinile kuze kube isaziso esengeziwe. Ngiyavuma ukuthi ngeke ngabelane ngalezi zinto nanoma ubani ongaphandle kwenhlangano yami.",
+        "login": "Bhalisa njengomsebenzisi noma ungene ngemvume usebenzisa imininingwane yakho yezokuxhumana noma i-imeyili yakho. Leli akhawunti yakho siqu; uzokwazi ukusetha inhlangano yakho ngemva kokubhalisa.",
+        "mailling": "Uhlu lokuposa",
+        "maillingHelper": "Ngokuthumela leli fomu, ngiyavuma ukufakwa ohlwini lokuthumela lwe- {{campaign}}. Ngingakhansela noma yinini.",
+        "title": "Joyina lo mkhankaso wobambiswano: wufake kalula kuwebhusayithi yakho nasemithonjeni yezokuxhumana."
+    },
+    "cancel": "Khansela",
+    "close": "Vala",
+    "action": {
+        "register": "Bhalisa",
+        "share": "Yabelana ezinkundleni zokuxhumana",
+        "twitter_click": "Thumela i-tweet kumgama",
+        "mail2target": "Thumela i-imeyili kumgama"
+    },
+    "Customise": "Yenza ngokwezifiso",
+    "externalPartner": "Abalingani bangaphandle kuphela",
+    "Fields": "Izinkambu",
+    "unusedOnly": "ama-widget angasetshenziswanga kuphela",
+    "Required": "Okudingekayo",
+    "Show": "Bonisa",
+    "View your widget for {{org}}": "Buka i-widget yakho ye- {{org}}",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "mineOnly": "kuphela evela enhlanganweni yami",
+    "save": "Londoloza",
+    "send": "Thumela",
+    "Switch to fill the details manually": "Shintsha ukuze ugcwalise imininingwane ngesandla",
+    "You can register an new organisation to join the coalition": "Ungabhalisa inhlangano entsha ukuze ihlanganyele ekuhlanganeni.",
+    "Stats": "Izibalo",
+    "supporters": "Abaxhasi",
+    "Used to pre-fill name, description and logo of your organisation": "Kusetshenziselwa ukugcwalisa kusengaphambili igama, incazelo nelogo yenhlangano yakho",
+    "You can update your organisation's details": "Ungavuselela imininingwane yenhlangano yakho.",
+    "widget": {
+        "edit_icon": "Izilungiselelo ze {{id}}",
+        "stats_icon": "Izibalo ze {{id}}",
+        "lang": "Ulimi lwe-widget",
+        "test": "I-Widget isemodi yokuhlola"
+    },
+    "join": {
+        "goal": "Lindeleke ukuthi bangaki abantu abazothatha isinyathelo ngewebhusayithi yakho?",
+        "goalHelper": "Lesi sibikezelo sizobonwa kuphela ngumxhumanisi… futhi siyazi ukuthi kunzima ukulinganisa",
+        "request": "Ingabe uhlela ukuthumela imilayezo ekhethekile kubaxhasi bakho? Ingabe futhi uhlela imisebenzi yezokuxhumana, kuhlanganise nokukhangisa okukhokhelwayo?",
+        "requestHelper": "ukusisiza ukuhlela lo mkhankaso"
+    },
+    "csv": "i-CSV",
+    "format": "Ifomethi",
+    "json": "I-JSON",
+    "Twitter Account": "I-akhawunti ye-Twitter",
+    "Used to fill the details of your organisation": "Isetshenziselwa ukugcwalisa imininingwane yenhlangano yakho",
+    "all": "Konke",
+    "contact": "Xhumana",
+    "contactSupport": "Xhumana nokwesekwa",
+    "copied": "Kukopishwe!",
+    "copy": "Kopisha ebhodini lokunamathisela",
+    "country": "Izwe",
+    "countryRequired": "Izwe liyadingeka",
+    "create": "Dala",
+    "invalidUrl": "Sicela ufake i-URL evumelekile.",
+    "description": "Incazelo yomugqa owodwa",
+    "downloadCSV": "Landa i-CSV",
+    "downloadCSWHelp": "Landa idatha yabalingani njenge-CSV. Imininingwane yokuxhumana itholakala kuphela kubalingani abangene nge-URL.",
+    "enterOrgUrl": "Faka i-URL yenhlangano yakho",
+    "extraSupporters": "Abaxhasi abengeziwe",
+    "hasSupporters": "Unabalandeli",
+    "joinedAt": "Kusukela",
+    "countryHelper": "Kusisiza ukumaka ukusabalala kwabaxhasi bethu",
+    "mainLanguage": "Ulimi oluyinhloko",
+    "mainLanguageHelper": "Uzokwazi ukukhetha izilimi ezahlukene kwama-widget akho.",
+    "month": "Inyanga",
+    "noPartnersMatch": "Akekho ozakwabo ohambisana nezihlungi ezikhethiwe.",
+    "refreshMetadata": "Vuselela imininingwane yenhlangano yakho",
+    "orgDuplicateError": "Inhlangano yakho isivele isebenzisa i-Proca kwelinye umkhankaso. Uma wazi ilungu leqembu eliyidalile, cela ukuthi likumeme, kungenjalo",
+    "organisation": "Uhlelo",
+    "orgName": "Igama lenhlangano yakho",
+    "other": "Okunye",
+    "partnerJoinLink": "Isixhumanisi sabalingani sokujoyina umkhankaso",
+    "partners": "Abalingani",
+    "supportersHelp": "Inani labaxhasi abahlukile abahlanzwe ukuphindaphindwa",
+    "topCampaignsTitle": "Imikhankaso esebenza kakhulu",
+    "total": "Konke",
+    "website": "Iwebhusayithi",
+    "websiteHelper": "Faka iwebhusayithi yenhlangano yakho ukuze uqale",
+    "week": "Isonto"
+}
