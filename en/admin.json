@@ -11,7 +11,7 @@
   "startCampaign": "Start your campaign",
   "startFromTemplate": "Start your campaign from template",
   "requestExtension": "Request MTT Extension for {{campaignName}}",
-  "extensionHint": "Clicking <b>Request extension</b> will open your email client with a pre-filled message. Feel free to add any context, but please keep the campaign name and requested date so we can process your request.",
+  "extensionHint": "Clicking REQUEST EXTENSION will open your email client with a pre-filled message. Feel free to add any context, but please keep the campaign name and requested date so we can process your request.",
   "newEnd": "New end date",
   "extend": "Request extension",
   "mttEnds": "MTT ends at: {{date}}",
