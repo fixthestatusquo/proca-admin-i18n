@@ -196,5 +196,15 @@
     "total": "Gjithsej",
     "website": "Faqe interneti",
     "websiteHelper": "Futni faqen e internetit të organizatës suaj për të filluar",
-    "week": "Javë"
+    "week": "Javë",
+    "addPetition": "Shto peticionin",
+    "campaignFromTemplate": "Shto fushatë nga modeli",
+    "startCampaign": "Filloni fushatën tuaj",
+    "startFromTemplate": "Filloni fushatën tuaj nga modeli",
+    "requestExtension": "Kërko zgjatjen MTT për {{campaignName}}",
+    "extensionHint": "Klikimi i \"Kërko zgjatje\" do të hapë klientin tuaj të postës elektronike me një mesazh të paracaktuar. Mund të shtoni çdo kontekst që dëshironi, por ju lutemi ruani emrin e fushatës dhe datën e kërkuar që të mund të përpunojmë kërkesën tuaj.",
+    "newEnd": "Data e re e përfundimit",
+    "extend": "Kërko zgjatje",
+    "mttEnds": "MTT përfundon në: {{date}}",
+    "campaignsPageTitle": "Fushatat që menaxhoni ose jeni partner në to"
 }
