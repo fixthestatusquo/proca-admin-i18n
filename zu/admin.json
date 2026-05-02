@@ -196,5 +196,15 @@
     "total": "Konke",
     "website": "Iwebhusayithi",
     "websiteHelper": "Faka iwebhusayithi yenhlangano yakho ukuze uqale",
-    "week": "Isonto"
+    "week": "Isonto",
+    "addPetition": "Engeza isicelo",
+    "campaignFromTemplate": "Engeza umkhankaso kusuka kuthempulethi",
+    "startCampaign": "Qala umkhankaso wakho",
+    "startFromTemplate": "Qala umkhankaso wakho kusuka kwitempulethi",
+    "requestExtension": "Sicela ukunwetshwa kwe-MTT ku- {{campaignName}}",
+    "extensionHint": "Ukuchofoza ku-REQUEST EXTENSION kuzovula uhlelo lwakho lokuposa i-imeyili nomlayezo ogcwele kusengaphambili. Zizwe ukhululekile ukwengeza noma yiluphi ulwazi olwengeziwe, kodwa sicela ugcine igama lomkhankaso nosuku oluceliwe ukuze sikwazi ukucubungula isicelo sakho.",
+    "newEnd": "Usuku olusha lokuphela",
+    "extend": "Cela ukunwetshwa",
+    "mttEnds": "I-MTT iphela ku: {{date}}",
+    "campaignsPageTitle": "Imikhankaso oyiphethe noma oyilungu layo"
 }
