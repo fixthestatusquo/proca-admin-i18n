@@ -198,5 +198,15 @@
     "total": "Total",
     "website": "Site web",
     "websiteHelper": "Entrez le site web de votre organisation pour commencer",
-    "week": "Semaine"
+    "week": "Semaine",
+    "addPetition": "Ajouter une pétition",
+    "campaignFromTemplate": "Ajouter une campagne à partir d'un modèle",
+    "startCampaign": "Lancez votre campagne",
+    "startFromTemplate": "Démarrez votre campagne à partir d'un modèle",
+    "requestExtension": "Demande de prolongation du MTT pour {{campaignName}}",
+    "extensionHint": "En cliquant sur le bouton DEMANDE DE PROLONGATION, vous ouvrirez votre client de messagerie avec un message prérempli. N'hésitez pas à ajouter du contexte, mais conservez le nom de la campagne et la date demandée afin que nous puissions traiter votre demande.",
+    "newEnd": "Nouvelle date de fin",
+    "extend": "Demande de prolongation",
+    "mttEnds": "MTT se termine à : {{date}}",
+    "campaignsPageTitle": "Campagnes que vous gérez ou dont vous êtes partenaire"
 }
