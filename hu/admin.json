@@ -198,5 +198,15 @@
     "total": "Összesen",
     "website": "Honlap",
     "websiteHelper": "Adja meg a szervezet honlapját a kezdéshez",
-    "week": "Hét"
+    "week": "Hét",
+    "addPetition": "Petíció hozzáadása",
+    "campaignFromTemplate": "Kampány hozzáadása sablonból",
+    "startCampaign": "Indítsa el kampányát",
+    "startFromTemplate": "Indítsa el kampányát a sablonból",
+    "requestExtension": "MTT hosszabbítás iránti kérelem {{campaignName}}",
+    "extensionHint": "A KÉRÉS KIEGÉSZÍTÉSRE kattintva megnyílik az e-mail kliensed egy előre kitöltött üzenettel. Nyugodtan adjon hozzá bármilyen szövegkörnyezetet, de kérjük, tartsa meg a kampány nevét és a kért dátumot, hogy feldolgozhassuk a kérését.",
+    "newEnd": "Új végdátum",
+    "extend": "Kiterjesztés kérése",
+    "mttEnds": "MTT véget ér: {{date}}",
+    "campaignsPageTitle": "Kampányok, amelyeket Ön irányít vagy amelyekben partnere van"
 }
