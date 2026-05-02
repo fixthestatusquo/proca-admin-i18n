@@ -208,5 +208,15 @@
     "downloadCSWHelp": "Preuzmite podatke partnera kao CSV. Podaci o kontaktima dostupni su samo za partnere koji su se pridružili putem URL-a.",
     "enterOrgUrl": "Unesite URL svoje organizacije",
     "extraSupporters": "Dodatni navijači",
-    "hasSupporters": "Ima pristalice"
+    "hasSupporters": "Ima pristalice",
+    "addPetition": "Dodaj peticiju",
+    "campaignFromTemplate": "Dodaj kampanju iz predloška",
+    "startCampaign": "Pokrenite svoju kampanju",
+    "startFromTemplate": "Pokrenite svoju kampanju iz predloška",
+    "requestExtension": "Zatražite MTT ekstenziju za {{campaignName}}",
+    "extensionHint": "Klikom na ZAHJEV ZA PRODUŽENJE otvorit će se vaš klijent e-pošte s unaprijed popunjenom porukom. Slobodno dodajte bilo kakav kontekst, ali molimo vas da zadržite naziv kampanje i traženi datum kako bismo mogli obraditi vaš zahtjev.",
+    "newEnd": "Novi datum završetka",
+    "extend": "Zatraži produženje",
+    "mttEnds": "MTT završava u: {{date}}",
+    "campaignsPageTitle": "Kampanje kojima upravljate ili ste njihov partner"
 }
