@@ -196,5 +196,15 @@
     "total": "Total",
     "website": "Lloc web",
     "websiteHelper": "Introdueix el lloc web de la teva organització per començar.",
-    "week": "Setmana"
+    "week": "Setmana",
+    "addPetition": "Afegir petició",
+    "campaignFromTemplate": "Afegeix campanya a partir de plantilla",
+    "startCampaign": "Comença la teva campanya",
+    "startFromTemplate": "Comença la teva campanya a partir d'una plantilla",
+    "requestExtension": "Sol·licitar l'extensió MTT per a {{campaignName}}",
+    "extensionHint": "En fer clic a REQUERIR PRÒRROGA s'obrirà el vostre client de correu electrònic amb un missatge preomplert. No dubteu a afegir qualsevol context, però si us plau conserveu el nom de la campanya i la data sol·licitada perquè puguem processar la vostra sol·licitud.",
+    "newEnd": "Nova data de finalització",
+    "extend": "Sol·licitar una pròrroga",
+    "mttEnds": "MTT finalitza a: {{date}}",
+    "campaignsPageTitle": "Campanyes que gestiones o en què ets soci"
 }
