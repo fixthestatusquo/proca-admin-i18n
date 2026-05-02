@@ -198,5 +198,15 @@
     "total": "Total",
     "website": "Site",
     "websiteHelper": "Digite o site de sua organização para começar",
-    "week": "Semana"
+    "week": "Semana",
+    "addPetition": "Adicionar petição",
+    "campaignFromTemplate": "Adicionar campanha a partir do modelo",
+    "startCampaign": "Inicie sua campanha",
+    "startFromTemplate": "Inicie sua campanha a partir do modelo",
+    "requestExtension": "Solicitação de extensão do MTT para {{campaignName}}",
+    "extensionHint": "Clicar em SOLICITAR EXTENSÃO abrirá seu cliente de e-mail com uma mensagem pré-preenchida. Sinta-se à vontade para adicionar qualquer contexto, mas mantenha o nome da campanha e a data solicitada para que possamos processar sua solicitação.",
+    "newEnd": "Nova data final",
+    "extend": "Solicitação de extensão",
+    "mttEnds": "O MTT termina em: {{date}}",
+    "campaignsPageTitle": "Campanhas que você gerencia ou das quais é parceiro"
 }
