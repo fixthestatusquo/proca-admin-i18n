@@ -205,5 +205,15 @@
     "total": "Iomlán",
     "website": "Suíomh gréasáin",
     "websiteHelper": "Cuir isteach suíomh gréasáin d'eagraíochta chun tosú",
-    "week": "Seachtain"
+    "week": "Seachtain",
+    "addPetition": "Cuir achainí leis",
+    "campaignFromTemplate": "Cuir feachtas ó theimpléad",
+    "startCampaign": "Cuir tús le d'fheachtas",
+    "startFromTemplate": "Tosaigh d'fheachtas ó theimpléad",
+    "requestExtension": "Iarr síneadh MTT do {{campaignName}}",
+    "extensionHint": "Nuair a chliceálann tú ar IARRACHT SYNCHRONAITHE, osclófar do chliant ríomhphoist le teachtaireacht réamh-líonta. Ná bíodh drogall ort aon chomhthéacs breise a chur leis, ach coinnigh, le do thoil, ainm an fheachtais agus an dáta iarrtha ionas gur féidir linn d'iarratas a phróiseáil.",
+    "newEnd": "Dáta deiridh nua",
+    "extend": "Iarr síneadh",
+    "mttEnds": "Críochnaíonn MTT ag: {{date}}",
+    "campaignsPageTitle": "Feachtais a bhainistíonn tú nó a bhfuil tú i do chomhpháirtí iontu"
 }
