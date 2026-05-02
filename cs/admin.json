@@ -205,5 +205,15 @@
     "total": "Celkem",
     "website": "Webové stránky",
     "websiteHelper": "Zadejte webové stránky své organizace a začněte",
-    "week": "Týden"
+    "week": "Týden",
+    "addPetition": "Přidat petici",
+    "campaignFromTemplate": "Přidání kampaně ze šablony",
+    "startCampaign": "Zahájení kampaně",
+    "startFromTemplate": "Spusťte kampaň ze šablony",
+    "requestExtension": "Žádost o prodloužení MTT pro {{campaignName}}",
+    "extensionHint": "Kliknutím na tlačítko REQUEST EXTENSION se otevře e-mailový klient s předvyplněnou zprávou. Nebojte se přidat jakýkoli kontext, ale zachovejte prosím název kampaně a požadované datum, abychom mohli vaši žádost zpracovat.",
+    "newEnd": "Nové datum ukončení",
+    "extend": "Žádost o prodloužení",
+    "mttEnds": "MTT končí na: {{date}}",
+    "campaignsPageTitle": "Kampaně, které spravujete nebo v nichž jste partnerem."
 }
