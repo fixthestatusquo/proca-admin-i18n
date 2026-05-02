@@ -198,5 +198,15 @@
     "total": "Tổng cộng",
     "website": "Trang web",
     "websiteHelper": "Hãy nhập địa chỉ trang web của tổ chức bạn để bắt đầu",
-    "week": "Tuần"
+    "week": "Tuần",
+    "addPetition": "Thêm kiến nghị",
+    "campaignFromTemplate": "Thêm chiến dịch từ mẫu",
+    "startCampaign": "Bắt đầu chiến dịch của bạn",
+    "startFromTemplate": "Bắt đầu chiến dịch của bạn từ mẫu",
+    "requestExtension": "Yêu cầu gia hạn MTT cho {{campaignName}}",
+    "extensionHint": "Khi nhấp vào “YÊU CẦU GIA HẠN”, ứng dụng email của bạn sẽ được mở ra với một nội dung thư đã được điền sẵn. Bạn có thể bổ sung thêm thông tin nếu cần, nhưng vui lòng giữ nguyên tên chiến dịch và ngày gia hạn để chúng tôi có thể xử lý yêu cầu của bạn.",
+    "newEnd": "Ngày kết thúc mới",
+    "extend": "Yêu cầu gia hạn",
+    "mttEnds": "MTT kết thúc vào lúc: {{date}}",
+    "campaignsPageTitle": "Các chiến dịch mà bạn quản lý hoặc là đối tác"
 }
