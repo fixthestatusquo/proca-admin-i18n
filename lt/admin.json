@@ -198,5 +198,15 @@
     "total": "Iš viso",
     "website": "Interneto svetainė",
     "websiteHelper": "Norėdami pradėti, įveskite savo organizacijos svetainę",
-    "week": "Savaitė"
+    "week": "Savaitė",
+    "addPetition": "Pridėti peticiją",
+    "campaignFromTemplate": "Pridėti kampaniją iš šablono",
+    "startCampaign": "Pradėkite kampaniją",
+    "startFromTemplate": "Pradėkite kampaniją nuo šablono",
+    "requestExtension": "Prašymas dėl MTT pratęsimo {{campaignName}}",
+    "extensionHint": "Paspaudus REQUEST EXTENSION, atsidarys el. pašto programa su iš anksto užpildytu pranešimu. Laisvai pridėkite bet kokį kontekstą, bet prašome nepamiršti kampanijos pavadinimo ir prašomos datos, kad galėtume apdoroti jūsų prašymą.",
+    "newEnd": "Nauja pabaigos data",
+    "extend": "Prašymas pratęsti terminą",
+    "mttEnds": "MTT baigiasi: {{date}}",
+    "campaignsPageTitle": "Kampanijos, kurias valdote arba kuriose esate partneris."
 }
