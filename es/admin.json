@@ -205,5 +205,15 @@
     "total": "Total",
     "website": "Página web",
     "websiteHelper": "Introduzca el sitio web de su organización para empezar",
-    "week": "Semana"
+    "week": "Semana",
+    "addPetition": "Añadir petición",
+    "campaignFromTemplate": "Añadir campaña desde plantilla",
+    "startCampaign": "Inicie su campaña",
+    "startFromTemplate": "Inicie su campaña a partir de una plantilla",
+    "requestExtension": "Solicitud de prórroga de la MTT para {{campaignName}}",
+    "extensionHint": "Al hacer clic en SOLICITAR AMPLIACIÓN se abrirá su cliente de correo electrónico con un mensaje precargado. Siéntase libre de añadir cualquier contexto, pero por favor mantenga el nombre de la campaña y la fecha solicitada para que podamos procesar su solicitud.",
+    "newEnd": "Nueva fecha final",
+    "extend": "Solicitar prórroga",
+    "mttEnds": "MTT termina en: {{date}}",
+    "campaignsPageTitle": "Campañas que gestiona o en las que participa"
 }
