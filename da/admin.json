@@ -198,5 +198,15 @@
     "total": "I alt",
     "website": "Hjemmeside",
     "websiteHelper": "Indtast din organisations hjemmeside for at komme i gang",
-    "week": "Uge"
+    "week": "Uge",
+    "addPetition": "Tilføj underskriftsindsamling",
+    "campaignFromTemplate": "Tilføj kampagne fra skabelon",
+    "startCampaign": "Start din kampagne",
+    "startFromTemplate": "Start din kampagne fra en skabelon",
+    "requestExtension": "Anmodning om forlængelse af MTT for {{campaignName}}",
+    "extensionHint": "Hvis du klikker på REQUEST EXTENSION, åbnes din e-mailklient med en forudfyldt besked. Du er velkommen til at tilføje en kontekst, men husk kampagnens navn og den ønskede dato, så vi kan behandle din anmodning.",
+    "newEnd": "Ny slutdato",
+    "extend": "Anmodning om forlængelse",
+    "mttEnds": "MTT slutter ved: {{date}}",
+    "campaignsPageTitle": "Kampagner, du administrerer eller er partner i"
 }
