@@ -198,5 +198,15 @@
     "description": "Popis na jednom riadku",
     "downloadCSV": "Stiahnuť CSV",
     "downloadCSWHelp": "Stiahnite si údaje o partneroch ako CSV. Kontaktné údaje sú k dispozícii len pre partnerov, ktorí sa pripojili prostredníctvom adresy URL.",
-    "enterOrgUrl": "Zadajte adresu URL svojej organizácie"
+    "enterOrgUrl": "Zadajte adresu URL svojej organizácie",
+    "addPetition": "Pridať petíciu",
+    "campaignFromTemplate": "Pridanie kampane zo šablóny",
+    "startCampaign": "Spustite svoju kampaň",
+    "startFromTemplate": "Spustite kampaň zo šablóny",
+    "requestExtension": "Žiadosť o predĺženie MTT pre {{campaignName}}",
+    "extensionHint": "Kliknutím na tlačidlo ŽIADOSŤ O ROZŠÍRENIE sa otvorí e-mailový klient s predvyplnenou správou. Nebojte sa pridať akýkoľvek kontext, ale zachovajte názov kampane a požadovaný dátum, aby sme mohli vašu žiadosť spracovať.",
+    "newEnd": "Nový dátum ukončenia",
+    "extend": "Žiadosť o predĺženie",
+    "mttEnds": "MTT končí na: {{date}}",
+    "campaignsPageTitle": "Kampane, ktoré spravujete alebo v ktorých ste partnerom"
 }
