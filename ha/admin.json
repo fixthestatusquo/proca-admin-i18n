@@ -196,5 +196,15 @@
     "total": "Jimlar",
     "website": "Shafin yanar gizo",
     "websiteHelper": "Shigar da gidan yanar gizon ƙungiyarku don farawa",
-    "week": "Mako"
+    "week": "Mako",
+    "addPetition": "Ƙara petishan",
+    "campaignFromTemplate": "Ƙara kamfen daga samfuri",
+    "startCampaign": "Fara yakin neman zabenka",
+    "startFromTemplate": "Fara yakin neman zabenku daga samfurin.",
+    "requestExtension": "Nemi ƙarin lokaci na MTT don {{campaignName}}",
+    "extensionHint": "Danna \"BUƘACI TSAYAYIYAR LOKACI\" zai buɗe manhajar imel ɗinka da saƙo da aka riga aka cika. Ka ji daɗin ƙara duk wani bayani da kake so, amma don Allah ka bar sunan kamfen da ranar da kake buƙata domin mu iya sarrafa buƙatarka.",
+    "newEnd": "Sabon ranar ƙarewa",
+    "extend": "Nemi ƙarin lokaci",
+    "mttEnds": "MTT yana ƙarewa a: {{date}}",
+    "campaignsPageTitle": "Kamfen ɗin da kake sarrafawa ko kuma abokin tarayya a cikinsu"
 }
