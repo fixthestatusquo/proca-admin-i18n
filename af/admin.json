@@ -196,5 +196,15 @@
     "total": "Totaal",
     "website": "Webwerf",
     "websiteHelper": "Voer jou organisasie se webwerf in om te begin.",
-    "week": "Week"
+    "week": "Week",
+    "addPetition": "Voeg petisie by",
+    "campaignFromTemplate": "Voeg veldtog vanaf sjabloon by",
+    "startCampaign": "Begin jou veldtog",
+    "startFromTemplate": "Begin jou veldtog vanaf 'n sjabloon",
+    "requestExtension": "Versoek MTT-uitbreiding vir {{campaignName}}",
+    "extensionHint": "Deur op VRAA VERSLENGING te klik, sal jou e-poskliënt met 'n vooraf ingevulde boodskap oopmaak. Voeg gerus enige konteks by, maar hou asseblief die veldtognaam en die versoekte datum, sodat ons jou versoek kan verwerk.",
+    "newEnd": "Nuwe einddatum",
+    "extend": "Vra verlenging aan",
+    "mttEnds": "MTT eindig by: {{date}}",
+    "campaignsPageTitle": "Kampanje wat jy bestuur of waarin jy 'n vennoot is"
 }
