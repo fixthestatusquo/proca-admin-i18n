@@ -198,5 +198,15 @@
     "total": "合計",
     "website": "ウェブサイト",
     "websiteHelper": "あなたの組織のウェブサイトを入力してください。",
-    "week": "週間"
+    "week": "週間",
+    "addPetition": "嘆願書を追加する",
+    "campaignFromTemplate": "テンプレートからキャンペーンを追加する",
+    "startCampaign": "キャンペーン開始",
+    "startFromTemplate": "テンプレートからキャンペーンを開始する",
+    "requestExtension": "MTT延長申請{{campaignName}}",
+    "extensionHint": "REQUEST EXTENSIONをクリックすると、メールクライアントが開き、あらかじめ入力されたメッセージが表示されます。キャンペーン名とご希望日をご記入ください。",
+    "newEnd": "新しい終了日",
+    "extend": "延長申請",
+    "mttEnds": "MTTは終了する：{{date}}",
+    "campaignsPageTitle": "あなたが管理する、またはパートナーであるキャンペーン"
 }
