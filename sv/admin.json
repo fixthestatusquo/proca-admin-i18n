@@ -198,5 +198,15 @@
     "total": "Totalt",
     "website": "Webbplats",
     "websiteHelper": "Ange din organisations webbplats för att komma igång",
-    "week": "Veckan"
+    "week": "Veckan",
+    "addPetition": "Lägg till framställan",
+    "campaignFromTemplate": "Lägg till kampanj från mall",
+    "startCampaign": "Starta din kampanj",
+    "startFromTemplate": "Starta din kampanj från en mall",
+    "requestExtension": "Begär MTT-förlängning för {{campaignName}}",
+    "extensionHint": "Om du klickar på REQUEST EXTENSION öppnas din e-postklient med ett förifyllt meddelande. Lägg gärna till något sammanhang, men behåll kampanjnamnet och det begärda datumet så att vi kan behandla din begäran.",
+    "newEnd": "Nytt slutdatum",
+    "extend": "Begäran om förlängning",
+    "mttEnds": "MTT slutar vid: {{date}}",
+    "campaignsPageTitle": "Kampanjer som du leder eller är partner i"
 }
