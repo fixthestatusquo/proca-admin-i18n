@@ -203,5 +203,15 @@
     "total": "Gesamt",
     "website": "Website",
     "websiteHelper": "Gib die Website deiner Organisation ein, um loszulegen",
-    "week": "Woche"
+    "week": "Woche",
+    "addPetition": "Petition hinzufügen",
+    "campaignFromTemplate": "Kampagne aus Vorlage hinzufügen",
+    "startCampaign": "Starte deine Kampagne",
+    "startFromTemplate": "Starte deine Kampagne aus der Vorlage",
+    "requestExtension": "Antrag auf MTT-Verlängerung für {{campaignName}}",
+    "extensionHint": "Wenn du auf VERLÄNGERUNG ANFORDERN klickst, öffnet sich dein E-Mail-Programm mit einer vorausgefüllten Nachricht. Du kannst gerne einen beliebigen Kontext hinzufügen, aber bitte behalte den Namen der Kampagne und das gewünschte Datum bei, damit wir deine Anfrage bearbeiten können.",
+    "newEnd": "Neues Enddatum",
+    "extend": "Verlängerung beantragen",
+    "mttEnds": "MTT endet bei: {{date}}",
+    "campaignsPageTitle": "Kampagnen, die du verwaltest oder an denen du als Partner beteiligt bist"
 }
