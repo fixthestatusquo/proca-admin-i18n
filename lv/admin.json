@@ -198,5 +198,15 @@
     "total": "Kopā",
     "website": "Tīmekļa vietne",
     "websiteHelper": "Ievadiet savas organizācijas tīmekļa vietni, lai sāktu",
-    "week": "Nedēļa"
+    "week": "Nedēļa",
+    "addPetition": "Pievienot lūgumrakstu",
+    "campaignFromTemplate": "Kampaņas pievienošana no veidnes",
+    "startCampaign": "Uzsāciet savu kampaņu",
+    "startFromTemplate": "Uzsāciet kampaņu no veidnes",
+    "requestExtension": "MTT pagarinājuma pieprasījums {{campaignName}}",
+    "extensionHint": "Noklikšķinot uz REQUEST EXTENSION, tiks atvērts e-pasta klients ar iepriekš aizpildītu ziņojumu. Varat brīvi pievienot jebkuru kontekstu, bet, lūdzu, saglabājiet kampaņas nosaukumu un pieprasīto datumu, lai mēs varētu apstrādāt jūsu pieprasījumu.",
+    "newEnd": "Jauns beigu datums",
+    "extend": "Pieprasīt pagarinājumu",
+    "mttEnds": "MTT beidzas pie: {{date}}",
+    "campaignsPageTitle": "Kampaņas, kuras pārvaldāt vai kurās esat partneris."
 }
