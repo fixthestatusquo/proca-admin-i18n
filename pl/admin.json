@@ -198,5 +198,15 @@
     "total": "Łącznie",
     "website": "Strona internetowa",
     "websiteHelper": "Wprowadź stronę internetową swojej organizacji, aby rozpocząć",
-    "week": "Tydzień"
+    "week": "Tydzień",
+    "addPetition": "Dodaj petycję",
+    "campaignFromTemplate": "Dodaj kampanię z szablonu",
+    "startCampaign": "Rozpocznij kampanię",
+    "startFromTemplate": "Rozpocznij kampanię od szablonu",
+    "requestExtension": "Wniosek o przedłużenie MTT dla {{campaignName}}",
+    "extensionHint": "Kliknięcie przycisku WNIOSEK O PRZEDŁUŻENIE spowoduje otwarcie klienta poczty e-mail ze wstępnie wypełnioną wiadomością. Możesz dodać dowolny kontekst, ale zachowaj nazwę kampanii i żądaną datę, abyśmy mogli przetworzyć Twoją prośbę.",
+    "newEnd": "Nowa data zakończenia",
+    "extend": "Wniosek o przedłużenie",
+    "mttEnds": "MTT kończy się o godz: {{date}}",
+    "campaignsPageTitle": "Kampanie, którymi zarządzasz lub w których jesteś partnerem"
 }
