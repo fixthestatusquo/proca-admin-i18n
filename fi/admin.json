@@ -198,5 +198,15 @@
     "total": "Yhteensä",
     "website": "Verkkosivusto",
     "websiteHelper": "Kirjoita organisaatiosi verkkosivusto päästäksesi alkuun",
-    "week": "Viikko"
+    "week": "Viikko",
+    "addPetition": "Lisää vetoomus",
+    "campaignFromTemplate": "Lisää kampanja mallista",
+    "startCampaign": "Aloita kampanja",
+    "startFromTemplate": "Aloita kampanja mallin pohjalta",
+    "requestExtension": "MTT:n pidennyspyyntö {{campaignName}}",
+    "extensionHint": "Napsauttamalla REQUEST EXTENSION avautuu sähköpostiohjelmasi ja esitäytetty viesti. Voit vapaasti lisätä mitä tahansa asiayhteyttä, mutta säilytä kampanjan nimi ja pyydetty päivämäärä, jotta voimme käsitellä pyyntöäsi.",
+    "newEnd": "Uusi päättymispäivä",
+    "extend": "Laajentamispyyntö",
+    "mttEnds": "MTT päättyy klo: {{date}}",
+    "campaignsPageTitle": "Kampanjat, joita hallinnoit tai joissa olet yhteistyökumppani"
 }
