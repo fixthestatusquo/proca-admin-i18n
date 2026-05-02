@@ -196,5 +196,15 @@
     "total": "Gesamt",
     "website": "Websäit",
     "websiteHelper": "Gitt d'Websäit vun Ärer Organisatioun an, fir unzefänken.",
-    "week": "Woch"
+    "week": "Woch",
+    "addPetition": "Füügt eng Petition derbäi",
+    "campaignFromTemplate": "Kampagne aus Virlag derbäisetzen",
+    "startCampaign": "Fänkt Är Kampagne un",
+    "startFromTemplate": "Fänkt Är Kampagne vun enger Virlag un.",
+    "requestExtension": "Frot no enger MTT-Erweiderung fir {{campaignName}}",
+    "extensionHint": "Wann Dir op \"Ufro verlängeren\" klickt, geet Äre E-Mail-Client mat enger virausgefüllter Noriicht op. Dir kënnt gäre weider Kontext derbäisetzen, mä behalt w.e.g. de Campagnennumm an de gefroten Datum, sou datt mir Är Ufro kënne veraarbechten.",
+    "newEnd": "Nei Enndatum",
+    "extend": "Erweiderung ufroen",
+    "mttEnds": "MTT endet um: {{date}}",
+    "campaignsPageTitle": "Kampagnen, déi Dir verwalt oder an deenen Dir e Partner sidd"
 }
