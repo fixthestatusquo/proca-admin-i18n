@@ -200,5 +200,15 @@
     "total": "Kokku",
     "website": "Veebileht",
     "websiteHelper": "Sisestage oma organisatsiooni veebisait, et alustada",
-    "week": "Nädal"
+    "week": "Nädal",
+    "addPetition": "Lisage petitsioon",
+    "campaignFromTemplate": "Kampaania lisamine mallist",
+    "startCampaign": "Alusta oma kampaaniat",
+    "startFromTemplate": "Alusta oma kampaaniat mallist",
+    "requestExtension": "MTT pikendamise taotlus {{campaignName}}",
+    "extensionHint": "Klõpsates REQUEST EXTENSION avab teie e-posti klient eeltäidetud sõnumiga. Võite vabalt lisada mis tahes konteksti, kuid palun jätke kampaania nimi ja soovitud kuupäev, et me saaksime teie taotlust töödelda.",
+    "newEnd": "Uus lõppkuupäev",
+    "extend": "Pikendamise taotlus",
+    "mttEnds": "MTT lõpeb aadressil: {{date}}",
+    "campaignsPageTitle": "Kampaaniad, mida haldate või milles olete partneriks"
 }
