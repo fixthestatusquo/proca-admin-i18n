@@ -198,5 +198,15 @@
     "total": "Total",
     "website": "Site web",
     "websiteHelper": "Introduceți site-ul organizației dvs. pentru a începe",
-    "week": "Săptămâna"
+    "week": "Săptămâna",
+    "addPetition": "Adăugați o petiție",
+    "campaignFromTemplate": "Adăugați o campanie din șablon",
+    "startCampaign": "Începeți campania dvs.",
+    "startFromTemplate": "Începeți campania dvs. de la șablon",
+    "requestExtension": "Cerere de prelungire MTT pentru {{campaignName}}",
+    "extensionHint": "Făcând clic pe SOLICITARE DE EXTINDERE se va deschide clientul dvs. de e-mail cu un mesaj precompletat. Nu ezitați să adăugați orice context, dar vă rugăm să păstrați numele campaniei și data solicitată, astfel încât să vă putem procesa cererea.",
+    "newEnd": "Nouă dată finală",
+    "extend": "Cerere de prelungire",
+    "mttEnds": "MTT se termină la: {{date}}",
+    "campaignsPageTitle": "Campanii pe care le gestionați sau în care sunteți partener"
 }
