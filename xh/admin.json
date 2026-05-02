@@ -196,5 +196,15 @@
     "total": "Zizonke",
     "website": "Iwebhusayithi",
     "websiteHelper": "Faka iwebhusayithi yombutho wakho ukuze uqalise",
-    "week": "Iveki"
+    "week": "Iveki",
+    "addPetition": "Yongeza isicelo",
+    "campaignFromTemplate": "Yongeza iphulo kwisicwangciso esisisiseko",
+    "startCampaign": "Qalisa iphulo lakho",
+    "startFromTemplate": "Qalisa iphulo lakho kwitempleyithi.",
+    "requestExtension": "Cela i-MTT Extension ye {{campaignName}}",
+    "extensionHint": "Ukucofa u-REQUEST EXTENSION kuza kuvula inkqubo yakho ye-imeyile ngomyalezo osele uzaliswe kwangaphambili. Zive ukhululekile ukongeza nayiphi na inkcazelo, kodwa nceda ugcine igama lephulo kunye nomhla oceliweyo ukuze sikwazi ukuphatha isicelo sakho.",
+    "newEnd": "Umhla omtsha wokugqibela",
+    "extend": "Cela ukwandiswa",
+    "mttEnds": "I-MTT iphela ku: {{date}}",
+    "campaignsPageTitle": "Amaphulo olawulayo okanye oyintsebenziswano kuwo"
 }
