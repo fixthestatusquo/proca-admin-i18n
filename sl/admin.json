@@ -198,5 +198,15 @@
     "total": "Skupaj",
     "website": "Spletna stran",
     "websiteHelper": "Za začetek vnesite spletno stran svoje organizacije",
-    "week": "Teden"
+    "week": "Teden",
+    "addPetition": "Dodajte peticijo",
+    "campaignFromTemplate": "Dodajanje kampanje iz predloge",
+    "startCampaign": "Začnite kampanjo",
+    "startFromTemplate": "Začetek kampanje iz predloge",
+    "requestExtension": "Zahtevek za podaljšanje MTT za {{campaignName}}",
+    "extensionHint": "S klikom na gumb ZAHTEVAJ RAZŠIRITEV boste odprli e-poštni odjemalec z vnaprej izpolnjenim sporočilom. Prosto dodajte kakršno koli ozadje, vendar ohranite ime kampanje in zahtevani datum, da bomo lahko obdelali vašo zahtevo.",
+    "newEnd": "Nov končni datum",
+    "extend": "Zahtevek za podaljšanje",
+    "mttEnds": "MTT se konča pri: {{date}}",
+    "campaignsPageTitle": "kampanje, ki jih vodite ali v njih sodelujete."
 }
