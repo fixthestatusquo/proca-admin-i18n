@@ -198,5 +198,15 @@
     "total": "Totaal",
     "website": "Website",
     "websiteHelper": "Voer de website van uw organisatie in om te beginnen",
-    "week": "Week"
+    "week": "Week",
+    "addPetition": "Verzoekschrift toevoegen",
+    "campaignFromTemplate": "Campagne toevoegen vanuit sjabloon",
+    "startCampaign": "Start uw campagne",
+    "startFromTemplate": "Start uw campagne vanaf sjabloon",
+    "requestExtension": "Aanvraag verlenging MTT voor {{campaignName}}",
+    "extensionHint": "Als je op REQUEST EXTENSION klikt, wordt je e-mailprogramma geopend met een vooraf ingevuld bericht. Voel je vrij om context toe te voegen, maar houd de campagnenaam en gevraagde datum aan zodat we je verzoek kunnen verwerken.",
+    "newEnd": "Nieuwe einddatum",
+    "extend": "Verlenging aanvragen",
+    "mttEnds": "MTT eindigt op: {{date}}",
+    "campaignsPageTitle": "Campagnes die je beheert of waarin je partner bent"
 }
