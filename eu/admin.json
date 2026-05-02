@@ -196,5 +196,15 @@
     "week": "Aste",
     "total": "Guztira",
     "website": "Webgunea",
-    "websiteHelper": "Sartu zure erakundearen webgunea hasteko."
+    "websiteHelper": "Sartu zure erakundearen webgunea hasteko.",
+    "addPetition": "Petizioa gehitu",
+    "campaignFromTemplate": "Gehitu kanpaina txantiloi batetik",
+    "startCampaign": "Ekin zure kanpainari",
+    "startFromTemplate": "Egin zure kanpaina txantiloi batetik abiatuta.",
+    "requestExtension": "MTT luzapena eskatzeko {{campaignName}}",
+    "extensionHint": "\"ESKARI LUZAPENA\" sakatzeak zure posta elektronikoaren bezeroa irekiko du aurrez betetako mezu batekin. Testuinguru gehigarririk gehitu nahi baduzu, egin lasai; baina mesedez, gorde kanpainaren izena eta eskatutako data, zure eskaera prozesatu ahal izateko.",
+    "newEnd": "Amaiera-data berria",
+    "extend": "Luzapena eskatu",
+    "mttEnds": "MTT amaitzen da: {{date}}",
+    "campaignsPageTitle": "Zuk kudeatzen dituzun edo bazkide zaren kanpainak"
 }
