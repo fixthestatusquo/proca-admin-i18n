@@ -198,5 +198,15 @@
     "total": "Totalt",
     "website": "Nettsted",
     "websiteHelper": "Skriv inn organisasjonens nettsted for å komme i gang",
-    "week": "Uke"
+    "week": "Uke",
+    "addPetition": "Legg til begjæring",
+    "campaignFromTemplate": "Legg til kampanje fra mal",
+    "startCampaign": "Start kampanjen din",
+    "startFromTemplate": "Start kampanjen din fra malen",
+    "requestExtension": "Be om forlengelse av MTT for {{campaignName}}",
+    "extensionHint": "Når du klikker på FORESPØRSEL OM FORLENGELSE, åpnes e-postklienten din med en forhåndsutfylt melding. Du kan gjerne legge til en kontekst, men be om at du beholder kampanjenavnet og ønsket dato, slik at vi kan behandle forespørselen din.",
+    "newEnd": "Ny sluttdato",
+    "extend": "Be om forlengelse",
+    "mttEnds": "MTT avsluttes kl: {{date}}",
+    "campaignsPageTitle": "Kampanjer du administrerer eller er partner i"
 }
