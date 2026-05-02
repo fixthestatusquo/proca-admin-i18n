@@ -196,5 +196,15 @@
     "total": "Totali",
     "website": "Sit web",
     "websiteHelper": "Daħħal il-websajt tal-organizzazzjoni tiegħek biex tibda.",
-    "week": "Ġimgħa"
+    "week": "Ġimgħa",
+    "addPetition": "Żid petizzjoni",
+    "campaignFromTemplate": "Żid kampanja minn mudell",
+    "startCampaign": "Ibda l-kampanja tiegħek",
+    "startFromTemplate": "Ibda l-kampanja tiegħek minn mudell",
+    "requestExtension": "Itlob estensjoni tal-MTT għal {{campaignName}}",
+    "extensionHint": "Il-klikjar fuq REQUEST EXTENSION se jiftaħ il-klijent tal-email tiegħek b'messaġġ diġà mimli. Tħossok liberu li żżid kwalunkwe kuntest, imma jekk jogħġbok żomm l-isem tal-kampanja u d-data mitluba sabiex inkunu nistgħu nipproċessaw it-talba tiegħek.",
+    "newEnd": "Data ġdida tat-tmiem",
+    "extend": "Itlob estensjoni",
+    "mttEnds": "MTT jispiċċa f': {{date}}",
+    "campaignsPageTitle": "Kampanji li timmaniġġja jew li fiha tkun sieħeb"
 }
