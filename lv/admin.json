@@ -3,7 +3,12 @@
         "register": "Reģistrēties",
         "share": "Kopīgojiet sociālajos plašsaziņas līdzekļos",
         "twitter_click": "Tvīts mērķauditorijai",
-        "mail2target": "Pasts mērķim"
+        "mail2target": "Pasts mērķim",
+        "signature": "Paraksts",
+        "email": "E-pasts",
+        "donate": "Ziedot",
+        "petition": "Lūgumraksts",
+        "pledge": "Ieķīlāt"
     },
     "export": {
         "gdprLabel": "GDPR",
@@ -208,5 +213,11 @@
     "newEnd": "Jauns beigu datums",
     "extend": "Pieprasīt pagarinājumu",
     "mttEnds": "MTT beidzas pie: {{date}}",
-    "campaignsPageTitle": "Kampaņas, kuras pārvaldāt vai kurās esat partneris."
+    "campaignsPageTitle": "Kampaņas, kuras pārvaldāt vai kurās esat partneris.",
+    "activePartners": "Aktīvie partneri",
+    "activePartners.tooltip": "Partnerorganizāciju skaits ar vairāk nekā 20 atbalstītājiem",
+    "languages": "Valodas",
+    "supporters.tooltip": "Kopējais deduplicēto darbību skaits",
+    "actions": "Darbības",
+    "recentActions": "Darbības pagājušajā nedēļā"
 }
