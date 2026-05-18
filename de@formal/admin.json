@@ -107,7 +107,12 @@
         "share": "In sozialen Medien teilen",
         "mail2target": "Mail an Zielperson",
         "register": "Registrieren Sie sich",
-        "twitter_click": "Tweet zum Ziel"
+        "twitter_click": "Tweet zum Ziel",
+        "signature": "Unterschrift",
+        "email": "E-Mail",
+        "donate": "Spenden Sie",
+        "petition": "Petition",
+        "pledge": "Versprechen Sie"
     },
     "invite": {
         "subject": "Einladung zur Teilnahme an {{org}} auf dem Fix the Status Quo Dashboard",
@@ -213,5 +218,11 @@
     "newEnd": "Neues Enddatum",
     "extend": "Verlängerung beantragen",
     "mttEnds": "MTT endet bei: {{date}}",
-    "campaignsPageTitle": "Kampagnen, die Sie verwalten oder an denen Sie als Partner beteiligt sind"
+    "campaignsPageTitle": "Kampagnen, die Sie verwalten oder an denen Sie als Partner beteiligt sind",
+    "activePartners": "Aktive Partner",
+    "activePartners.tooltip": "Anzahl der Partnerorganisationen mit mehr als 20 Unterstützern",
+    "languages": "Sprachen",
+    "supporters.tooltip": "Gesamtzahl der deduplizierten Aktionen",
+    "actions": "Aktionen",
+    "recentActions": "Aktionen der letzten Woche"
 }
