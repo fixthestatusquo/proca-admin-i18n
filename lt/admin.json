@@ -3,7 +3,12 @@
         "mail2target": "Tikslinis paštas",
         "twitter_click": "Tweet į tikslą",
         "register": "Registruotis",
-        "share": "Dalytis socialinėje žiniasklaidoje"
+        "share": "Dalytis socialinėje žiniasklaidoje",
+        "signature": "Parašas",
+        "email": "El. paštas",
+        "donate": "Paaukoti",
+        "petition": "Peticija",
+        "pledge": "Pažadas"
     },
     "Required": "Reikalinga",
     "onboarding": {
@@ -208,5 +213,11 @@
     "newEnd": "Nauja pabaigos data",
     "extend": "Prašymas pratęsti terminą",
     "mttEnds": "MTT baigiasi: {{date}}",
-    "campaignsPageTitle": "Kampanijos, kurias valdote arba kuriose esate partneris."
+    "campaignsPageTitle": "Kampanijos, kurias valdote arba kuriose esate partneris.",
+    "activePartners": "Aktyvūs partneriai",
+    "activePartners.tooltip": "Organizacijų partnerių, turinčių daugiau nei 20 rėmėjų, skaičius",
+    "languages": "Kalbos",
+    "supporters.tooltip": "Bendras deduplikuotų veiksmų skaičius",
+    "actions": "Veiksmai",
+    "recentActions": "Praėjusios savaitės veiksmai"
 }
