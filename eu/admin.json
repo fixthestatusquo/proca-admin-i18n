@@ -113,7 +113,12 @@
         "mail2target": "Helburuari posta elektronikoa bidali",
         "register": "Erregistratu",
         "share": "Partekatu sare sozialetan",
-        "twitter_click": "Helbururako txiokatu"
+        "twitter_click": "Helbururako txiokatu",
+        "signature": "Sinadura",
+        "email": "Posta elektronikoa",
+        "donate": "Ekarpen egin",
+        "petition": "Eskaera",
+        "pledge": "Konpromisoa"
     },
     "close": "Itxi",
     "Customise": "Pertsonalizatu",
@@ -206,5 +211,11 @@
     "newEnd": "Amaiera-data berria",
     "extend": "Luzapena eskatu",
     "mttEnds": "MTT amaitzen da: {{date}}",
-    "campaignsPageTitle": "Zuk kudeatzen dituzun edo bazkide zaren kanpainak"
+    "campaignsPageTitle": "Zuk kudeatzen dituzun edo bazkide zaren kanpainak",
+    "activePartners": "Bazkide aktiboak",
+    "activePartners.tooltip": "20 babesletik gorako bazkide-erakunde kopurua",
+    "languages": "Hizkuntzak",
+    "supporters.tooltip": "Errepikatutako ekintzak kendu ondoren geratzen diren ekintzen kopuru totala",
+    "actions": "Ekintzak",
+    "recentActions": "Azken astean egindako ekintzak"
 }
