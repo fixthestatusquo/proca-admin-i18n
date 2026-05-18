@@ -141,7 +141,12 @@
         "mail2target": "Aika imel zuwa manufa",
         "register": "Yi rijista",
         "share": "Raba a kafafen sada zumunta",
-        "twitter_click": "Tweet zuwa manufa"
+        "twitter_click": "Tweet zuwa manufa",
+        "signature": "Alama",
+        "email": "Imel",
+        "donate": "Yi gudummawa",
+        "petition": "Kokarin neman",
+        "pledge": "Alƙawari"
     },
     "Stats": "Kididdiga",
     "supporters": "Masu goyon baya",
@@ -206,5 +211,11 @@
     "newEnd": "Sabon ranar ƙarewa",
     "extend": "Nemi ƙarin lokaci",
     "mttEnds": "MTT yana ƙarewa a: {{date}}",
-    "campaignsPageTitle": "Kamfen ɗin da kake sarrafawa ko kuma abokin tarayya a cikinsu"
+    "campaignsPageTitle": "Kamfen ɗin da kake sarrafawa ko kuma abokin tarayya a cikinsu",
+    "activePartners": "Abokan hulɗa masu aiki",
+    "activePartners.tooltip": "Adadin kungiyoyin abokan hulɗa da ke da masu goyon baya sama da 20",
+    "languages": "Harsuna",
+    "supporters.tooltip": "Jimillar adadin ayyukan da aka cire maimaituwa",
+    "actions": "Ayyuka",
+    "recentActions": "Ayyuka a makon da ya gabata"
 }
