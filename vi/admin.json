@@ -128,7 +128,12 @@
         "mail2target": "Gửi email đến đối tượng mục tiêu",
         "register": "Đăng ký",
         "share": "Chia sẻ trên mạng xã hội",
-        "twitter_click": "Tweet để nhắm mục tiêu"
+        "twitter_click": "Tweet để nhắm mục tiêu",
+        "signature": "Chữ ký",
+        "email": "Email",
+        "donate": "Đóng góp",
+        "petition": "Đơn kiến nghị",
+        "pledge": "Lời cam kết"
     },
     "externalPartner": "Chỉ dành cho các đối tác bên ngoài",
     "Twitter Account": "Tài khoản Twitter",
@@ -208,5 +213,11 @@
     "newEnd": "Ngày kết thúc mới",
     "extend": "Yêu cầu gia hạn",
     "mttEnds": "MTT kết thúc vào lúc: {{date}}",
-    "campaignsPageTitle": "Các chiến dịch mà bạn quản lý hoặc là đối tác"
+    "campaignsPageTitle": "Các chiến dịch mà bạn quản lý hoặc là đối tác",
+    "activePartners": "Đối tác tích cực",
+    "activePartners.tooltip": "Số lượng tổ chức đối tác có hơn 20 người ủng hộ",
+    "languages": "Ngôn ngữ",
+    "supporters.tooltip": "Tổng số thao tác đã loại trừ trùng lặp",
+    "actions": "Các hành động",
+    "recentActions": "Các hoạt động trong tuần qua"
 }
