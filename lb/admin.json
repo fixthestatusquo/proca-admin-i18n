@@ -131,7 +131,12 @@
         "mail2target": "Mail un d'Zil",
         "register": "Registréieren",
         "share": "Deelen op sozialen Medien",
-        "twitter_click": "Tweet un d'Zil"
+        "twitter_click": "Tweet un d'Zil",
+        "signature": "Ënnerschrëft",
+        "email": "E-Mail",
+        "donate": "Spenden",
+        "petition": "Petitioun",
+        "pledge": "Verspriechen"
     },
     "Fields": "Felder",
     "Required": "Erfuerderlech",
@@ -206,5 +211,11 @@
     "newEnd": "Nei Enndatum",
     "extend": "Erweiderung ufroen",
     "mttEnds": "MTT endet um: {{date}}",
-    "campaignsPageTitle": "Kampagnen, déi Dir verwalt oder an deenen Dir e Partner sidd"
+    "campaignsPageTitle": "Kampagnen, déi Dir verwalt oder an deenen Dir e Partner sidd",
+    "activePartners": "Aktiv Partner",
+    "activePartners.tooltip": "Zuel vun der Partnerorganisatioun mat méi wéi 20 Ënnerstëtzer",
+    "languages": "Spraachen",
+    "supporters.tooltip": "Gesamtzuel vun deduplizéierten Aktiounen",
+    "actions": "Aktiounen",
+    "recentActions": "Aktiounen an der leschter Woch"
 }
