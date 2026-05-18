@@ -3,7 +3,12 @@
         "register": "Registreer",
         "twitter_click": "Tweet naar doel",
         "mail2target": "Mail naar doel",
-        "share": "Delen op sociale media"
+        "share": "Delen op sociale media",
+        "signature": "Handtekening",
+        "email": "E-mail",
+        "donate": "Doneer",
+        "petition": "Verzoekschrift",
+        "pledge": "Belofte"
     },
     "externalPartner": "Alleen externe partners",
     "unusedOnly": "alleen ongebruikte widgets",
@@ -208,5 +213,11 @@
     "newEnd": "Nieuwe einddatum",
     "extend": "Verlenging aanvragen",
     "mttEnds": "MTT eindigt op: {{date}}",
-    "campaignsPageTitle": "Campagnes die je beheert of waarin je partner bent"
+    "campaignsPageTitle": "Campagnes die je beheert of waarin je partner bent",
+    "activePartners": "Actieve partners",
+    "activePartners.tooltip": "Aantal partnerorganisaties met meer dan 20 supporters",
+    "languages": "Talen",
+    "supporters.tooltip": "Totaal aantal ontdubbelde acties",
+    "actions": "Acties",
+    "recentActions": "Acties in de afgelopen week"
 }
