@@ -9,7 +9,12 @@
         "share": "Compartir en las redes sociales",
         "twitter_click": "Tuit a destinatario",
         "mail2target": "Correo al destinatario",
-        "register": "Registrar"
+        "register": "Registrar",
+        "signature": "Firma",
+        "email": "Correo electrónico",
+        "donate": "Donar",
+        "petition": "Petición",
+        "pledge": "Compromiso"
     },
     "Required": "Obligatorio",
     "Switch to fill the details manually": "Cambiar para rellenar los datos manualmente",
@@ -215,5 +220,11 @@
     "newEnd": "Nueva fecha final",
     "extend": "Solicitar prórroga",
     "mttEnds": "MTT termina en: {{date}}",
-    "campaignsPageTitle": "Campañas que gestiona o en las que participa"
+    "campaignsPageTitle": "Campañas que gestiona o en las que participa",
+    "activePartners": "Socios activos",
+    "activePartners.tooltip": "Número de organizaciones asociadas con más de 20 colaboradores",
+    "languages": "Idiomas",
+    "supporters.tooltip": "Número total de acciones deduplicadas",
+    "actions": "Acciones",
+    "recentActions": "Acciones de la semana pasada"
 }
