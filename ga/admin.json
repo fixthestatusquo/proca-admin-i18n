@@ -47,7 +47,12 @@
         "mail2target": "Ríomhphost chuig an sprioc",
         "share": "Comhroinn ar na meáin shóisialta",
         "register": "Clár",
-        "twitter_click": "Tweet chun an sprioc"
+        "twitter_click": "Tweet chun an sprioc",
+        "signature": "Síniú",
+        "email": "Ríomhphost",
+        "donate": "Déan síntiús",
+        "petition": "Achainí",
+        "pledge": "Gealltanas"
     },
     "Fields": "Réimsí",
     "View your widget for {{org}}": "Féach ar do ghiuirléid le haghaidh {{org}}",
@@ -215,5 +220,11 @@
     "newEnd": "Dáta deiridh nua",
     "extend": "Iarr síneadh",
     "mttEnds": "Críochnaíonn MTT ag: {{date}}",
-    "campaignsPageTitle": "Feachtais a bhainistíonn tú nó a bhfuil tú i do chomhpháirtí iontu"
+    "campaignsPageTitle": "Feachtais a bhainistíonn tú nó a bhfuil tú i do chomhpháirtí iontu",
+    "activePartners": "Comhpháirtithe gníomhacha",
+    "activePartners.tooltip": "Líon na gcomhpháirtíochtaí le níos mó ná 20 tacadóir",
+    "languages": "Teangacha",
+    "supporters.tooltip": "Líon iomlán na ngníomhartha dí-dúbailte",
+    "actions": "Gníomhartha",
+    "recentActions": "Gníomhaíochtaí sa tseachtain seo caite"
 }
