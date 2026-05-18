@@ -55,7 +55,12 @@
         "mail2target": "Posti kohteeseen",
         "share": "Jaa sosiaalisessa mediassa",
         "register": "Rekisteröi",
-        "twitter_click": "Tweet kohteeseen"
+        "twitter_click": "Tweet kohteeseen",
+        "signature": "Allekirjoitus",
+        "email": "Sähköposti",
+        "donate": "Lahjoita",
+        "petition": "Vetoomus",
+        "pledge": "Lupaus"
     },
     "export": {
         "gdprLabel": "GDPR",
@@ -208,5 +213,11 @@
     "newEnd": "Uusi päättymispäivä",
     "extend": "Laajentamispyyntö",
     "mttEnds": "MTT päättyy klo: {{date}}",
-    "campaignsPageTitle": "Kampanjat, joita hallinnoit tai joissa olet yhteistyökumppani"
+    "campaignsPageTitle": "Kampanjat, joita hallinnoit tai joissa olet yhteistyökumppani",
+    "activePartners": "Aktiiviset kumppanit",
+    "activePartners.tooltip": "Kumppanuusorganisaatioiden lukumäärä, joilla on yli 20 tukijaa",
+    "languages": "Kielet",
+    "supporters.tooltip": "Deduplikoitujen toimien kokonaismäärä",
+    "actions": "Toimet",
+    "recentActions": "Kuluneen viikon aikana toteutetut toimet"
 }
