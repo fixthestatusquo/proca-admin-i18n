@@ -3,7 +3,12 @@
         "register": "Registrácia",
         "mail2target": "Mail na cieľ",
         "share": "Zdieľanie na sociálnych sieťach",
-        "twitter_click": "Tweet na cieľ"
+        "twitter_click": "Tweet na cieľ",
+        "signature": "Podpis",
+        "email": "E-mail",
+        "donate": "Darujte",
+        "petition": "Petícia",
+        "pledge": "Zástava"
     },
     "onboarding": {
         "user": {
@@ -208,5 +213,11 @@
     "newEnd": "Nový dátum ukončenia",
     "extend": "Žiadosť o predĺženie",
     "mttEnds": "MTT končí na: {{date}}",
-    "campaignsPageTitle": "Kampane, ktoré spravujete alebo v ktorých ste partnerom"
+    "campaignsPageTitle": "Kampane, ktoré spravujete alebo v ktorých ste partnerom",
+    "activePartners": "Aktívni partneri",
+    "activePartners.tooltip": "Počet partnerských organizácií s viac ako 20 podporovateľmi",
+    "languages": "Jazyky",
+    "supporters.tooltip": "Celkový počet deduplikovaných akcií",
+    "actions": "Činnosti",
+    "recentActions": "Činnosti v uplynulom týždni"
 }
