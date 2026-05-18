@@ -131,7 +131,12 @@
         "mail2target": "Mail til målgruppen",
         "register": "Registrer deg",
         "share": "Del på sosiale medier",
-        "twitter_click": "Tweet til målgruppen"
+        "twitter_click": "Tweet til målgruppen",
+        "signature": "Signatur",
+        "email": "E-post",
+        "donate": "Gi en gave",
+        "petition": "Begjæring",
+        "pledge": "Løfte"
     },
     "Customise": "Tilpass",
     "Fields": "Felt",
@@ -208,5 +213,11 @@
     "newEnd": "Ny sluttdato",
     "extend": "Be om forlengelse",
     "mttEnds": "MTT avsluttes kl: {{date}}",
-    "campaignsPageTitle": "Kampanjer du administrerer eller er partner i"
+    "campaignsPageTitle": "Kampanjer du administrerer eller er partner i",
+    "activePartners": "Aktive partnere",
+    "activePartners.tooltip": "Antall partnerorganisasjoner med mer enn 20 støttespillere",
+    "languages": "Språk",
+    "supporters.tooltip": "Totalt antall deduplikerte handlinger",
+    "actions": "Handlinger",
+    "recentActions": "Handlinger i løpet av den siste uken"
 }
