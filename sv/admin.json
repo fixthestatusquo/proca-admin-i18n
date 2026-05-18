@@ -135,7 +135,12 @@
         "share": "Dela på sociala medier",
         "twitter_click": "Tweet till målgrupp",
         "mail2target": "Mail till målgruppen",
-        "register": "Registrera"
+        "register": "Registrera",
+        "signature": "Underskrift",
+        "email": "E-post",
+        "donate": "Donera",
+        "petition": "Framställning",
+        "pledge": "Löfte"
     },
     "Fields": "Fält",
     "mineOnly": "endast från min organisation",
@@ -208,5 +213,11 @@
     "newEnd": "Nytt slutdatum",
     "extend": "Begäran om förlängning",
     "mttEnds": "MTT slutar vid: {{date}}",
-    "campaignsPageTitle": "Kampanjer som du leder eller är partner i"
+    "campaignsPageTitle": "Kampanjer som du leder eller är partner i",
+    "activePartners": "Aktiva partners",
+    "activePartners.tooltip": "Antal partnerorganisationer med fler än 20 supportrar",
+    "languages": "Språk",
+    "supporters.tooltip": "Totalt antal deduplicerade åtgärder",
+    "actions": "Åtgärder",
+    "recentActions": "Åtgärder under den senaste veckan"
 }
