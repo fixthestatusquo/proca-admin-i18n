@@ -157,7 +157,12 @@
         "mail2target": "דואר אל היעד",
         "register": "הרשמה",
         "share": "שתף ברשתות החברתיות",
-        "twitter_click": "ציוץ למטרה"
+        "twitter_click": "ציוץ למטרה",
+        "signature": "חתימה",
+        "email": "דוא\"ל",
+        "donate": "לתרום",
+        "petition": "עצומה",
+        "pledge": "התחייבות"
     },
     "csv": "CSV",
     "externalPartner": "לשותפים חיצוניים בלבד",
@@ -208,5 +213,11 @@
     "newEnd": "תאריך סיום חדש",
     "extend": "בקשה להארכה",
     "mttEnds": "ה-MTT מסתיים ב: {{date}}",
-    "campaignsPageTitle": "קמפיינים שאתה מנהל או שותף בהם"
+    "campaignsPageTitle": "קמפיינים שאתה מנהל או שותף בהם",
+    "activePartners": "שותפים פעילים",
+    "activePartners.tooltip": "מספר הארגונים השותפים שיש להם יותר מ-20 תומכים",
+    "languages": "שפות",
+    "supporters.tooltip": "המספר הכולל של פעולות לאחר הסרת כפילויות",
+    "actions": "פעולות",
+    "recentActions": "פעולות בשבוע האחרון"
 }
