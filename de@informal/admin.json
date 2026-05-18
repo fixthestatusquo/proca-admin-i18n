@@ -145,7 +145,12 @@
         "mail2target": "Mail an Ziel",
         "register": "Register",
         "share": "Auf sozialen Medien teilen",
-        "twitter_click": "Tweet zum Ziel"
+        "twitter_click": "Tweet zum Ziel",
+        "signature": "Unterschrift",
+        "email": "E-Mail",
+        "donate": "Spende",
+        "petition": "Petition",
+        "pledge": "Pfand"
     },
     "delete": "löschen",
     "View your widget for {{org}}": "Betrachte dein Widget für {{org}}",
@@ -213,5 +218,11 @@
     "newEnd": "Neues Enddatum",
     "extend": "Verlängerung beantragen",
     "mttEnds": "MTT endet bei: {{date}}",
-    "campaignsPageTitle": "Kampagnen, die du verwaltest oder an denen du als Partner beteiligt bist"
+    "campaignsPageTitle": "Kampagnen, die du verwaltest oder an denen du als Partner beteiligt bist",
+    "activePartners": "Aktive Partner",
+    "activePartners.tooltip": "Anzahl der Partnerorganisationen mit mehr als 20 Unterstützern",
+    "languages": "Sprachen",
+    "supporters.tooltip": "Gesamtzahl der deduplizierten Aktionen",
+    "actions": "Aktionen",
+    "recentActions": "Aktionen in der vergangenen Woche"
 }
