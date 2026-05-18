@@ -135,7 +135,12 @@
         "share": "Udostępnianie w mediach społecznościowych",
         "mail2target": "Poczta do celu",
         "register": "Rejestr",
-        "twitter_click": "Tweet do celu"
+        "twitter_click": "Tweet do celu",
+        "signature": "Podpis",
+        "email": "E-mail",
+        "donate": "Darowizna",
+        "petition": "Petycja",
+        "pledge": "Zobowiązanie"
     },
     "close": "Zamknij",
     "createOrg": {
@@ -208,5 +213,11 @@
     "newEnd": "Nowa data zakończenia",
     "extend": "Wniosek o przedłużenie",
     "mttEnds": "MTT kończy się o godz: {{date}}",
-    "campaignsPageTitle": "Kampanie, którymi zarządzasz lub w których jesteś partnerem"
+    "campaignsPageTitle": "Kampanie, którymi zarządzasz lub w których jesteś partnerem",
+    "activePartners": "Aktywni partnerzy",
+    "activePartners.tooltip": "Liczba organizacji partnerskich z ponad 20 sympatykami",
+    "languages": "Języki",
+    "supporters.tooltip": "Całkowita liczba zdeduplikowanych działań",
+    "actions": "Działania",
+    "recentActions": "Działania w minionym tygodniu"
 }
