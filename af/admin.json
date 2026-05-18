@@ -120,7 +120,12 @@
         "register": "Registreer",
         "share": "Deel op sosiale media",
         "mail2target": "Pos na teiken",
-        "twitter_click": "Tweet aan teiken"
+        "twitter_click": "Tweet aan teiken",
+        "signature": "Handtekening",
+        "email": "E-pos",
+        "donate": "Skenk",
+        "petition": "Aansoekskrif",
+        "pledge": "Belofte"
     },
     "edit": "Wysig",
     "Fields": "Velde",
@@ -206,5 +211,11 @@
     "newEnd": "Nuwe einddatum",
     "extend": "Vra verlenging aan",
     "mttEnds": "MTT eindig by: {{date}}",
-    "campaignsPageTitle": "Kampanje wat jy bestuur of waarin jy 'n vennoot is"
+    "campaignsPageTitle": "Kampanje wat jy bestuur of waarin jy 'n vennoot is",
+    "activePartners": "Aktiewe vennote",
+    "activePartners.tooltip": "Aantal vennootorganisasies met meer as 20 ondersteuners",
+    "languages": "Tale",
+    "supporters.tooltip": "Totaal aantal gedesdupliseerde aksies",
+    "actions": "Handelinge",
+    "recentActions": "Optredes in die afgelope week"
 }
