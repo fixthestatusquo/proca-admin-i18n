@@ -133,7 +133,12 @@
         "mail2target": "Trimitere la țintă",
         "twitter_click": "Tweet la țintă",
         "register": "Înregistrare",
-        "share": "Partajați pe rețelele sociale"
+        "share": "Partajați pe rețelele sociale",
+        "signature": "Semnătura",
+        "email": "E-mail",
+        "donate": "Donează",
+        "petition": "Petiție",
+        "pledge": "Promisiune"
     },
     "createOrg": {
         "manual": "Treceți la completarea manuală a detaliilor",
@@ -208,5 +213,11 @@
     "newEnd": "Nouă dată finală",
     "extend": "Cerere de prelungire",
     "mttEnds": "MTT se termină la: {{date}}",
-    "campaignsPageTitle": "Campanii pe care le gestionați sau în care sunteți partener"
+    "campaignsPageTitle": "Campanii pe care le gestionați sau în care sunteți partener",
+    "activePartners": "Parteneri activi",
+    "activePartners.tooltip": "Număr de organizații partenere cu peste 20 de susținători",
+    "languages": "Limbi străine",
+    "supporters.tooltip": "Numărul total de acțiuni deduplicate",
+    "actions": "Acțiuni",
+    "recentActions": "Acțiuni în ultima săptămână"
 }
