@@ -116,7 +116,12 @@
         "mail2target": "Email lill-mira",
         "twitter_click": "Tweet lill-mira",
         "register": "Irreġistra",
-        "share": "Iqassam fuq il-midja soċjali"
+        "share": "Iqassam fuq il-midja soċjali",
+        "signature": "Firma",
+        "email": "Email",
+        "donate": "Agħti donazzjoni",
+        "petition": "Petizzjoni",
+        "pledge": "wegħda"
     },
     "cancel": "Ikkanċella",
     "close": "Għalaq",
@@ -206,5 +211,11 @@
     "newEnd": "Data ġdida tat-tmiem",
     "extend": "Itlob estensjoni",
     "mttEnds": "MTT jispiċċa f': {{date}}",
-    "campaignsPageTitle": "Kampanji li timmaniġġja jew li fiha tkun sieħeb"
+    "campaignsPageTitle": "Kampanji li timmaniġġja jew li fiha tkun sieħeb",
+    "activePartners": "Sħab attivi",
+    "activePartners.tooltip": "In-numru ta' organizzazzjonijiet partner b'aktar minn 20 sostenitur",
+    "languages": "Lingwi",
+    "supporters.tooltip": "In-numru totali ta' azzjonijiet deduplikati",
+    "actions": "Azzjonijiet",
+    "recentActions": "Azzjonijiet fil-ġimgħa li għaddiet"
 }
