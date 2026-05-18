@@ -120,7 +120,12 @@
         "twitter_click": "An Ziel twittern",
         "register": "Registrieren",
         "share": "In sozialen Medien teilen",
-        "mail2target": "Mail an Zielperson"
+        "mail2target": "Mail an Zielperson",
+        "signature": "Unterschrift",
+        "email": "E-Mail",
+        "donate": "Spenden Sie",
+        "petition": "Petition",
+        "pledge": "Verpfändung"
     },
     "export": {
         "errorIncomplete": "Es ist ein Fehler aufgetreten, die CSV-Daten sind unvollständig.",
@@ -215,5 +220,11 @@
     "newEnd": "Neues Enddatum",
     "extend": "Antrag auf Verlängerung",
     "mttEnds": "MTT endet bei: {{date}}",
-    "campaignsPageTitle": "Kampagnen, die Sie verwalten oder an denen Sie als Partner beteiligt sind"
+    "campaignsPageTitle": "Kampagnen, die Sie verwalten oder an denen Sie als Partner beteiligt sind",
+    "activePartners": "Aktive Partner",
+    "activePartners.tooltip": "Anzahl der Partnerorganisationen mit mehr als 20 Unterstützern",
+    "languages": "Sprachen",
+    "supporters.tooltip": "Gesamtzahl der deduplizierten Aktionen",
+    "actions": "Aktionen",
+    "recentActions": "Aktionen in der vergangenen Woche"
 }
