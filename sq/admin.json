@@ -135,7 +135,12 @@
         "mail2target": "Email për marrësin",
         "register": "Regjistrohu",
         "share": "Ndajeni në rrjetet sociale",
-        "twitter_click": "Tweet për targetin"
+        "twitter_click": "Tweet për targetin",
+        "signature": "Nënshkrimi",
+        "email": "Email",
+        "donate": "Dhuro",
+        "petition": "Peticion",
+        "pledge": "Premtim"
     },
     "externalPartner": "Vetëm partnerë të jashtëm",
     "mineOnly": "vetëm nga organizata ime",
@@ -206,5 +211,11 @@
     "newEnd": "Data e re e përfundimit",
     "extend": "Kërko zgjatje",
     "mttEnds": "MTT përfundon në: {{date}}",
-    "campaignsPageTitle": "Fushatat që menaxhoni ose jeni partner në to"
+    "campaignsPageTitle": "Fushatat që menaxhoni ose jeni partner në to",
+    "activePartners": "Partnerë aktivë",
+    "activePartners.tooltip": "Numri i organizatave partnere me më shumë se 20 mbështetës",
+    "languages": "Gjuhët",
+    "supporters.tooltip": "Numri total i veprimeve të deduplikuar",
+    "actions": "Veprimet",
+    "recentActions": "Veprimet në javën e kaluar"
 }
