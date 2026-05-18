@@ -3,7 +3,12 @@
         "mail2target": "ターゲットへのメール",
         "register": "登録",
         "share": "ソーシャルメディアで共有する",
-        "twitter_click": "ターゲットへのツイート"
+        "twitter_click": "ターゲットへのツイート",
+        "signature": "署名",
+        "email": "電子メール",
+        "donate": "寄付する",
+        "petition": "請願",
+        "pledge": "誓約書"
     },
     "onboarding": {
         "done": "確認メッセージをEメールで受け取る。既に<1>ウィジェットのテストバージョンをウェブサイトに埋め込むことができます。",
@@ -208,5 +213,11 @@
     "newEnd": "新しい終了日",
     "extend": "延長申請",
     "mttEnds": "MTTは終了する：{{date}}",
-    "campaignsPageTitle": "あなたが管理する、またはパートナーであるキャンペーン"
+    "campaignsPageTitle": "あなたが管理する、またはパートナーであるキャンペーン",
+    "activePartners": "アクティブ・パートナー",
+    "activePartners.tooltip": "20人以上のサポーターを持つパートナー組織の数",
+    "languages": "言語",
+    "supporters.tooltip": "重複排除されたアクションの総数",
+    "actions": "行動",
+    "recentActions": "先週の行動"
 }
