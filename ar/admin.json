@@ -117,7 +117,12 @@
         "share": "شارك على وسائل التواصل الاجتماعي",
         "twitter_click": "التغريدة إلى الهدف",
         "mail2target": "البريد إلى الهدف",
-        "register": "التسجيل"
+        "register": "التسجيل",
+        "signature": "التوقيع",
+        "email": "البريد الإلكتروني",
+        "donate": "تبرع",
+        "petition": "الالتماس",
+        "pledge": "تعهّد"
     },
     "Used to fill the details of your organisation": "تستخدم لملء تفاصيل مؤسستك",
     "Used to pre-fill name, description and logo of your organisation": "يُستخدم لملء اسم مؤسستك ووصفها وشعارها مسبقًا",
@@ -208,5 +213,11 @@
     "newEnd": "تاريخ الانتهاء الجديد",
     "extend": "طلب التمديد",
     "mttEnds": "ينتهي MTT عند: {{date}}",
-    "campaignsPageTitle": "الحملات التي تديرها أو تكون شريكًا فيها"
+    "campaignsPageTitle": "الحملات التي تديرها أو تكون شريكًا فيها",
+    "activePartners": "الشركاء النشطون",
+    "activePartners.tooltip": "عدد المنظمات الشريكة التي لديها أكثر من 20 داعماً",
+    "languages": "اللغات",
+    "supporters.tooltip": "إجمالي عدد الإجراءات المضاعفة",
+    "actions": "الإجراءات",
+    "recentActions": "الإجراءات المتخذة في الأسبوع الماضي"
 }
