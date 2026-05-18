@@ -150,7 +150,12 @@
         "mail2target": "Correu electrònic a l'objectiu",
         "register": "Registrar-se",
         "share": "Comparteix a les xarxes socials",
-        "twitter_click": "Tuit a l'objectiu"
+        "twitter_click": "Tuit a l'objectiu",
+        "signature": "Signatura",
+        "email": "Correu electrònic",
+        "donate": "Dona",
+        "petition": "Petició",
+        "pledge": "Prometo"
     },
     "csv": "CSV",
     "Customise": "Personalitza",
@@ -206,5 +211,11 @@
     "newEnd": "Nova data de finalització",
     "extend": "Sol·licitar una pròrroga",
     "mttEnds": "MTT finalitza a: {{date}}",
-    "campaignsPageTitle": "Campanyes que gestiones o en què ets soci"
+    "campaignsPageTitle": "Campanyes que gestiones o en què ets soci",
+    "activePartners": "Socis actius",
+    "activePartners.tooltip": "Nombre d'organitzacions sòcies amb més de 20 simpatitzants",
+    "languages": "Idiomes",
+    "supporters.tooltip": "Nombre total d'accions deduplicades",
+    "actions": "Accions",
+    "recentActions": "Accions de la setmana passada"
 }
