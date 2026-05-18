@@ -126,7 +126,12 @@
         "register": "Bhalisa",
         "share": "Yabelana ezinkundleni zokuxhumana",
         "twitter_click": "Thumela i-tweet kumgama",
-        "mail2target": "Thumela i-imeyili kumgama"
+        "mail2target": "Thumela i-imeyili kumgama",
+        "signature": "Isiginesha",
+        "email": "Imeyili",
+        "donate": "Nikela",
+        "petition": "Isicelo",
+        "pledge": "Isibopho"
     },
     "Customise": "Yenza ngokwezifiso",
     "externalPartner": "Abalingani bangaphandle kuphela",
@@ -206,5 +211,11 @@
     "newEnd": "Usuku olusha lokuphela",
     "extend": "Cela ukunwetshwa",
     "mttEnds": "I-MTT iphela ku: {{date}}",
-    "campaignsPageTitle": "Imikhankaso oyiphethe noma oyilungu layo"
+    "campaignsPageTitle": "Imikhankaso oyiphethe noma oyilungu layo",
+    "activePartners": "Abalingani abasebenzayo",
+    "activePartners.tooltip": "Inani lenhlangano yobambiswano enabaxhasi abangaphezu kuka-20",
+    "languages": "Izilimi",
+    "supporters.tooltip": "Inani eliphelele lezenzo eziphindwe kabili ezisusiwe",
+    "actions": "Izenzo",
+    "recentActions": "Izenzo evikini eledlule"
 }
