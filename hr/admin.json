@@ -124,7 +124,12 @@
         "share": "Dijeli na društvenim mrežama",
         "register": "Registriraj se",
         "twitter_click": "Tweet za cilj",
-        "mail2target": "E-mail za cilj"
+        "mail2target": "E-mail za cilj",
+        "signature": "Potpis",
+        "email": "E-pošta",
+        "donate": "Doniraj",
+        "petition": "Peticija",
+        "pledge": "Obećanje"
     },
     "cancel": "Odustani",
     "close": "Zatvori",
@@ -218,5 +223,11 @@
     "newEnd": "Novi datum završetka",
     "extend": "Zatraži produženje",
     "mttEnds": "MTT završava u: {{date}}",
-    "campaignsPageTitle": "Kampanje kojima upravljate ili ste njihov partner"
+    "campaignsPageTitle": "Kampanje kojima upravljate ili ste njihov partner",
+    "activePartners": "Aktivni partneri",
+    "activePartners.tooltip": "Broj partnerskih organizacija s više od 20 pristaša",
+    "languages": "Jezici",
+    "supporters.tooltip": "Ukupni broj dedupliciranih radnji",
+    "actions": "Radnje",
+    "recentActions": "Radnje u proteklom tjednu"
 }
