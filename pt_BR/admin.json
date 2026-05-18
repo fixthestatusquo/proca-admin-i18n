@@ -129,7 +129,12 @@
         "mail2target": "Correio para o alvo",
         "register": "Registro",
         "share": "Compartilhe nas mídias sociais",
-        "twitter_click": "Tweet para o alvo"
+        "twitter_click": "Tweet para o alvo",
+        "signature": "Assinatura",
+        "email": "E-mail",
+        "donate": "Doação",
+        "petition": "Petição",
+        "pledge": "Compromisso"
     },
     "Customise": "Personalizar",
     "externalPartner": "Somente parceiros externos",
@@ -208,5 +213,11 @@
     "newEnd": "Nova data final",
     "extend": "Solicitação de extensão",
     "mttEnds": "O MTT termina em: {{date}}",
-    "campaignsPageTitle": "Campanhas que você gerencia ou das quais é parceiro"
+    "campaignsPageTitle": "Campanhas que você gerencia ou das quais é parceiro",
+    "activePartners": "Parceiros ativos",
+    "activePartners.tooltip": "Número de organizações parceiras com mais de 20 apoiadores",
+    "languages": "Idiomas",
+    "supporters.tooltip": "Número total de ações deduplicadas",
+    "actions": "Ações",
+    "recentActions": "Ações na última semana"
 }
