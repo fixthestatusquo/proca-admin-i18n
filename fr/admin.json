@@ -153,7 +153,12 @@
         "mail2target": "Courrier au destinataire",
         "register": "Registre",
         "share": "Partager sur les médias sociaux",
-        "twitter_click": "Tweet à cibler"
+        "twitter_click": "Tweet à cibler",
+        "signature": "Signature",
+        "email": "Courriel",
+        "donate": "Faire un don",
+        "petition": "Pétition",
+        "pledge": "Engagement"
     },
     "edit": "Editer",
     "Fields": "Champs",
@@ -214,5 +219,11 @@
     "newEnd": "Nouvelle date de fin",
     "extend": "Demande de prolongation",
     "mttEnds": "MTT se termine à : {{date}}",
-    "campaignsPageTitle": "Campagnes que vous gérez ou dont vous êtes partenaire"
+    "campaignsPageTitle": "Campagnes que vous gérez ou dont vous êtes partenaire",
+    "activePartners": "Partenaires actifs",
+    "activePartners.tooltip": "Nombre d'organisations partenaires ayant plus de 20 sympathisants",
+    "languages": "Langues",
+    "supporters.tooltip": "Nombre total d'actions dédupliquées",
+    "actions": "Actions",
+    "recentActions": "Actions menées au cours de la semaine écoulée"
 }
