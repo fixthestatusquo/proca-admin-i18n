@@ -116,7 +116,12 @@
         "twitter_click": "Tweet to target",
         "mail2target": "Mail to target",
         "register": "Register",
-        "share": "Share on social media"
+        "share": "Share on social media",
+        "signature": "Signature",
+        "email": "Email",
+        "donate": "Donate",
+        "petition": "Petition",
+        "pledge": "Pledge"
     },
     "delete": "Delete",
     "mineOnly": "only from my organisation",
@@ -208,5 +213,11 @@
     "newEnd": "New end date",
     "extend": "Request extension",
     "mttEnds": "MTT ends at: {{date}}",
-    "campaignsPageTitle": "Campaigns you manage or are a partner in"
+    "campaignsPageTitle": "Campaigns you manage or are a partner in",
+    "activePartners": "Active partners",
+    "activePartners.tooltip": "Number of partner organization with more than 20 supporters",
+    "languages": "Languages",
+    "supporters.tooltip": "Total number of deduplicated actions",
+    "actions": "Actions",
+    "recentActions": "Actions in the past week"
 }
