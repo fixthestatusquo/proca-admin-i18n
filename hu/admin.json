@@ -3,7 +3,12 @@
         "twitter_click": "Tweet a célpontnak",
         "register": "Regisztráció",
         "share": "Megosztás a közösségi médiában",
-        "mail2target": "Célpontnak küldött levél"
+        "mail2target": "Célpontnak küldött levél",
+        "signature": "Aláírás",
+        "email": "E-mail",
+        "donate": "Adományozni",
+        "petition": "Petíció",
+        "pledge": "Pledge"
     },
     "onboarding": {
         "organisation": {
@@ -208,5 +213,11 @@
     "newEnd": "Új végdátum",
     "extend": "Kiterjesztés kérése",
     "mttEnds": "MTT véget ér: {{date}}",
-    "campaignsPageTitle": "Kampányok, amelyeket Ön irányít vagy amelyekben partnere van"
+    "campaignsPageTitle": "Kampányok, amelyeket Ön irányít vagy amelyekben partnere van",
+    "activePartners": "Aktív partnerek",
+    "activePartners.tooltip": "Több mint 20 támogatóval rendelkező partnerszervezetek száma",
+    "languages": "Nyelvek",
+    "supporters.tooltip": "A deduplikált műveletek teljes száma",
+    "actions": "Tevékenységek",
+    "recentActions": "Az elmúlt héten végrehajtott intézkedések"
 }
