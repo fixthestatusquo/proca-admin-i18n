@@ -159,7 +159,12 @@
         "mail2target": "Thumela i-imeyile kumxhasi",
         "register": "Bhalisa",
         "share": "Yabelana kumakhasi onxibelelwano",
-        "twitter_click": "Thumela i-tweet kumntu oyijolisileyo"
+        "twitter_click": "Thumela i-tweet kumntu oyijolisileyo",
+        "signature": "Isiginesha",
+        "email": "I-imeyile",
+        "donate": "Nikela",
+        "petition": "Isicelo esisemthethweni",
+        "pledge": "Isithembiso"
     },
     "csv": "I-CSV",
     "Fields": "Iinkalo",
@@ -206,5 +211,11 @@
     "newEnd": "Umhla omtsha wokugqibela",
     "extend": "Cela ukwandiswa",
     "mttEnds": "I-MTT iphela ku: {{date}}",
-    "campaignsPageTitle": "Amaphulo olawulayo okanye oyintsebenziswano kuwo"
+    "campaignsPageTitle": "Amaphulo olawulayo okanye oyintsebenziswano kuwo",
+    "activePartners": "Amahlakani asebenzayo",
+    "activePartners.tooltip": "Inani lemibutho ekwintsebenziswano enabaxhasi abangaphezu kwama-20",
+    "languages": "Iilwimi",
+    "supporters.tooltip": "Inani lilonke lezenzo eziphindaphindiweyo ezisusiweyo",
+    "actions": "Izenzo",
+    "recentActions": "Izenzo kwiveki ephelileyo"
 }
