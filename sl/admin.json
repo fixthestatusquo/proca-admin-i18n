@@ -3,7 +3,12 @@
         "mail2target": "Pošta za cilj",
         "register": "Register",
         "share": "Deljenje v družabnih medijih",
-        "twitter_click": "Tweet za ciljno skupino"
+        "twitter_click": "Tweet za ciljno skupino",
+        "signature": "Podpis",
+        "email": "E-pošta",
+        "donate": "Podarite",
+        "petition": "Peticija",
+        "pledge": "Obljuba"
     },
     "Required": "Zahtevano",
     "onboarding": {
@@ -208,5 +213,11 @@
     "newEnd": "Nov končni datum",
     "extend": "Zahtevek za podaljšanje",
     "mttEnds": "MTT se konča pri: {{date}}",
-    "campaignsPageTitle": "kampanje, ki jih vodite ali v njih sodelujete."
+    "campaignsPageTitle": "kampanje, ki jih vodite ali v njih sodelujete.",
+    "activePartners": "Aktivni partnerji",
+    "activePartners.tooltip": "Število partnerskih organizacij z več kot 20 podporniki",
+    "languages": "Jeziki",
+    "supporters.tooltip": "Skupno število dedupliciranih dejanj",
+    "actions": "Ukrepi",
+    "recentActions": "Ukrepi v zadnjem tednu"
 }
