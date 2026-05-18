@@ -125,7 +125,12 @@
         "mail2target": "Mail til målgruppen",
         "register": "Registrer dig",
         "share": "Del på sociale medier",
-        "twitter_click": "Tweet til målgruppen"
+        "twitter_click": "Tweet til målgruppen",
+        "signature": "Underskrift",
+        "email": "E-mail",
+        "donate": "Doner",
+        "petition": "Andragende",
+        "pledge": "Løfte"
     },
     "Switch to fill the details manually": "Skift til at udfylde detaljerne manuelt",
     "You can register an new organisation to join the coalition": "Du kan registrere en ny organisation til at deltage i koalitionen",
@@ -208,5 +213,11 @@
     "newEnd": "Ny slutdato",
     "extend": "Anmodning om forlængelse",
     "mttEnds": "MTT slutter ved: {{date}}",
-    "campaignsPageTitle": "Kampagner, du administrerer eller er partner i"
+    "campaignsPageTitle": "Kampagner, du administrerer eller er partner i",
+    "activePartners": "Aktive partnere",
+    "activePartners.tooltip": "Antal partnerorganisationer med mere end 20 støtter",
+    "languages": "Sprog",
+    "supporters.tooltip": "Samlet antal deduplikerede handlinger",
+    "actions": "Handlinger",
+    "recentActions": "Handlinger i den forgangne uge"
 }
