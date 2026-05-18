@@ -109,7 +109,12 @@
         "register": "Registrace",
         "mail2target": "E-mail pro cílovou skupinu",
         "share": "Sdílet na sociálních sítích",
-        "twitter_click": "Tweet na cílovou skupinu"
+        "twitter_click": "Tweet na cílovou skupinu",
+        "signature": "Podpis",
+        "email": "E-mail",
+        "donate": "Darovat",
+        "petition": "Petice",
+        "pledge": "Zástava"
     },
     "My organisation isn't on Twitter": "Moje organizace není na X",
     "You can register an new organisation to join the coalition": "Můžete zaregistrovat novou organizaci a připojit se ke koalici",
@@ -215,5 +220,11 @@
     "newEnd": "Nové datum ukončení",
     "extend": "Žádost o prodloužení",
     "mttEnds": "MTT končí na: {{date}}",
-    "campaignsPageTitle": "Kampaně, které spravujete nebo v nichž jste partnerem."
+    "campaignsPageTitle": "Kampaně, které spravujete nebo v nichž jste partnerem.",
+    "activePartners": "Aktivní partneři",
+    "activePartners.tooltip": "Počet partnerských organizací s více než 20 příznivci",
+    "languages": "Jazyky",
+    "supporters.tooltip": "Celkový počet deduplikovaných akcí",
+    "actions": "Akce",
+    "recentActions": "Akce v uplynulém týdnu"
 }
