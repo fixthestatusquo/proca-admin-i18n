@@ -3,7 +3,12 @@
         "register": "Registreeri",
         "mail2target": "Sihtotstarbeline postitus",
         "share": "Jaga sotsiaalmeedias",
-        "twitter_click": "Säuts sihtrühmale"
+        "twitter_click": "Säuts sihtrühmale",
+        "signature": "Allkiri",
+        "email": "E-post",
+        "donate": "Annetada",
+        "petition": "Petitsioon",
+        "pledge": "Pledge"
     },
     "send": "Saada",
     "cancel": "Katkesta",
@@ -210,5 +215,11 @@
     "newEnd": "Uus lõppkuupäev",
     "extend": "Pikendamise taotlus",
     "mttEnds": "MTT lõpeb aadressil: {{date}}",
-    "campaignsPageTitle": "Kampaaniad, mida haldate või milles olete partneriks"
+    "campaignsPageTitle": "Kampaaniad, mida haldate või milles olete partneriks",
+    "activePartners": "Aktiivsed partnerid",
+    "activePartners.tooltip": "Rohkem kui 20 toetajaga partnerorganisatsioonide arv",
+    "languages": "Keeled",
+    "supporters.tooltip": "Dedubleeritud toimingute koguarv",
+    "actions": "Meetmed",
+    "recentActions": "Viimase nädala tegevused"
 }
