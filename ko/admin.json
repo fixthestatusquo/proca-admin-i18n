@@ -141,7 +141,12 @@
         "mail2target": "대상에게 메일 보내기",
         "register": "등록하기",
         "share": "소셜 미디어에 공유",
-        "twitter_click": "타겟에게 트윗하기"
+        "twitter_click": "타겟에게 트윗하기",
+        "signature": "서명",
+        "email": "이메일",
+        "donate": "기부하기",
+        "petition": "청원",
+        "pledge": "서약"
     },
     "close": "닫기",
     "delete": "삭제",
@@ -208,5 +213,11 @@
     "newEnd": "새 종료 날짜",
     "extend": "연장 요청",
     "mttEnds": "MTT는 다음에서 종료됩니다: {{date}}",
-    "campaignsPageTitle": "귀하가 관리하거나 파트너인 캠페인"
+    "campaignsPageTitle": "귀하가 관리하거나 파트너인 캠페인",
+    "activePartners": "활성 파트너",
+    "activePartners.tooltip": "20명 이상의 서포터가 있는 파트너 조직 수",
+    "languages": "언어",
+    "supporters.tooltip": "중복 제거된 작업의 총 개수",
+    "actions": "작업",
+    "recentActions": "지난 주에 수행한 작업"
 }
