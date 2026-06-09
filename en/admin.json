@@ -9,7 +9,6 @@
     "petition": "Petition",
     "pledge": "Pledge"
   },
-
   "activePartners": "Active partners",
   "activePartners.tooltip": "Number of partner organization with more than 20 supporters",
   "languages": "Languages",
@@ -27,13 +26,13 @@
   "extend": "Request extension",
   "mttEnds": "MTT ends at: {{date}}",
   "campaignsPageTitle": "Campaigns you manage or are a partner in",
-
   "cancel": "Cancel",
   "close": "Close",
   "contact": "Contact",
   "contactSupport": "contact support",
   "copied": "Copied!",
   "copy": "Copy to clipboard",
+  "countries": "Countries",
   "country": "Country",
   "countryRequired": "Country is required",
   "create": "Create",
@@ -136,6 +135,7 @@
   "mainLanguageHelper": "You will be able to choose different languages for your widgets",
   "mineOnly": "only from my organisation",
   "month": "Month",
+  "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
   "onboarding": {
     "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
@@ -218,5 +218,17 @@
     "test": "Widget is in the test mode"
   },
   "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
-  "You can update your organisation's details": "You can update your organisation's details"
+  "You can update your organisation's details": "You can update your organisation's details",
+  "graph": {
+    "count": "Count",
+    "ratio": "Ratio",
+    "overTime": "Actions over time",
+    "whereFrom": "Where the actions came from?",
+    "actionsAndSupporters": "Actions and supporters are closely related but not identical, as some can take multiple actions, don't be surprised if you see slightly different numbers elsewhere"
+  },
+  "comments": {
+    "loading": "Loading comments",
+    "enableFirst": "Enable first!",
+    "unstarFirst": "Unstar first!"
+  }
 }
