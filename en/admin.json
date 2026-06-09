@@ -16,6 +16,7 @@
   "actions": "Actions",
   "recentActions": "Actions in the past week",
   "all": "All",
+  "email": "Email",
   "addPetition": "Add petition",
   "campaignFromTemplate": "Add campaign from template",
   "startCampaign": "Start your campaign",
@@ -200,6 +201,7 @@
   },
   "supporters": "Supporters",
   "supportersHelp": "Number of unique, deduplicated supporters",
+  "status": "Status",
   "topCampaignsTitle": "Most active campaigns",
   "total": "Total",
   "Twitter Account": "Twitter Account",
@@ -226,5 +228,28 @@
     "enableFirst": "Enable first!",
     "unstarFirst": "Unstar first!"
   },
-  "notYourWidget": "You are trying to view a widget that isn't yours (or from a campaign you don't coordinate)."
+  "notYourWidget": "You are trying to view a widget that isn't yours (or from a campaign you don't coordinate).",
+  "campaign": {
+    "noAvailableTemplates": "No available templates",
+    "availableTemplates": "Available templates",
+    "nameTaken": "Name {{title}} has already been taken",
+    "endAfterStart": "The end date must be after the start date.",
+    "unexpectedError": "An unexpected error occurred: {{error}}. Please try again.",
+    "addTitle": "Add a title for your campaign",
+    "saved": "Saved, rebuild the widget(s) if you want to see the change",
+    "campaignCreated": "Campaign created! Redirecting to its page...",
+    "saving": "Saving changes...",
+    "creating": "Creating campaign...",
+    "titleOfCampaign": "Title of the campaign",
+    "campaignDuration": "Campaign duration",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "forTechies": "For the techies (ignore)",
+    "technicalCodename": "Technical codename",
+    "personalDataSchema": "Personal data schema",
+    "basicNameEmail": "Basic name, email, postcode",
+    "signatoriesLoading": "Loading signatories",
+    "noSignatories": "No signatories"
+  },
+  "name": "Name"
 }
