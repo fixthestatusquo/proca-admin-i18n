@@ -10,9 +10,9 @@
     "pledge": "Pledge"
   },
   "activePartners": "Active partners",
-  "activePartners.tooltip": "Number of partner organization with more than 20 supporters",
+  "activePartnersTooltip": "Number of partner organization with more than 20 supporters",
   "languages": "Languages",
-  "supporters.tooltip": "Total number of deduplicated actions",
+  "supportersTooltip": "Total number of deduplicated actions",
   "actions": "Actions",
   "recentActions": "Actions in the past week",
   "all": "All",
@@ -114,7 +114,7 @@
         "label": "Translator"
       }
     },
-    "sent": "Invitation sent to {{email}}",
+    "sent": "Igesnvitation sent to {{email}}",
     "sentInstructions": "You can also share the link below directly:",
     "subject": "Invitation to join {{org}} on the Fix the Status Quo dashboard",
     "title": "Invite to join {{org}}",
@@ -135,6 +135,7 @@
   "mainLanguageHelper": "You will be able to choose different languages for your widgets",
   "mineOnly": "only from my organisation",
   "month": "Month",
+
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
   "onboarding": {
@@ -200,13 +201,10 @@
   },
   "supporters": "Supporters",
   "supportersHelp": "Number of unique, deduplicated supporters",
-  "Switch to fill the details manually": "Switch to fill the details manually",
   "topCampaignsTitle": "Most active campaigns",
   "total": "Total",
   "Twitter Account": "Twitter Account",
   "unusedOnly": "only unused widgets",
-  "Used to fill the details of your organisation": "Used to fill the details of your organisation",
-  "Used to pre-fill name, description and logo of your organisation": "Used to pre-fill name, description and logo of your organisation",
   "View your widget for {{org}}": "View your widget for {{org}}",
   "website": "Website",
   "websiteHelper": "Enter your organisation's website to get started",
@@ -217,8 +215,6 @@
     "stats_icon": "Stats for {{id}}",
     "test": "Widget is in the test mode"
   },
-  "You can register an new organisation to join the coalition": "You can register an new organisation to join the coalition",
-  "You can update your organisation's details": "You can update your organisation's details",
   "graph": {
     "count": "Count",
     "ratio": "Ratio",
