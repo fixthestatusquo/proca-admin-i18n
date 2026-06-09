@@ -230,5 +230,6 @@
     "loading": "Loading comments",
     "enableFirst": "Enable first!",
     "unstarFirst": "Unstar first!"
-  }
+  },
+  "notYourWidget": "You are trying to view a widget that isn't yours (or from a campaign you don't coordinate)."
 }
