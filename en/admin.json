@@ -374,6 +374,15 @@
   "week": "Week",
   "widgetLabel": "Widget",
   "widget": {
+    "shareTitle": "Share your page",
+    "shareSubheader": "Want to share your campaign with your friends and followers? Use the options below to quickly share on your favorite social media platforms or copy the HTML code to embed on your email or website.",
+    "noLocation": "Take one action on your campaign page and reload",
+    "copyCode": "Copy your code",
+    "launchTitle": "Congratulations for the launch!",
+    "summary": "So far, <b>{{primary}}</b> primary actions, <b>{{secondary}}</b> secondary actions (shares){{test}}",
+    "viewPage": "View your campaign page",
+    "promote": "Promote more",
+    "analyse": "Analyse the actions",
     "accentColor": "Main widget accent color",
     "addWidget": "Add widget",
     "donationUrl": "Donation URL",
@@ -389,10 +398,21 @@
     "notYours": "You are trying to <1>view a widget</1> that isn't yours (or from a campaign you don't coordinate).",
     "saving": "Optimising your widget with the changes, it might take a few seconds",
     "selectLanguage": "Select the language for your widget",
+    "shareLink": "Shareable URL",
     "stats_icon": "Stats for {{id}}",
     "test": "Widget is in the test mode",
     "title": "Widget settings",
-    "unusedOnly": "only unused widgets"
+    "unusedOnly": "only unused widgets",
+    "launchInProgressTitle": "Launch in progress",
+    "launchInProgressBody": "This page will guide you through your campaign's launch. If you have a question, send us an <1>email</1>.",
+    "unpromotedHint": "You can now promote your campaign. To help you measure better the impact of each of your actions, use the links with utm parameters below.",
+    "unusedHint": "Your first step is to create a page for the campaign on your website, <1>embed the widget</1> into it and <2>test it</2>.",
+    "actionsGraphTitle": "actions in the past week",
+    "embedCode": "Embed code",
+    "testPage": "Test your page",
+    "promotePage": "Promote your page",
+    "rebuildLabel": "Rebuild",
+    "buildingLabel": "Building"
   },
   "widgets": "Widgets"
 }
