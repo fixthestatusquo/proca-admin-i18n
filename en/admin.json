@@ -68,6 +68,8 @@
   "edit": "Edit",
   "email": "Email",
   "encryption": "Encryption",
+  "encryptionActive": "Encryption active",
+  "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
   "enterOrgUrl": "Enter your organisation's URL",
   "export": {
     "campaignDefault": "All campaigns",
@@ -161,7 +163,8 @@
   "joinedAt": "Since",
   "json": "JSON",
   "languages": "Languages",
-  "loading": {
+  "loading": "Loading...",
+  "loadingScreen": {
     "lightningFast": "Lightning fast",
     "privacyFriendly": "Privacy friendly",
     "seamlesslyEfficient": "Seamlessly efficient",
@@ -173,22 +176,33 @@
   "month": "Month",
   "mttEnds": "MTT ends at: {{date}}",
   "name": "Name",
-
-  "encryptionActive": "Encryption active",
-  "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
-
   "newEnd": "New end date",
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
   "notYourWidget": "You are trying to view a widget that isn't yours (or from a campaign you don't coordinate).",
   "onboarding": {
+    "campaignNotFound": "Campaign not found",
+    "campaignNotFoundDetail": "Campaign with codename {{name}} was not found. Check the invite link.",
+    "checkOrgName": "Please check the organisation name",
+    "chooseOne": "Choose at least one",
+    "chooseOrg": "Choose another organisation",
+    "contactAdmin": "Please contact an administrator if you believe this is a mistake.",
+    "continueWithoutOrg": "Continue without organisation",
+    "country": "Country",
+    "differentOrg": "Please choose a different organisation or contact an administrator if you believe this is a mistake.",
     "done": "You will receive a confirmation message by email. You can already embed a test version of the <1>widget on your website</1>",
-    "embargo": "Embargo",
-    "embargoHelper": "I acknowledge that the campaign materials are strictly embargoed until further notice. I agree to NOT SHARING these materials with anyone outside of my organisation.",
     "intro": "Campaigns are more powerful when many organisations work together for a common goal. Proca gives you a chance to become a campaign partner and grow your impact, while keeping full control over your message, branding, and supporter contacts.\n\n[When you join a campaign](https://fixthestatusquo.com/help/for-partners/), you get to set up your own easy-to-use Proca “widget”. The widget includes the form to collect supporter actions (petition signatures, messages sent to target, etc) and a smart share action, which allows signers to share the action and mobilise more support.\n\n All supporter actions from all partner widgets count together, feeding into a shared campaign counter. That creates visible collective momentum, and demonstrates the real power people have when we act together. At the same time, each partner keeps their own supporter contact information, and there is no need for complex data sharing.\n\nThe widget is multilingual and easy to customise with your colours and logo. Adding it to your website takes only a minute, and is as easy as embedding a YouTube video. No technical expertise required (and if you need any help, [Proca’s team will support you](mailto:support@fixthestatusquo.org))!\n\nProca takes supporter data security very seriously. Our dedicated servers in Germany are fully GDPR compliant, and your organisation remains the sole owner of the data collected through your widget. You can monitor your campaign’s performance and download the data anytime, using our user-friendly dashboard. We can also integrate directly with your mailer system.\n\nMore than 500 partners are already using Proca for their online campaigns, growing their supporter base, and creating a stronger, more collaborative movement. Together, we can create the kind of pressure that wins campaigns. Join us!",
+    "involvement": "How are you typically involved with integration?",
+    "jobTitle": "Job title",
+    "join": "Join the Campaign",
+    "joinDry": "Preview — Submit (dry run)",
     "login": "Register as a user or login with your social media credentials or your email. It is your personal account, you will be able to set up your organisation after your register.",
+    "mailings": "By submitting this form, I agree to be added to the {{campaign}} mailing list. I can unsubscribe at any time.",
     "mailling": "Mailing list",
     "maillingHelper": "By submitting this form, I agree to be added to the {{campaign}} mailing list. I can unsubscribe at any time.",
+    "name": "Name",
+    "noAccessOrg": "You don't have access to organisation {{orgParam}}.",
+    "orgWelcome": "Welcome {{title}}",
     "organisation": {
       "another": "Select another organisation",
       "collectsEmail": "You do not have a newsletter and don't want to collect email addresses? (You will be able to hide this feature yourself on your website) Tick this box:",
@@ -215,10 +229,15 @@
       "socialAccount": "Your social media",
       "socialAccountHelper": "On Twitter/Instagram/Linkedin"
     },
+    "userProfile": "User profile",
     "verify": "Your email  is not yet verified. Please check your email and click on the confirmation link to continue.",
+    "viewWidget": "View your widget for {{org}}",
     "warning": {
-      "is_coordinator": "You cannot join a campaign under **{{org}}**'s account, it is the coordinator of the **{{campaign}}**",
-      "is_member": "You are a member of the organisation **{{org}}** that runs this campaign!"
+      "canRegister": "You can register a new organisation to join the coalition",
+      "isCoordinator": "You cannot join a campaign under **{{org}}**'s account, it is the coordinator of the **{{campaign}}**",
+      "isMember": "You are a member of the organisation **{{org}}** that runs this campaign!",
+      "isPartner": "You are a partner of this campaign",
+      "registered": "You are registered for {{campaign}}"
     },
     "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}"
   },
@@ -288,8 +307,7 @@
     "selectLanguage": "Select the language for your widget",
     "stats_icon": "Stats for {{id}}",
     "test": "Widget is in the test mode",
-    "unusedOnly": "only unused widgets",
-    "viewWidget": "View your widget for {{org}}"
+    "unusedOnly": "only unused widgets"
   },
   "widgets": "Widgets"
 }
