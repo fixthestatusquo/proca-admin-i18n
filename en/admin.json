@@ -67,9 +67,8 @@
   "downloadCSWHelp": "Download partner data as CSV. Contact info only available for partners who joined via URL.",
   "edit": "Edit",
   "email": "Email",
-  "enterOrgUrl": "Enter your organisation's URL",
   "encryption": "Encryption",
-  "exportTab": "Export",
+  "enterOrgUrl": "Enter your organisation's URL",
   "export": {
     "campaignDefault": "All campaigns",
     "campaignLabel": "Campaign to export",
@@ -102,6 +101,7 @@
     "key_help": "If your data is encrypted, load the encryption key before export.",
     "title": "Export member data"
   },
+  "exportTab": "Export",
   "extend": "Request extension",
   "extensionHint": "Clicking REQUEST EXTENSION will open your email client with a pre-filled message. Feel free to add any context, but please keep the campaign name and requested date so we can process your request.",
   "externalPartner": "External partners only",
@@ -161,13 +161,22 @@
   "joinedAt": "Since",
   "json": "JSON",
   "languages": "Languages",
+  "loading": {
+    "lightningFast": "Lightning fast",
+    "privacyFriendly": "Privacy friendly",
+    "seamlesslyEfficient": "Seamlessly efficient",
+    "trustedText": "Trusted as the most privacy friendly campaigning tool by over 400 nonprofit organisations"
+  },
   "mainLanguage": "Main language",
   "mainLanguageHelper": "You will be able to choose different languages for your widgets",
   "memes": "Memes",
-  "mineOnly": "only from my organisation",
   "month": "Month",
   "mttEnds": "MTT ends at: {{date}}",
   "name": "Name",
+
+  "encryptionActive": "Encryption active",
+  "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
+
   "newEnd": "New end date",
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
@@ -267,16 +276,20 @@
     "updateSaved": "Update saved!",
     "yours": "Yours"
   },
-  "unusedOnly": "only unused widgets",
-  "viewWidget": "View your widget for {{org}}",
   "website": "Website",
   "websiteHelper": "Enter your organisation's website to get started",
   "week": "Week",
   "widget": {
+    "addWidget": "Add widget",
     "edit_icon": "Settings for {{id}}",
     "lang": "Language of the widget",
+    "mineOnly": "only from my organisation",
+    "newWidgetFor": "New widget for {{orgName}}",
+    "selectLanguage": "Select the language for your widget",
     "stats_icon": "Stats for {{id}}",
-    "test": "Widget is in the test mode"
+    "test": "Widget is in the test mode",
+    "unusedOnly": "only unused widgets",
+    "viewWidget": "View your widget for {{org}}"
   },
   "widgets": "Widgets"
 }
