@@ -67,6 +67,24 @@
   "downloadCSWHelp": "Download partner data as CSV. Contact info only available for partners who joined via URL.",
   "edit": "Edit",
   "email": "Email",
+  "encrypt": {
+    "active": "Active",
+    "createNewKey": "Create a new key",
+    "downloadKey": "Click below to download it as key file",
+    "encryptionSettings": "Encryption settings",
+    "finish": "Finish",
+    "generateKey": "Generate key",
+    "importKey": "Import key",
+    "important": "Important",
+    "keyGenerated": "Key was generated",
+    "keyNameLabel": "Key name or label",
+    "loaded": "Loaded",
+    "noKeys": "No encryption keys.",
+    "privateKey": "private key:",
+    "publicKey": "public key:",
+    "saveKeyWarning": "Write it down and store in a safe place!",
+    "warningText": "This is an advanced feature. Losing the key will permanently destroy all encrypted data. Proceed at your own risk."
+  },
   "encryption": "Encryption",
   "encryptionActive": "Encryption active",
   "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
@@ -90,12 +108,12 @@
     "gdpr": {
       "double_opt_in": "Double opt-in",
       "double_opt_in_help": "Supporters who confirmed their participation via email confirmation URL",
+      "optOutRequired": "*Please indicate that you are aware of consequences",
+      "optOutWarning": "I am aware that it is illegal to contact users that didn't explicitly give consent unless very limited exceptions.",
       "opt_in": "Opt in",
       "opt_in_help": "Supporters who chose opt-on on a widget ('Yes, I want to receive emails' radio button)",
       "opt_out": "Opt out",
-      "opt_out_help": "Supporters who doesn't want to receive newsletter ('No, I do not want to receive emails' radio button on the widget or opt-out URL in the email.",
-      "opt_out_required": "*Please indicate that you are aware of consequences",
-      "opt_out_warning": "I am aware that it is illegal to contact users that didn't explicitly give consent unless very limited exceptions."
+      "opt_out_help": "Supporters who doesn't want to receive newsletter ('No, I do not want to receive emails' radio button on the widget or opt-out URL in the email."
     },
     "gdprLabel": "GDPR",
     "json_help": "JSON format for advanced integrations.",
@@ -115,6 +133,7 @@
     "count": "Count",
     "overTime": "Actions over time",
     "ratio": "Ratio",
+    "supportersByCampaign": "Supporters by campaign",
     "whereFrom": "Where the actions came from?"
   },
   "hasSupporters": "Has supporters",
@@ -234,6 +253,7 @@
     "viewWidget": "View your widget for {{org}}",
     "warning": {
       "canRegister": "You can register a new organisation to join the coalition",
+      "dryRun": "You are in dry-run mode, no data will be submitted. This is useful for testing the onboarding flow without creating real organisations or joining the campaign.",
       "isCoordinator": "You cannot join a campaign under **{{org}}**'s account, it is the coordinator of the **{{campaign}}**",
       "isMember": "You are a member of the organisation **{{org}}** that runs this campaign!",
       "isPartner": "You are a partner of this campaign",
@@ -243,6 +263,7 @@
   },
   "orgDuplicateError": "Your organisation is already using Proca for another campaign. If you know the team member that has created it, ask them to invite you, otherwise",
   "orgName": "Name of your organisation",
+  "orgUrlError": "We couldn't find your organisation's details on your website, please enter the correct website URL",
   "organisation": "Organisation",
   "other": "Other",
   "partnerJoinLink": "Link for partners to join the campaign",
@@ -260,7 +281,7 @@
   "signatories": "Signatories",
   "startCampaign": "Start your campaign",
   "startFromTemplate": "Start your campaign from template",
-  "stats": "Stats",
+  "stats": "Statistics",
   "status": "Status",
   "step": {
     "create_org": "Create your organisation",
