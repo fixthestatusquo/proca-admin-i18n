@@ -91,7 +91,6 @@
   "encryptionActive": "Encryption active",
   "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
   "enterOrgUrl": "Enter your organisation's URL",
-
   "error": "Error",
   "export": {
     "campaignLabel": "Campaign to export",
@@ -137,6 +136,7 @@
   "goHome": "Return to homepage",
   "graph": {
     "actionsAndSupporters": "Actions and supporters are closely related but not identical, as some can take multiple actions, don't be surprised if you see slightly different numbers elsewhere",
+    "actionsOnWidget": "Actions taken on your widget",
     "count": "Count",
     "overTime": "Actions over time",
     "ratio": "Ratio",
@@ -144,6 +144,7 @@
     "whereFrom": "Where the actions came from?"
   },
   "hasSupporters": "Has supporters",
+  "id": "ID",
   "invalidUrl": "Please enter a valid URL",
   "invite": {
     "another": "Invite another team member",
@@ -207,7 +208,6 @@
   "newEnd": "New end date",
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
-  "notYourWidget": "You are trying to view a widget that isn't yours (or from a campaign you don't coordinate).",
   "onboarding": {
     "campaignNotFound": "Campaign not found",
     "campaignNotFoundDetail": "Campaign with codename {{name}} was not found. Check the invite link.",
@@ -291,6 +291,7 @@
   "partnerJoinLink": "Link for partners to join the campaign",
   "partners": "partners",
   "pictures": "Pictures",
+  "preview": "Preview",
   "primaryColor": "Primary color",
   "primaryColorHelper": "The main color used for buttons, accents, and key UI elements of your widgets to match your site",
   "primaryColorLabel": "Click to select the color or to paste a hex code",
@@ -350,27 +351,28 @@
     "editProfile": "Edit profile",
     "errorNotSaved": "Error, not saved!",
     "errorNotUpdated": "Error, not updated!",
+    "fill": "In order to serve you better and let the coordinators of the campaign communicate more efficiently, please fill out this form",
     "linkInvalid": "Link is invalid",
     "linkUsed": "Link was already used",
     "loginCode": "Login code",
     "loginCodeHelper": "Enter the code received by email",
     "logout": "Logout",
-    "processingInvite": "Processing invite...",
-    "fill": "In order to serve you better and let the coordinators of the campaign communicate more efficiently, please fill out this form",
-    "seeCampaigns": "See our campaigns!",
     "more": "Tell us more about you",
+    "processingInvite": "Processing invite...",
+    "seeCampaigns": "See our campaigns!",
     "tooManyRequests": "Too many requests",
     "welcomeTeam": "Welcome to the team!",
-    "youJoined": "You joined {{title}}",
-    "withTwitter": "with Twitter",
     "withEmail": "with Email",
     "withGoogle": "with Google",
     "withLinkedIn": "with LinkedIn",
-    "withMicrosoft": "with Microsoft"
+    "withMicrosoft": "with Microsoft",
+    "withTwitter": "with Twitter",
+    "youJoined": "You joined {{title}}"
   },
   "website": "Website",
   "websiteHelper": "Enter your organisation's website to get started",
   "week": "Week",
+  "widgetLabel": "Widget",
   "widget": {
     "accentColor": "Main widget accent color",
     "addWidget": "Add widget",
@@ -384,6 +386,7 @@
     "minCounter": "Min counter",
     "mineOnly": "only from my organisation",
     "newWidgetFor": "New widget for {{orgName}}",
+    "notYours": "You are trying to <1>view a widget</1> that isn't yours (or from a campaign you don't coordinate).",
     "saving": "Optimising your widget with the changes, it might take a few seconds",
     "selectLanguage": "Select the language for your widget",
     "stats_icon": "Stats for {{id}}",
