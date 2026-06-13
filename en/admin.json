@@ -93,7 +93,22 @@
   "encryptionActive": "Encryption active",
   "encryptionTooltip": "Encryption is activated. Ensure your keys are backed up securely, otherwise you will not be able to access your data",
   "enterOrgUrl": "Enter your organisation's URL",
-  "error": "Error",
+  "error": {
+    "label": "Error",
+
+    "noOrgWelcome": "Hello and welcome! Your user account works, but we need to connect you with an organisation for your campaign.",
+    "noOrgIfYouWantTo": "If you want to:",
+    "noOrgJoinCampaignTitle": "Join a campaign:",
+    "noOrgJoinCampaignBody": "visit again the invite link you received",
+    "noOrgJoinOrgTitle": "Join an organisation:",
+    "noOrgJoinOrgBody": "ask a team member to invite you",
+    "noOrgStartTitle": "Start a new campaign or other:",
+    "noOrgStartBody": "contact us",
+    "genericMessage": "The techies have been informed. You can add more details about the error by clicking the link below:",
+    "orgNotFoundTitle": "Organisation not found!",
+    "glitchTitle": "There is a glitch in the machine, but humans will fix it!"
+  },
+
   "export": {
     "campaignLabel": "Campaign to export",
     "csv_help": "CSV is the standard format. Use this unless you specifically need JSON.",
@@ -193,6 +208,7 @@
   "json": "JSON",
   "language": "Language",
   "languages": "Languages",
+  "link": "Link",
   "loaded": "Loaded",
   "loading": "Loading...",
   "loadingScreen": {
@@ -304,11 +320,13 @@
   "save": "Save",
   "saved": "Saved!",
   "send": "Send",
+  "sendMessage": "Send us a message!",
   "server": "Server",
   "settings": "Settings",
   "share": "Share",
   "show": "Show",
   "signatories": "Signatories",
+  "signOut": "Sign out",
   "startCampaign": "Start your campaign",
   "startFromTemplate": "Start your campaign from template",
   "stats": "Statistics",
@@ -435,10 +453,24 @@
       "shareMetaHint": "Social media use \"meta data\" content, for instance the image and title displayed, and you need to set them in your website directly",
       "shareContentTitle": "share content",
 
-      "contactCampaigner": "contact the campaigner of that widget if you want to modify it"
-
+      "contactCampaigner": "contact the campaigner of that widget if you want to modify it",
 
       "mode": "Widget is in the test mode"
+    },
+
+    "utm": {
+      "utmTitle": "Link to your campaign",
+      "utmIntro1": "UTM parameters allow you to measure precisely the performance of each of your action to promote this campaign.",
+      "utmIntro2": "Every time you promote it, like send a newsletter, tweet or post on facebook, use this tool to generate a unique link to your page and see exactly how many supporters you engaged through each.",
+      "utmUrlLabel": "URL of your action page",
+      "utmMediumLabel": "UTM medium",
+      "utmSourceLabel": "UTM source",
+      "utmSourceHelper": "Eg. newsletter, Facebook, website",
+      "utmCampaignLabel": "UTM campaign",
+      "utmCampaignHelper": "Eg. newsletter-may, carousel, homepage",
+      "utmCopyHint": "Click on the icon to copy your link to your campaign to use it in your post or mailing",
+
+      "copyUrl": "copy url"
     }
   },
   "widgets": "Widgets"
