@@ -41,6 +41,7 @@
   },
   "campaignFromTemplate": "Add campaign from template",
   "campaignsPageTitle": "Campaigns you manage or are a partner in",
+  "cantBeBlank": "Can't be blank",
   "cancel": "Cancel",
   "close": "Close",
   "comments": {
@@ -48,6 +49,7 @@
     "loading": "Loading comments",
     "unstarFirst": "Unstar first!"
   },
+  "consent": "Consent",
   "contact": "Contact",
   "contactSupport": "contact support",
   "copied": "Copied!",
@@ -304,6 +306,7 @@
   "send": "Send",
   "server": "Server",
   "settings": "Settings",
+  "share": "Share",
   "show": "Show",
   "signatories": "Signatories",
   "startCampaign": "Start your campaign",
@@ -400,7 +403,6 @@
     "selectLanguage": "Select the language for your widget",
     "shareLink": "Shareable URL",
     "stats_icon": "Stats for {{id}}",
-    "test": "Widget is in the test mode",
     "title": "Widget settings",
     "unusedOnly": "only unused widgets",
     "launchInProgressTitle": "Launch in progress",
@@ -412,7 +414,32 @@
     "testPage": "Test your page",
     "promotePage": "Promote your page",
     "rebuildLabel": "Rebuild",
-    "buildingLabel": "Building"
+    "buildingLabel": "Building",
+
+    "test": {
+      "title": "Test your widget",
+      "intro": "Before launching your campaign, it's important to test your widget <1>on your website</1> to make sure everything looks and works just the way you want.",
+      "qualityNote": "Taking a quick test action helps ensure quality and gives you a chance to experience the process just like your supporters and targets will.",
+      "testModeNote": "Test mode won't process any real actions, so you can explore freely - even when the campaign is live.",
+      "fieldLabel": "Campaign page on your website",
+      "fieldHelper": "url of your campaign page to generate a test mode page",
+      "goToTestPage": "go to the test page",
+      "testStep": "Test {{step}}",
+      "previewPage": "Preview page",
+
+      "optimisingMsg": "Optimising your widget with the changes, it might take a few seconds",
+
+      "consentWarning": "These texts have been tuned with the help of dozen of campaigners and verified by lawyers. Before customising them, we advise you to loop in your GDPR expert and if you spot an error, please contact us",
+      "privacyUrl": "You can update your organisation's name and privacy policy page in your <1>organisation's settings</1>",
+
+      "shareMetaHint": "Social media use \"meta data\" content, for instance the image and title displayed, and you need to set them in your website directly",
+      "shareContentTitle": "share content",
+
+      "contactCampaigner": "contact the campaigner of that widget if you want to modify it"
+
+
+      "mode": "Widget is in the test mode"
+    }
   },
   "widgets": "Widgets"
 }
