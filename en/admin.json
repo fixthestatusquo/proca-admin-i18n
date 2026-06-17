@@ -402,7 +402,7 @@
     "donationUrlHelper": "Add URL to your donation page",
     "thankYouExternalId": "Thank you email template ID",
     "thankYouExternalIdSet": "Enter external provider template ID (e.g. Brevo) to set the thank you email",
-    "thankYouExternalIdUpdate": "Template set to {{name}}, enter new external ID to update",
+    "thankYouExternalIdUpdate": "Template is already set for this page, enter new external ID to update",
     "edit_icon": "Settings for {{id}}",
     "embedCode": "Embed code",
     "floatingButton": "Floating widget button",

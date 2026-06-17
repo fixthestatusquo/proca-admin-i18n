@@ -135,6 +135,7 @@
   "widget": {
     "edit_icon": "Paramètres pour {{id}}",
     "lang": "Langue du widget",
+    "shareLink": "Lien partageable",
     "stats_icon": "Stats pour {{id}}"
   }
 }
