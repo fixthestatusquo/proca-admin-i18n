@@ -227,6 +227,9 @@
   "onboarding": {
     "campaignNotFound": "Campaign not found",
     "campaignNotFoundDetail": "Campaign with codename {{name}} was not found. Check the invite link.",
+    "campaignClosed": "Campaign is closed",
+    "campaignClosedDetail": "The campaign {{name}} is closed and no longer accepting new partners.",
+    "campaignClosedContact": "If you are looking to join an active campaign, double-check your invite link or",
     "checkOrgName": "Please check the organisation name",
     "chooseOne": "Choose at least one",
     "chooseOrg": "Choose another organisation",
