@@ -45,6 +45,7 @@
   "cantBeBlank": "Can't be blank",
   "close": "Close",
   "comments": {
+    "commentsLabel": "Comments",
     "enableFirst": "Enable first!",
     "loading": "Loading comments",
     "unstarFirst": "Unstar first!"
