@@ -136,6 +136,7 @@
     "edit_icon": "Einstellungen für {{id}}",
     "lang": "Sprache des Widgets",
     "shareLink": "Teilbarer Link",
-    "stats_icon": "Statistiken für {{id}}"
+    "stats_icon": "Statistiken für {{id}}",
+    "view_icon": "Widget {{id}} ansehen"
   }
 }

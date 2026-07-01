@@ -430,6 +430,7 @@
     "shareSubheader": "Want to share your campaign with your friends and followers? Use the options below to quickly share on your favorite social media platforms or copy the HTML code to embed on your email or website.",
     "shareTitle": "Share your page",
     "stats_icon": "Stats for {{id}}",
+    "view_icon": "View widget {{id}}",
     "summary": "So far, <b>{{primary}}</b> primary actions, <b>{{secondary}}</b> secondary actions (shares){{test}}",
     "test": {
       "consentWarning": "These texts have been tuned with the help of dozen of campaigners and verified by lawyers. Before customising them, we advise you to loop in your GDPR expert and if you spot an error, please contact us",
