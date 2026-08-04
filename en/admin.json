@@ -225,6 +225,7 @@
   "newEnd": "New end date",
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
+  "noPermError": "Insufficient permissions. Contact your organisation or <1>send us a message</1>.",
   "onboarding": {
     "campaignNotFound": "Campaign not found",
     "campaignNotFoundDetail": "Campaign with codename {{name}} was not found. Check the invite link.",
@@ -290,6 +291,7 @@
     },
     "welcome": "Welcome to the partners' area for this campaign coordinated by {{coordinator}}"
   },
+
   "org": {
     "aboutYourOrg": "About your organisation",
     "another": "You are trying to view another organisation",
