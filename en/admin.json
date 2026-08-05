@@ -137,7 +137,7 @@
     "json_help": "JSON format for advanced integrations.",
     "keyLabel": "Load decryption keys",
     "key_help": "If your data is encrypted, load the encryption key before export.",
-    "title": "Export member data"
+    "title": "Download member data"
   },
   "exportTab": "Export",
   "extend": "Request extension",
