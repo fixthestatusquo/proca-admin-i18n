@@ -18,6 +18,8 @@
   "allCampaigns": "All Campaigns",
   "allWidgets": "All widgets",
   "campaign": {
+    "addDescription": "Display campaign text",
+    "addDescriptionHelp": "Shows the campaign description in the left column, so all partner websites display the same text",
     "addTitle": "Add a title for your campaign",
     "availableTemplates": "Available templates",
     "basicNameEmail": "Basic name, email, postcode",
@@ -30,6 +32,7 @@
     "nameTaken": "Name {{title}} has already been taken",
     "noAvailableTemplates": "No available templates",
     "noSignatories": "No signatories",
+    "pageContent": "Campaign page content",
     "personalDataSchema": "Personal data schema",
     "saved": "Saved, rebuild the widget(s) if you want to see the change",
     "saving": "Saving changes...",
