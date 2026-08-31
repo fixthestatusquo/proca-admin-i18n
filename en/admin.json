@@ -229,6 +229,11 @@
   "next": "Next",
   "noPartnersMatch": "No partners match the selected filters.",
   "noPermError": "Insufficient permissions. Contact your organisation or <1>send us a message</1>.",
+  "notFound": {
+    "backHome": "Back to homepage",
+    "message": "We couldn't find what you were looking for.",
+    "title": "404 - Not found"
+  },
   "onboarding": {
     "campaignNotFound": "Campaign not found",
     "campaignNotFoundDetail": "Campaign with codename {{name}} was not found. Check the invite link.",
