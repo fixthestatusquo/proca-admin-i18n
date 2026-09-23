@@ -17,6 +17,7 @@
   "all": "All",
   "allCampaigns": "All Campaigns",
   "allWidgets": "All widgets",
+  "back": "Back",
   "campaign": {
     "addDescription": "Display campaign text",
     "addDescriptionHelp": "Shows the campaign description in the left column, so all partner websites display the same text",
@@ -53,6 +54,7 @@
     "loading": "Loading comments",
     "unstarFirst": "Unstar first!"
   },
+  "confirm": "Confirm",
   "consent": "Consent",
   "contact": "Contact",
   "contactSupport": "contact support",
@@ -166,6 +168,8 @@
   "id": "ID",
   "invalidUrl": "Please enter a valid URL",
   "invite": {
+    "alreadyHasRole": "{{email}} already has the {{currentRole}} role in this organisation.",
+    "alreadyMember": "{{email}} already has the {{currentRole}} role in this organisation. Update to {{newRole}}?",
     "another": "Invite another team member",
     "copied": "Copied!",
     "copy": "Copy invitation URL",
@@ -198,7 +202,8 @@
     "title": "Invite to join {{org}}",
     "tooltip": "Note: Only 'owner' will be able to export the supporters data",
     "translator": "Hi,\n\nWe’re reaching out to invite you to collaborate on translating and refining a campaign letter for your country. Your understanding of the local political context would be valuable — not just in translation, but in ensuring the message resonates effectively with supporters.\n\nThe letter is structured in multiple sections, each with several variants. Supporters will receive randomly assembled versions to maximize engagement and avoid being dismissed by recipients.\n\nAs soon as you have accepted the invitation, you will be able to access the letter [here]({{location}}). **Don’t forget to save after you’ve made your changes!**\n\nOnce your contributions are complete, please notify us and the coordinator so we can deploy the updates.\n\nWe appreciate your time and expertise — this is a shared effort to strengthen the campaign’s impact.\n\n**For security, your invitation access link will expire in 24 hours.**",
-    "translatorTitle": "Invite to join  {{org}} as a translator"
+    "translatorTitle": "Invite to join  {{org}} as a translator",
+    "updated": "The user's role has been updated."
   },
   "join": {
     "goal": "How many people do you expect will take action via your website?",
