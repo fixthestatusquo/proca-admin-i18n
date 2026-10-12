@@ -1,165 +1,134 @@
 {
-    "onboarding": {
-        "user": {
-            "sectionTitle": "Do shonraí teagmhála",
-            "emailAddress": "Do sheoladh ríomhphoist",
-            "jobTitle": "Teideal Poist",
-            "country": "Do Thír",
-            "name": "D'Ainm",
-            "phoneNumber": "D'uimhir theileafóin",
-            "phoneNumberHelper": "Cód tíre san áireamh",
-            "socialAccount": "Do na meáin shóisialta",
-            "socialAccountHelper": "Ar Twitter/Instagram/Linkedin"
-        },
-        "done": "Gheobhaidh tú teachtaireacht deimhnithe trí ríomhphost. Is féidir leat leagan tástála den <1> ghiuirléid a leabú ar do shuíomh Gréasáin</1> cheana féin",
-        "embargo": "lánchosc",
-        "embargoHelper": "Admhaím go bhfuil lánchosc ar ábhair an fheachtais go dtí go bhfógrófar a mhalairt. Aontaím GAN na hábhair seo a roinnt le haon duine lasmuigh de m'eagraíocht.",
-        "login": "Cláraigh mar úsáideoir nó logáil isteach le do dhintiúir meáin shóisialta nó do ríomhphost. Is é do chuntas pearsanta é, beidh tú in ann d’eagraíocht a bhunú tar éis duit clárú.",
-        "intro": "Chun ár dtionchar a mhéadú, tá comhrialtas leathan de dhíth orainn agus rinneamar iarracht é a dhéanamh chomh simplí agus is féidir ligean duit a bheith páirteach ann.",
-        "maillingHelper": "Tríd an bhfoirm seo a chur isteach, aontaím le cur leis an liosta seoltaí {{campaign}}. Is féidir liom díliostáil am ar bith.",
-        "title": "An eagraíocht nó gluaiseacht shóisialta thú atá ag iarraidh an feachtas seo a chur ar do shuíomh?",
-        "mailling": "Liosta postála",
-        "organisation": {
-            "collectsEmail": "Níl nuachtlitir agat agus níl tú ag iarraidh seoltaí ríomhphoist a bhailiú? (Beidh tú in ann an ghné seo a chur i bhfolach ar do shuíomh Gréasáin) Cuir tic sa bhosca seo:",
-            "network": "Tá m'eagraíocht mar chuid den scátheagraíocht...",
-            "networkHelper": "Cuirimid fáilte roimh gach eagraíocht!",
-            "collectsEmailHelper": "Níl nuachtlitir agam. Táim cinnte nach dteastaíonn uaim ticbhosca nuachtlitreach a bhailíonn seoltaí ríomhphoist is féidir linn a úsáid ina dhiaidh sin.",
-            "crm": "Cén bogearraí CRM atá á n-úsáid agat?",
-            "doubleOptIn": "Ní mór do mo lucht tacaíochta rogha a dhéanamh faoi dhó chun nuachtlitir a fháil",
-            "organisationHelper": "Cén chuid den teaghlach as a bhfuil tú? Cuirimid fáilte roimh gach eagraíocht!",
-            "remarks": "Aon tuairimí faoin uirlis is mian leat a insint dúinn?",
-            "sectionTitle": "Eagraíocht",
-            "another": "Roghnaigh eagraíocht eile",
-            "logged_in": "Tá tú logáilte isteach faoi chuntas eagraíochta <b>{{orgName}}</b>"
-        },
-        "verify": "Níl do ríomhphost fíoraithe fós. Seiceáil do ríomhphost agus cliceáil ar an nasc deimhnithe chun leanúint ar aghaidh.",
-        "thanks": "Go raibh maith agat as páirt a ghlacadh san fheachtas seo",
-        "welcome": "Fáilte chuig limistéar na gcomhpháirtithe don fheachtas seo arna chomhordú ag {{coordinator}}",
-        "warning": {
-            "is_partner": "👋 Hey stop! Tá tú i do chomhpháirtí cheana féin san fheachtas seo! Ní dhéanann sé ciall duit a bheith páirteach arís!",
-            "is_member": "Is ball thú den eagraíocht **{{org}}** a reáchtálann an feachtas seo!",
-            "is_coordinator": "Ní féidir leat dul isteach i bhfeachtas faoi chuntas **{{org}}**, is é comhordaitheoir an **{{campaign}}** é"
-        }
+  "action": {
+    "mail2target": "Ríomhphost chuig an sprioc",
+    "register": "Clár",
+    "share": "Comhroinn ar na meáin shóisialta"
+  },
+  "cancel": "Cealaigh",
+  "close": "Dún",
+  "createOrg": {
+    "intro": "Is é an ceann is tapúla ná tosú le cuntas twitter na heagraíochta (má tá roinnt agat, roghnaigh ceann amháin)",
+    "manual": "Athraigh chun na sonraí a líonadh de láimh",
+    "noTwitter": "Níl mo eagraíocht ar Twitter"
+  },
+  "csv": "CSV",
+  "delete": "Scrios",
+  "edit": "Cuir in Eagar",
+  "export": {
+    "campaignLabel": "Feachtas chun onnmhairiú",
+    "csv_help": "Is é CSV an fhormáid chaighdeánach. Bain úsáid as seo mura bhfuil JSON de dhíth ort go sonrach.",
+    "errorIncomplete": "Tharla earráid, sonraí CSV neamhiomlán.",
+    "errorPermission": "Níl cead agat sonraí a easpórtáil don eagraíocht seo.",
+    "exportLabel": "Easpórtáil",
+    "exportType": {
+      "activities": "Gníomhaíochtaí",
+      "activities_help": "Easpórtálann sé gníomhartha arna ndéanamh ag úsáideoirí, amhail síniú, comhroinnt, srl.",
+      "contacts": "Teagmhálacha",
+      "contacts_help": "Ní dhéanann sé ach faisnéis teagmhála a onnmhairiú."
     },
-    "My organisation isn't on twitter": "Níl m'eagraíocht ar twitter",
-    "Required": "Ag teastáil",
-    "action": {
-        "mail2target": "Ríomhphost chuig an sprioc",
-        "share": "Comhroinn ar na meáin shóisialta",
-        "register": "Clár",
-        "twitter_click": "Tweet chun an sprioc"
+    "exporting": "Ag easpórtáil",
+    "exportingWithCount": "Ag easpórtáil {{count}}...",
+    "exportingWithErrors": "(gan eochair do ghníomhartha {{count}})",
+    "gdpr": {
+      "double_opt_in": "Rogha isteach dúbailte",
+      "double_opt_in_help": "Tacaíochtóirí a dheimhnigh a rannpháirtíocht trí URL deimhnithe ríomhphoist",
+      "opt_in": "Roghnaigh isteach",
+      "opt_in_help": "Tacadóirí a roghnaigh rogha an ghléas ar ghiuirléid (an cnaipe raidió 'Sea, ba mhaith liom ríomhphoist a fháil')",
+      "opt_out": "Rogha amach",
+      "opt_out_help": "Tacaíochtóirí nach mian leo nuachtlitir a fháil (an cnaipe raidió 'Níl, ní mian liom ríomhphoist a fháil' ar an ngiuirléid nó URL rogha an diúltaithe sa ríomhphost."
     },
-    "Fields": "Réimsí",
-    "View your widget for {{org}}": "Féach ar do ghiuirléid le haghaidh {{org}}",
-    "My organisation isn't on Twitter": "Níl m'eagraíocht ar Twitter",
-    "createOrg": {
-        "manual": "Athraigh chun na sonraí a líonadh de láimh",
-        "intro": "Is é an ceann is tapúla ná tosú le cuntas twitter na heagraíochta (má tá roinnt agat, roghnaigh ceann amháin)",
-        "noTwitter": "Níl mo eagraíocht ar Twitter"
+    "gdprLabel": "GDPR",
+    "json_help": "Formáid JSON le haghaidh comhtháthú ardleibhéil.",
+    "keyLabel": "Luchtaigh eochracha díchriptithe",
+    "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú.",
+    "title": "Easpórtáil sonraí ball"
+  },
+  "externalPartner": "comhpháirtithe seachtracha amháin",
+  "format": "Formáid",
+  "invite": {
+    "another": "Tabhair cuireadh do bhall foirne eile",
+    "copied": "Cóipeáilte!",
+    "copy": "Cóipeáil URL an chuireadh",
+    "default": "Tá cuireadh tugtha duit páirt a ghlacadh sa chuntas {{org}} ar phainéal Deisigh an Status Quo.\n\nBeidh an cuireadh seo bailí ar feadh 24 uair an chloig. Glac leis a luaithe is féidir, le do thoil.\n\nTá áthas orainn go bhfuil tú linn!",
+    "emailHelper": "Seolfaimid ríomhphost cuireadh chugat láithreach le nasc chun páirt a ghlacadh.",
+    "messageLabel": "Teachtaireacht phearsanta don duine a thug cuireadh dó",
+    "required": "Tá seoladh ríomhphoist ag teastáil",
+    "roleLabel": "Roghnaigh leibhéal údaraithe",
+    "roles": {
+      "campaigner": {
+        "description": "Is féidir gníomhartha, lucht tacaíochta agus sonraí feachtasaíochta a fheiceáil agus a bhainistiú. Ní féidir socruithe eagraíochta a athrú ná sonraí a easpórtáil.",
+        "label": "Feachtasóir"
+      },
+      "coordinator": {
+        "description": "Is féidir sonraí tacaíochta a fheiceáil ach ní féidir feachtais a chruthú ná socruithe a bhainistiú, ná sonraí a easpórtáil.",
+        "label": "Comhordaitheoir"
+      },
+      "owner": {
+        "description": "Rochtain riaracháin iomlán. Is féidir gach rud a bhainistiú, lena n-áirítear socruithe, feachtais, onnmhairí agus criptiú.",
+        "label": "Úinéir"
+      },
+      "translator": {
+        "description": "Cuir téacs an fheachtais in eagar",
+        "label": "Aistritheoir"
+      }
     },
-    "Used to pre-fill name, description and logo of your organisation": "Úsáidtear é chun ainm, tuairisc agus lógó d'eagraíochta a réamhlíonadh",
-    "Show": "Taispeáin",
-    "Switch to fill the details manually": "Athraigh chun na sonraí a líonadh de láimh",
-    "You can register an new organisation to join the coalition": "Is féidir leat eagraíocht nua a chlárú chun dul isteach sa chomhrialtas",
-    "Twitter Account": "Cuntas Twitter",
-    "Used to fill the details of your organisation": "Úsáidtear é chun sonraí d’eagraíochta a líonadh",
-    "join": {
-        "goal": "Cé mhéad duine a bhfuil súil agat a dhéanfaidh beart trí do shuíomh Gréasáin?",
-        "requestHelper": "chun cabhrú linn an feachtas seo a phleanáil",
-        "goalHelper": "Ní bheidh ach an buille faoi thuairim seo le feiceáil ag an gcomhordaitheoir… agus tá a fhios againn go bhfuil sé deacair a mheas",
-        "request": "An bhfuil postáil tiomnaithe ar intinn agat chuig do lucht tacaíochta? An bhfuil gníomhaíochtaí meán sóisialta á bpleanáil agat freisin, lena n-áirítear fógraíocht íoctha"
+    "sent": "Cuireadh seolta chuig {{email}}",
+    "sentInstructions": "Is féidir leat an nasc thíos a roinnt go díreach freisin:",
+    "subject": "Cuireadh chun páirt a ghlacadh i {{org}} ar an deais Deisigh an Status Quo",
+    "title": "Cuireadh chun páirt a ghlacadh i {{org}}",
+    "tooltip": "Nóta: Ní bheidh ach 'úinéir' in ann sonraí na dtacaitheoirí a easpórtáil",
+    "translator": "Haigh,\n\nTáimid ag iarraidh ort comhoibriú ar litir feachtasaíochta a aistriú agus a fheabhsú le do thír féin. Bheadh do thuiscint ar an gcomhthéacs polaitiúil áitiúil luachmhar - ní hamháin san aistriúchán, ach chun a chinntiú go dtéann an teachtaireacht i bhfeidhm go héifeachtach ar lucht tacaíochta.\n\nTá an litir struchtúrtha i roinnt rannóga, agus roinnt athruithe i ngach ceann acu. Gheobhaidh lucht tacaíochta leaganacha randamacha chun an rannpháirtíocht a uasmhéadú agus chun a chinntiú nach ndéanfaidh faighteoirí iad a dhíbhe.\n\nA luaithe a ghlacfaidh tú leis an gcuireadh, beidh tú in ann rochtain a fháil ar an litir [anseo]({{location}}). **Ná déan dearmad é a shábháil tar éis duit do chuid athruithe a dhéanamh!**\n\nNuair a bheidh do chuid ranníocaíochtaí críochnaithe, cuir in iúl dúinn agus don chomhordaitheoir le do thoil ionas gur féidir linn na nuashonruithe a imscaradh.\n\nTugann muid buíochas duit as do chuid ama agus saineolais - is iarracht chomhroinnte í seo chun tionchar an fheachtais a neartú.\n\n**Ar mhaithe le slándáil, rachaidh do nasc rochtana cuireadh in éag i gceann 24 uair an chloig.**",
+    "translatorTitle": "Cuireadh chun páirt a ghlacadh i {{org}} mar aistritheoir"
+  },
+  "join": {
+    "goal": "Cé mhéad duine a bhfuil súil agat a dhéanfaidh beart trí do shuíomh Gréasáin?",
+    "goalHelper": "Ní bheidh ach an buille faoi thuairim seo le feiceáil ag an gcomhordaitheoir… agus tá a fhios againn go bhfuil sé deacair a mheas",
+    "request": "An bhfuil postáil tiomnaithe ar intinn agat chuig do lucht tacaíochta? An bhfuil gníomhaíochtaí meán sóisialta á bpleanáil agat freisin, lena n-áirítear fógraíocht íoctha",
+    "requestHelper": "chun cabhrú linn an feachtas seo a phleanáil"
+  },
+  "json": "JSON",
+  "onboarding": {
+    "done": "Gheobhaidh tú teachtaireacht deimhnithe trí ríomhphost. Is féidir leat leagan tástála den <1> ghiuirléid a leabú ar do shuíomh Gréasáin</1> cheana féin",
+    "intro": "Chun ár dtionchar a mhéadú, tá comhrialtas leathan de dhíth orainn agus rinneamar iarracht é a dhéanamh chomh simplí agus is féidir ligean duit a bheith páirteach ann.",
+    "login": "Cláraigh mar úsáideoir nó logáil isteach le do dhintiúir meáin shóisialta nó do ríomhphost. Is é do chuntas pearsanta é, beidh tú in ann d’eagraíocht a bhunú tar éis duit clárú.",
+    "mailling": "Liosta postála",
+    "maillingHelper": "Tríd an bhfoirm seo a chur isteach, aontaím le cur leis an liosta seoltaí {{campaign}}. Is féidir liom díliostáil am ar bith.",
+    "organisation": {
+      "another": "Roghnaigh eagraíocht eile",
+      "collectsEmail": "Níl nuachtlitir agat agus níl tú ag iarraidh seoltaí ríomhphoist a bhailiú? (Beidh tú in ann an ghné seo a chur i bhfolach ar do shuíomh Gréasáin) Cuir tic sa bhosca seo:",
+      "collectsEmailHelper": "Níl nuachtlitir agam. Táim cinnte nach dteastaíonn uaim ticbhosca nuachtlitreach a bhailíonn seoltaí ríomhphoist is féidir linn a úsáid ina dhiaidh sin.",
+      "crm": "Cén bogearraí CRM atá á n-úsáid agat?",
+      "doubleOptIn": "Ní mór do mo lucht tacaíochta rogha a dhéanamh faoi dhó chun nuachtlitir a fháil",
+      "logged_in": "Tá tú logáilte isteach faoi chuntas eagraíochta <b>{{orgName}}</b>",
+      "network": "Tá m'eagraíocht mar chuid den scátheagraíocht...",
+      "networkHelper": "Cuirimid fáilte roimh gach eagraíocht!",
+      "organisationHelper": "Cén chuid den teaghlach as a bhfuil tú? Cuirimid fáilte roimh gach eagraíocht!",
+      "remarks": "Aon tuairimí faoin uirlis is mian leat a insint dúinn?",
+      "sectionTitle": "Eagraíocht"
     },
-    "step": {
-        "configure_org": "D'eagraíocht",
-        "create_org": "Cruthaigh d'eagraíocht",
-        "join_campaign": "Bí ar an bhfeachtas",
-        "done": "Tóg do ghiuirléid",
-        "login": "Do chuntas",
-        "verify": "Fíoraigh do ríomhphost"
+    "thanks": "Go raibh maith agat as páirt a ghlacadh san fheachtas seo",
+    "title": "An eagraíocht nó gluaiseacht shóisialta thú atá ag iarraidh an feachtas seo a chur ar do shuíomh?",
+    "user": {
+      "country": "Do Thír",
+      "emailAddress": "Do sheoladh ríomhphoist",
+      "jobTitle": "Teideal Poist",
+      "name": "D'Ainm",
+      "phoneNumber": "D'uimhir theileafóin",
+      "phoneNumberHelper": "Cód tíre san áireamh",
+      "sectionTitle": "Do shonraí teagmhála",
+      "socialAccount": "Do na meáin shóisialta",
+      "socialAccountHelper": "Ar Twitter/Instagram/Linkedin"
     },
-    "mineOnly": "ó m'eagraíocht amháin",
-    "unusedOnly": "giuirléidí neamhúsáidte amháin",
-    "externalPartner": "comhpháirtithe seachtracha amháin",
-    "Customise": "Saincheap",
-    "You are also a member of {{org}}": "👋 Hey stop! Is tusa foireann {{org}}, a reáchtálann an feachtas seo! Ní féidir leat páirt a ghlacadh ann freisin mar chomhpháirtí!",
-    "You are one of the coordinators of that campaign": "Tá tú ar dhuine de chomhordaitheoirí an fheachtais sin",
-    "You are registered for {{campaign}}": "Tá tú cláraithe le haghaidh {{campaign}}",
-    "You can update your organisation's details": "Féadfaidh tú sonraí d’eagraíochta a nuashonrú",
-    "invite": {
-        "message": "Hey, tá **tú** uait don fheachtas seo, an bhféadfá bheith páirteach?",
-        "title": "Cuireadh chun páirt a ghlacadh i {{org}}",
-        "translatorTitle": "Cuireadh chun páirt a ghlacadh i {{org}} mar aistritheoir",
-        "emailHelper": "Seolfaimid ríomhphost cuireadh chugat láithreach le nasc chun páirt a ghlacadh.",
-        "sentInstructions": "Is féidir leat an nasc thíos a roinnt go díreach freisin:",
-        "roles": {
-            "translator": {
-                "label": "Aistritheoir",
-                "description": "Cuir téacs an fheachtais in eagar"
-            },
-            "coordinator": {
-                "label": "Comhordaitheoir",
-                "description": "Is féidir sonraí tacaíochta a fheiceáil ach ní féidir feachtais a chruthú ná socruithe a bhainistiú, ná sonraí a easpórtáil."
-            },
-            "owner": {
-                "label": "Úinéir",
-                "description": "Rochtain riaracháin iomlán. Is féidir gach rud a bhainistiú, lena n-áirítear socruithe, feachtais, onnmhairí agus criptiú."
-            },
-            "campaigner": {
-                "label": "Feachtasóir",
-                "description": "Is féidir gníomhartha, lucht tacaíochta agus sonraí feachtasaíochta a fheiceáil agus a bhainistiú. Ní féidir socruithe eagraíochta a athrú ná sonraí a easpórtáil."
-            }
-        },
-        "roleLabel": "Roghnaigh leibhéal údaraithe",
-        "copy": "Cóipeáil URL an chuireadh",
-        "required": "Tá seoladh ríomhphoist ag teastáil",
-        "default": "Tá cuireadh tugtha duit páirt a ghlacadh sa chuntas {{org}} ar phainéal Deisigh an Status Quo.\n\nBeidh an cuireadh seo bailí ar feadh 24 uair an chloig. Glac leis a luaithe is féidir, le do thoil.\n\nTá áthas orainn go bhfuil tú linn!",
-        "translator": "Haigh,\n\nTáimid ag iarraidh ort comhoibriú ar litir feachtasaíochta a aistriú agus a fheabhsú le do thír féin. Bheadh do thuiscint ar an gcomhthéacs polaitiúil áitiúil luachmhar - ní hamháin san aistriúchán, ach chun a chinntiú go dtéann an teachtaireacht i bhfeidhm go héifeachtach ar lucht tacaíochta.\n\nTá an litir struchtúrtha i roinnt rannóga, agus roinnt athruithe i ngach ceann acu. Gheobhaidh lucht tacaíochta leaganacha randamacha chun an rannpháirtíocht a uasmhéadú agus chun a chinntiú nach ndéanfaidh faighteoirí iad a dhíbhe.\n\nA luaithe a ghlacfaidh tú leis an gcuireadh, beidh tú in ann rochtain a fháil ar an litir [anseo]({{location}}). **Ná déan dearmad é a shábháil tar éis duit do chuid athruithe a dhéanamh!**\n\nNuair a bheidh do chuid ranníocaíochtaí críochnaithe, cuir in iúl dúinn agus don chomhordaitheoir le do thoil ionas gur féidir linn na nuashonruithe a imscaradh.\n\nTugann muid buíochas duit as do chuid ama agus saineolais - is iarracht chomhroinnte í seo chun tionchar an fheachtais a neartú.\n\n**Ar mhaithe le slándáil, rachaidh do nasc rochtana cuireadh in éag i gceann 24 uair an chloig.**",
-        "sent": "Cuireadh seolta chuig {{email}}",
-        "subject": "Cuireadh chun páirt a ghlacadh i {{org}} ar an deais Deisigh an Status Quo",
-        "messageLabel": "Teachtaireacht phearsanta don duine a thug cuireadh dó",
-        "another": "Tabhair cuireadh do bhall foirne eile",
-        "copied": "Cóipeáilte!",
-        "tooltip": "Nóta: Ní bheidh ach 'úinéir' in ann sonraí na dtacaitheoirí a easpórtáil"
-    },
-    "send": "Seol",
-    "cancel": "Cealaigh",
-    "close": "Dún",
-    "save": "Sábháil",
-    "edit": "Cuir in Eagar",
-    "delete": "Scrios",
-    "csv": "CSV",
-    "json": "JSON",
-    "format": "Formáid",
-    "export": {
-        "title": "Easpórtáil sonraí ball",
-        "campaignLabel": "Feachtas chun onnmhairiú",
-        "campaignDefault": "Gach sonraí ball",
-        "gdprLabel": "GDPR",
-        "gdpr": {
-            "opt_in": "Roghnaigh isteach",
-            "opt_in_help": "Tacadóirí a roghnaigh rogha an ghléas ar ghiuirléid (an cnaipe raidió 'Sea, ba mhaith liom ríomhphoist a fháil')",
-            "double_opt_in": "Rogha isteach dúbailte",
-            "double_opt_in_help": "Tacaíochtóirí a dheimhnigh a rannpháirtíocht trí URL deimhnithe ríomhphoist",
-            "opt_out": "Rogha amach",
-            "opt_out_help": "Tacaíochtóirí nach mian leo nuachtlitir a fháil (an cnaipe raidió 'Níl, ní mian liom ríomhphoist a fháil' ar an ngiuirléid nó URL rogha an diúltaithe sa ríomhphost.",
-            "opt_out_required": "*Léirigh le do thoil go bhfuil tú ar an eolas faoi na hiarmhairtí",
-            "opt_out_warning": "Tá a fhios agam go bhfuil sé mídhleathach teagmháil a dhéanamh le húsáideoirí nár thug toiliú sainráite ach amháin i gcásanna an-teoranta."
-        },
-        "exportLabel": "Easpórtáil",
-        "exportType": {
-            "contacts": "Teagmhálacha",
-            "contacts_help": "Ní dhéanann sé ach faisnéis teagmhála a onnmhairiú.",
-            "activities": "Gníomhaíochtaí",
-            "activities_help": "Easpórtálann sé gníomhartha arna ndéanamh ag úsáideoirí, amhail síniú, comhroinnt, srl."
-        },
-        "csv_help": "Is é CSV an fhormáid chaighdeánach. Bain úsáid as seo mura bhfuil JSON de dhíth ort go sonrach.",
-        "json_help": "Formáid JSON le haghaidh comhtháthú ardleibhéil.",
-        "keyLabel": "Luchtaigh eochracha díchriptithe",
-        "exporting": "Ag easpórtáil",
-        "exportingWithCount": "Ag easpórtáil {{count}}...",
-        "exportingWithErrors": "(gan eochair do ghníomhartha {{count}})",
-        "key_help": "Má tá do shonraí criptithe, luchtaigh an eochair chriptithe roimh onnmhairiú.",
-        "errorIncomplete": "Tharla earráid, sonraí CSV neamhiomlán.",
-        "errorPermission": "Níl cead agat sonraí a easpórtáil don eagraíocht seo."
-    }
+    "verify": "Níl do ríomhphost fíoraithe fós. Seiceáil do ríomhphost agus cliceáil ar an nasc deimhnithe chun leanúint ar aghaidh.",
+    "welcome": "Fáilte chuig limistéar na gcomhpháirtithe don fheachtas seo arna chomhordú ag {{coordinator}}"
+  },
+  "save": "Sábháil",
+  "send": "Seol",
+  "step": {
+    "create_org": "Cruthaigh d'eagraíocht",
+    "done": "Tóg do ghiuirléid",
+    "join_campaign": "Bí ar an bhfeachtas",
+    "login": "Do chuntas",
+    "verify": "Fíoraigh do ríomhphost"
+  }
 }
