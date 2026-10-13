@@ -547,12 +547,10 @@
       "utmCampaignHelper": "Eg. newsletter-may, carousel, homepage",
       "utmCampaignLabel": "UTM campaign",
       "utmCopyHint": "Click on the icon to copy your link to your campaign to use it in your post or mailing",
-      "utmIntro1": "UTM parameters allow you to measure precisely the performance of each of your action to promote this campaign.",
-      "utmIntro2": "Every time you promote it, like send a newsletter, tweet or post on facebook, use this tool to generate a unique link to your page and see exactly how many supporters you engaged through each.",
+      "utmIntro": "Tag each promotion so you can tell the results apart. Fill in the fields below and copy the generated link for your newsletter, post or ad.",
       "utmMediumLabel": "UTM medium",
       "utmSourceHelper": "Eg. newsletter, Facebook, website",
       "utmSourceLabel": "UTM source",
-      "utmTitle": "Link to your campaign",
       "utmUrlLabel": "URL of your action page"
     },
     "view_icon": "View widget {{id}}",
