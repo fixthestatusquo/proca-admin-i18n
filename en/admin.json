@@ -44,13 +44,16 @@
     "noAvailableTemplates": "No available templates",
     "noSignatories": "No signatories",
     "pageContent": "Campaign page content",
-    "saved": "Saved, rebuild the widget(s) if you want to see the change",
+    "saved": "Saved, update the widget(s) if you want to see the change",
+    "savedWidgetsUpdated_one": "Saved, the widget was updated",
+    "savedWidgetsUpdated_other": "Saved, {{count}} widgets were updated",
     "saving": "Saving changes...",
     "signatoriesLoading": "Loading signatories",
     "startDate": "Start Date",
     "technicalCodename": "Technical codename",
     "titleOfCampaign": "Title of the campaign",
-    "unexpectedError": "An unexpected error occurred: {{error}}. Please try again."
+    "unexpectedError": "An unexpected error occurred: {{error}}. Please try again.",
+    "widgetUpdateFailed": "Saved, but updating the widget(s) failed: {{error}}"
   },
   "campaignFromTemplate": "Add campaign from template",
   "campaigns": "Campaigns",
