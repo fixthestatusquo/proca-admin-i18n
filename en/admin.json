@@ -31,6 +31,7 @@
     "endAfterStart": "The end date must be after the start date.",
     "endDate": "End Date",
     "forTechies": "For the techies (ignore)",
+    "mail2target": "mail2target",
     "mttDates": "Mail to target",
     "mttEnd": "End sending",
     "mttMax": "Max emails per hour per target",
@@ -501,6 +502,9 @@
     "analyse": "Analyse the actions",
     "buildingLabel": "Building",
     "buildPending": "Widget build pending...",
+    "confirmExternalId": "Confirmation email template ID",
+    "confirmExternalIdSet": "Enter external provider template ID (e.g. Brevo) to set the confirmation email",
+    "confirmExternalIdUpdate": "Template is already set for this page, enter new external ID to update",
     "demonstration": "Demonstration",
     "donationIntro": "Supporters who just took action are the most likely to give. Add your donation page to show a <1>Donate</1> button in the widget.",
     "donationUrl": "Donation URL",
@@ -533,7 +537,7 @@
       "stepTestShare": "Test sharing",
       "update": "Update the widget",
       "updateHint": "Changed the campaign since you started testing? Update the widget to test the latest version.",
-      "updateLiveHint": "Changed the campaign texts or settings? The widget doesn't update by itself."
+      "updateLiveHint": "Changed the campaign texts or settings and you do not see that on widget. Update the widget and/or <1>clear the cache</1>/reload the page."
     },
     "launchInProgressBody": "Need a hand? <1>Email us</1>.",
     "launchInProgressTitle": "Launch your campaign in a few steps",
